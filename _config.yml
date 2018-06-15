@@ -8,8 +8,8 @@ subtitle: memo for me and "X" developers in the world.
 description: memo for me and "X" developers in the world.
 keywords: tanakaworld,web,programming
 author: tanakaworld
-language:
-timezone:
+language: en
+timezone: Japan
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
