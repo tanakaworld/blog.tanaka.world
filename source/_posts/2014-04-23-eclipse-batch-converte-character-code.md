@@ -3,7 +3,7 @@ layout: post
 title: Eclipseの文字コード設定を一括変換する方法
 date: 2014/04/23 08:10
 tags:
-    - Eclipse
+    - eclipse
 ---
 【Eclipseの文字コード設定を一括変換する方法】
 以下のライブラリを使用する

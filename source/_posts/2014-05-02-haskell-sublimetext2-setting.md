@@ -4,7 +4,7 @@ title: 【Haskell】SublimeText2 + REPL 初期設定まとめ
 date: 2014/05/02 21:37
 tags:
     - haskell
-    - SublimeText2
+    - sublime-text-2
 ---
 すこしハマった，関数型言語Haskellの開発環境構築のまとめ．
 

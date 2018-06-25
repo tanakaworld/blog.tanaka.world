@@ -2,9 +2,9 @@
 title: MacBookProのバッテリー/メモリ/HDDをセルフ交換し，Ubuntuをデュアルブートする
 date: 2017-04-18
 tags:
-    - Mac
-    - Hardware
-    - Ubuntu
+    - mac
+    - hardware
+    - ubuntu
 ---
 
 古いMacのバッテリーが膨張してしまっていたため，バッテリーを交換した．

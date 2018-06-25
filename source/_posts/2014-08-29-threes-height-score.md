@@ -3,7 +3,8 @@ layout: post
 title: 【スコア80000突破!!】Threes!で高得点をとるためのコツ ＋α
 cover: fxd-memo.svg
 date: 2014-08-29 18:49
-tags: Threes!
+tags:
+    - threes-app
 ---
 Threes!で，「1536」をつくりだすことに成功した．
 

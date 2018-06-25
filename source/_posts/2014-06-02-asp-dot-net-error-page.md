@@ -3,8 +3,8 @@ layout: post
 title: ASP.NETのエラーページが表示されてしまうときの対策
 date: 2014/06/02 19:04
 tags:
-    - C#
-    - .NET
+    - CSharp
+    - DotNET
     - ErrorPage
     - IIS
     - Routing

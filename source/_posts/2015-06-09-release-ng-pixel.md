@@ -3,7 +3,7 @@ layout: post
 title: ドット絵が描けるAngularJSライブラリをリリースしました
 date: 2015/06/09 08:38
 tags:
-    - AngularJS
+    - angular-js
 ---
 ドット絵が描けるAngularJSライブラリをリリースしました．
 

@@ -3,9 +3,9 @@ layout: post
 title: 【スマホ対応】jQuery 連続スワイプイベントをハンドリングする方法
 date: 2014/07/11 08:57
 tags:
-    - JavaScript
-    - jQuery
-    - TouchDevice
+    - javascript
+    - jquery
+    - touch-device
 ---
 スマートフォンなどで，**連続スワイプ**のハンドリング方法をまとめておきます．
 

@@ -5,7 +5,7 @@ date: 2014/03/18 18:26
 tags:
     - App
     - Game
-    - Threes!
+    - ThreesApp
 ---
 以前，<a title="ハマりすぎ注意！新感覚数字パズル「threes!」をやってみた |  For X Developers" href="http://yutarotanaka.com/blog/threes-on-ios/" target="_blank">本ブログで紹介したスマホアプリ「Threes!」</a>に関して，スコアを上げ安定させる方法を書きます．
 

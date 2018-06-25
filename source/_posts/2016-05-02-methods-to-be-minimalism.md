@@ -4,7 +4,6 @@ date: 2016/05/02
 tags:
     - lifehack
     - minimalist
-layout: post
 ---
 
 「１年間使わなかったもの」という基準を厳格に守って断捨離をした．

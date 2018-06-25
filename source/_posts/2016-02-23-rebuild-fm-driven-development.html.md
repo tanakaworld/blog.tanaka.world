@@ -2,9 +2,8 @@
 title: Rebuild.fm駆動開発
 date: 2016/02/23
 tags:
-    - rebuild.fm
+    - rebuild-fm
     - podcast
-layout: post
 ---
 
 [Rebuild.fm](https://rebuild.fm/)をSubscribeしはじめてから1年経った．

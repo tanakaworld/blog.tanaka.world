@@ -2,12 +2,12 @@
 title: 【Grunt + Karma + Jasmine】CoffeeScriptの開発環境を構築する
 date: 2015/12/02
 tags:
-    - CoffeeScript
-    - JavaScript
-    - Grunt
+    - coffeescript
+    - javascript
+    - grunt
     - npm
-    - Karma
-    - Jasmine
+    - karma
+    - jasmine
 layout: post
 ---
 

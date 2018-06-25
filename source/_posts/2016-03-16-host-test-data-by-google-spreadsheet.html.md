@@ -2,13 +2,12 @@
 title: パラメタライズドテストケースをGoogleSpeadsheetで管理する
 date: 2016/03/16
 tags:
-    - GoogleSpreadsheet
-    - JavaScript
+    - google-spread-sheet
+    - javascript
     - grunt
     - karma
     - jasmine
     - google-spreadsheets-parser
-layout: post
 ---
 
 **[google-spreadsheets-parser](https://github.com/tanakaworld/google-spreadsheets-parser)**を使って，

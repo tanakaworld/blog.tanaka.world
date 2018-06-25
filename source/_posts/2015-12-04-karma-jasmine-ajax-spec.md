@@ -2,9 +2,8 @@
 title: 【Karma + Jasmine】非同期を含む場合のテストコードをかく
 date: 2015/12/04
 tags:
-    - Karma
-    - Jasmine
-layout: post
+    - karma
+    - jasmine
 ---
 
 下記のようなケースを考える．

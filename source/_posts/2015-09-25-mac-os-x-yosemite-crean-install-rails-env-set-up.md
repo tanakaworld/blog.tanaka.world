@@ -3,11 +3,11 @@ title: 【Mac OS X】Yosemiteをクリーンインストール(初期化)して 
 date: 2015/09/25
 layout: post
 tags:
-    - Rails
-    - Mac OS X
-    - Rails
-    - RubyMine
-    - Yosemite
+    - rails
+    - mac-os-x
+    - rails
+    - rubymine
+    - yosemite
 ---
 
 普段使っているメイン機 MacBook Air (13-inch, Mid 2012) が，突然落ちたりファンの音がうるさすぎたりしたので，クリーンインストールした．

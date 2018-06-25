@@ -3,11 +3,9 @@ layout: post
 title: 【npm + Karma + Jasmine】JavaScriptの単体テスト環境を構築する
 date: 2014/04/21 19:20
 tags:
+    - javascript
     - jasmine
-    - JavaScript
     - karma
-    - node
-    - npm
     - testing
 ---
 JavaScriptの単体テスト環境構築のまとめ．

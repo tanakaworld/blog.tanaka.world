@@ -2,11 +2,10 @@
 title: 【iOS9.2】Detect dialog "Open this page in APPNAME" from JavaScript 
 date: 2015/12/18
 tags:
-    - iOS9.2
-    - Safari
-    - JavaScript
-    - Deeplink
-layout: post
+    - ios
+    - safari
+    - javascript
+    - deeplink
 ---
 
 iOS9.2でSafariからアプリを起動する際のアラート表示の仕様が変わった．

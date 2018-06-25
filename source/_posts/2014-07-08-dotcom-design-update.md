@@ -3,11 +3,9 @@ layout: post
 title: YutaroTanaka.com デザインリニューアルしました
 date: 2014/07/08 18:27
 tags:
-    - CSS
-    - JavaScript
-    - jQuery
-    - Liquid
-    - Responsive
+    - design
+    - javascript
+    - jquery
 ---
 本ブログ　「For X Developers」　開設半年を記念して，
 

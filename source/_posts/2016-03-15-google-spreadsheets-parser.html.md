@@ -2,9 +2,8 @@
 title: GoogleSpreadsheetをパースするライブラリを作った
 date: 2016/03/15
 tags:
-    - GoogleSpreadsheet
-    - JavaScript
-layout: post
+    - google-spread-sheet
+    - javascript
 ---
 
 GoogleSpreadsheetをJSONにパースするライブラリを作った．

@@ -3,9 +3,9 @@ layout: post
 title: ハマりすぎ注意！新感覚数字パズル「threes!」をやってみた
 date: 2014/02/21 19:36
 tags:
-    - App
-    - Game
-    - Threes!
+    - app
+    - game
+    - threes-app
 ---
 2/6に公開された，「<a title="threes!" href="https://itunes.apple.com/jp/app/threes!/id779157948?mt=8" target="_blank">Threes!</a>」というパズルゲームにハマってます．
 

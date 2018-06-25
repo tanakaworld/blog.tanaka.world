@@ -4,8 +4,8 @@ title: WebStormとレンタルサーバの連携方法
 date: 2014/02/07 18:35
 cover: fxd-memo.svg
 tags:
-    - WebStorm
-    - Sakura-Internet
+    - webstorm
+    - sakurainternet
 ---
 <div>WebStormとレンタルサーバの連携でハマったので，まとめておきます．</div>
 <div></div>

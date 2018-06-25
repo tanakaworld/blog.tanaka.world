@@ -3,7 +3,7 @@ layout: post
 title: ルービックキューブ40周年記念！！！
 date: 2014/05/19 18:29
 tags:
-    - RubiksCube
+    - rubiks-cube
 ---
 ということで動画つくりました．
 

@@ -3,8 +3,8 @@ layout: post
 title: YouTuberになりました
 date: 2016/03/28
 tags:
-    - YouTube
-    - Threes!
+    - youtube
+    - threes-app
 ---
 
 某氏からThrees!のプレイ動画に需要がある，とのありがたきお言葉を頂いたので，

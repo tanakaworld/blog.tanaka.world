@@ -3,7 +3,8 @@ layout: post
 title: Threes! 3072 を達成した
 date: 2015-05-26 09:13
 cover: fxd-memo.svg
-tags: MobileApp, ios, Threes!
+tags:
+    - threes-app
 ---
 [Threes!](https://itunes.apple.com/us/app/threes!/id779157948?mt=8 "Threes!")&nbsp;で「3072」をつくるのに成功した．
 

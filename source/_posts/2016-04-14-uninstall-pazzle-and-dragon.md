@@ -3,9 +3,9 @@ layout: post
 title: 今度こそ本当にパズドラやめました
 date: 2016/04/14
 tags:
-    - App
-    - Game
-    - P&D
+    - app
+    - game
+    - puzzle-and-dragon
 ---
 
 今度こそ本当にパズドラをやめました．

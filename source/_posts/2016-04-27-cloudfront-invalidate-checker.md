@@ -3,8 +3,8 @@ layout: post
 title: AWS CloudFront の Invalidation 完了を通知するブックマークレットをつくった
 date: 2016/04/27
 tags:
-    - AWS
-    - CloudFront
+    - aws
+    - cloud-front
 ---
 
 CloudFrontのInvalidation(Purge)には最大15分かかる．

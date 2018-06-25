@@ -3,7 +3,6 @@ layout: post
 title: 「プログラミング上達がはやいヤツの特徴10個」を9ヶ月間実践してわかったこと
 date: 2014/01/10 08:56
 tags:
-    - fundamental
     - programming
 ---
 

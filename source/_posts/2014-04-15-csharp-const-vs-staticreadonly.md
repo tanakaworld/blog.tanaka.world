@@ -3,7 +3,7 @@ layout: post
 title: 【C#の定数】const と static readonly の使い分け
 date: 2014/04/15 19:04
 tags:
-    - C#
+    - csharp
 ---
 C#で時々迷う定数定義，const と static readonly の使い分けに関するまとめ．
 
