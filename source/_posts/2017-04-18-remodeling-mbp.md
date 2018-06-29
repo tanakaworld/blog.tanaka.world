@@ -17,10 +17,13 @@ tags:
 
 必要な工具やパーツは Amazon で購入した．
 
-[アネックス(ANEX) ESD精密ドライバー +00×50 No.3450-ESD](https://www.amazon.co.jp/gp/product/B0162MMGPQ/ref=oh_aui_search_detailpage?ie=UTF8&psc=1)
-← HDD を止めてるネジを外すのに必要
-[アネックス(ANEX) T型ヘクスローブドライバー T6×50 No.6300](https://www.amazon.co.jp/gp/product/B002SQLDSM/ref=oh_aui_search_detailpage?ie=UTF8&psc=1)
+アネックス(ANEX) ESD精密ドライバー +00×50 No.3450-ESD
 ← Macの蓋をあけるのに必要
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=tanakayutaroa-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=B0162MMGPQ&linkId=7f7c3a31da968c5f2e67dd76d323224b"></iframe>
+
+アネックス(ANEX) T型ヘクスローブドライバー T6×50 No.6300
+← HDD を止めてるネジやバッテリーを外すのに必要
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=tanakayutaroa-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=B002SQLDSM&linkId=31349da56b6db46cb5cacb7a654c6b02"></iframe>
 
 
 ## バッテリー/SSD/メモリ
@@ -150,4 +153,5 @@ cd /Volumes/path/to/binary-dir
 - Ubuntuとして起動時は，メモリ 8GB x 2 でも動いた
 - Macとして起動する場合は 2GB x 2 に戻さないとカーネルパニックが発生（Ubuntu入れた時点で Mac として起動する機会はほぼないので，まぁ問題はない）
 - 最近の Mac は基盤とバッテリーやメモリが癒着していてツラい．できれば自分でカスタマイズしたいところ．
-- 元々入っていた250GBのHDDは外付けHDDとして再利用もしてみたい（参考：[既存のHDDを外付けとして使う](http://www.msng.info/archives/2012/02/hdd-2.php))
+- ~~元々入っていたHDDは外付けHDDとして再利用もしてみたい（参考：[既存のHDDを外付けとして使う](http://www.msng.info/archives/2012/02/hdd-2.php))~~
+    - [外付けHDD](/make-external-hdd)にしてみた．
