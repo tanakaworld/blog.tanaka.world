@@ -11,7 +11,7 @@
     "deploy": "hexo deploy -g -- --release"
   },
   "dependencies": {
-    "hexo": "^3.2.0",
+    "hexo": "^3.7.1",
     "hexo-browsersync": "^0.3.0",
     "hexo-deployer-git": "^0.3.1",
     "hexo-generator-archive": "^0.1.5",
@@ -27,6 +27,6 @@
     "hexo-server": "^0.2.0"
   },
   "engines": {
-    "node": "8.9.1"
+    "node": "8.11.3"
   }
 }
