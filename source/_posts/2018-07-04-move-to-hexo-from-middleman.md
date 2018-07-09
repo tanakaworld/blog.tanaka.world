@@ -22,7 +22,7 @@ tags:
 ![yutarotanaka.com_404.png](yutarotanaka.com_404.png "yutarotanaka.com_404")
 
 
-ちなみに，[杉並区議員に同姓同名の議員さんがいるらしく](http://blog.tanakayutaro.net/)時々間違われていた（笑）昔は [http://tanakayutaro.com/](http://tanakayutaro.com/)だった気がするので，あちらも引っ越しされたのかな．
+ちなみに，[杉並区議員に同姓同名の議員さんがいるらしく](http://blog.tanakayutaro.net/)時々間違われていた（笑）．昔は [http://tanakayutaro.com/](http://tanakayutaro.com/)だった気がするので，あちらも引っ越しされたのかな．
 
 ## GitHub Pages でサブドメインを設定
 
