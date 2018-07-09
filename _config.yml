@@ -79,6 +79,6 @@ theme: apollo
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/tanakaworld/blog.tanaka.world
+  repo: git@github.com:tanakaworld/blog.tanaka.world.git
   branch: gh-pages
   message: Deploy via Hexo
