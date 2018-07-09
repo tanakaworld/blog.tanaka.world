@@ -1,6 +1,6 @@
 ---
-title: ブログ環境を hexo に引っ越しした
-date: 2018-07-04
+title: Middleman から Hexo に引っ越した
+date: 2018-07-10
 tags:
     - blog
     - hexo
@@ -30,7 +30,7 @@ tags:
 
 GH Pages はサブドメインを設定することもできる．ルートに CNAME ファイルを設定し，DNS で `YOUR-GITHUB-USERNAME.github.io` という A レコードを設定するだけでOKらしい．
 
-👉 [Setting up a custom subdomain](https://help.github.com/articles/setting-up-a-custom-subdomain/#configuring-a-cname-record-with-your-dns-provider)
+➡️ [Setting up a custom subdomain](https://help.github.com/articles/setting-up-a-custom-subdomain/#configuring-a-cname-record-with-your-dns-provider)
 ![お名前ドットコムのDNS設定画面](gh-pages-sub-domain.png "お名前ドットコムのDNS設定画面")
 
 ## 2018 年下期に向けて
