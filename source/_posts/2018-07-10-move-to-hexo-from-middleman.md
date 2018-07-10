@@ -3,13 +3,14 @@ title: Middleman から Hexo に引っ越した
 date: 2018-07-10
 tags:
     - blog
+    - middleman
     - hexo
 ---
 
 ## ブログフレームワークを hexo に
 
 [Middleman](https://middlemanapp.com/) から [hexo](https://hexo.io/) に移行した．
-これまで，はてなダイアリー ▶ WordPress (さくらレンタルサーバ) ▶ Middleman (GitHub Pages) と渡ってきて第４世代となる．
+これまで，はてなダイアリー > WordPress (さくらレンタルサーバ) > Middleman (GitHub Pages) と渡ってきて第４世代となる．
 
 個人で作っているものは，技術的な検証をしたり遊んだりする場所にしたいと思っている．
 [HUGO](https://gohugo.io/) とかも選択肢にあったが，最近は Node 環境で開発していることが多く，色々カスタマイズしたい性分の自分にとっては Node の方がよかった．
@@ -17,7 +18,12 @@ tags:
 ## ドメインを blog.tanaka.world に
 
 [http://yutarotanaka.com/blog](http://yutarotanaka.com/blog) で運用していたブログを廃止した．
-現在は全コンテンツを移行し，全部４０４ページにしているが，このドメインはなにかに使うかもしれないので，一応残しておく．
+ドメインはなにかに使うかもしれないので，一応残しておく．
+
+現在は全コンテンツを移行し，全部４０４ページにしている．
+GitHub Pages はルートに  デフォルトの 404 ページをカスタマイズできるようになっている．
+
+➡️ [Creating a custom 404 page for your GitHub Pages site](https://help.github.com/articles/creating-a-custom-404-page-for-your-github-pages-site/)
 
 ![yutarotanaka.com_404.png](yutarotanaka.com_404.png "yutarotanaka.com_404")
 
