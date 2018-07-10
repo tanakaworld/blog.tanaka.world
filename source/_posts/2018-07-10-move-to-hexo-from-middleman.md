@@ -10,7 +10,7 @@ tags:
 ## ブログフレームワークを Hexo に
 
 [Middleman](https://middlemanapp.com/) から [Hexo](https://hexo.io/) に移行した．
-これまで，はてなダイアリー > WordPress (さくらレンタルサーバ) > Middleman (GitHub Pages) と渡ってきて第４世代となる．
+これまで，はてなダイアリー > WordPress (さくらレンタルサーバ) > Middleman (GitHub Pages) と渡ってきて Hexo は第４世代となる．
 
 個人で作っているものは，技術的な検証をしたり遊んだりする場所にしたいと思っている．
 [HUGO](https://gohugo.io/) とかも選択肢にあったが，最近は Node 環境で開発していることが多く，色々カスタマイズしたい性分の自分にとっては Node の方がよかった．
@@ -28,7 +28,7 @@ GitHub Pages はルートに  デフォルトの 404 ページをカスタマイ
 ![yutarotanaka.com_404.png](yutarotanaka.com_404.png "yutarotanaka.com_404")
 
 
-ちなみに，[杉並区議員に同姓同名の議員さんがいるらしく](http://blog.tanakayutaro.net/)時々間違われていた（笑）．昔は [http://tanakayutaro.com/](http://tanakayutaro.com/)だった気がするので，あちらも引っ越しされたのかな．
+ちなみに，[杉並区議員に同姓同名の議員さんがいるらしく](http://blog.tanakayutaro.net/)時々間違われていた（笑）．昔は [http://tanakayutaro.com/](http://tanakayutaro.com/)だった気がするので，あちらも引っ越しされたのか．
 
 ## GitHub Pages でサブドメインを設定
 
