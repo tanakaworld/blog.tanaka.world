@@ -7,9 +7,9 @@ tags:
     - hexo
 ---
 
-## ブログフレームワークを hexo に
+## ブログフレームワークを Hexo に
 
-[Middleman](https://middlemanapp.com/) から [hexo](https://hexo.io/) に移行した．
+[Middleman](https://middlemanapp.com/) から [Hexo](https://hexo.io/) に移行した．
 これまで，はてなダイアリー > WordPress (さくらレンタルサーバ) > Middleman (GitHub Pages) と渡ってきて第４世代となる．
 
 個人で作っているものは，技術的な検証をしたり遊んだりする場所にしたいと思っている．
