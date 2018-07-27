@@ -21,7 +21,7 @@ tags:
 <blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">I&#39;m at <a href="https://twitter.com/WORKAHOLIC_web?ref_src=twsrc%5Etfw">@WORKAHOLIC_web</a> in 中央区, 東京都 <a href="https://t.co/z9zbWsQB9p">https://t.co/z9zbWsQB9p</a></p>&mdash; tanakaworld (@_tanakaworld) <a href="https://twitter.com/_tanakaworld/status/1003117623008165893?ref_src=twsrc%5Etfw">June 3, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-割と高額な買い物，長く使う想定で失敗したくない．[WORKAHOLIC](https://www.iamworkaholic.jp/)で試乗することにした．コンシェルジュが色々説明してくれた後，部屋中に置かれているチェアを自由に試してOKなスタイル．
+割と高額な買い物，長く使う想定で失敗したくない．[WORKAHOLIC](https://www.iamworkaholic.jp/)で試乗することにした．コンシェルジュが色々説明してくれた後，部屋中に置かれているチェアを自由に試しいくスタイル．
 
 ## Ergohuman Fit
 
