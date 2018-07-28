@@ -30,7 +30,7 @@ tags:
 - [スピードラーニングポッドキャスト｜英会話教材スピードラーニング](http://www.eigo-kikinagashi.jp/)
 
 
-### [rebuild.fm](https://rebuild.fm/)
+**[rebuild.fm](https://rebuild.fm/)**
 
 [rebuild.fm駆動開発](https://blog.tanaka.world/rebuild-fm-driven-development.html/)は引き続き続けている．
 
@@ -39,13 +39,13 @@ tags:
 基本的に1.25倍速で視聴している．が唯一，@takorattaさんのときはスピードが速いのと，内容が難しいため1.0倍速に戻すことがある．
 
 
-### [mozaic.fm](https://mozaic.fm/)
+**[mozaic.fm](https://mozaic.fm/)**
 
 かなりコアな内容でブラウザベンダーの動向などを細かく観測している番組．
 最近は Monthly Web というタイトルで各月毎のまとめを話している．月 1 ペースの更新で内容が充実していているので，スピーカーも大変だろうがリスナーも体力が必要．内容が難しいので1.0倍速で聞いている．一つ一つ知らないことを調べながら視聴しているので 1 エピソード聞くのに数週間かかることもあり，全部視聴するのを挫折することもしばしば．この番組の内容がスッとわかるくらいにはなりたい．
 
 
-### [Turing Complete FM](https://turingcomplete.fm/)
+**[Turing Complete FM](https://turingcomplete.fm/)**
 
 @rui314 さんの Podcast で．内容や更新スピードが凄まじく熱意を感じる．Systems Programming 中心の番組で，違う畑の自分にとって内容はニッチで難しい．こちらも調べながらきいていて，学生のころのテキスト引っ張ってきては思い出したりしていた．
 [音の良いポッドキャストを録音するために ― Turing Complete FMの収録テクニック](https://note.mu/ruiu/n/n1061d541355f)でも書かれている通り，音質にこだわっていて，実際他の Podcast と比べても音質がよく感じる．
@@ -55,7 +55,7 @@ tags:
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=tanakayutaroa-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=4274065979&linkId=0ec83bd60849ca85806bcd59fd04cb21"></iframe>
 
 
-### [ajitofm](https://ajito.fm/)
+**[ajitofm](https://ajito.fm/)**
 
 技術的なコア技術の話に加え，組織論なども話に出てくる．
 他の Podcast とは違い，ゲスト数が 2〜4,5 名と比較的多い．そのせいもあってか雑音がとても気になってしまう．
@@ -66,39 +66,39 @@ tags:
 1.5倍速だとより雑音がうるさく感じるので，1.0倍速で視聴することが多い．
 
 
-### [strobo.fm](https://strobo.fm/)
+**[strobo.fm](https://strobo.fm/)**
 
 Web関連の話を中心に，ガジェットやライフハック系の話もでてくる番組．ホストが @1000ch さんだからなのか，フロントエンドエンジニアのゲストが多い．個人的には，前からウォッチしていた @ginpei_jp さんの肉声もきける貴重な Podcast でありがたい🙏 1.25倍速，時々1.5倍速で視聴している．
 
-### [しがないラジオ](https://shiganai.org/)
+**[しがないラジオ](https://shiganai.org/)**
 
 「SIerのSEからWeb系エンジニアに転職したんだが楽しくて仕方がないラジオ」というタイトルで，Web系の話から転職の話まで幅広く話している．Plaid,inc. のオフィスを訪問した際に，ホストの @jumpei_ikegami 氏に会ってからきき始めた．ホスト 2 人＋ゲスト 1 人という構成で，いつも楽しく話しているのが印象的．
 
-### [boot.fm](https://itunes.apple.com/jp/podcast/boot-fm/id1175746503?l=en&mt=2)
+**[boot.fm](https://itunes.apple.com/jp/podcast/boot-fm/id1175746503?l=en&mt=2)**
 
 2017/6/4の更新を最後に，続きの配信がされていない．@yosuke_furukawaさんや@k0kubunさんの話がきけて個人的には期待していた番組だったのだが．
 
 
-### 英語系TechPodcast
+**英語系TechPodcast**
 
 [ACCIDENTAL TECH PODCAST](http://atp.fm/)，[News and podcasts for developers | Changelog](https://changelog.com/)辺りをきくことを試みていたのだが，長続きせず気づいたらきかなくなってしまっている．これらがききとれるレベルくらいの英語力をつけていきたい．．．
 
-### [バイリンガルニュース (Bilingual News)](http://bilingualnews.libsyn.com/)
+**[バイリンガルニュース (Bilingual News)](http://bilingualnews.libsyn.com/)**
 
 ニュース記事などのトピックを英語・日本語で読み上げ，それに対してホストの二人が意見を言う番組．時事ネタ集め＋英語慣れのために昔から視聴している．1.5倍速にするとマイケル氏の英語が最早「英語でOK」になってしまうので，1.0倍速できいている．
 月額制の[公式の文字起こしアプリ](https://t.co/4yqEk9p0Yb)があり，わからなかったところをチェックできる．投げ銭だと思って月額課金している．
 
 
-### [Hapa 英会話](https://hapaeikaiwa.com/)
+**[Hapa 英会話](https://hapaeikaiwa.com/)**
 
 
 バイリンガルニュースより，英会話の勉強にフォーカスした番組．ネイティブスピーカー２人があるお題に対してトークし，その後でトーク内容に関する質問に答えるような形式．トーク中に出てくるよく使われるイディオムの解説もある．ホストの Jun さんが日本語と英語両方で解説してくれる．
 
-### [ELS Podcast](https://itunes.apple.com/us/podcast/english-as-second-language-esl-podcast-learn-english/id75908431?mt=2)
+**[ELS Podcast](https://itunes.apple.com/us/podcast/english-as-second-language-esl-podcast-learn-english/id75908431?mt=2)**
 
 より勉強という感じの番組．最近はほぼきいていない．
 
-### [スピードラーニングポッドキャスト｜英会話教材スピードラーニング](http://www.eigo-kikinagashi.jp/)
+**[スピードラーニングポッドキャスト｜英会話教材スピードラーニング](http://www.eigo-kikinagashi.jp/)**
 
 テンションの高い番組．スピードラーニング教材とは違い無料．ちなみに聞いているだけで，英語が話せるようになるわけはなかった．
 
