@@ -1,12 +1,12 @@
 ---
-title: Jetbrains Toolbox による IDE 管理
+title: JetBrains Toolbox による IDE 管理
 date: 2018-07-30 14:57:00
 tags:
 	- jetbrains
 	- intellij
 ---
 
-Adobe Creative Cloud みたいに，IntelliJ 製品を管理できる IntelliJ Toolbox を使ってみた．
+Adobe Creative Cloud みたいに，IntelliJ 製品を管理できる JetBrains Toolbox を使ってみた．
 今まで気づかなかったが，[JetBrains Toolboxがリリースされました！](https://blog.jetbrains.com/jp/2016/10/20/670)によると 2016 年にバージョン 1.0 がリリースされていたようだ．
 
 Update や Install/Uninstall が管理できる．
