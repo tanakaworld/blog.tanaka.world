@@ -21,14 +21,14 @@ tags:
 
 ## Apps
 - [Karabiner Elements](https://pqrs.org/osx/karabiner/)	
-     Complex Modifications > Add rule >  Import > `For Japanese` > Enable
+     Complex Modifications > Add rule > Import more rules from the Internet > Search by `For Japanese` > Install > Enable following:
      ![karabiner-elements.png](karabiner-elements.png 'karabiner-elements.png')
 - [1Password](https://1password.com/downloads/)
     Scan Barcode
 - [CotEditor](https://coteditor.com/)
 - [iTerm2](https://www.iterm2.com/)
      - Preferences > Terminal > Scrollback Lines > `Unlimited scrollback`
-     - Preferences > Keys > Left/Right ⌥ > Meta
+     - Preferences > Keys > Left ⌥ Key > Esc+
 - [BetterTouchTool](https://folivora.ai/downloads/)
     ![better-touch-tools.png](better-touch-tools.png 'better-touch-tools.png')
 - Chrome
@@ -41,7 +41,12 @@ tags:
     $ brew install git
     $ git config --global user.name "tanakaworld"
     $ git config --global user.email "yutaro.tanaka.world@gmail.com"
+	$ git config --global core.editor emacs
     ```
+- Emacs
+	```
+	$ brew install 
+	```
 - vim
     ```
     $ brew install vim
