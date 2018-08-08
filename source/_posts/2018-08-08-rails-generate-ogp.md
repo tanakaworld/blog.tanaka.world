@@ -1,5 +1,5 @@
 ---
-title: Rails でユーザー毎に OGP 画像を自動生成するハンズオン
+ntitle: Rails でユーザー毎に OGP 画像を自動生成するハンズオン
 date: 2018-08-08 21:40:20
 tags:
 	- rails
@@ -257,7 +257,9 @@ avatar_image = make_circle_mask(avatar_image, 320)
 ![image](https://user-images.githubusercontent.com/3489430/43838535-9d1e44e2-9b56-11e8-8826-e259eb13443d.png)
 
 
-## Source Code
+## まとめ
 
 - [rails_ogp_generator_sample](https://github.com/tanakaworld/rails_ogp_generator_sample)
+
+今回はモデルのコールバックで OGP を生成するようにしたが，処理が重くなるようなら非同期で処理するようにした方がよさそう．
 
