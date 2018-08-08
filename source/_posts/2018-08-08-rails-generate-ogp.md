@@ -1,5 +1,5 @@
 ---
-ntitle: Rails でユーザー毎に OGP 画像を自動生成するハンズオン
+title: Rails でユーザー毎に OGP 画像を自動生成するハンズオン
 date: 2018-08-08 21:40:20
 tags:
 	- rails
