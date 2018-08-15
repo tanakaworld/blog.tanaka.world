@@ -7,14 +7,13 @@ tags:
      - jquery
 ---
 
-jQueryで広く使われている [At.js](https://github.com/ichord/At.js) を，Vue のコンポーネントと組み合わせて使ったときのメモ．
+jQuery 製の AutoComplete を提供する [At.js](https://github.com/ichord/At.js) を，Vue のコンポーネントと組み合わせて使ったときのメモ．
 
 ## 完成イメージ
 
 完成版ソースコードは[こちら](https://github.com/tanakaworld/vue-with-atjs)．
 
-At.js を使うと次のような挙動が実現できる．
-WYSIWYG 内で `@` を入力すると，入力候補が一覧が表示され，選択すると任意の要素が追加できる．
+At.js を使うと次のような挙動が実現できる．WYSIWYG 内で `@` を入力すると，入力候補が一覧が表示され，選択すると任意の要素が追加できる．
 
 [![Image from Gyazo](https://i.gyazo.com/528e95314d7ac72932e3edf52f291c11.gif)](https://gyazo.com/528e95314d7ac72932e3edf52f291c11)
 
@@ -126,9 +125,9 @@ DOM が構築された後， `ref` で WYSIWYG エレメントを取得し有効
              v-html="content"></div>
 ```
 
-入力内容を親イベントに送出する処理を `emitChange` メソッドに切り出し，`@input="emitChange"` とイベントにセットする．
-At.js で要素が追加されたときは，`input` イベントは発火しない．そのため，発火したタイミングをで `emitChange` を呼ぶ処理を追加する必要がある．
-`.atwho` を呼び出すオプションで `callbacks.beforeInsert` を追加し，要素が追加されたであろうタイミングで `emitChange` が呼ばれるようにした．
+入力内容を親コンポーネントにイベントに送出する処理を `emitChange` メソッドに切り出し，`@input="emitChange"` とイベントにセットする．
+At.js で要素が追加されたときは，`input` イベントは発火しないため，要素が追加された後，何らかの文字を入力しないと親コンポーネントに変更が伝搬されない．
+At.js 要素が追加されたタイミングで `emitChange` を呼ぶ処理を追加する必要がある．`.atwho` を呼び出すオプションで `callbacks.beforeInsert` を追加し，要素が追加されたであろうタイミングで `emitChange` が呼ばれるようにした．
 （この辺りの実装は，もっとスマートなやり方があるかもしれない）
 
 
