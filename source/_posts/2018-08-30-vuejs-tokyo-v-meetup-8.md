@@ -9,15 +9,11 @@ tags:
 
 2018年8月27日に開催された [v-meetup #8](https://vuejs-meetup.connpass.com/event/95678/) に登壇しました．
 
-約150の募集枠は，募集開始数分で埋まるほどの人気イベント．
-v-meetup の参加は初めてだったのですが，スタッフを始め参加者の方々の熱気に圧倒されました．
+約150の募集枠は，募集開始数分で埋まるほどの人気イベント．v-meetup の参加は初めてだったのですが，スタッフを始め参加者の方々の熱気に圧倒されました．
 
 ## Replace View of Backbone.js with Vue.js
 
-2年半くらい運用していた Backbone.js SPA の一部を Vue.js でリニューアルしたときの話をしました．
-コアフレームワークが Backbone.Model に依存していて，Backbone.js から逃れられないプロジェクト，View 周りがツラいので組み合わせてみたら幸せになったという話です．
-どうしてもフルリプレイスが難しいプロジェクトとかで，小さく薄くはじめられるのが Vue.js のいいところ．
-2018年現在に使うのは色々ツラいところあるけど，Backbone.js 自体は嫌いではない(~~使いたいとは言っていない~~)
+2年半くらい運用していた Backbone.js SPA の一部を Vue.js でリニューアルしたときの話をしました．コアフレームワークが Backbone.Model に依存していて，Backbone.js から逃れられないプロジェクト，View 周りがツラいので組み合わせてみたら幸せになったという話です．どうしてもフルリプレイスが難しいプロジェクトとかで，小さく薄くはじめられるのが Vue.js のいいところ．2018年現在に使うのは色々ツラいところあるけど，Backbone.js 自体は嫌いではない(~~使いたいとは言っていない~~)
 
 
 <script async class="speakerdeck-embed" data-id="0ba17ee105ce4746878923d89dca0cc7" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
@@ -34,9 +30,7 @@ v-meetup の参加は初めてだったのですが，スタッフを始め参�
 ## サンプルプロジェクト
 
 
-[サンプルプロジェクト](https://github.com/tanakaworld/replace-view-of-backbone-with-vue)を地味にちゃんとつくった．Realm つかってみたくて，サーバのデータストアに [Realm Node.js](https://realm.io/docs/javascript/latest) を使ってみました．
-
-`yarn dev` でローカルで実行できます．
+[サンプルプロジェクト](https://github.com/tanakaworld/replace-view-of-backbone-with-vue)を地味にちゃんとつくった．Realm つかってみたくて，サーバのデータストアに [Realm Node.js](https://realm.io/docs/javascript/latest) を使ってみました．`yarn dev` でローカル実行できます．
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/C-L_pAyYqEI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
