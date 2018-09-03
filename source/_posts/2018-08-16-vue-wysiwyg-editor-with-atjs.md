@@ -2,7 +2,7 @@
 title: Vue.js と At.js を組み合わせる
 date: 2018-08-16
 tags:
-     - vue
+     - vue.js
      - atjs
      - jquery
 ---
