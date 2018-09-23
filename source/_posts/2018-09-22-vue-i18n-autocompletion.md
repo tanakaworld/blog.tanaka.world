@@ -8,6 +8,8 @@ tags:
 
 [vue-i18n](https://github.com/kazupon/vue-i18n) の入力補完を実装してみた．久々に業務で i18n 対応をするようになって，若干ツラさを感じているところもあるので，併せて記す．
 
+はじめに断っておくが，ツラさを感じているのは vue-i18n に対してではなく，i18n 全般に対してのこと．
+
 
 ## 文字列指定を入力補完したい
 
@@ -195,4 +197,12 @@ i18n 対象が多くなってくると，どういう階層構造で管理する
 <blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">参考になります！vscode だったら、veturのlanguage server protocol に便乗したやつ作れば、行けそうな気が。</p>&mdash; 🐤kazupon@Vue.js入門発売中ゥゥッ！🐤 (@kazu_pon) <a href="https://twitter.com/kazu_pon/status/1035124213563056128?ref_src=twsrc%5Etfw">August 30, 2018</a></blockquote>
 
 
+## 追記 2018/08/01
+
+ここで紹介されてる [vue-i18n-service](https://github.com/f/vue-i18n-service) を用いた locale の管理方法がとてもよさそう．SFC 毎に locale ファイルを管理するアプローチ．
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">localeファイル構造の管理のツラさは、どのi18nライブラリもある共通のツラさかなと思っている。Vue CLI のツールかこんな感じの単独のツールを提供したいと思っている。<a href="https://t.co/txpUw0W0Cg">https://t.co/txpUw0W0Cg</a> <a href="https://t.co/VFRYXFReYU">https://t.co/VFRYXFReYU</a></p>&mdash; 🐤kazupon@Vue.js入門発売中ゥゥッ！🐤 (@kazu_pon) <a href="https://twitter.com/kazu_pon/status/1043649313845329920?ref_src=twsrc%5Etfw">September 22, 2018</a></blockquote>
+
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
