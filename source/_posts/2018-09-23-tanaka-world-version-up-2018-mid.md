@@ -1,5 +1,5 @@
 ---
-title: 【2018/09】tanaka.world バージョンのお知らせ
+title: 【2018/09】tanaka.world バージョンアップのお知らせ
 date: 2018-09-23 23:11:46
 tags:
 	- portfolio
