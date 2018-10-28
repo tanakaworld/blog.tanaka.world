@@ -3,7 +3,7 @@ title: Vue.js Tokyo v-meetup 8 に登壇しました
 date: 2018-08-30 22:24:38
 tags:
 	- vue.js
-	- slide
+	- presentation
 ---
 
 
