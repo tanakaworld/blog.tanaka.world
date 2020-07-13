@@ -5,6 +5,7 @@ tags:
 	- presentation
 	- swagger
 	- fastjson-api
+	- proff.io
 ---
 
 [Mercari x Merpay Frontend Tech Talk vol.2][https://mercari.connpass.com/event/134185/] にて，コード生成の自動化についてプレゼンした．
