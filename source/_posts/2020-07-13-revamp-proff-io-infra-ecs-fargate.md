@@ -32,7 +32,7 @@ ELB | ALB (Application Load Balancer) に変更
 EC2 (Nginx, RoR, Node.js) | ECS + Fargate (RoR, Node.js) に変更 <br>静的コンテンツを S3 から配信 ([asset_sync](https://github.com/AssetSync/asset_sync))
 -  | ECR (Docker Registry)
 -  | System Manager (ECS で使う秘匿情報を Parameter Store で保存)
-Capistrano | CircleCI で docker build し ECR に push <br>(Orb を使用: [circleci/aws-ecr](https://circleci.com/orbs/registry/orb/circleci/aws-ecr), [circleci/aws-ecs](https://circleci.com/orbs/registry/orb/circleci/aws-ecs)) 
+Capistrano | CircleCI で Docker ビルド <br>(Orb を使用: [circleci/aws-ecr](https://circleci.com/orbs/registry/orb/circleci/aws-ecr), [circleci/aws-ecs](https://circleci.com/orbs/registry/orb/circleci/aws-ecs)) 
 
 #### サービス選定
 
@@ -42,7 +42,7 @@ Fargate にした理由は、単純な興味と、なるべく運用のことを
 
 Heroku や GCP も検討したが、AWS 中心にスタックを固めておきたく断念した。別サービスで Heroku 運用をしてみたところ手軽さがかなりよかったが、Plugin に課金してそれなりのスペックを用意すると、月額コストは AWS とあまり変わらなそうだった。Heroku を使うなら Heroku で固めたい。同様に、会社業務で使っている GCP にも興味はありつつも、既に AWS で運用中のものを別クラウドに移行する旨味はなかった。 
 
-## Dockerize
+## Dockernize
 
 #### 共通イメージ
 
