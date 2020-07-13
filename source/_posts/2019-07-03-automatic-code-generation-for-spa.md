@@ -8,7 +8,7 @@ tags:
 	- proff.io
 ---
 
-[Mercari x Merpay Frontend Tech Talk vol.2][https://mercari.connpass.com/event/134185/] にて，コード生成の自動化についてプレゼンした．
+[Mercari x Merpay Frontend Tech Talk vol.2](https://mercari.connpass.com/event/134185/) にて，コード生成の自動化についてプレゼンした．
 
 メルペイでのコード生成や，[Proff.io](https://proff.io/) で実際に組み込んだコード生成について話した．
 
