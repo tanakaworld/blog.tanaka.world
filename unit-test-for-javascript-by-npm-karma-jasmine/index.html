@@ -1,0 +1,119 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title>【npm + Karma + Jasmine】JavaScriptの単体テスト環境を構築する | For X Developers</title><meta name="description" content="【npm + Karma + Jasmine】JavaScriptの単体テスト環境を構築する - tanakaworld"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><meta name="description" content="JavaScriptの単体テスト環境構築のまとめ． テストランナーとして「Karma」，テストフレームワーク・アサーションライブラリとして「Jasmine」を使う． PCのグローバル領域にこれらをインストールしても環境構築はできるが，今回はプロジェクト固有のツールとしてインストールする． これによって，PCの環境に依存しないテスト環境が構築できる．">
+<meta name="keywords" content="javascript,jasmine,karma,testing">
+<meta property="og:type" content="article">
+<meta property="og:title" content="【npm + Karma + Jasmine】JavaScriptの単体テスト環境を構築する">
+<meta property="og:url" content="https:&#x2F;&#x2F;blog.tanaka.world&#x2F;unit-test-for-javascript-by-npm-karma-jasmine&#x2F;index.html">
+<meta property="og:site_name" content="For X Developers">
+<meta property="og:description" content="JavaScriptの単体テスト環境構築のまとめ． テストランナーとして「Karma」，テストフレームワーク・アサーションライブラリとして「Jasmine」を使う． PCのグローバル領域にこれらをインストールしても環境構築はできるが，今回はプロジェクト固有のツールとしてインストールする． これによって，PCの環境に依存しないテスト環境が構築できる．">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="https:&#x2F;&#x2F;blog.tanaka.world&#x2F;favicon.png">
+<meta property="og:updated_time" content="2020-12-25T03:35:42.496Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https:&#x2F;&#x2F;blog.tanaka.world&#x2F;favicon.png"><link rel="search" type="application/opensearchdescription+xml" href="https://blog.tanaka.world/atom.xml" title="For X Developers"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png" alt="logo"><h1 class="title">For X Developers</h1></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="https://tanaka.world/about" target="_blank" class="nav-list-link">AUTHOR</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">RSS</a></li></ul></header><main class="container"><div class="post"><article class="post-block"><h1 class="post-title">【npm + Karma + Jasmine】JavaScriptの単体テスト環境を構築する</h1><div class="post-info">Apr 21, 2014<div class="tags-list"><div class="tags-list-item"><a href="/tags/javascript/" class="tags-list-item-link">#javascript</a></div><div class="tags-list-item"><a href="/tags/jasmine/" class="tags-list-item-link">#jasmine</a></div><div class="tags-list-item"><a href="/tags/karma/" class="tags-list-item-link">#karma</a></div><div class="tags-list-item"><a href="/tags/testing/" class="tags-list-item-link">#testing</a></div></div></div><div class="post-content"><p>JavaScriptの単体テスト環境構築のまとめ．</p>
+<p>テストランナーとして「<a href="https://github.com/karma-runner/karma" target="_blank" rel="noopener" title="Karma">Karma</a>」，テストフレームワーク・アサーションライブラリとして「<a href="http://jasmine.github.io/" target="_blank" rel="noopener" title="Jasmine">Jasmine</a>」を使う．</p>
+<p>PCのグローバル領域にこれらをインストールしても環境構築はできるが，今回はプロジェクト固有のツールとしてインストールする．</p>
+<p>これによって，PCの環境に依存しないテスト環境が構築できる．</p>
+<a id="more"></a>
+<h2 class="page-heading">前提条件</h2>
+下記が使用できること．
+
+<ul>
+<li>node</li>
+<li><a href="https://github.com/npm/npm" target="_blank" rel="noopener" title="npm ">npm </a>(= node package manager)</li>
+</ul>
+<p>検証環境</p>
+<ul>
+<li>MacOS X 10.9.2</li>
+</ul>
+<h2 class="page-heading">$ npm init</h2>
+
+<ul>
+<li>対話形式でprojectの初期設定をする．</li>
+<li>不要な項目は，空欄のままEnter</li>
+<li>最終的に，package.jsonファイルが生成される（直接編集も可）</li>
+</ul>
+<img alt="" src="http://yutarotanaka.com/blog/wp-content/uploads/2014/01/console12.png" width="600" />
+<h2 class="page-heading">$ npm install --save-dev karma</h2>
+
+<ul>
+<li>node_modules/が生成され，その中に karma 関連ファイルが格納される</li>
+<li>option「–save-dev」によって，install 対象の library 情報が自動で package.json に記述される</li>
+</ul>
+<p>[code language=”javascript” title=”package.json” highlite=”12”]<br>{<br>  &quot;name&quot;: &quot;JSTestSample&quot;,<br>  &quot;version&quot;: &quot;0.0.0&quot;,<br>  &quot;description&quot;: &quot;Sample for JS Test.&quot;,<br>  &quot;main&quot;: &quot;index.js&quot;,<br>  &quot;scripts&quot;: {<br>    &quot;test&quot;: &quot;node_modules/karma/bin/karma start&quot;<br>  },<br>  &quot;author&quot;: &quot;&quot;,<br>  &quot;license&quot;: &quot;not commedical&quot;,<br>  &quot;devDependencies&quot;: {<br>    &quot;karma&quot;: &quot;~0.12.9&quot;<br>  }<br>}<br>[/code]</p>
+<h2 class="page-heading">$ node_modules/karma/bin/karma init</h2>
+
+<ul>
+<li>対話形式で情報を入力</li>
+<li>karma.conf.jsが作成される</li>
+<li>package.json に jasmine 関連ファイルと，chrome-lancher が記述される</li>
+</ul>
+<img class="img-frame " alt="" src="http://yutarotanaka.com/blog/wp-content/uploads/2014/01/f7b5a0c19662aca94a8b1185006aff11.png" width="500" />
+
+<p>[code language=”javascript” title=”package.json” heighlite=”3,4”]<br>&quot;devDependencies&quot;: {<br> &quot;karma&quot;: &quot;<del>0.12.9&quot;,<br> &quot;karma-jasmine&quot;: &quot;</del>0.1.5&quot;,<br> &quot;karma-chrome-launcher&quot;: &quot;~0.1.3&quot;<br> }<br>[/code]</p>
+<h2 class="page-heading">プロダクトコードとテストコードを作成</h2>
+
+<ul>
+<li>jasmineの文法で（<a href="http://jasmine.github.io/）" target="_blank" rel="noopener">http://jasmine.github.io/）</a></li>
+</ul>
+<p>[code language=”javascript” title=”Logic.js”]<br>function Logic() {</p>
+<p>}</p>
+<p>Logic.prototype.squaredNumber = function(num){<br>    return num * num;<br>};<br>[/code]</p>
+<p>[code language=”javascript” title=”LogicTest.js”]<br>describe(&quot;TestSample&gt;&quot;, function(){<br>    describe(&quot;Logic&gt;&quot;, function() {<br>        it(&quot;multiNumber&quot;, function() {<br>            var target = new Logic();<br>            var num = 3;<br>            var expected = 10;</p>
+<pre><code>        var result = target.squaredNumber(num);
+
+        expect(expected).toEqual(result);
+
+    })
+});</code></pre><p>});<br>[/code]</p>
+<h2 class="page-heading">テストコマンドを package.json に記述</h2>
+[code language="javascript" title="package.json"]
+{
+  &quot;name&quot;: &quot;JSTestSample&quot;,
+  &quot;version&quot;: &quot;0.0.0&quot;,
+  &quot;description&quot;: &quot;Sample for JS Test.&quot;,
+  &quot;main&quot;: &quot;index.js&quot;,
+  &quot;scripts&quot;: {
+    &quot;test&quot;: &quot;node_modules/karma/bin/karma start&quot;
+  },
+  &quot;author&quot;: &quot;&quot;,
+  &quot;license&quot;: &quot;not commedical&quot;,
+  &quot;devDependencies&quot;: {
+    &quot;karma&quot;: &quot;~0.12.9&quot;,
+    &quot;karma-jasmine&quot;: &quot;~0.1.5&quot;,
+    &quot;karma-chrome-launcher&quot;: &quot;~0.1.3&quot;
+  }
+}
+[/code]
+<h2 class="page-heading">テストに関連するファイルを karma.conf.js に記述</h2>
+[code language="javascript" title="karma.conf.js"]
+    // list of files / patterns to load in the browser
+    files: [
+        // main files
+        './main/Logic.js',
+
+<pre><code>    // test files
+    &apos;./test/LogicTest.js&apos;
+],</code></pre><p>[/code]</p>
+<h2 class="page-heading">テスト実行</h2>
+「$ npm test」で package.json の情報を元にテストが実行される
+
+<p><span style="font-size: 14px; line-height: 1.5em;">chromeが自動で起動する</span></p>
+<img class="img-frame " alt="" src="http://yutarotanaka.com/blog/wp-content/uploads/2014/01/9543f2264fdc21a1e9324dedb508ef50.png" width="500" />
+
+<p>テスト成功</p>
+<img class="img-frame " alt="" src="http://yutarotanaka.com/blog/wp-content/uploads/2014/01/92b6b0307cd4d648c7eb2c0d593333dc.png" width="500" />
+
+<p>失敗した時はこんな感じ</p>
+<img class="img-frame " alt="" src="http://yutarotanaka.com/blog/wp-content/uploads/2014/01/92b6b0307cd4d648c7eb2c0d593333dc1.png" width="500" />
+
+<p><span style="text-decoration: underline;"><span style="color: #555555; font-size: 16px; font-weight: bold; line-height: 1.5em;">まとめ</span></span></p>
+<ul>
+<li>$ npm init</li>
+<li>$ npm install –save-dev karma</li>
+<li>$ node_modules/karma/bin/karma init</li>
+<li>プロダクトコードとテストコードを作成</li>
+<li>テストコマンドを package.json に記述</li>
+<li>テストに関連するファイルを karma.conf.js に記述</li>
+<li>テスト実行</li>
+</ul>
+</div></article></div></main><footer><div class="share-buttons"><ul class="share-buttons-list"><li class="share-buttons-list-item"><a data-fullpath="https://blog.tanaka.world/unit-test-for-javascript-by-npm-karma-jasmine/index.html" href="https://twitter.com/intent/tweet?text=【npm + Karma + Jasmine】JavaScriptの単体テスト環境を構築する&amp;url=https://blog.tanaka.world/unit-test-for-javascript-by-npm-karma-jasmine/&amp;via=_tanakaworld" onclick="window.open(https://blog.tanaka.world/unit-test-for-javascript-by-npm-karma-jasmine/, 'twitter-share', 'width=550,height=235');return false;" target="_blank" class="icon icon-twitter"><img src="/images/icon-twitter.svg"></a></li><li class="share-buttons-list-item"><a href="https://www.facebook.com/sharer/sharer.php?u=https://blog.tanaka.world/unit-test-for-javascript-by-npm-karma-jasmine/" data-fullpath="https://blog.tanaka.world/unit-test-for-javascript-by-npm-karma-jasmine/index.html" onclick="window.open(https://blog.tanaka.world/unit-test-for-javascript-by-npm-karma-jasmine/, 'facebook-share','width=580,height=296');return false;" target="_blank" class="icon icon-facebook"><img src="/images/icon-facebook.svg"></a></li><!--li.share-buttons-list-item--><!--    a.icon.icon-pocket(data-fullpath=url href="https://getpocket.com/edit?url=#{share_url}&title=#{title}" onclick="window.open(#{share_url}, 'google-plus-share', 'width=490,height=530');return false;" target="_blank")--><!--        img(src="/images/icon-twitter.svg")--><li class="share-buttons-list-item"><a data-fullpath="https://blog.tanaka.world/unit-test-for-javascript-by-npm-karma-jasmine/index.html" href="https://plus.google.com/share?url=https://blog.tanaka.world/unit-test-for-javascript-by-npm-karma-jasmine/" onclick="window.open(https://blog.tanaka.world/unit-test-for-javascript-by-npm-karma-jasmine/, 'google-plus-share', 'width=490,height=530');return false;" target="_blank" class="icon icon-google-plus"><img src="/images/icon-google-plus.svg"></a></li></ul></div><div class="paginator"><a href="/eclipse-batch-converte-character-code/" class="prev">&laquo; PREV</a><a href="/csharp-const-vs-staticreadonly/" class="next">NEXT &raquo;</a></div><div class="copyright"><p>© 2014 - 2020 <a href="https://blog.tanaka.world">tanakaworld</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/tanakaworld/hexo-theme-apollo" target="_blank">Forked of hexo-theme-apollo</a>.</p></div></footer></div><!--script(async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous")--><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-122034388-1",'auto');ga('send','pageview');</script></body></html>

@@ -1,0 +1,428 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title>Vue Fes Japan 2018 に行ってきた | For X Developers</title><meta name="description" content="Vue Fes Japan 2018 に行ってきた - tanakaworld"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><meta name="description" content="Event detail 2018.11.3 (Sat.) Akihabara UDX 4F &#x2F; UDX Gallery タイムテーブルはこちら   Keynoteby @youyuxi Vue3.0 の話  TL;DR; 速く，小さく，メンテしやすく，ネイティブ向け，保守性   速く Virtual DOM 実装をフルスクラッチから作り直し mount と patch 処理が最大100%向上">
+<meta name="keywords" content="vue.js">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Vue Fes Japan 2018 に行ってきた">
+<meta property="og:url" content="https:&#x2F;&#x2F;blog.tanaka.world&#x2F;vue-fes-japan-2018&#x2F;index.html">
+<meta property="og:site_name" content="For X Developers">
+<meta property="og:description" content="Event detail 2018.11.3 (Sat.) Akihabara UDX 4F &#x2F; UDX Gallery タイムテーブルはこちら   Keynoteby @youyuxi Vue3.0 の話  TL;DR; 速く，小さく，メンテしやすく，ネイティブ向け，保守性   速く Virtual DOM 実装をフルスクラッチから作り直し mount と patch 処理が最大100%向上">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="https:&#x2F;&#x2F;blog.tanaka.world&#x2F;favicon.png">
+<meta property="og:updated_time" content="2020-12-25T03:35:42.807Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https:&#x2F;&#x2F;blog.tanaka.world&#x2F;favicon.png"><link rel="search" type="application/opensearchdescription+xml" href="https://blog.tanaka.world/atom.xml" title="For X Developers"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png" alt="logo"><h1 class="title">For X Developers</h1></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="https://tanaka.world/about" target="_blank" class="nav-list-link">AUTHOR</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">RSS</a></li></ul></header><main class="container"><div class="post"><article class="post-block"><h1 class="post-title">Vue Fes Japan 2018 に行ってきた</h1><div class="post-info">Nov 3, 2018<div class="tags-list"><div class="tags-list-item"><a href="/tags/vue-js/" class="tags-list-item-link">#vue.js</a></div></div></div><div class="post-content"><h2 id="Event-detail"><a href="#Event-detail" class="headerlink" title="Event detail"></a>Event detail</h2><ul>
+<li>2018.11.3 (Sat.)</li>
+<li>Akihabara UDX 4F / UDX Gallery</li>
+<li>タイムテーブルは<a href="https://vuefes.jp/time-table/" target="_blank" rel="noopener">こちら</a></li>
+</ul>
+<p><img src="time-table.png" alt="time-table.png" title="time-table.png"></p>
+<h2 id="Keynote"><a href="#Keynote" class="headerlink" title="Keynote"></a>Keynote</h2><p>by <a href="https://twitter.com/youyuxi" target="_blank" rel="noopener">@youyuxi</a></p>
+<p>Vue3.0 の話</p>
+<ul>
+<li>TL;DR;<ul>
+<li>速く，小さく，メンテしやすく，ネイティブ向け，保守性</li>
+</ul>
+</li>
+<li>速く<ul>
+<li>Virtual DOM 実装をフルスクラッチから作り直し<ul>
+<li>mount と patch 処理が最大100%向上</li>
+</ul>
+</li>
+<li>言語標準の最適化によって速度向上<ul>
+<li>Map/Set/WeakMap/WeakSet</li>
+<li>Class</li>
+</ul>
+</li>
+<li>プロパティプロキシの高速化<ul>
+<li>Object.definePropertyは使わなくなる</li>
+<li>ネイティブプロキシ</li>
+</ul>
+</li>
+<li>実行時オーバーヘッド削減のため，コンパイル時にヒントを追加<ul>
+<li>React の JSX に似ている</li>
+</ul>
+</li>
+<li>lazy function<ul>
+<li>Reactではこの仕組みを使っていない</li>
+</ul>
+</li>
+<li>Static Tree Hoisting<ul>
+<li>変更がなかったとしてもそれを調べる必要があった</li>
+</ul>
+</li>
+<li>コンポーネントのインスタンス化の効率化<ul>
+<li>速度２倍，メモリ使用量半減</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>小さく<ul>
+<li>Tree-shakingへの対応<ul>
+<li>使われない処理を，バンドルから取り除く機能</li>
+<li>webpackとかにもこの機能はある</li>
+<li>ランタイムサイズ10kb以下(GZip)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>メンテしすく</li>
+<li>よりネイティブ向けにつくりやすく<ul>
+<li>カスタムレンダラAPI</li>
+</ul>
+</li>
+<li>保守性向上<ul>
+<li>リアクティビティAPI</li>
+<li>Observer メソッドが追加される</li>
+</ul>
+</li>
+<li>Render Track<ul>
+<li>再描画の仕組みが分かりづらかった</li>
+<li>renderTriggered callback が追加される</li>
+</ul>
+</li>
+<li>保守性<ul>
+<li>TSX TS Support の強化</li>
+<li>Warningもわかりやすくなる</li>
+<li>実験的なHooks API</li>
+<li>実験的なTimeSlicing<ul>
+<li>必要なくなった処理を間引く<ul>
+<li>同じcallbackが連続で実行されたとき，古い方は実行する必要がなくなる</li>
+</ul>
+</li>
+<li>これによって，60fps に最適化</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="Platinum-Sponsor-Session"><a href="#Platinum-Sponsor-Session" class="headerlink" title="Platinum Sponsor Session"></a>Platinum Sponsor Session</h2><p>PLAIDさんのプラチナスポンサー枠発表</p>
+<ul>
+<li>Karte</li>
+<li>2014年からVueでつくっている</li>
+<li>1000サイト以上で導入</li>
+<li>導入している企業のマーケターが，GUI上でVueコンポーネントをつくるような管理画面イメージ</li>
+</ul>
+<h2 id="Lunch-Sponsor"><a href="#Lunch-Sponsor" class="headerlink" title="Lunch Sponsor"></a>Lunch Sponsor</h2><p><strong>LINE</strong></p>
+<ul>
+<li>by <a href="https://twitter.com/kitak" target="_blank" rel="noopener">https://twitter.com/kitak</a></li>
+<li>LINEでVueどう使ってるの？</li>
+<li>Webあるの？</li>
+<li>スタンプ、WebView</li>
+<li>四年前 0.10のころから</li>
+<li>SSR必要なところはNuxtも</li>
+<li>コミュニティ貢献</li>
+<li>UIT</li>
+</ul>
+<p><strong>Scoute</strong></p>
+<ul>
+<li>by <a href="https://twitter.com/kotamats" target="_blank" rel="noopener">https://twitter.com/kotamats</a></li>
+<li>Vue + Laravel</li>
+<li><a href="https://laravue.connpass.com/event/92231/" target="_blank" rel="noopener">https://laravue.connpass.com/event/92231/</a></li>
+</ul>
+<p><strong>Repro</strong></p>
+<ul>
+<li>by <a href="https://twitter.com/cheezenaan" target="_blank" rel="noopener">https://twitter.com/cheezenaan</a></li>
+<li>v0.12 のころから</li>
+<li>Vuex</li>
+<li>堅牢なアーキテクチャ</li>
+</ul>
+<h2 id="Next-level-Vue-Animations"><a href="#Next-level-Vue-Animations" class="headerlink" title="Next-level Vue Animations"></a>Next-level Vue Animations</h2><p>by <a href="https://twitter.com/sarah_edo" target="_blank" rel="noopener">@srah_edo</a></p>
+<p><a href="http://slides.com/sdrasner/vuefes-japan" target="_blank" rel="noopener">Slide</a></p>
+<ul>
+<li>初日本</li>
+<li>人間の脳は100msしかパースできない</li>
+<li><transition/>を見直す</li>
+<li>変化を宣言的に記述できる</li>
+<li>transition mode</li>
+<li>transition group</li>
+<li>FLIP for heavy process<ul>
+<li>First</li>
+<li>Last</li>
+<li>Invert</li>
+<li>Play</li>
+</ul>
+</li>
+<li>Transition with reactive</li>
+<li>Wahat is reactive<ul>
+<li>getters/setters 方式を採用</li>
+</ul>
+</li>
+<li>Repository<ul>
+<li>変化しているものをカプセル化</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><a href="https://github.com/sdras/nuxt-type" target="_blank" rel="noopener">https://github.com/sdras/nuxt-type</a></li>
+<li>Vue + SVG<ul>
+<li>Seamless Animations by Vue.js</li>
+</ul>
+</li>
+</ul>
+<h2 id="Vue-Designer-Integration-of-design-and-implementation"><a href="#Vue-Designer-Integration-of-design-and-implementation" class="headerlink" title="Vue Designer: Integration of design and implementation"></a>Vue Designer: Integration of design and implementation</h2><p>by <a href="https://twitter.com/ktsn" target="_blank" rel="noopener">@ktsn</a></p>
+<p><a href="https://slides.com/ktsn/vue-fes-vue-designer#/" target="_blank" rel="noopener">Slide</a></p>
+<ul>
+<li>デザインと実装で役割がわかれている</li>
+<li>昔は静的ウェブサイトだったからデザイナーが全部やっていたが，今はアプリケーションになってきた</li>
+<li>些細な実装の変更も，デザインファイルに適用していかないと後々めんどくさいことになる</li>
+<li>古くからみんな解決しようとしている<ul>
+<li>DreamWeaverのデザインビュー</li>
+<li><a href="https://t.co/ISJgQsy9u9" target="_blank" rel="noopener">vuegg</a></li>
+<li><a href="https://framer.com/" target="_blank" rel="noopener">Framer X</a> (欲しい機能に近い)</li>
+</ul>
+</li>
+<li>欲しい機能<ul>
+<li>SFCとデザインが対応する</li>
+<li>動的なデザイン（ウィンドウ幅に併せて動的にデザインも変わる）</li>
+</ul>
+</li>
+<li>👉 vue-designer<ul>
+<li><a href="https://github.com/ktsn/vue-designer" target="_blank" rel="noopener">https://github.com/ktsn/vue-designer</a></li>
+<li>プロトタイプ中</li>
+<li>vscode と連動</li>
+<li>vscode から vue-designer を起動すると，WebViewで実際の画面をプレビューできる</li>
+<li>ウィンドウ上の変更はコードに反映される</li>
+<li>vue-designer スゴイ:D  既存のコンポーネント一覧からD&amp;Dで要素挿入できる，かつソースコードにもimportが追加されている</li>
+<li>Parsing<ul>
+<li>HTML: vue-eslint-paser</li>
+<li>JS: @babel/parser</li>
+<li>CSS: postcss</li>
+</ul>
+</li>
+<li>AST</li>
+<li>Renderer を再実装<ul>
+<li>v-if/v-for など大体対応</li>
+<li>理由：任意の処理を挟めるようにしたいから<ul>
+<li>D&amp;D挿入</li>
+<li>ガイドの表示</li>
+<li>(未実装) 要素間のpx数を計算＆表示</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Server Client 構成になっていて，WSでやりとりしている<ul>
+<li>VSCodeに依存しなくてよいというメリットもある</li>
+<li>デバッグも普通のWeb開発と同じようにできる</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Future<ul>
+<li>Preview tool for SFC</li>
+</ul>
+</li>
+</ul>
+<h2 id="Nuxt-js-2-0"><a href="#Nuxt-js-2-0" class="headerlink" title="Nuxt.js 2.0"></a>Nuxt.js 2.0</h2><p>by <a href="https://twitter.com/Atinux" target="_blank" rel="noopener">Sébastien Chopin</a></p>
+<ul>
+<li>universal (Isomorphic)</li>
+<li>spa (No SSR)</li>
+<li>Nuxt 2.0 !<ul>
+<li>Webpack 4</li>
+<li>Babel 7</li>
+<li>より速いビルド<ul>
+<li>起動34%</li>
+<li>再コンパイル速度45%</li>
+</ul>
+</li>
+<li>nuxt-start 起動速度2倍</li>
+</ul>
+</li>
+<li>Nuxt 2.3 (Next Week ?)<ul>
+<li>modern browser 向けのオプション ‘nuxt build –modern’ が入る</li>
+<li>Client/Serverのバンドルを分離できるようになった</li>
+</ul>
+</li>
+<li>QA<ul>
+<li>Vue3.0への移行も問題なくできそう</li>
+<li>Nuxt Developers は Vue3.0 のソースコード参照しながら Nuxt 3.0 の開発進めている！</li>
+<li>対応版のNuxt3.0のほうが先にリリースされる</li>
+</ul>
+</li>
+</ul>
+<h2 id="Story-about-reconstructing-note-front-end-with-Nuxt-js"><a href="#Story-about-reconstructing-note-front-end-with-Nuxt-js" class="headerlink" title="Story about reconstructing note front end with Nuxt.js"></a>Story about reconstructing note front end with Nuxt.js</h2><p>by <a href="https://twitter.com/fukuiretu" target="_blank" rel="noopener">@fukuiretu</a></p>
+<ul>
+<li>現在 Angular.js 1.x 系<ul>
+<li>SPA (no SSR)</li>
+<li>coffee</li>
+<li>RoR</li>
+<li>AWS</li>
+</ul>
+</li>
+<li>問題点<ul>
+<li>初期表示重い，貧弱端末だと顕著</li>
+<li>1.x 系はSSRをサポートしていない</li>
+</ul>
+</li>
+<li>技術選定<ul>
+<li>SSR</li>
+<li>デザイナーもコード書く</li>
+<li>フロント専業がいないので，学習コストを下げ地</li>
+</ul>
+</li>
+<li>諸々候補はあったが，結果的に Vue/Nuxt を採用した<ul>
+<li>実行速度＋開発速度の担保</li>
+<li>コンポーネント思考</li>
+<li>scoped CSS</li>
+<li>ドキュメント充実度（日本語版も含め）</li>
+<li>コミュニティ活発度</li>
+<li>@kitak さんによるコンサル</li>
+</ul>
+</li>
+<li>Nuxt<ul>
+<li>規約がある (SSR, Directory -&gt; Routing, Plugins etc…)</li>
+<li>Modern Eco System</li>
+</ul>
+</li>
+<li>Angular -&gt; Nuxt 移行フロー<ul>
+<li>パス毎に段階的リリース</li>
+<li>社内向けリリース -&gt; DogFooding -&gt; 一般公開</li>
+<li>ロールバックが容易</li>
+</ul>
+</li>
+<li>ツラミ<ul>
+<li>Angular.js 開発も並行していて，二重メンテナンスが必要</li>
+</ul>
+</li>
+<li>コンポーネント数: 216</li>
+<li>パフォーマンス比較<ul>
+<li>LightHouse (Performance 3 -&gt; 41%, 残りは画像の最適化)</li>
+<li>WebPageTest</li>
+</ul>
+</li>
+<li>設計方針<ul>
+<li>Vuex + AtomicDesign</li>
+<li>ストアに状態をもたせる判断基準<ul>
+<li><ol>
+<li>複数のコンポーネント間のデータ共有するかどうか（バケツリレー対策）</li>
+</ol>
+</li>
+<li><ol start="2">
+<li>xxxxxxxxxxxxx</li>
+</ol>
+</li>
+<li><ol start="3">
+<li>APIリクエストするかどうか</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>Atomic Design<ul>
+<li>Atoms: ステートレス，State は参照しないようにする</li>
+<li>Organisms は Module を参照可能</li>
+<li><a href="https://medium.com/@t_sugawara/vue-js-%E3%81%8B%E3%82%89%E3%81%BF%E3%81%9F-atomicdesign-e90517842801" target="_blank" rel="noopener">Vue.js からみた AtomicDesign</a>に影響受けている</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Storybook 入れてる<ul>
+<li>1回挫折した<ul>
+<li>コンポーネント多くて視認性が悪くなった</li>
+<li>Storybook v4はNuxt.js v2でもいける</li>
+<li>nuxt.config.js 以外に Storybook 用の webpack.config.js が必要</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>SSR<ul>
+<li>JSDOMで，window/document が参照できない問題を解決</li>
+</ul>
+</li>
+<li>nuxt build analyze</li>
+<li><a href="https://polyfill.io/v2/docs/" target="_blank" rel="noopener">Polyfill.io</a><ul>
+<li>ブラウザ自動判別して必要なポリフィルを自動取得してくれる</li>
+</ul>
+</li>
+<li>Nuxt on Lambda<ul>
+<li>Lambda は Node v8.10.0 までしか使えないので，Nuxt が 8系を切ると使えなくなってしまう</li>
+<li><a href="https://mya-ake.com/posts/nuxtjs-on-aws-lambda/" target="_blank" rel="noopener">Nuxt.js on AWS Lambda with Serverless Framework</a> が詳しく解説している</li>
+</ul>
+</li>
+</ul>
+<h2 id="Tests-of-Vue-Component-sent-from-the-site-that-kept-writing-unit-tests-for-one-year"><a href="#Tests-of-Vue-Component-sent-from-the-site-that-kept-writing-unit-tests-for-one-year" class="headerlink" title="Tests of Vue Component sent from the site that kept writing unit tests for one year"></a>Tests of Vue Component sent from the site that kept writing unit tests for one year</h2><p>by <a href="https://twitter.com/tsuchikazu" target="_blank" rel="noopener">@tsuchikazu</a></p>
+<p><a href="https://speakerdeck.com/tsuchikazu/vue-component-test" target="_blank" rel="noopener">Slide</a></p>
+<ul>
+<li>GMO Pepabo<ul>
+<li>半分以上 Vue を使っている</li>
+</ul>
+</li>
+<li>e.g. カラーミーリピート<ul>
+<li>SPA </li>
+<li>リリース後ちょうど１年</li>
+</ul>
+</li>
+<li>方針<ul>
+<li>自動テストは「外からみた振る舞い」を対象とする</li>
+<li>設計の可動域を確保</li>
+</ul>
+</li>
+<li>テスト対象<ul>
+<li>Page Component をテストする</li>
+</ul>
+</li>
+<li>mount vs shallow mount</li>
+<li>Test Targets<ul>
+<li>Lifecycle</li>
+<li>Props / Vuex </li>
+<li>User Interraction</li>
+</ul>
+</li>
+<li>Lifecycle<ul>
+<li>時間の関係でスキップ（英断）</li>
+</ul>
+</li>
+<li>Props / Vuex<ul>
+<li>単純な Assert だと表示変わったらテストも経の区する必要ある</li>
+<li>ざっくりしすぎ，テストがテストになっていない<ul>
+<li>👉  Snapshot Testing by <a href="https://jestjs.io/docs/en/snapshot-testing" target="_blank" rel="noopener">Jest</a><ul>
+<li>DOMのSnapshotを比較するテスト</li>
+<li>差分がなければ Success</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>CSSが当たった結果をテストしたい<ul>
+<li>👉 Visual Testing<ul>
+<li>Storybook + REG-SUIT</li>
+<li>Storybook だけだと，Vuex に依存している場合，事前データを作成するのが面倒<ul>
+<li>汎用的な mock component </li>
+</ul>
+</li>
+<li>REG-SUIT<ul>
+<li>スクショの視覚的比較</li>
+<li><a href="https://tech.misoca.jp/entry/2018/04/27/153000" target="_blank" rel="noopener">REG-SUITの参考例</a></li>
+<li>前回のスクリーンショットをどこかにクラウドに保存しておいて，それとの比較が出せる</li>
+<li>画像の差分が色で可視化される</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>User Interraction<ul>
+<li>Validatin<ul>
+<li>vee-validate</li>
+<li>validation エラー時に，メッセージが表示されているあ，dispatch されていないかなどをテストする</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>まとめ<ul>
+<li>重要なところだけでもテストやっておくとよい</li>
+<li>Visual Test よい</li>
+<li>レビューがとても楽になる</li>
+</ul>
+</li>
+<li>QA<ul>
+<li>100枚くらいのスクショで10分くらい<ul>
+<li>ビルドも重いのでスクショ比較自体はそんなに時間かかっていないと思われる</li>
+</ul>
+</li>
+<li>E2E との棲み分けは？<ul>
+<li>コンポーネント単位でテストできる方が色々なパターンがテストしやすいので，こっちを採用している</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div></article></div></main><footer><div class="share-buttons"><ul class="share-buttons-list"><li class="share-buttons-list-item"><a data-fullpath="https://blog.tanaka.world/vue-fes-japan-2018/index.html" href="https://twitter.com/intent/tweet?text=Vue Fes Japan 2018 に行ってきた&amp;url=https://blog.tanaka.world/vue-fes-japan-2018/&amp;via=_tanakaworld" onclick="window.open(https://blog.tanaka.world/vue-fes-japan-2018/, 'twitter-share', 'width=550,height=235');return false;" target="_blank" class="icon icon-twitter"><img src="/images/icon-twitter.svg"></a></li><li class="share-buttons-list-item"><a href="https://www.facebook.com/sharer/sharer.php?u=https://blog.tanaka.world/vue-fes-japan-2018/" data-fullpath="https://blog.tanaka.world/vue-fes-japan-2018/index.html" onclick="window.open(https://blog.tanaka.world/vue-fes-japan-2018/, 'facebook-share','width=580,height=296');return false;" target="_blank" class="icon icon-facebook"><img src="/images/icon-facebook.svg"></a></li><!--li.share-buttons-list-item--><!--    a.icon.icon-pocket(data-fullpath=url href="https://getpocket.com/edit?url=#{share_url}&title=#{title}" onclick="window.open(#{share_url}, 'google-plus-share', 'width=490,height=530');return false;" target="_blank")--><!--        img(src="/images/icon-twitter.svg")--><li class="share-buttons-list-item"><a data-fullpath="https://blog.tanaka.world/vue-fes-japan-2018/index.html" href="https://plus.google.com/share?url=https://blog.tanaka.world/vue-fes-japan-2018/" onclick="window.open(https://blog.tanaka.world/vue-fes-japan-2018/, 'google-plus-share', 'width=490,height=530');return false;" target="_blank" class="icon icon-google-plus"><img src="/images/icon-google-plus.svg"></a></li></ul></div><div class="paginator"><a href="/rails5-webpacker-on-heroku/" class="prev">&laquo; PREV</a><a href="/shanhai-2018/" class="next">NEXT &raquo;</a></div><div class="copyright"><p>© 2014 - 2020 <a href="https://blog.tanaka.world">tanakaworld</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/tanakaworld/hexo-theme-apollo" target="_blank">Forked of hexo-theme-apollo</a>.</p></div></footer></div><!--script(async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous")--><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-122034388-1",'auto');ga('send','pageview');</script></body></html>

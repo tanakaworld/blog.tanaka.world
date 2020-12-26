@@ -1,0 +1,55 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title>【Haskell】SublimeText2 + REPL 初期設定まとめ | For X Developers</title><meta name="description" content="【Haskell】SublimeText2 + REPL 初期設定まとめ - tanakaworld"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><meta name="description" content="すこしハマった，関数型言語Haskellの開発環境構築のまとめ．">
+<meta name="keywords" content="haskell,sublime-text-2">
+<meta property="og:type" content="article">
+<meta property="og:title" content="【Haskell】SublimeText2 + REPL 初期設定まとめ">
+<meta property="og:url" content="https:&#x2F;&#x2F;blog.tanaka.world&#x2F;haskell-sublimetext2-setting&#x2F;index.html">
+<meta property="og:site_name" content="For X Developers">
+<meta property="og:description" content="すこしハマった，関数型言語Haskellの開発環境構築のまとめ．">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="https:&#x2F;&#x2F;blog.tanaka.world&#x2F;favicon.png">
+<meta property="og:updated_time" content="2020-12-25T03:35:42.498Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https:&#x2F;&#x2F;blog.tanaka.world&#x2F;favicon.png"><link rel="search" type="application/opensearchdescription+xml" href="https://blog.tanaka.world/atom.xml" title="For X Developers"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png" alt="logo"><h1 class="title">For X Developers</h1></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="https://tanaka.world/about" target="_blank" class="nav-list-link">AUTHOR</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">RSS</a></li></ul></header><main class="container"><div class="post"><article class="post-block"><h1 class="post-title">【Haskell】SublimeText2 + REPL 初期設定まとめ</h1><div class="post-info">May 2, 2014<div class="tags-list"><div class="tags-list-item"><a href="/tags/haskell/" class="tags-list-item-link">#haskell</a></div><div class="tags-list-item"><a href="/tags/sublime-text-2/" class="tags-list-item-link">#sublime-text-2</a></div></div></div><div class="post-content"><p>すこしハマった，関数型言語Haskellの開発環境構築のまとめ．</p>
+<a id="more"></a>
+<h2 class="page-heading">Haskell Platform</h2>
+下記URLからdmgファイルをダウンロードし，インストールする．
+
+<p><a href="https://www.haskell.org/platform/mac.html" target="_blank" rel="noopener" title="Haskell Platform for Mac OS X">Haskell Platform for Mac OS X</a></p>
+<h2 class="page-heading">Sublime Text 2</h2>
+エディタはこれを使用する．
+
+<p><a href="http://www.sublimetext.com/dev" target="_blank" rel="noopener">http://www.sublimetext.com/dev</a></p>
+<h2 class="page-heading">Package Control</h2>
+
+<ul>
+<li>SublimeText2 を起動する</li>
+<li>[View]-&gt;[Show Console] からコンソールを開く<img class="img-frame " style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;" alt="" src="http://yutarotanaka.com/blog/wp-content/uploads/2014/01/e76f44e42ed04da3fc3760454ee67685.png" width="300" /></li>
+<li>コンソールに下記のコマンドを入力し，実行<br>[code]<br>import urllib2,os;pf=’Package Control.sublime-package’;ipp=sublime.installed_packages_path();os.makedirs(ipp) if not os.path.exists(ipp) else None;open(os.path.join(ipp,pf),’wb’).write(urllib2.urlopen(‘<a href="http://sublime.wbond.net/&#39;+pf.replace" target="_blank" rel="noopener">http://sublime.wbond.net/&#39;+pf.replace</a>(‘ ‘,’%20’)).read())<br>[/code]</li>
+<li>SublimeText2を再起動</li>
+<li>[Preference]-&gt;[Package Control]-&gt;[Package Control]  (= Command + Shift + p でも)<img class="img-frame " alt="" src="http://yutarotanaka.com/blog/wp-content/uploads/2014/01/b7425bcd1c2c4e928a9586be35a43881.png" width="400" />
+
+</li>
+</ul>
+<h2 class="page-heading">SublimeREPL</h2>
+
+<ul>
+<li>「Install Packege」と入力しEnter，さらに「SublimeREPL」を入力しインストール<img class="img-frame " alt="" src="http://yutarotanaka.com/blog/wp-content/uploads/2014/01/a1c89dbb3efd12ace9665b5a54462b4d.png" width="400" /></li>
+<li>SublimeText2を再起動</li>
+<li>[Preference]-&gt;[Package Settings]-&gt;[SublimeREPL]-&gt;[Setting - User]に，GHCのパスを記述<br>[code]<br>&quot;default_extend_env&quot;: {<br>&quot;PATH&quot;: &quot;{PATH}:/usr/bin&quot;<br>}<br>[/code]</li>
+</ul>
+<h2 class="page-heading">コード実行</h2>
+
+<ul>
+<li><span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;"> 画面分割（command + shift + option + 2）</span></li>
+<li>[Tools]-&gt;[SublimeREPL]-&gt;[Haskell]から，haskellコンソールを開く<img class="img-frame " alt="" src="http://yutarotanaka.com/blog/wp-content/uploads/2014/01/fcaffe5637ca59bff39a9c4aeece8f58.png" width="400" /></li>
+<li>「<strong>.hs</strong>」形式のファイルを作成し，コードを記述する</li>
+<li>「control + , (カンマ) → l (エル)」選択行の実行できる<img class="img-frame " alt="" src="http://yutarotanaka.com/blog/wp-content/uploads/2014/01/929defaf42bcc78d05d2da25b8175a66.png" width="400" />
+
+</li>
+</ul>
+<h2 class="page-heading">すごい Haskell 楽しく学ぼう</h2>
+すごいH本こと，これの読書会をやってます．
+英語版は無料 → [Learn You a Haskell for Great Good!](http://learnyouahaskell.com/ "Learn You a Haskell for Great Good!")
+
+<iframe style="width: 120px; height: 240px;" src="http://rcm-fe.amazon-adsystem.com/e/cm?t=tanakayutaroa-22&amp;o=9&amp;p=8&amp;l=as1&amp;asins=4274068854&amp;ref=qf_sp_asin_til&amp;fc1=000000&amp;IS2=1&amp;lt1=_blank&amp;m=amazon&amp;lc1=0000FF&amp;bc1=FFFFFF&amp;bg1=FFFFFF&amp;f=ifr" height="240" width="320" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+</div></article></div></main><footer><div class="share-buttons"><ul class="share-buttons-list"><li class="share-buttons-list-item"><a data-fullpath="https://blog.tanaka.world/haskell-sublimetext2-setting/index.html" href="https://twitter.com/intent/tweet?text=【Haskell】SublimeText2 + REPL 初期設定まとめ&amp;url=https://blog.tanaka.world/haskell-sublimetext2-setting/&amp;via=_tanakaworld" onclick="window.open(https://blog.tanaka.world/haskell-sublimetext2-setting/, 'twitter-share', 'width=550,height=235');return false;" target="_blank" class="icon icon-twitter"><img src="/images/icon-twitter.svg"></a></li><li class="share-buttons-list-item"><a href="https://www.facebook.com/sharer/sharer.php?u=https://blog.tanaka.world/haskell-sublimetext2-setting/" data-fullpath="https://blog.tanaka.world/haskell-sublimetext2-setting/index.html" onclick="window.open(https://blog.tanaka.world/haskell-sublimetext2-setting/, 'facebook-share','width=580,height=296');return false;" target="_blank" class="icon icon-facebook"><img src="/images/icon-facebook.svg"></a></li><!--li.share-buttons-list-item--><!--    a.icon.icon-pocket(data-fullpath=url href="https://getpocket.com/edit?url=#{share_url}&title=#{title}" onclick="window.open(#{share_url}, 'google-plus-share', 'width=490,height=530');return false;" target="_blank")--><!--        img(src="/images/icon-twitter.svg")--><li class="share-buttons-list-item"><a data-fullpath="https://blog.tanaka.world/haskell-sublimetext2-setting/index.html" href="https://plus.google.com/share?url=https://blog.tanaka.world/haskell-sublimetext2-setting/" onclick="window.open(https://blog.tanaka.world/haskell-sublimetext2-setting/, 'google-plus-share', 'width=490,height=530');return false;" target="_blank" class="icon icon-google-plus"><img src="/images/icon-google-plus.svg"></a></li></ul></div><div class="paginator"><a href="/rubikscube-40th-anniversary/" class="prev">&laquo; PREV</a><a href="/html5-webstorage-sessionlocal/" class="next">NEXT &raquo;</a></div><div class="copyright"><p>© 2014 - 2020 <a href="https://blog.tanaka.world">tanakaworld</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/tanakaworld/hexo-theme-apollo" target="_blank">Forked of hexo-theme-apollo</a>.</p></div></footer></div><!--script(async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous")--><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-122034388-1",'auto');ga('send','pageview');</script></body></html>

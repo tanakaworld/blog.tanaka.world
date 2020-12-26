@@ -1,0 +1,68 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title>【スマホ対応】jQuery 連続スワイプイベントをハンドリングする方法 | For X Developers</title><meta name="description" content="【スマホ対応】jQuery 連続スワイプイベントをハンドリングする方法 - tanakaworld"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><meta name="description" content="スマートフォンなどで，連続スワイプのハンドリング方法をまとめておきます． 指が触れ始めたときのDOMや，離れた瞬間のDOMは簡単に取得できましたが，「今」指が触れているDOMを取得するのに苦戦しました． 先日行ったデザインリニューアル（YutaroTanaka.com）でも，この方法を使ってスマホのスワイプ対応をしています．">
+<meta name="keywords" content="javascript,jquery,touch-device">
+<meta property="og:type" content="article">
+<meta property="og:title" content="【スマホ対応】jQuery 連続スワイプイベントをハンドリングする方法">
+<meta property="og:url" content="https:&#x2F;&#x2F;blog.tanaka.world&#x2F;touch-sequence-handling&#x2F;index.html">
+<meta property="og:site_name" content="For X Developers">
+<meta property="og:description" content="スマートフォンなどで，連続スワイプのハンドリング方法をまとめておきます． 指が触れ始めたときのDOMや，離れた瞬間のDOMは簡単に取得できましたが，「今」指が触れているDOMを取得するのに苦戦しました． 先日行ったデザインリニューアル（YutaroTanaka.com）でも，この方法を使ってスマホのスワイプ対応をしています．">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="https:&#x2F;&#x2F;blog.tanaka.world&#x2F;favicon.png">
+<meta property="og:updated_time" content="2020-12-25T03:35:42.499Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https:&#x2F;&#x2F;blog.tanaka.world&#x2F;favicon.png"><link rel="search" type="application/opensearchdescription+xml" href="https://blog.tanaka.world/atom.xml" title="For X Developers"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png" alt="logo"><h1 class="title">For X Developers</h1></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="https://tanaka.world/about" target="_blank" class="nav-list-link">AUTHOR</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">RSS</a></li></ul></header><main class="container"><div class="post"><article class="post-block"><h1 class="post-title">【スマホ対応】jQuery 連続スワイプイベントをハンドリングする方法</h1><div class="post-info">Jul 11, 2014<div class="tags-list"><div class="tags-list-item"><a href="/tags/javascript/" class="tags-list-item-link">#javascript</a></div><div class="tags-list-item"><a href="/tags/jquery/" class="tags-list-item-link">#jquery</a></div><div class="tags-list-item"><a href="/tags/touch-device/" class="tags-list-item-link">#touch-device</a></div></div></div><div class="post-content"><p>スマートフォンなどで，<strong>連続スワイプ</strong>のハンドリング方法をまとめておきます．</p>
+<p>指が触れ始めたときのDOMや，離れた瞬間のDOMは簡単に取得できましたが，<strong>「今」指が触れている</strong>DOMを取得するのに苦戦しました．</p>
+<p>先日行ったデザインリニューアル（<a href="http://yutarotanaka.com/" target="_blank" rel="noopener" title="YutaroTanaka.com">YutaroTanaka.com</a>）でも，この方法を使ってスマホのスワイプ対応をしています．</p>
+<a id="more"></a>
+<h2 class="page-heading">やりたいこと</h2>
+「このような要素をタッチしたときに，触れたところの色を変えたい」
+「ひとつひとつタップするのではなく，指でなぞった部分の色を変えたい」
+
+<img class="img-frame " alt="" src="http://yutarotanaka.com/blog/wp-content/uploads/2014/01/TouchSequence.png" width="400" />
+
+<p>タッチ対象は，下記のような spanタグを用意して，CSSで成形します．</p>
+<p>[code language=”html” title=”HTML”]<br>    &lt;span class=&quot;panel&quot;&gt;1&lt;/span&gt;<br>    &lt;span class=&quot;panel&quot;&gt;2&lt;/span&gt;<br>     ・・・<br>    &lt;span class=&quot;panel&quot;&gt;20&lt;/span&gt;<br>[/code]</p>
+<h2 class="page-heading">【PC】mouseenter イベントをハンドリングする</h2>
+$('.panel') でタッチ対象の要素を取得し，.on() で mouseenter イベントにイベントハンドラをセットします．
+
+<p>ハンドラ内では，タッチ対象が class = “panel” を持っているとき，背景色を変えます．</p>
+<p>（今回は class = “green” に対して CSS で背景色をつけています）</p>
+<p>[code language=”javascript” title=”JavaScript”]<br>$().ready(function () {<br>    $(‘.panel’).on({<br>        ‘mouseenter’: function () {<br>            var target = $(this);<br>            if (target.hasClass(‘panel’)) {<br>                target.addClass(‘green’);<br>            }<br>        }<br>    });<br>});<br>[/code]</p>
+<p>マウスが触れた瞬間に，その要素の色が変化します．<br><img class="img-frame " alt="" src="http://yutarotanaka.com/blog/wp-content/uploads/2014/01/TouchSequence-2.png" width="400" /></p>
+<h2 class="page-heading">【スマホ①】touchstart, touchend, touchmove を試すも．．．</h2>
+touchstart, touchend, touchmove などのイベントが発生した時の要素の要素取得を試みました．
+
+<p>ハンドラ内の記述「var target = $(this); 」で取得できるのは，タッチした瞬間の要素です．</p>
+<p>そのため，スマホに指をつけたときの要素は色が変るけど，指を放さずに画面上を動かしても，target は変化しません．</p>
+<p>[code language=”javascript” title=”JavaScript”]<br>$().ready(function () {<br> $(‘.panel’).on({<br>        ‘touchmove’: function (event) {<br>            var target = $(this);<br>            if (target.hasClass(‘panel’)) {<br>                target.addClass(‘green’);<br>            }<br>        }<br>    });<br>});<br>[/code]</p>
+<p><span style="font-size: 14px; line-height: 1.5em;">また，event オブジェクトの持つ </span>event.originalEvent の，changedTouches, currentTarget, target, targetTouches, touches, … などでは，指が触れているDOMは取得できず，結果は同じでした．</p>
+<p>[code language=”javascript” title=”JavaScript”]<br>$().ready(function () {<br> $(‘.panel’).on({<br>        ‘touchmove’: function (event) {<br>            var target = event.XXXXXXX;<br>            if (target.hasClass(‘panel’)) {<br>                target.addClass(‘green’);<br>            }<br>        }<br>    });<br>});<br>[/code]</p>
+<h2 class="page-heading">【スマホ②】touchmove + position + elementFromPoint</h2>
+試行錯誤した結果，
+
+<p>「touchmove イベント時のハンドラ内で，event が起こったポジションを取得し，そのポジションにある要素を取得する．」</p>
+<p>これで解決しました．</p>
+<p>touchmove イベントは，タッチデバイスの画面を指でなぞっている間連続して発生します．</p>
+<p>その際に，event オブジェクトで取得できる指の座標を，指定された座標上にある要素を取得できる<a href="https://developer.mozilla.org/ja/docs/DOM/document.elementFromPoint" target="_blank" rel="noopener" title="document.elementFromPoint(X, Y) ">document.elementFromPoint(X, Y) </a>に渡します．</p>
+<p>[code language=”javascript” title=”JavaScript”]<br>$().ready(function () {<br>    $(‘.panel’).on({<br>        ‘touchmove’: function (event) {<br>            var touch = event.originalEvent.touches[0];<br>            var target = $(document.elementFromPoint(touch.clientX, touch.clientY));</p>
+<pre><code>    if (target.hasClass(&apos;panel&apos;)) {
+        target.addClass(&apos;green&apos;);
+    }
+}</code></pre><p>  });<br>[/code]</p>
+<h2 class="page-heading">まとめ</h2>
+最終的には下記の通り，mouseenter, touchmove イベントにそれぞれハンドラをセットすることで，PCでもスマートフォンでも連続タッチイベントが取得できました．
+
+<p>[code language=”javascript” title=”JavaScript”]<br>    $(‘.panel’).on({<br>        ‘mouseenter’: function () {<br>            var target = $(this);<br>            if (target.hasClass(‘panel’)) {<br>                target.addClass(‘green’);<br>            }<br>        },<br>        ‘touchmove’: function (event) {<br>            var touch = event.originalEvent.touches[0];<br>            var target = $(document.elementFromPoint(touch.clientX, touch.clientY));</p>
+<pre><code>        if (target.hasClass(&apos;panel&apos;)) {
+            target.addClass(&apos;green&apos;);
+        }
+    }
+});</code></pre><p>[/code]</p>
+<p>イベントをハンドルするときに，<strong>座標からアプローチする</strong>という発想がなかなか出てこなかったので，メモです．</p>
+<ul class="bullet_check imglist">
+- 上記を利用してリニューアルしたページ
+<a class="button" style="background-color: #2181e0;" href="http://yutarotanaka.com/" target="_blank" rel="noopener">YutaroTanaka.COm </a>
+
+<ul class="bullet_check imglist">
+- デモ
+<a class="button" style="background-color: #2181e0;" href="http://jsfiddle.net/tanaka_yutaro/dF4Ly/2/" target="_blank" rel="noopener">DEMO（JSFIDDLE）</a>
+</div></article></div></main><footer><div class="share-buttons"><ul class="share-buttons-list"><li class="share-buttons-list-item"><a data-fullpath="https://blog.tanaka.world/touch-sequence-handling/index.html" href="https://twitter.com/intent/tweet?text=【スマホ対応】jQuery 連続スワイプイベントをハンドリングする方法&amp;url=https://blog.tanaka.world/touch-sequence-handling/&amp;via=_tanakaworld" onclick="window.open(https://blog.tanaka.world/touch-sequence-handling/, 'twitter-share', 'width=550,height=235');return false;" target="_blank" class="icon icon-twitter"><img src="/images/icon-twitter.svg"></a></li><li class="share-buttons-list-item"><a href="https://www.facebook.com/sharer/sharer.php?u=https://blog.tanaka.world/touch-sequence-handling/" data-fullpath="https://blog.tanaka.world/touch-sequence-handling/index.html" onclick="window.open(https://blog.tanaka.world/touch-sequence-handling/, 'facebook-share','width=580,height=296');return false;" target="_blank" class="icon icon-facebook"><img src="/images/icon-facebook.svg"></a></li><!--li.share-buttons-list-item--><!--    a.icon.icon-pocket(data-fullpath=url href="https://getpocket.com/edit?url=#{share_url}&title=#{title}" onclick="window.open(#{share_url}, 'google-plus-share', 'width=490,height=530');return false;" target="_blank")--><!--        img(src="/images/icon-twitter.svg")--><li class="share-buttons-list-item"><a data-fullpath="https://blog.tanaka.world/touch-sequence-handling/index.html" href="https://plus.google.com/share?url=https://blog.tanaka.world/touch-sequence-handling/" onclick="window.open(https://blog.tanaka.world/touch-sequence-handling/, 'google-plus-share', 'width=490,height=530');return false;" target="_blank" class="icon icon-google-plus"><img src="/images/icon-google-plus.svg"></a></li></ul></div><div class="paginator"><a href="/threes-height-score/" class="prev">&laquo; PREV</a><a href="/dotcom-design-update/" class="next">NEXT &raquo;</a></div><div class="copyright"><p>© 2014 - 2020 <a href="https://blog.tanaka.world">tanakaworld</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/tanakaworld/hexo-theme-apollo" target="_blank">Forked of hexo-theme-apollo</a>.</p></div></footer></div><!--script(async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous")--><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-122034388-1",'auto');ga('send','pageview');</script></body></html>

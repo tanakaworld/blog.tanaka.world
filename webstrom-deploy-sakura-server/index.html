@@ -1,0 +1,97 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title>WebStormとレンタルサーバの連携方法 | For X Developers</title><meta name="description" content="WebStormとレンタルサーバの連携方法 - tanakaworld"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><meta name="description" content="WebStormとレンタルサーバの連携でハマったので，まとめておきます．  さくらインターネットのレンタルサーバにWebStorm上からFTPでデプロイします．">
+<meta name="keywords" content="webstorm,sakurainternet">
+<meta property="og:type" content="article">
+<meta property="og:title" content="WebStormとレンタルサーバの連携方法">
+<meta property="og:url" content="https:&#x2F;&#x2F;blog.tanaka.world&#x2F;webstrom-deploy-sakura-server&#x2F;index.html">
+<meta property="og:site_name" content="For X Developers">
+<meta property="og:description" content="WebStormとレンタルサーバの連携でハマったので，まとめておきます．  さくらインターネットのレンタルサーバにWebStorm上からFTPでデプロイします．">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="https:&#x2F;&#x2F;blog.tanaka.world&#x2F;favicon.png">
+<meta property="og:updated_time" content="2020-12-25T03:35:42.495Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https:&#x2F;&#x2F;blog.tanaka.world&#x2F;favicon.png"><link rel="search" type="application/opensearchdescription+xml" href="https://blog.tanaka.world/atom.xml" title="For X Developers"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png" alt="logo"><h1 class="title">For X Developers</h1></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="https://tanaka.world/about" target="_blank" class="nav-list-link">AUTHOR</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">RSS</a></li></ul></header><main class="container"><div class="post"><article class="post-block"><h1 class="post-title">WebStormとレンタルサーバの連携方法</h1><div class="post-info">Feb 7, 2014<div class="tags-list"><div class="tags-list-item"><a href="/tags/webstorm/" class="tags-list-item-link">#webstorm</a></div><div class="tags-list-item"><a href="/tags/sakurainternet/" class="tags-list-item-link">#sakurainternet</a></div></div></div><div class="post-content"><div>WebStormとレンタルサーバの連携でハマったので，まとめておきます．</div>
+<div></div>
+<div>さくらインターネットのレンタルサーバにWebStorm上からFTPでデプロイします．</div>
+<div></div>
+<div><a id="more"></a></div>
+<div></div>
+<div>
+<h2 class="page-heading">レンタルサーバの設定確認</h2>
+</div>
+<div>** <span style="text-decoration: underline;">①ログイン</span>**</div>
+<div></div>
+<div><a title="さくらインターネットコントロールパネル" href="https://secure.sakura.ad.jp/rscontrol/" target="_blank">さくらインターネットコントロールパネル</a>にログインします．</div>
+<div></div>
+<div></div>
+<div><img class="img-frame " alt="" src="http://yutarotanaka.com/blog/wp-content/uploads/2014/01/sakura-server-controlpanel.png" /></div>
+<div></div>
+<div></div>
+<div><span style="text-decoration: underline;">**②情報の確認**</span></div>
+<div></div>
+<div>サーバ情報とパスワード ＞ サーバ情報の表示 にアクセスし，下記を確認します．</div>
+<div>
+
+<ul>
+<li>FTPホスト名</li>
+<li>FTPサーバ</li>
+<li>FTPアカウント</li>
+</ul>
+</div>
+<div></div>
+<div><span style="font-size: 14px; line-height: 1.5em;"> </span></div>
+<div></div>
+<div>
+<h2 class="page-heading">WebStormでの設定</h2>
+</div>
+<div></div>
+<div></div>
+<div><span style="text-decoration: underline;">**③Connection**</span>Connectionタブにサーバ情報を追加します．</div>
+<div>下記の通り指定します．
+
+<ul>
+<li>Type : FTP</li>
+<li>FTP Host : ＜FTPホストアドレス＞</li>
+<li>Port : 21</li>
+<li>Root path : /home/&lt;FTPアカウント名&gt;/www</li>
+<li>User name : &lt;FTPアカウント名&gt;</li>
+<li>Password : サーバコントロールパネルのログインパスワード</li>
+</ul>
+</div>
+<div></div>
+<div><img class="img-frame alignnone" alt="" src="http://yutarotanaka.com/blog/wp-content/uploads/2014/01/Deployment_Connection.png" width="731" height="654" /></div>
+<div></div>
+<div></div>
+<div></div>
+<div><span style="text-decoration: underline;">**④接続確認**</span></div>
+<div></div>
+<div>FTP Test Connection をクリックし接続を確認します．</div>
+<div>正しく接続できると下記が表示されます．</div>
+<div></div>
+<div><img alt="" src="file:///C:/Users/TANAKA~1/AppData/Local/Temp/enhtmlclip/Deployment_Test-Connection.png" /></div>
+<div> <img class="img-frame " alt="" src="http://yutarotanaka.com/blog/wp-content/uploads/2014/01/Deployment_Test-Connection.png" /></div>
+<div></div>
+<div></div>
+<div><span style="text-decoration: underline;">**⑤Mapping**</span></div>
+<div>Mappingsタブを選択し，下記を設定します．</div>
+<div></div>
+<div>
+
+<ul>
+<li>Deployment path : ＜www以下の任意のディレクトリ＞</li>
+</ul>
+</div>
+<div></div>
+<div>www直下にデプロイしたい場合は，Deployment Path に「/」を指定します．</div>
+<div></div>
+<div>
+<h2 class="page-heading">デプロイ</h2>
+</div>
+<div><span style="text-decoration: underline;">**⑥デプロイ実行**</span></div>
+<div></div>
+<div>Project Viewerでデプロイしたい対象を右クリック＞Deployment ＞Upload to XXX で，選択した対象をデプロイできます．</div>
+<div></div>
+<div></div>
+<div><span style="text-decoration: underline;">**⑦デプロイ確認**</span></div>
+<div></div>
+<div>デプロイ結果は，<a title="ファイルマネージャー" href="https://secure.sakura.ad.jp/rscontrol/rs/fileman2/" target="_blank">ファイルマネージャー</a>から確認できます．</div>
+</div></article></div></main><footer><div class="share-buttons"><ul class="share-buttons-list"><li class="share-buttons-list-item"><a data-fullpath="https://blog.tanaka.world/webstrom-deploy-sakura-server/index.html" href="https://twitter.com/intent/tweet?text=WebStormとレンタルサーバの連携方法&amp;url=https://blog.tanaka.world/webstrom-deploy-sakura-server/&amp;via=_tanakaworld" onclick="window.open(https://blog.tanaka.world/webstrom-deploy-sakura-server/, 'twitter-share', 'width=550,height=235');return false;" target="_blank" class="icon icon-twitter"><img src="/images/icon-twitter.svg"></a></li><li class="share-buttons-list-item"><a href="https://www.facebook.com/sharer/sharer.php?u=https://blog.tanaka.world/webstrom-deploy-sakura-server/" data-fullpath="https://blog.tanaka.world/webstrom-deploy-sakura-server/index.html" onclick="window.open(https://blog.tanaka.world/webstrom-deploy-sakura-server/, 'facebook-share','width=580,height=296');return false;" target="_blank" class="icon icon-facebook"><img src="/images/icon-facebook.svg"></a></li><!--li.share-buttons-list-item--><!--    a.icon.icon-pocket(data-fullpath=url href="https://getpocket.com/edit?url=#{share_url}&title=#{title}" onclick="window.open(#{share_url}, 'google-plus-share', 'width=490,height=530');return false;" target="_blank")--><!--        img(src="/images/icon-twitter.svg")--><li class="share-buttons-list-item"><a data-fullpath="https://blog.tanaka.world/webstrom-deploy-sakura-server/index.html" href="https://plus.google.com/share?url=https://blog.tanaka.world/webstrom-deploy-sakura-server/" onclick="window.open(https://blog.tanaka.world/webstrom-deploy-sakura-server/, 'google-plus-share', 'width=490,height=530');return false;" target="_blank" class="icon icon-google-plus"><img src="/images/icon-google-plus.svg"></a></li></ul></div><div class="paginator"><a href="/threes-on-ios/" class="prev">&laquo; PREV</a><a href="/10features-for-progress-in-programming/" class="next">NEXT &raquo;</a></div><div class="copyright"><p>© 2014 - 2020 <a href="https://blog.tanaka.world">tanakaworld</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/tanakaworld/hexo-theme-apollo" target="_blank">Forked of hexo-theme-apollo</a>.</p></div></footer></div><!--script(async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous")--><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-122034388-1",'auto');ga('send','pageview');</script></body></html>

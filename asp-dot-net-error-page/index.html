@@ -1,0 +1,40 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title>ASP.NETのエラーページが表示されてしまうときの対策 | For X Developers</title><meta name="description" content="ASP.NETのエラーページが表示されてしまうときの対策 - tanakaworld"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><meta name="description" content="URLに「.」が混ざると，ASP.NET でエラーページがでてしまう問題の解決法．（調査中．．．）">
+<meta name="keywords" content="CSharp,DotNET,ErrorPage,IIS,Routing">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ASP.NETのエラーページが表示されてしまうときの対策">
+<meta property="og:url" content="https:&#x2F;&#x2F;blog.tanaka.world&#x2F;asp-dot-net-error-page&#x2F;index.html">
+<meta property="og:site_name" content="For X Developers">
+<meta property="og:description" content="URLに「.」が混ざると，ASP.NET でエラーページがでてしまう問題の解決法．（調査中．．．）">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="https:&#x2F;&#x2F;blog.tanaka.world&#x2F;favicon.png">
+<meta property="og:updated_time" content="2020-12-25T03:35:42.499Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https:&#x2F;&#x2F;blog.tanaka.world&#x2F;favicon.png"><link rel="search" type="application/opensearchdescription+xml" href="https://blog.tanaka.world/atom.xml" title="For X Developers"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png" alt="logo"><h1 class="title">For X Developers</h1></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="https://tanaka.world/about" target="_blank" class="nav-list-link">AUTHOR</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">RSS</a></li></ul></header><main class="container"><div class="post"><article class="post-block"><h1 class="post-title">ASP.NETのエラーページが表示されてしまうときの対策</h1><div class="post-info">Jun 2, 2014<div class="tags-list"><div class="tags-list-item"><a href="/tags/CSharp/" class="tags-list-item-link">#CSharp</a></div><div class="tags-list-item"><a href="/tags/DotNET/" class="tags-list-item-link">#DotNET</a></div><div class="tags-list-item"><a href="/tags/ErrorPage/" class="tags-list-item-link">#ErrorPage</a></div><div class="tags-list-item"><a href="/tags/IIS/" class="tags-list-item-link">#IIS</a></div><div class="tags-list-item"><a href="/tags/Routing/" class="tags-list-item-link">#Routing</a></div></div></div><div class="post-content"><p>URLに「.」が混ざると，ASP.NET でエラーページがでてしまう問題の解決法．（調査中．．．）</p>
+<a id="more"></a>
+<h2 class="page-heading">エラーページ</h2>
+
+<ul>
+<li>独自のエラーページ<br>自分でリダイレクトするように設定する</li>
+<li>IISのエラーページ</li>
+<li>ASP.NETのエラーページ</li>
+</ul>
+<h2 class="page-heading">ASP.NETのエラーページが出てしまうパターンと対策</h2>
+<span style="line-height: 1.5em;">**URLの最後に「.」が付いてしまう場合**に下記のようなページが出る．</span>
+
+<img class="img-frame " alt="" src="http://yutarotanaka.com/blog/wp-content/uploads/2014/01/error-page-1.png" width="500" />
+
+<ul>
+<li>対策1</li>
+</ul>
+<p><strong>relaxedUrlToFileSystemMapping=”true”に設定する</strong>この場合，「URLが有効な Windows ファイル パスであるかの検証」が無効になるため，推奨できない（と思われる）．<br>URLに指定されるパラメータに様々な文字列が含まれる可能性があり，その文字列がWindowsファイルシステムと同じ規則でバリデートされると困る場合は，これを設定すると解決できるようだ．<span style="line-height: 1.5em;">参考：<a href="http://stackoverflow.com/questions/3541426/how-to-get-asp-net-mvc-to-match-dot-character-at-the-end-in-a-route" target="_blank" rel="noopener">http://stackoverflow.com/questions/3541426/how-to-get-asp-net-mvc-to-match-dot-character-at-the-end-in-a-route</a></span></p>
+<ul>
+<li>対策2<br>Web.configを下記の通り変更する変更前：&lt;httpErrors errorMode=”Custom” existingResponse=”Auto”&gt;<br>変更後：&lt;httpErrors errorMode=”Custom” existingResponse=”Replace”&gt;<br>IISが用意したレスポンスが存在した場合に，2.IISのエラーページが返されてしまうが，この対策によって，必ずカスタムエラーページを返すように設定できる．</li>
+<li>対策3</li>
+</ul>
+<p><strong>relaxedUrlToFileSystemMapping=”true”</strong>　と，<strong>existingResponse=”Auto”</strong> に設定する．<br>これがベストみたいだ．</p>
+<p>ちなみに，MSDNのページも，URLの最後に「.」がついていると，ASP.NETのエラーページが出でしまっている．<br>また，URLの最後に「%」が付く場合，400(Bad Request)エラーとなり，下記のページが表示される．</p>
+<img class="img-frame " alt="" src="http://yutarotanaka.com/blog/wp-content/uploads/2014/01/error-page-2.png" width="500" />
+
+<p><a href="http://technet.microsoft.com/en-us/library/cc731570(v=WS.10).aspx" target="_blank" rel="noopener" title="Configuring HTTP Error Responses in IIS 7">Configuring HTTP Error Responses in IIS 7</a>　によると，カスタムエラーページを表示させることはできないようだ．</p>
+<p>このケースは，ASP.NETに到達する前段階でのエラーのため対策ができない．</p>
+</div></article></div></main><footer><div class="share-buttons"><ul class="share-buttons-list"><li class="share-buttons-list-item"><a data-fullpath="https://blog.tanaka.world/asp-dot-net-error-page/index.html" href="https://twitter.com/intent/tweet?text=ASP.NETのエラーページが表示されてしまうときの対策&amp;url=https://blog.tanaka.world/asp-dot-net-error-page/&amp;via=_tanakaworld" onclick="window.open(https://blog.tanaka.world/asp-dot-net-error-page/, 'twitter-share', 'width=550,height=235');return false;" target="_blank" class="icon icon-twitter"><img src="/images/icon-twitter.svg"></a></li><li class="share-buttons-list-item"><a href="https://www.facebook.com/sharer/sharer.php?u=https://blog.tanaka.world/asp-dot-net-error-page/" data-fullpath="https://blog.tanaka.world/asp-dot-net-error-page/index.html" onclick="window.open(https://blog.tanaka.world/asp-dot-net-error-page/, 'facebook-share','width=580,height=296');return false;" target="_blank" class="icon icon-facebook"><img src="/images/icon-facebook.svg"></a></li><!--li.share-buttons-list-item--><!--    a.icon.icon-pocket(data-fullpath=url href="https://getpocket.com/edit?url=#{share_url}&title=#{title}" onclick="window.open(#{share_url}, 'google-plus-share', 'width=490,height=530');return false;" target="_blank")--><!--        img(src="/images/icon-twitter.svg")--><li class="share-buttons-list-item"><a data-fullpath="https://blog.tanaka.world/asp-dot-net-error-page/index.html" href="https://plus.google.com/share?url=https://blog.tanaka.world/asp-dot-net-error-page/" onclick="window.open(https://blog.tanaka.world/asp-dot-net-error-page/, 'google-plus-share', 'width=490,height=530');return false;" target="_blank" class="icon icon-google-plus"><img src="/images/icon-google-plus.svg"></a></li></ul></div><div class="paginator"><a href="/dotcom-design-update/" class="prev">&laquo; PREV</a><a href="/rubikscube-40th-anniversary/" class="next">NEXT &raquo;</a></div><div class="copyright"><p>© 2014 - 2020 <a href="https://blog.tanaka.world">tanakaworld</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/tanakaworld/hexo-theme-apollo" target="_blank">Forked of hexo-theme-apollo</a>.</p></div></footer></div><!--script(async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous")--><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-122034388-1",'auto');ga('send','pageview');</script></body></html>

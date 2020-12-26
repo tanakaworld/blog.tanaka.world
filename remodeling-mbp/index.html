@@ -1,0 +1,102 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title>MacBookProのバッテリー/メモリ/HDDをセルフ交換し，Ubuntuをデュアルブートする | For X Developers</title><meta name="description" content="MacBookProのバッテリー/メモリ/HDDをセルフ交換し，Ubuntuをデュアルブートする - tanakaworld"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><meta name="description" content="古いMacのバッテリーが膨張してしまっていたため，バッテリーを交換した．ついでにパワーアップ(メモリを増設＋HDD→SSD)，さらに機械学習用 Mac とするべく Ubuntu を入れてみた． MacBookPro 2012 mid 15 inch #開封の儀 昔使ってたMacが机にまっすぐ置けないと思ったら、バッテリーが膨張してたorz 開封ついでにメモリ増設とHDD→SSDもやるやつ。 pic">
+<meta name="keywords" content="mac,hardware,ubuntu">
+<meta property="og:type" content="article">
+<meta property="og:title" content="MacBookProのバッテリー&#x2F;メモリ&#x2F;HDDをセルフ交換し，Ubuntuをデュアルブートする">
+<meta property="og:url" content="https:&#x2F;&#x2F;blog.tanaka.world&#x2F;remodeling-mbp&#x2F;index.html">
+<meta property="og:site_name" content="For X Developers">
+<meta property="og:description" content="古いMacのバッテリーが膨張してしまっていたため，バッテリーを交換した．ついでにパワーアップ(メモリを増設＋HDD→SSD)，さらに機械学習用 Mac とするべく Ubuntu を入れてみた． MacBookPro 2012 mid 15 inch #開封の儀 昔使ってたMacが机にまっすぐ置けないと思ったら、バッテリーが膨張してたorz 開封ついでにメモリ増設とHDD→SSDもやるやつ。 pic">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="https:&#x2F;&#x2F;blog.tanaka.world&#x2F;favicon.png">
+<meta property="og:updated_time" content="2020-12-25T03:35:42.515Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https:&#x2F;&#x2F;blog.tanaka.world&#x2F;favicon.png"><link rel="search" type="application/opensearchdescription+xml" href="https://blog.tanaka.world/atom.xml" title="For X Developers"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png" alt="logo"><h1 class="title">For X Developers</h1></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="https://tanaka.world/about" target="_blank" class="nav-list-link">AUTHOR</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">RSS</a></li></ul></header><main class="container"><div class="post"><article class="post-block"><h1 class="post-title">MacBookProのバッテリー/メモリ/HDDをセルフ交換し，Ubuntuをデュアルブートする</h1><div class="post-info">Apr 18, 2017<div class="tags-list"><div class="tags-list-item"><a href="/tags/mac/" class="tags-list-item-link">#mac</a></div><div class="tags-list-item"><a href="/tags/hardware/" class="tags-list-item-link">#hardware</a></div><div class="tags-list-item"><a href="/tags/ubuntu/" class="tags-list-item-link">#ubuntu</a></div></div></div><div class="post-content"><p>古いMacのバッテリーが膨張してしまっていたため，バッテリーを交換した．<br>ついでにパワーアップ(メモリを増設＋HDD→SSD)，さらに機械学習用 Mac とするべく Ubuntu を入れてみた．</p>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">MacBookPro 2012 mid 15 inch <a href="https://twitter.com/hashtag/%E9%96%8B%E5%B0%81%E3%81%AE%E5%84%80?src=hash&amp;ref_src=twsrc%5Etfw" target="_blank" rel="noopener">#開封の儀</a> 昔使ってたMacが机にまっすぐ置けないと思ったら、バッテリーが膨張してたorz 開封ついでにメモリ増設とHDD→SSDもやるやつ。 <a href="https://t.co/fprl1XQYYi" target="_blank" rel="noopener">pic.twitter.com/fprl1XQYYi</a></p>&mdash; tanaka.world ™ (@_tanakaworld) <a href="https://twitter.com/_tanakaworld/status/852765675084840960?ref_src=twsrc%5Etfw" target="_blank" rel="noopener">April 14, 2017</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<h2 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h2><p>必要な工具やパーツは Amazon で購入した．</p>
+<p>アネックス(ANEX) ESD精密ドライバー +00×50 No.3450-ESD<br>← Macの蓋をあけるのに必要</p>
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=tanakayutaroa-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=B0162MMGPQ&linkId=7f7c3a31da968c5f2e67dd76d323224b"></iframe>
+
+<p>アネックス(ANEX) T型ヘクスローブドライバー T6×50 No.6300<br>← HDD を止めてるネジやバッテリーを外すのに必要</p>
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=tanakayutaroa-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=B002SQLDSM&linkId=31349da56b6db46cb5cacb7a654c6b02"></iframe>
+
+
+<h2 id="バッテリー-SSD-メモリ"><a href="#バッテリー-SSD-メモリ" class="headerlink" title="バッテリー/SSD/メモリ"></a>バッテリー/SSD/メモリ</h2><p><strong>バッテリー</strong><br><del><a href="https://www.amazon.co.jp/gp/product/B01MPZWGUH/ref=oh_aui_search_detailpage?ie=UTF8&psc=1" target="_blank" rel="noopener">WorldPlus バッテリー Apple MacBook Pro 15 インチ 対応 A1382 A1286 ( 2011 2012 ) 6200mAh</a></del><br><a href="https://www.amazon.co.jp/gp/product/B01A6F406I/ref=oh_aui_search_detailpage?ie=UTF8&psc=1" target="_blank" rel="noopener">SLODA交換用バッテリーApple用Macbook Pro 15” A1321 A1286 (Mid 2009 Early 2010 Late 2010) に适用MacBook Pro 15 A1321 ノートPCバッテリー [リチウムポリマー，10.95V, 7200mAh]</a></p>
+<p>誤って型違い用を購入してしまったので返品し代わりを書い直した．<br>完全に <code>MacBookPro 2012 mid 15 inch</code> だと思ってたらもっと前のだった．<br>型番によってバッテリーの接続口の形が異なるので，<a href="https://support.apple.com/en-us/ht204308" target="_blank" rel="noopener">Appleの公式のサイト</a>から型番を確認しようorz</p>
+<p><strong>SSD</strong><br><a href="https://www.amazon.co.jp/gp/product/B06XTHWT6Q/ref=oh_aui_search_detailpage?ie=UTF8&psc=1" target="_blank" rel="noopener">Crucial [Micron製] 内蔵SSD 2.5インチ MX300 525GB ( 3D TLC NAND /SATA 6Gbps /3年保証 )国内正規品 CT525MX300SSD1/JP</a></p>
+<p><strong>メモリ</strong></p>
+<p><a href="https://www.amazon.co.jp/gp/product/B0094P98FK/ref=oh_aui_search_detailpage?ie=UTF8&psc=1" target="_blank" rel="noopener">シリコンパワー ノートPC用メモリ DDR3 1600 PC3-12800 8GB×2枚 204Pin Mac 対応 永久保証 SP016GBSTU160N22</a></p>
+<p>デフォルトだと 2GB x 2 = 4GB しか積まれていなかったので，8GB x 2 = 16GB にアップグレードする．</p>
+<p><img src="memory-2gx2.JPG" alt="Memory 2GB x 2" title="Memory 2GB x 2"></p>
+<h2 id="バッテリー-メモリ交換"><a href="#バッテリー-メモリ交換" class="headerlink" title="バッテリー+メモリ交換"></a>バッテリー+メモリ交換</h2><p>それぞれ交換して起動するも，Apple マークでフリーズする．<br>カーネルパニックが発生してるっぽい．</p>
+<p><a href="https://support.apple.com/ja-jp/HT201262" target="_blank" rel="noopener">セーフモード</a>で起動し直してみると，起動時に画面が虹色にグラデーションした．<br>その後デスクトップが表示されるが、その後自動で再起動されてしまう．</p>
+<p>メモリとバッテリーを同時に交換してしまったので、問題切り分けのためにメモリを一旦元に戻す．</p>
+<h2 id="バッテリー交換"><a href="#バッテリー交換" class="headerlink" title="バッテリー交換"></a>バッテリー交換</h2><p>バッテリー交換は完了．<br>バッテリーだけ交換した場合，正常起動したので，メモリが問題とわかった．</p>
+<h2 id="メモリ交換"><a href="#メモリ交換" class="headerlink" title="メモリ交換"></a>メモリ交換</h2><p><img src="exchange-memory.JPG" alt="exchange memory" title="exchange memory"></p>
+<p>何をやってもカーネルパニックが解決できず．<br>メモリに関しては後回しにすることにした．</p>
+<p><img src="kernel-panic.png" alt="kernel panic" title="kernel panic"></p>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">Macのメモリ交換したんだが、一向に起動しない… <a href="https://t.co/Z5wkQCmNV6" target="_blank" rel="noopener">pic.twitter.com/Z5wkQCmNV6</a></p>&mdash; tanaka.world ™ (@_tanakaworld) <a href="https://twitter.com/_tanakaworld/status/854156952691068928?ref_src=twsrc%5Etfw" target="_blank" rel="noopener">April 18, 2017</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p><strong>参考</strong></p>
+<ul>
+<li><a href="https://support.apple.com/ja-jp/HT204063" target="_blank" rel="noopener">NVRAMをリセットすると解決する説</a></li>
+<li><a href="http://clockworkapple.me/?p=17595" target="_blank" rel="noopener">老兵は死なず！MacBook Pro Mid 2010 復活計画発動！【調査編】</a></li>
+<li><a href="http://vintagecomp.livedoor.biz/archives/51738907.html" target="_blank" rel="noopener">MacBook，MacBook Pro 13, Mac mini Mid 2010 が16GB（8GBｘ2）に対応！</a></li>
+<li><a href="http://blog.notsobad.jp/entry/54791577771" target="_blank" rel="noopener">MacBookPro Mid2010でメモリ16GBに増設できました。</a></li>
+<li><a href="http://d.hatena.ne.jp/houmei/20130312/1363065663" target="_blank" rel="noopener">MacMacBook Pro (15-inch, Mid 2010)で16GB(8GB×2)メモリは使えるか</a></li>
+</ul>
+<h2 id="HDD-を-SSD-に交換"><a href="#HDD-を-SSD-に交換" class="headerlink" title="HDD を SSD に交換"></a>HDD を SSD に交換</h2><p>SSDに交換して起動したところ，Disk Unitility で <code>Uninitialized</code> になっていた．<br>SSDもフォーマットする必要がありそう．<br>次の手順でフォーマットした．<br>※ HDDのデータは完全に消えてもOKだったので，データ移行はしていない．</p>
+<ul>
+<li>Disk Unitility &gt; SSD を選択</li>
+<li>Format: Mac OS Extended (Journaled)</li>
+<li>Type: GUID Partition Map</li>
+<li>Clean up</li>
+<li>Internet Recovery で最新のOSをDL&amp;インストール</li>
+<li>完了</li>
+</ul>
+<p><img src="exchange-to-ssd.JPG" alt="exchange to ssd" title="exchange to ssd"></p>
+<p><strong>参考</strong></p>
+<ul>
+<li><a href="https://support.apple.com/kb/ph22241?locale=en_US" target="_blank" rel="noopener">Disk Utility for macOS Sierra: Erase a volume using Disk Utility</a></li>
+<li><a href="http://tokyo.secret.jp/macs/format-ssd.html" target="_blank" rel="noopener">Mac で新しい SSD を使用する際に「このコンピュータで読み取れないディスクでした」と表示された場合のフォーマットの方法</a></li>
+</ul>
+<h2 id="UbuntuとOS-Xをデュアルブートする"><a href="#UbuntuとOS-Xをデュアルブートする" class="headerlink" title="UbuntuとOS Xをデュアルブートする"></a>UbuntuとOS Xをデュアルブートする</h2><p>ブートローダー rEFInd を使って，OS X と Ubuntu を切り替えられるようにする．</p>
+<h3 id="Ubuntu用のパーティションを設定"><a href="#Ubuntu用のパーティションを設定" class="headerlink" title="Ubuntu用のパーティションを設定"></a>Ubuntu用のパーティションを設定</h3><ul>
+<li>macOS Utilities</li>
+<li>Disk Utility</li>
+<li>既存のHDDを初期化（選択してErase）</li>
+<li>Reinstall Mac OS</li>
+<li>Partition Dividing (Ubuntu専用マシンにするので，OS X: 20GB / Ubuntu: 480GB の構成にした）</li>
+<li>Application &gt; Utilities &gt; DiskUtility</li>
+</ul>
+<h3 id="rEFInd-インストール"><a href="#rEFInd-インストール" class="headerlink" title="rEFInd インストール"></a>rEFInd インストール</h3><p>OS X は起動し</p>
+<ul>
+<li><a href="http://www.rodsbooks.com/refind/getting.html" target="_blank" rel="noopener">rEFInd</a> から <code>A binary zip file</code> をDL</li>
+<li><a href="http://www.rodsbooks.com/refind/sip.html" target="_blank" rel="noopener">SIP対策</a>のため，リカバリーモードで起動 (⌘+Rしながら，電源ボタンを押す)</li>
+<li>OSX Utility &gt; Utility &gt; Terminal を起動</li>
+<li>DLしたディレクトリ内に移動し <code>refind-install.sh</code> を実行<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /Volumes/path/to/binary-dir</span><br><span class="line">./refind-install.sh</span><br></pre></td></tr></table></figure></li>
+<li>Macを再起動</li>
+</ul>
+<h3 id="起動確認"><a href="#起動確認" class="headerlink" title="起動確認"></a>起動確認</h3><ul>
+<li>Escを押しながらMacを起動</li>
+<li>rEFIndの画面が表示されたらOK</li>
+</ul>
+<p><strong>参考</strong></p>
+<ul>
+<li><a href="http://blog-sk.com/mac/el-capitan_refind/" target="_blank" rel="noopener">MacにブートローダrEFIndを導入してみる</a></li>
+<li><a href="http://qiita.com/gano/items/424c1661420e1cfe6d9c" target="_blank" rel="noopener">Mac OS SierraのPCで、Ubuntu16.04をデュアルブートした時のまとめ</a></li>
+<li><a href="http://ottan.xyz/os-x-ubuntu-dual-boot-2-1236/" target="_blank" rel="noopener">OS X YosemiteとUbuntu 14.04.2 LTSのデュアルブート環境を構築する</a></li>
+</ul>
+<h3 id="Ubuntu-起動"><a href="#Ubuntu-起動" class="headerlink" title="Ubuntu 起動"></a>Ubuntu 起動</h3><p><img src="ubuntu-1.JPG" alt="ubuntu-1" title="ubuntu-1"><br><img src="ubuntu-2.JPG" alt="ubuntu-2" title="ubuntu-2"></p>
+<h2 id="まとめ"><a href="#まとめ" class="headerlink" title="まとめ"></a>まとめ</h2><ul>
+<li>先人の知恵のおかげでなんとか Ubuntu 起動までこぎつけた（感謝）</li>
+<li>Ubuntuとして起動時は，メモリ 8GB x 2 でも動いた</li>
+<li>Macとして起動する場合は 2GB x 2 に戻さないとカーネルパニックが発生（Ubuntu入れた時点で Mac として起動する機会はほぼないので，まぁ問題はない）</li>
+<li>最近の Mac は基盤とバッテリーやメモリが癒着していてツラい．できれば自分でカスタマイズしたいところ．</li>
+<li><del>元々入っていたHDDは外付けHDDとして再利用もしてみたい（参考：<a href="http://www.msng.info/archives/2012/02/hdd-2.php" target="_blank" rel="noopener">既存のHDDを外付けとして使う</a>)</del><ul>
+<li><a href="/make-external-hdd">外付けHDD</a>にしてみた．</li>
+</ul>
+</li>
+</ul>
+</div></article></div></main><footer><div class="share-buttons"><ul class="share-buttons-list"><li class="share-buttons-list-item"><a data-fullpath="https://blog.tanaka.world/remodeling-mbp/index.html" href="https://twitter.com/intent/tweet?text=MacBookProのバッテリー/メモリ/HDDをセルフ交換し，Ubuntuをデュアルブートする&amp;url=https://blog.tanaka.world/remodeling-mbp/&amp;via=_tanakaworld" onclick="window.open(https://blog.tanaka.world/remodeling-mbp/, 'twitter-share', 'width=550,height=235');return false;" target="_blank" class="icon icon-twitter"><img src="/images/icon-twitter.svg"></a></li><li class="share-buttons-list-item"><a href="https://www.facebook.com/sharer/sharer.php?u=https://blog.tanaka.world/remodeling-mbp/" data-fullpath="https://blog.tanaka.world/remodeling-mbp/index.html" onclick="window.open(https://blog.tanaka.world/remodeling-mbp/, 'facebook-share','width=580,height=296');return false;" target="_blank" class="icon icon-facebook"><img src="/images/icon-facebook.svg"></a></li><!--li.share-buttons-list-item--><!--    a.icon.icon-pocket(data-fullpath=url href="https://getpocket.com/edit?url=#{share_url}&title=#{title}" onclick="window.open(#{share_url}, 'google-plus-share', 'width=490,height=530');return false;" target="_blank")--><!--        img(src="/images/icon-twitter.svg")--><li class="share-buttons-list-item"><a data-fullpath="https://blog.tanaka.world/remodeling-mbp/index.html" href="https://plus.google.com/share?url=https://blog.tanaka.world/remodeling-mbp/" onclick="window.open(https://blog.tanaka.world/remodeling-mbp/, 'google-plus-share', 'width=490,height=530');return false;" target="_blank" class="icon icon-google-plus"><img src="/images/icon-google-plus.svg"></a></li></ul></div><div class="paginator"><a href="/start-orthodontics/" class="prev">&laquo; PREV</a><a href="/threes-6144-volleo/" class="next">NEXT &raquo;</a></div><div class="copyright"><p>© 2014 - 2020 <a href="https://blog.tanaka.world">tanakaworld</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/tanakaworld/hexo-theme-apollo" target="_blank">Forked of hexo-theme-apollo</a>.</p></div></footer></div><!--script(async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous")--><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-122034388-1",'auto');ga('send','pageview');</script></body></html>

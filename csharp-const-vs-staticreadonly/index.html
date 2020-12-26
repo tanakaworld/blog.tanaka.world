@@ -1,0 +1,42 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title>【C#の定数】const と static readonly の使い分け | For X Developers</title><meta name="description" content="【C#の定数】const と static readonly の使い分け - tanakaworld"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><meta name="description" content="C#で時々迷う定数定義，const と static readonly の使い分けに関するまとめ．">
+<meta name="keywords" content="csharp">
+<meta property="og:type" content="article">
+<meta property="og:title" content="【C#の定数】const と static readonly の使い分け">
+<meta property="og:url" content="https:&#x2F;&#x2F;blog.tanaka.world&#x2F;csharp-const-vs-staticreadonly&#x2F;index.html">
+<meta property="og:site_name" content="For X Developers">
+<meta property="og:description" content="C#で時々迷う定数定義，const と static readonly の使い分けに関するまとめ．">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="https:&#x2F;&#x2F;blog.tanaka.world&#x2F;favicon.png">
+<meta property="og:updated_time" content="2020-12-25T03:35:42.496Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https:&#x2F;&#x2F;blog.tanaka.world&#x2F;favicon.png"><link rel="search" type="application/opensearchdescription+xml" href="https://blog.tanaka.world/atom.xml" title="For X Developers"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png" alt="logo"><h1 class="title">For X Developers</h1></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="https://tanaka.world/about" target="_blank" class="nav-list-link">AUTHOR</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">RSS</a></li></ul></header><main class="container"><div class="post"><article class="post-block"><h1 class="post-title">【C#の定数】const と static readonly の使い分け</h1><div class="post-info">Apr 15, 2014<div class="tags-list"><div class="tags-list-item"><a href="/tags/csharp/" class="tags-list-item-link">#csharp</a></div></div></div><div class="post-content"><p>C#で時々迷う定数定義，const と static readonly の使い分けに関するまとめ．</p>
+<a id="more"></a>
+<h2 class="page-heading">const</h2>
+constフィールドは，コンパイル時定数の扱い．（[MSDN](http://msdn.microsoft.com/ja-jp/library/e6w8fe1b.aspx "MSDN") ）
+
+<ul>
+<li>変数のように扱える<strong>定数（</strong>暗黙的 static<strong>）</strong></li>
+<li><strong>宣言時にのみ</strong>初期化可能（コンパイル時に値が埋め込まれる）</li>
+<li>readonly より実行速度が速い</li>
+<li>switch文やデフォルト引数に使える</li>
+<li>インスタンスを new した結果は割り当てられない（C#の組み込み型のみ）</li>
+</ul>
+<h2 class="page-heading">readonly</h2>
+readonlyフィールドは，実行時定数の扱い．（[MSDN](http://msdn.microsoft.com/ja-jp/library/acdd6hb7.aspx "MSDN")）
+
+<ul>
+<li>実際は，読み取り専用の代入不可な<strong>変数</strong></li>
+<li>宣言時の他に，<strong>コンストラクタ内でも</strong>初期化可能</li>
+<li>定数であるconstよりは，僅かに実行速度が遅い</li>
+<li>switch文やデフォルト引数には使えない</li>
+<li>インスタンスを new した結果を割り当てられる</li>
+</ul>
+<h2 class="page-heading">static readonly</h2>
+constが使いたいけど，使えない場合に，static readonly を使用する．
+<blockquote>定数値のシンボル名が必要で，その値の型を const 宣言で使用できない場合，またはその値をコンパイル時に計算できない場合は，static readonly フィールドが役に立ちます．([MSDN - 定数用の static readonly フィールド](http://msdn.microsoft.com/ja-jp/library/aa645753(v=vs.71).aspx "MSDN - 定数用の static readonly フィールド"))</blockquote>
+<h2 class="page-heading">まとめ</h2>
+基本的に，static readonly を使用する．
+<div>constは，属性に指定するパラメータや列挙型の定義など，コンパイル時に値が必要な場合にのみ使用する．</div>
+[Effective C# ](http://www.amazon.co.jp/Effective-C-4-0-%E3%83%93%E3%83%AB%E3%83%BB%E3%83%AF%E3%82%B0%E3%83%8A%E3%83%BC/dp/4798122513/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1397487209&amp;sr=1-1&amp;keywords=Effective+C%23 "Effective C# ")でも，const よりも readonly の使用が推奨されている．
+<blockquote>高いパフォーマンスが求められていて，なおかつ将来にわたって変更されることがないことが明らかな場合にのみコンパイル時定数を使用するべきです．</blockquote>
+</div></article></div></main><footer><div class="share-buttons"><ul class="share-buttons-list"><li class="share-buttons-list-item"><a data-fullpath="https://blog.tanaka.world/csharp-const-vs-staticreadonly/index.html" href="https://twitter.com/intent/tweet?text=【C#の定数】const と static readonly の使い分け&amp;url=https://blog.tanaka.world/csharp-const-vs-staticreadonly/&amp;via=_tanakaworld" onclick="window.open(https://blog.tanaka.world/csharp-const-vs-staticreadonly/, 'twitter-share', 'width=550,height=235');return false;" target="_blank" class="icon icon-twitter"><img src="/images/icon-twitter.svg"></a></li><li class="share-buttons-list-item"><a href="https://www.facebook.com/sharer/sharer.php?u=https://blog.tanaka.world/csharp-const-vs-staticreadonly/" data-fullpath="https://blog.tanaka.world/csharp-const-vs-staticreadonly/index.html" onclick="window.open(https://blog.tanaka.world/csharp-const-vs-staticreadonly/, 'facebook-share','width=580,height=296');return false;" target="_blank" class="icon icon-facebook"><img src="/images/icon-facebook.svg"></a></li><!--li.share-buttons-list-item--><!--    a.icon.icon-pocket(data-fullpath=url href="https://getpocket.com/edit?url=#{share_url}&title=#{title}" onclick="window.open(#{share_url}, 'google-plus-share', 'width=490,height=530');return false;" target="_blank")--><!--        img(src="/images/icon-twitter.svg")--><li class="share-buttons-list-item"><a data-fullpath="https://blog.tanaka.world/csharp-const-vs-staticreadonly/index.html" href="https://plus.google.com/share?url=https://blog.tanaka.world/csharp-const-vs-staticreadonly/" onclick="window.open(https://blog.tanaka.world/csharp-const-vs-staticreadonly/, 'google-plus-share', 'width=490,height=530');return false;" target="_blank" class="icon icon-google-plus"><img src="/images/icon-google-plus.svg"></a></li></ul></div><div class="paginator"><a href="/unit-test-for-javascript-by-npm-karma-jasmine/" class="prev">&laquo; PREV</a><a href="/entry-domain-driven-design/" class="next">NEXT &raquo;</a></div><div class="copyright"><p>© 2014 - 2020 <a href="https://blog.tanaka.world">tanakaworld</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/tanakaworld/hexo-theme-apollo" target="_blank">Forked of hexo-theme-apollo</a>.</p></div></footer></div><!--script(async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous")--><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-122034388-1",'auto');ga('send','pageview');</script></body></html>

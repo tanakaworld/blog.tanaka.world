@@ -1,0 +1,63 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title>【アジャイル開発 X 設計】DDD（ドメイン駆動開発）に入門してみた | For X Developers</title><meta name="description" content="【アジャイル開発 X 設計】DDD（ドメイン駆動開発）に入門してみた - tanakaworld"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><meta name="description" content="先月から，フルスクラッチでサーバアプリケーションの開発に携わることになり，設計に関して悶々と格闘している日々です． その中で，リーダーの紹介で，DDDに興味を持ち始めました．DDDは，ある一つの設計思想ですが，アジャイル開発を前提としている概念です． 今回は，アジャイル開発を実践していることを踏まえ，DDDの基本パターンから感じた事を書きます．">
+<meta name="keywords" content="ddd,oop">
+<meta property="og:type" content="article">
+<meta property="og:title" content="【アジャイル開発 X 設計】DDD（ドメイン駆動開発）に入門してみた">
+<meta property="og:url" content="https:&#x2F;&#x2F;blog.tanaka.world&#x2F;entry-domain-driven-design&#x2F;index.html">
+<meta property="og:site_name" content="For X Developers">
+<meta property="og:description" content="先月から，フルスクラッチでサーバアプリケーションの開発に携わることになり，設計に関して悶々と格闘している日々です． その中で，リーダーの紹介で，DDDに興味を持ち始めました．DDDは，ある一つの設計思想ですが，アジャイル開発を前提としている概念です． 今回は，アジャイル開発を実践していることを踏まえ，DDDの基本パターンから感じた事を書きます．">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="https:&#x2F;&#x2F;blog.tanaka.world&#x2F;favicon.png">
+<meta property="og:updated_time" content="2020-12-25T03:35:42.496Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https:&#x2F;&#x2F;blog.tanaka.world&#x2F;favicon.png"><link rel="search" type="application/opensearchdescription+xml" href="https://blog.tanaka.world/atom.xml" title="For X Developers"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png" alt="logo"><h1 class="title">For X Developers</h1></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="https://tanaka.world/about" target="_blank" class="nav-list-link">AUTHOR</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">RSS</a></li></ul></header><main class="container"><div class="post"><article class="post-block"><h1 class="post-title">【アジャイル開発 X 設計】DDD（ドメイン駆動開発）に入門してみた</h1><div class="post-info">Mar 29, 2014<div class="tags-list"><div class="tags-list-item"><a href="/tags/ddd/" class="tags-list-item-link">#ddd</a></div><div class="tags-list-item"><a href="/tags/oop/" class="tags-list-item-link">#oop</a></div></div></div><div class="post-content"><p>先月から，フルスクラッチでサーバアプリケーションの開発に携わることになり，設計に関して悶々と格闘している日々です．</p>
+<p>その中で，リーダーの紹介で，DDDに興味を持ち始めました．DDDは，ある一つの設計思想ですが，アジャイル開発を前提としている概念です．</p>
+<p>今回は，アジャイル開発を実践していることを踏まえ，DDDの基本パターンから感じた事を書きます．</p>
+<a id="more"></a>
+<h2 class="page-heading">Domain-driven design ドメイン駆動設計とは</h2>
+<blockquote>ソフトウェアの設計手法であり，'複雑なドメインの設計はモデルベースで行うべきであり'，'また大半のソフトウェアプロジェクトではシステムを実装するための特定の技術ではなくドメインそのものとドメインのロジックに焦点を置くべき'とする（Wikipediaより）</blockquote>
+つまり，図にするとこういうことです．
+
+<img class="img-frame " alt="" src="http://yutarotanaka.com/blog/wp-content/uploads/2014/01/DDD.0011.jpg" width="600" />
+
+<p>開発工程を進める中で，ドメインモデルが開発の中心にあり，ドメインモデルによって開発が駆動していくということです．</p>
+<p>各工程で，プロダクトコードとコミュニケーションが常にドメインモデルとリンクし，ドメインモデルがブラッシュアップされていくイメージです．</p>
+<h2 class="page-heading">DDDの基本となる３パターン</h2>
+
+<ul>
+<li>Ubiquitous Language（ユビキタス言語）パターン</li>
+<li>Model-Driven Design（モデル駆動設計）パターン</li>
+<li>Hands-On Modeler（実践的モデラー）パターン</li>
+</ul>
+<p>ドメインモデルを機能させるための基本パターンで，要は，ユビキタス言語を用いてドメインモデルが構築され，開発者がそれを理解しているモデラーかつプログラマであることを目標としています．</p>
+<p>このパターンの中で，ユビキタス言語パターンが特に重要だと感じています．</p>
+<blockquote>ドメインを正しく捉えた柔軟で価値の高いソフトウェアを設計するには，チームの共通言語を創造しなければならない．共通言語はユーザ，ドメインの専門家から，設計者，プログラマまで，分析／設計モデルからプログラムコードに至るまで，プロジェクトのすべての関係者，成果物に行き渡っていて，同じ意味で理解されるようなユビキタス（遍在的）な言語である．ドメインモデルがユビキタス言語となるようにし，ドメインモデルを介してプロジェクトが一体となるようにする．（[ 技術講座 ] Domain-Driven Designのエッセンス 第1回より）</blockquote>
+ユビキタス言語パターンは，プロジェクトに関係する「**モノすべて」**が，共通の「**言語**」で理解されることです．
+
+<p>「モノすべて」は，PO，SM，企画者，設計者，プログラマ，デザイナーを始め，顧客を含むヒト．それに加え，プログラムコードやドキュメントも含まれています．</p>
+<p>これも図にしてみました．</p>
+<img class="img-frame " alt="" src="http://yutarotanaka.com/blog/wp-content/uploads/2014/01/DDD.002.jpg" width="600" />
+
+<p>プロジェクトが遅延に，この概念が関わっていることを実感しました．</p>
+<h2 class="page-heading">認識の違いによる手戻り</h2>
+プロジェクトの遅延原因が様々ですが，「**いつの間にか認識が違ったままプロジェクトが進んでいる**」ということが往々にしてあると実感しました．
+
+<p><strong>職種間で専門用語が異なる</strong>という状況で，「プログラマがPO向けにスプリントレビューをする際に，POがわかる用語で説明する」というように，異なる職種間では，よく考慮されています．</p>
+<p>しかし，ユビキタス言語を用いて，特に認識を統一するべきなのなのは，開発チーム内でのやりとりだと感じます．</p>
+<p>同じ専門用語を用いているはずなのに，認識が異なったまま，プロジェクトが進行していて，スプリント終盤になったら認識が違っていた，なんてことが実際に起こりました．</p>
+<p>社内（チーム） vs 社外（顧客），開発チーム vs PO，開発者 vs 開発者，あらゆるところに認識の違いが生じることは，特に気をつける必要があります．</p>
+<p>以前は，スプリント計画になんでそんなに時間をかけるんだ？と疑問でしたが，<strong>不明点をなくし，認識を統一する</strong>のに時間が必要と考えるようになりました．</p>
+<h2 class="page-heading">まとめ</h2>
+今回は，ユビキタス言語パターンを中心に書きました．
+
+<p>アジャイル開発に対する誤解の一つとして「<strong>ドキュメントを作成しない</strong>」というのがあります．作成コストを意識して，価値のあるドキュメントだけを作成するというのが，誤解に対する回答としてよく言われていますが，</p>
+<p><strong>認識の差がうまれそうな物事</strong>に関しては，価値のあるドキュメントとして作成の優先度を挙げるべきだと感じました．</p>
+<p>設計に関しては，実践しながら試行錯誤が続きますが，DDDの大元であるオブジェクト指向に関して，改めてキャッチアップしていこうと思います．</p>
+<h2 class="page-heading">参考</h2>
+DDDに関して参考にしたものです．
+
+<ul>
+<li><a href="http://www.ogis-ri.co.jp/otc/hiroba/technical/DDDEssence/" target="_blank" rel="noopener" title="DDD難民に捧げる Domain-Driven Designのエッセンス">DDD難民に捧げる Domain-Driven Designのエッセンス</a></li>
+<li><a href="http://www.infoq.com/jp/minibooks/domain-driven-design-quickly" target="_blank" rel="noopener" title="Domain Driven Design(ドメイン駆動設計) Quickly 日本語版">Domain Driven Design(ドメイン駆動設計) Quickly 日本語版</a></li>
+<li><a href="https://www.youtube.com/watch?v=77BTZWq3GiQ" target="_blank" rel="noopener" title="20110409_DevLOVE「実践！　ドメイン駆動設計」_増田亨さん">20110409_DevLOVE「実践！　ドメイン駆動設計」_増田亨さん</a></li>
+</ul>
+</div></article></div></main><footer><div class="share-buttons"><ul class="share-buttons-list"><li class="share-buttons-list-item"><a data-fullpath="https://blog.tanaka.world/entry-domain-driven-design/index.html" href="https://twitter.com/intent/tweet?text=【アジャイル開発 X 設計】DDD（ドメイン駆動開発）に入門してみた&amp;url=https://blog.tanaka.world/entry-domain-driven-design/&amp;via=_tanakaworld" onclick="window.open(https://blog.tanaka.world/entry-domain-driven-design/, 'twitter-share', 'width=550,height=235');return false;" target="_blank" class="icon icon-twitter"><img src="/images/icon-twitter.svg"></a></li><li class="share-buttons-list-item"><a href="https://www.facebook.com/sharer/sharer.php?u=https://blog.tanaka.world/entry-domain-driven-design/" data-fullpath="https://blog.tanaka.world/entry-domain-driven-design/index.html" onclick="window.open(https://blog.tanaka.world/entry-domain-driven-design/, 'facebook-share','width=580,height=296');return false;" target="_blank" class="icon icon-facebook"><img src="/images/icon-facebook.svg"></a></li><!--li.share-buttons-list-item--><!--    a.icon.icon-pocket(data-fullpath=url href="https://getpocket.com/edit?url=#{share_url}&title=#{title}" onclick="window.open(#{share_url}, 'google-plus-share', 'width=490,height=530');return false;" target="_blank")--><!--        img(src="/images/icon-twitter.svg")--><li class="share-buttons-list-item"><a data-fullpath="https://blog.tanaka.world/entry-domain-driven-design/index.html" href="https://plus.google.com/share?url=https://blog.tanaka.world/entry-domain-driven-design/" onclick="window.open(https://blog.tanaka.world/entry-domain-driven-design/, 'google-plus-share', 'width=490,height=530');return false;" target="_blank" class="icon icon-google-plus"><img src="/images/icon-google-plus.svg"></a></li></ul></div><div class="paginator"><a href="/csharp-const-vs-staticreadonly/" class="prev">&laquo; PREV</a><a href="/threes-score-over-two-million/" class="next">NEXT &raquo;</a></div><div class="copyright"><p>© 2014 - 2020 <a href="https://blog.tanaka.world">tanakaworld</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/tanakaworld/hexo-theme-apollo" target="_blank">Forked of hexo-theme-apollo</a>.</p></div></footer></div><!--script(async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous")--><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-122034388-1",'auto');ga('send','pageview');</script></body></html>

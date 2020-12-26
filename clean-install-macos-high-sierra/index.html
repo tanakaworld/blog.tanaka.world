@@ -1,0 +1,77 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title>Clean install macOS High Sierra | For X Developers</title><meta name="description" content="Clean install macOS High Sierra - tanakaworld"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><meta name="description" content="General Settings &amp;gt; Keyboard &amp;gt; Text &amp;gt; Disable Capitalize words automatically Settings &amp;gt; Keyboard &amp;gt; Modifier Keys &amp;gt; Change Caps Lock to Control Settings &amp;gt; Trackpad &amp;gt; More Gesture">
+<meta name="keywords" content="mac,high-sierra">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Clean install macOS High Sierra">
+<meta property="og:url" content="https:&#x2F;&#x2F;blog.tanaka.world&#x2F;clean-install-macos-high-sierra&#x2F;index.html">
+<meta property="og:site_name" content="For X Developers">
+<meta property="og:description" content="General Settings &amp;gt; Keyboard &amp;gt; Text &amp;gt; Disable Capitalize words automatically Settings &amp;gt; Keyboard &amp;gt; Modifier Keys &amp;gt; Change Caps Lock to Control Settings &amp;gt; Trackpad &amp;gt; More Gesture">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="https:&#x2F;&#x2F;blog.tanaka.world&#x2F;favicon.png">
+<meta property="og:updated_time" content="2020-12-25T03:35:42.625Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https:&#x2F;&#x2F;blog.tanaka.world&#x2F;favicon.png"><link rel="search" type="application/opensearchdescription+xml" href="https://blog.tanaka.world/atom.xml" title="For X Developers"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png" alt="logo"><h1 class="title">For X Developers</h1></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="https://tanaka.world/about" target="_blank" class="nav-list-link">AUTHOR</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">RSS</a></li></ul></header><main class="container"><div class="post"><article class="post-block"><h1 class="post-title">Clean install macOS High Sierra</h1><div class="post-info">Jul 11, 2018<div class="tags-list"><div class="tags-list-item"><a href="/tags/mac/" class="tags-list-item-link">#mac</a></div><div class="tags-list-item"><a href="/tags/high-sierra/" class="tags-list-item-link">#high-sierra</a></div></div></div><div class="post-content"><h2 id="General"><a href="#General" class="headerlink" title="General"></a>General</h2><ul>
+<li>Settings &gt; Keyboard &gt; Text &gt; Disable <code>Capitalize words automatically</code></li>
+<li>Settings &gt; Keyboard &gt; Modifier Keys &gt; Change <code>Caps Lock</code> to <code>Control</code></li>
+<li>Settings &gt; Trackpad &gt; More Gestures &gt; <code>Swipe between pages</code> -&gt; <code>Switch with three fingers</code></li>
+<li>Settings &gt; General &gt; Enable <code>Use dark menu bar and Dock</code></li>
+<li>TouchBar<ul>
+<li>Settings &gt; Keyboard &gt; Customize Control Strip &gt; Remove “Siri” button</li>
+</ul>
+</li>
+<li>Finder<ul>
+<li>Show hidden files by shortcut <code>Command + Shift + .</code></li>
+</ul>
+</li>
+</ul>
+<h2 id="Packages"><a href="#Packages" class="headerlink" title="Packages"></a>Packages</h2><ul>
+<li><a href="https://brew.sh/" target="_blank" rel="noopener">Homebrew</a></li>
+</ul>
+<h2 id="Apps"><a href="#Apps" class="headerlink" title="Apps"></a>Apps</h2><ul>
+<li><a href="https://pqrs.org/osx/karabiner/" target="_blank" rel="noopener">Karabiner Elements</a><br>   Complex Modifications &gt; Add rule &gt; Import more rules from the Internet &gt; Search by <code>For Japanese</code> &gt; Install &gt; Enable following:<br>   <img src="karabiner-elements.png" alt="karabiner-elements.png" title="karabiner-elements.png"></li>
+<li><a href="https://1password.com/downloads/" target="_blank" rel="noopener">1Password</a><br>  Scan Barcode</li>
+<li><a href="https://coteditor.com/" target="_blank" rel="noopener">CotEditor</a></li>
+<li><a href="https://www.iterm2.com/" target="_blank" rel="noopener">iTerm2</a><ul>
+<li>Preferences &gt; Terminal &gt; Scrollback Lines &gt; <code>Unlimited scrollback</code></li>
+<li>Preferences &gt; Keys &gt; Left ⌥ Key &gt; Esc+</li>
+</ul>
+</li>
+<li><a href="https://folivora.ai/downloads/" target="_blank" rel="noopener">BetterTouchTool</a><br>  <img src="better-touch-tools.png" alt="better-touch-tools.png" title="better-touch-tools.png"></li>
+<li>Chrome</li>
+<li>Google IME<br>  Google Japanese Input &gt; Preferences &gt; General &gt; Change Punctuation style “，．”<br>  <img src="google-japanese-input-preferences.png" alt="google-japanese-input-preferences.png" title="google-japanese-input-preferences.png"></li>
+<li>Slack for Mac</li>
+<li>Git  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">   $ brew install git</span><br><span class="line">   $ git config --global user.name &quot;tanakaworld&quot;</span><br><span class="line">   $ git config --global user.email &quot;yutaro.tanaka.world@gmail.com&quot;</span><br><span class="line">$ git config --global core.editor emacs</span><br></pre></td></tr></table></figure></li>
+<li>Emacs  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ brew install</span><br></pre></td></tr></table></figure></li>
+<li>vim  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ brew install vim</span><br><span class="line">$ touch ~/.vimrc</span><br><span class="line">$ echo &quot;syntax on&quot; &gt; ~/.vimrc</span><br></pre></td></tr></table></figure></li>
+<li>Docker  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">   $ brew cask install docker</span><br><span class="line">   $ open ~/Applications/Docker.app</span><br><span class="line">$ ln -s /Applications/Docker.app/Contents/Resources/etc/docker.bash-completion /usr/local/etc/bash_completion.d/docker</span><br><span class="line">$ ln -s /Applications/Docker.app/Contents/Resources/etc/docker-machine.bash-completion /usr/local/etc/bash_completion.d/docker-machine</span><br><span class="line">$ ln -s /Applications/Docker.app/Contents/Resources/etc/docker-compose.bash-completion /usr/local/etc/bash_completion.d/docker-compose</span><br></pre></td></tr></table></figure>
+  <img src="docker-login.png" alt="docker-login.png" title="docker-login.png"><br>  Create a docker machine  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ docker-machine create --driver virtualbox dev</span><br><span class="line">=&gt; Error</span><br></pre></td></tr></table></figure>
+  <img src="docker-machine-error.png" alt="docker-machine-error.png" title="docker-machine-error.png"><br>  [Solved] Bump version of Virtual Box (v5.2.8 -&gt; v5.2.12) and solved the error.</li>
+<li>MySQL<br>  create mysql container in Docker</li>
+<li>Redis<br>  create redis container in Docker  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">docker pull redis</span><br><span class="line">docker run --name redis -d -p 6379:6379 redis redis-server --appendonly yes</span><br></pre></td></tr></table></figure></li>
+<li>nodebrew  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ brew install nodebrew</span><br></pre></td></tr></table></figure>
+  Update .bashrc  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">export NODEBREW_ROOT=/usr/local/var/nodebrew</span><br><span class="line">NODEBREW_HOME=/usr/local/var/nodebrew/current</span><br><span class="line">export NODEBREW_HOME</span><br><span class="line">export NODEBREW_ROOT=/usr/local/var/nodebrew</span><br><span class="line">export PATH=$PATH:$NODEBREW_HOME/bin</span><br></pre></td></tr></table></figure>
+  Install node<ul>
+<li>v6.9.1</li>
+<li>v6.14.2</li>
+<li>v.8.9.1</li>
+</ul>
+</li>
+<li>rbenv  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># this will also install ruby-build</span><br><span class="line">$ brew install rbenv</span><br></pre></td></tr></table></figure>
+  Update .bash_profile  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">eval &quot;$(rbenv init -)&quot;</span><br><span class="line">export PATH=$HOME/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:$PATH</span><br></pre></td></tr></table></figure>
+  Install ruby  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ rbenv install v.2.4.2</span><br><span class="line">$ rbenv rehash</span><br></pre></td></tr></table></figure></li>
+<li><a href="https://www.jetbrains.com/webstorm/" target="_blank" rel="noopener">WebStorm</a><ul>
+<li>Settings Repository &gt; <a href="https://github.com/tanakaworld/WebStorm" target="_blank" rel="noopener">https://github.com/tanakaworld/WebStorm</a></li>
+<li><a href="https://www.jetbrains.com/help/idea/increasing-memory-heap.html" target="_blank" rel="noopener">Increasing Memory Heap</a><br><img src="intellij-edit-custom-vm-options.png" alt="intellij-edit-custom-vm-options.png" title="intellij-edit-custom-vm-options.png"><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">-Xms3072m</span><br><span class="line">-Xmx3072m</span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+<li><a href="https://www.jetbrains.com/ruby/" target="_blank" rel="noopener">RubyMine</a><br>  File &gt; Settings Repository &gt; <a href="https://github.com/tanakaworld/RubyMine" target="_blank" rel="noopener">https://github.com/tanakaworld/RubyMine</a><br>  <a href="https://www.jetbrains.com/help/idea/increasing-memory-heap.html" target="_blank" rel="noopener">Increasing Memory Heap</a></li>
+<li><a href="https://www.sourcetreeapp.com/" target="_blank" rel="noopener">SourceTree</a></li>
+<li><a href="https://sequelpro.com/" target="_blank" rel="noopener">SequelPro</a></li>
+<li><a href="https://www.dropbox.com/" target="_blank" rel="noopener">Dropbox</a><ul>
+<li>Sync Selected Folder</li>
+<li>Share screenshots using Dropbox</li>
+</ul>
+</li>
+<li>Evernote</li>
+<li><a href="https://zeplin.io/" target="_blank" rel="noopener">Zeplin</a></li>
+</ul>
+</div></article></div></main><footer><div class="share-buttons"><ul class="share-buttons-list"><li class="share-buttons-list-item"><a data-fullpath="https://blog.tanaka.world/clean-install-macos-high-sierra/index.html" href="https://twitter.com/intent/tweet?text=Clean install macOS High Sierra&amp;url=https://blog.tanaka.world/clean-install-macos-high-sierra/&amp;via=_tanakaworld" onclick="window.open(https://blog.tanaka.world/clean-install-macos-high-sierra/, 'twitter-share', 'width=550,height=235');return false;" target="_blank" class="icon icon-twitter"><img src="/images/icon-twitter.svg"></a></li><li class="share-buttons-list-item"><a href="https://www.facebook.com/sharer/sharer.php?u=https://blog.tanaka.world/clean-install-macos-high-sierra/" data-fullpath="https://blog.tanaka.world/clean-install-macos-high-sierra/index.html" onclick="window.open(https://blog.tanaka.world/clean-install-macos-high-sierra/, 'facebook-share','width=580,height=296');return false;" target="_blank" class="icon icon-facebook"><img src="/images/icon-facebook.svg"></a></li><!--li.share-buttons-list-item--><!--    a.icon.icon-pocket(data-fullpath=url href="https://getpocket.com/edit?url=#{share_url}&title=#{title}" onclick="window.open(#{share_url}, 'google-plus-share', 'width=490,height=530');return false;" target="_blank")--><!--        img(src="/images/icon-twitter.svg")--><li class="share-buttons-list-item"><a data-fullpath="https://blog.tanaka.world/clean-install-macos-high-sierra/index.html" href="https://plus.google.com/share?url=https://blog.tanaka.world/clean-install-macos-high-sierra/" onclick="window.open(https://blog.tanaka.world/clean-install-macos-high-sierra/, 'google-plus-share', 'width=490,height=530');return false;" target="_blank" class="icon icon-google-plus"><img src="/images/icon-google-plus.svg"></a></li></ul></div><div class="paginator"><a href="/apple-official-keyboard-service-program/" class="prev">&laquo; PREV</a><a href="/move-to-hexo-from-middleman/" class="next">NEXT &raquo;</a></div><div class="copyright"><p>© 2014 - 2020 <a href="https://blog.tanaka.world">tanakaworld</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/tanakaworld/hexo-theme-apollo" target="_blank">Forked of hexo-theme-apollo</a>.</p></div></footer></div><!--script(async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous")--><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-122034388-1",'auto');ga('send','pageview');</script></body></html>

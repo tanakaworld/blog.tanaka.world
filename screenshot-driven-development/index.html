@@ -1,0 +1,43 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title>スクリーンショット駆動開発 | For X Developers</title><meta name="description" content="スクリーンショット駆動開発 - tanakaworld"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><meta name="description" content="アプリケーション開発をしていて，日々，スクリーンショットに助けられている．主に情報共有やバグトリアージ，メモ目的でよく使っているツールなどをまとめる． GyazoGyazo 撮影したスクリーンショットをURLで共有できるサービス．アプリケーション起動すると， Gyazo のスクリーンショットモードになり撮影するとブラウザで URL が表示される（そのときに URL がクリップボードにコピーされる）">
+<meta name="keywords" content="dev">
+<meta property="og:type" content="article">
+<meta property="og:title" content="スクリーンショット駆動開発">
+<meta property="og:url" content="https:&#x2F;&#x2F;blog.tanaka.world&#x2F;screenshot-driven-development&#x2F;index.html">
+<meta property="og:site_name" content="For X Developers">
+<meta property="og:description" content="アプリケーション開発をしていて，日々，スクリーンショットに助けられている．主に情報共有やバグトリアージ，メモ目的でよく使っているツールなどをまとめる． GyazoGyazo 撮影したスクリーンショットをURLで共有できるサービス．アプリケーション起動すると， Gyazo のスクリーンショットモードになり撮影するとブラウザで URL が表示される（そのときに URL がクリップボードにコピーされる）">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="https:&#x2F;&#x2F;blog.tanaka.world&#x2F;favicon.png">
+<meta property="og:updated_time" content="2020-12-25T03:35:42.622Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https:&#x2F;&#x2F;blog.tanaka.world&#x2F;favicon.png"><link rel="search" type="application/opensearchdescription+xml" href="https://blog.tanaka.world/atom.xml" title="For X Developers"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png" alt="logo"><h1 class="title">For X Developers</h1></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="https://tanaka.world/about" target="_blank" class="nav-list-link">AUTHOR</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">RSS</a></li></ul></header><main class="container"><div class="post"><article class="post-block"><h1 class="post-title">スクリーンショット駆動開発</h1><div class="post-info">Jul 3, 2018<div class="tags-list"><div class="tags-list-item"><a href="/tags/dev/" class="tags-list-item-link">#dev</a></div></div></div><div class="post-content"><p>アプリケーション開発をしていて，日々，スクリーンショットに助けられている．<br>主に情報共有やバグトリアージ，メモ目的でよく使っているツールなどをまとめる．</p>
+<h2 id="Gyazo"><a href="#Gyazo" class="headerlink" title="Gyazo"></a>Gyazo</h2><p><a href="https://gyazo.com" target="_blank" rel="noopener">Gyazo</a></p>
+<p>撮影したスクリーンショットをURLで共有できるサービス．アプリケーション起動すると， Gyazo のスクリーンショットモードになり撮影するとブラウザで URL が表示される（そのときに URL がクリップボードにコピーされる）．同様に GIF 動画も撮影でき，実装時の UI 表現の共有で使ったりする．</p>
+<p><strong>Slack でのスクショ共有</strong></p>
+<p>特に重宝しているのが，Slackでスクショ共有するとき．<br>Slack の Thread では画像の添付ができず，メイン側に画像をアップロードしてその URL を Thread 側にコピペする，という手間をかけていた．Gyazo なら Thread に URL を投稿するだけでハイライトもされるし，楽チン．</p>
+<p><strong>Gyazo Pro</strong></p>
+<p><a href="https://gyazo.com/pro" target="_blank" rel="noopener">有料課金</a>するか迷っている．<br>６秒まで録画可能で，有料課金すると６０秒まで録画できるみたい．サービス画面のキャプチャ撮りたいときは，１０秒だと足りないことがあるので，課金してもいいかなと思っている．それとキャプチャした画像に文字を入れるなど加工もできる点も魅力的．</p>
+<p>キャプチャに文字を入れたいシーンはわりとある．<br><a href="https://evernote.com/products/skitch" target="_blank" rel="noopener">skitch</a> にスクショを貼り付けて加工した結果を，Gyazo で再度キャプチャするというフローを踏んでいてとても手間を感じている．てか，skitch って Evernote のサービスだったのか．(2011年に買収されたらしい)</p>
+<h2 id="Mac-Screenshots"><a href="#Mac-Screenshots" class="headerlink" title="Mac Screenshots"></a>Mac Screenshots</h2><p><strong>範囲選択スクショ</strong></p>
+<p>をよくつかう．</p>
+<ul>
+<li>スクリーンショットフォルダに保存：command + shift + 4</li>
+<li>クリップボードに保存：command + shift + control + 4</li>
+</ul>
+<p>スクリーンショットはデフォルトではデスクトップに保存されるが，Dropbox の機能で Dropbox フォルダに保存されるようにしている．</p>
+<p><strong>スクリーンショットモード中の “スペースキー” が便利．</strong></p>
+<p>スクショ範囲をフォーカスしているアプリケーションが，自動的にスクショ範囲になる機能．<br>アプリケーションウィンドウだけでなく，ナビゲーションバーやアイコンにも自動フォーカスしてくれる．</p>
+<p><a href="https://gyazo.com/8aeaa9df2b1c7649928ef9352ff5e2c1" target="_blank" rel="noopener"><img src="https://i.gyazo.com/8aeaa9df2b1c7649928ef9352ff5e2c1.gif" alt="https://gyazo.com/8aeaa9df2b1c7649928ef9352ff5e2c1"></a></p>
+<h2 id="Chrome-Dev-Tools"><a href="#Chrome-Dev-Tools" class="headerlink" title="Chrome Dev Tools"></a>Chrome Dev Tools</h2><p>DOMなどのスクリーンショットを取ることができる．</p>
+<ul>
+<li>Chrome Dev Tools で command + shift + p</li>
+<li>“capture” で検索</li>
+<li>例えば，capture node screenshot を選択すると，Dev Tools で選択している node のスクショが撮影できる</li>
+</ul>
+<p><img src="chrome-dev-tools-1.png" alt="chrome-dev-tools-1" title="chrome-dev-tools-1"></p>
+<h2 id="モバイルのスクリーンショット"><a href="#モバイルのスクリーンショット" class="headerlink" title="モバイルのスクリーンショット"></a>モバイルのスクリーンショット</h2><p>iPhone でもよくスクリーンショットを使うので，Photo 容量を圧迫してしまう．ワンタップでスクリーンショットが削除できる<a href="https://itunes.apple.com/app/id1355436253" target="_blank" rel="noopener">スクショケシ</a>というアプリを使っている．タベリーを開発している10xさんが開発しているらしい．UI のトーンがかわいい．</p>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">スクショケシで2マイのスクショをケシました <a href="https://twitter.com/hashtag/%E3%82%B9%E3%82%AF%E3%82%B7%E3%83%A7%E3%82%B1%E3%82%B7?src=hash&amp;ref_src=twsrc%5Etfw" target="_blank" rel="noopener">#スクショケシ</a> <a href="https://t.co/dCKaJqBruu" target="_blank" rel="noopener">https://t.co/dCKaJqBruu</a> <a href="https://t.co/FNZByFNvw8" target="_blank" rel="noopener">pic.twitter.com/FNZByFNvw8</a></p>&mdash; tanaka.world ™ (@_tanakaworld) <a href="https://twitter.com/_tanakaworld/status/981051538608046080?ref_src=twsrc%5Etfw" target="_blank" rel="noopener">April 3, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<h2 id="まとめ"><a href="#まとめ" class="headerlink" title="まとめ"></a>まとめ</h2><p>No Screenshot No Life</p>
+</div></article></div></main><footer><div class="share-buttons"><ul class="share-buttons-list"><li class="share-buttons-list-item"><a data-fullpath="https://blog.tanaka.world/screenshot-driven-development/index.html" href="https://twitter.com/intent/tweet?text=スクリーンショット駆動開発&amp;url=https://blog.tanaka.world/screenshot-driven-development/&amp;via=_tanakaworld" onclick="window.open(https://blog.tanaka.world/screenshot-driven-development/, 'twitter-share', 'width=550,height=235');return false;" target="_blank" class="icon icon-twitter"><img src="/images/icon-twitter.svg"></a></li><li class="share-buttons-list-item"><a href="https://www.facebook.com/sharer/sharer.php?u=https://blog.tanaka.world/screenshot-driven-development/" data-fullpath="https://blog.tanaka.world/screenshot-driven-development/index.html" onclick="window.open(https://blog.tanaka.world/screenshot-driven-development/, 'facebook-share','width=580,height=296');return false;" target="_blank" class="icon icon-facebook"><img src="/images/icon-facebook.svg"></a></li><!--li.share-buttons-list-item--><!--    a.icon.icon-pocket(data-fullpath=url href="https://getpocket.com/edit?url=#{share_url}&title=#{title}" onclick="window.open(#{share_url}, 'google-plus-share', 'width=490,height=530');return false;" target="_blank")--><!--        img(src="/images/icon-twitter.svg")--><li class="share-buttons-list-item"><a data-fullpath="https://blog.tanaka.world/screenshot-driven-development/index.html" href="https://plus.google.com/share?url=https://blog.tanaka.world/screenshot-driven-development/" onclick="window.open(https://blog.tanaka.world/screenshot-driven-development/, 'google-plus-share', 'width=490,height=530');return false;" target="_blank" class="icon icon-google-plus"><img src="/images/icon-google-plus.svg"></a></li></ul></div><div class="paginator"><a href="/move-to-hexo-from-middleman/" class="prev">&laquo; PREV</a><a href="/make-external-hdd/" class="next">NEXT &raquo;</a></div><div class="copyright"><p>© 2014 - 2020 <a href="https://blog.tanaka.world">tanakaworld</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/tanakaworld/hexo-theme-apollo" target="_blank">Forked of hexo-theme-apollo</a>.</p></div></footer></div><!--script(async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous")--><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-122034388-1",'auto');ga('send','pageview');</script></body></html>

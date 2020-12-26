@@ -1,0 +1,162 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title>【Mac OS X】Yosemiteをクリーンインストール(初期化)して Rails 開発環境をセットアップした | For X Developers</title><meta name="description" content="【Mac OS X】Yosemiteをクリーンインストール(初期化)して Rails 開発環境をセットアップした - tanakaworld"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><meta name="description" content="普段使っているメイン機 MacBook Air (13-inch, Mid 2012) が，突然落ちたりファンの音がうるさすぎたりしたので，クリーンインストールした． 普段はRuby&#x2F;Railsで開発しているので，ついでにセットアップ手順もまとめておく． (そろそろ新しいMac買おうと思ってたけど，クリーンインストールでサクサク動くようになったΣ(゜Д゜；)) 再インストールする前に何点か確認 ロ">
+<meta name="keywords" content="rails,mac-os-x,rubymine,yosemite">
+<meta property="og:type" content="article">
+<meta property="og:title" content="【Mac OS X】Yosemiteをクリーンインストール(初期化)して Rails 開発環境をセットアップした">
+<meta property="og:url" content="https:&#x2F;&#x2F;blog.tanaka.world&#x2F;mac-os-x-yosemite-crean-install-rails-env-set-up&#x2F;index.html">
+<meta property="og:site_name" content="For X Developers">
+<meta property="og:description" content="普段使っているメイン機 MacBook Air (13-inch, Mid 2012) が，突然落ちたりファンの音がうるさすぎたりしたので，クリーンインストールした． 普段はRuby&#x2F;Railsで開発しているので，ついでにセットアップ手順もまとめておく． (そろそろ新しいMac買おうと思ってたけど，クリーンインストールでサクサク動くようになったΣ(゜Д゜；)) 再インストールする前に何点か確認 ロ">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="https:&#x2F;&#x2F;blog.tanaka.world&#x2F;favicon.png">
+<meta property="og:updated_time" content="2020-12-25T03:35:42.501Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https:&#x2F;&#x2F;blog.tanaka.world&#x2F;favicon.png"><link rel="search" type="application/opensearchdescription+xml" href="https://blog.tanaka.world/atom.xml" title="For X Developers"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png" alt="logo"><h1 class="title">For X Developers</h1></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="https://tanaka.world/about" target="_blank" class="nav-list-link">AUTHOR</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">RSS</a></li></ul></header><main class="container"><div class="post"><article class="post-block"><h1 class="post-title">【Mac OS X】Yosemiteをクリーンインストール(初期化)して Rails 開発環境をセットアップした</h1><div class="post-info">Sep 25, 2015<div class="tags-list"><div class="tags-list-item"><a href="/tags/rails/" class="tags-list-item-link">#rails</a></div><div class="tags-list-item"><a href="/tags/mac-os-x/" class="tags-list-item-link">#mac-os-x</a></div><div class="tags-list-item"><a href="/tags/rubymine/" class="tags-list-item-link">#rubymine</a></div><div class="tags-list-item"><a href="/tags/yosemite/" class="tags-list-item-link">#yosemite</a></div></div></div><div class="post-content"><p>普段使っているメイン機 MacBook Air (13-inch, Mid 2012) が，突然落ちたりファンの音がうるさすぎたりしたので，クリーンインストールした．</p>
+<p>普段はRuby/Railsで開発しているので，ついでにセットアップ手順もまとめておく．</p>
+<p>(そろそろ新しいMac買おうと思ってたけど，クリーンインストールでサクサク動くようになったΣ(゜Д゜；))</p>
+<h2 id="再インストールする前に何点か確認"><a href="#再インストールする前に何点か確認" class="headerlink" title="再インストールする前に何点か確認"></a>再インストールする前に何点か確認</h2><ul>
+<li>ローカルで必要なデータはどこかにコピーしておく</li>
+<li>chromeのブックマークをGoogleアカウントにsyncしているか確認<br><a href="https://www.google.com/settings/u/2/chrome/syncから数とか確認できる" target="_blank" rel="noopener">https://www.google.com/settings/u/2/chrome/syncから数とか確認できる</a></li>
+<li>cloneしているリポジトリのlocalブランチをpushしているか</li>
+</ul>
+<h2 id="HDD初期化と再インストール"><a href="#HDD初期化と再インストール" class="headerlink" title="HDD初期化と再インストール"></a>HDD初期化と再インストール</h2><ul>
+<li>Macを再起動し，グレーの画面で ⌘ + R を押し続けるとOSユーティリティが起動</li>
+<li>ディスクユーティリティで Macintosh HDを消去</li>
+<li>OSユーティリティに戻ってOS再インストール</li>
+</ul>
+<h2 id="共通環境設定"><a href="#共通環境設定" class="headerlink" title="共通環境設定"></a>共通環境設定</h2><ul>
+<li>caps lock と control を入れ替え</li>
+<li>言語を英語に変更</li>
+<li><a href="https://www.google.co.jp/ime/" target="_blank">Google IME<br></a>インストールし，ひらがなのみを適用</li>
+<li><a href="http://www.bettertouchtool.net/" target="_blank">BetterTouchTool<br><img src="2015-09-25-mac-os-x-yosemite-crean-install-rails-env-set-up/better-touch-tools.png" alt="better-touch-tools"></li>
+<li><a href="http://qiita.com/daichi87gi/items/ded35e9d9a54c8fcb9d6" target="_blank" rel="noopener" title="Karabiner">Karabiner</a></li>
+<li>隠しファイル表示<ul>
+<li>$ defaults write com.apple.finder AppleShowAllFiles TRUE</li>
+</ul>
+</li>
+</ul>
+<h2 id="よくつかうアプリ"><a href="#よくつかうアプリ" class="headerlink" title="よくつかうアプリ"></a>よくつかうアプリ</h2><ul>
+<li>Chrome</li>
+<li>Slack</li>
+<li>Rubymine<br>アプリケーション起動時にJVMのinstallが必要</li>
+<li>WebStorm</li>
+<li>SourceTree</li>
+<li>iTerm2</li>
+</ul>
+<h2 id="コマンドラインツール"><a href="#コマンドラインツール" class="headerlink" title="コマンドラインツール"></a>コマンドラインツール</h2><ul>
+<li><p>node</p>
+<ul>
+<li>$ brew install node</li>
+</ul>
+</li>
+<li><p>npm</p>
+<ul>
+<li>$ curl -O -L <a href="https://npmjs.org/install.sh" target="_blank" rel="noopener">https://npmjs.org/install.sh</a></li>
+</ul>
+</li>
+<li><p>bower</p>
+<ul>
+<li>$ npm install -g bower</li>
+</ul>
+</li>
+<li><p>grunt</p>
+<ul>
+<li>$ npm install -g grunt-cli</li>
+</ul>
+</li>
+<li><p>brew</p>
+<ul>
+<li>$ ruby -e “$(curl -fsSL <a href="https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;" target="_blank" rel="noopener">https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</a></li>
+</ul>
+</li>
+<li><p>Git・GitHub</p>
+<ul>
+<li><p>$ brew install git</p>
+</li>
+<li><p>$ ssh-keygen -t rsa -C “<a href="mailto:mail@mail.com" target="_blank" rel="noopener">mail@mail.com</a>“<br>  パスワードは空でもOK</p>
+</li>
+<li><p>$ pbcopy &lt; ~/.ssh/id_rsa.pub</p>
+</li>
+<li><p>GitHubのSSH Key設定ページに作成した公開鍵を登録</p>
+</li>
+<li><p>config</p>
+</li>
+<li><p>$ git config –global user.name “Name”</p>
+</li>
+<li><p>$ git config –global user.email <a href="mailto:mail@mail.com" target="_blank" rel="noopener">mail@mail.com</a></p>
+</li>
+<li><p>その他普段使っているaliasを設定</p>
+</li>
+</ul>
+</li>
+<li><p>vim</p>
+<ul>
+<li>$ brew install vim</li>
+</ul>
+</li>
+<li><p>rbenv</p>
+<ul>
+<li>$ brew install rbenv ruby build</li>
+</ul>
+</li>
+<li><p>ruby</p>
+<ul>
+<li>$ rbenv install –list</li>
+<li>$ rbenv install x.x.x</li>
+<li>$ rbenv –global x.x.x (任意)</li>
+</ul>
+</li>
+<li><p>bundler</p>
+<ul>
+<li>$ gem install bundler</li>
+</ul>
+</li>
+</ul>
+<h2 id="Rails-Project"><a href="#Rails-Project" class="headerlink" title="Rails Project"></a>Rails Project</h2><ul>
+<li><p>プロジェクトをクローンする</p>
+</li>
+<li><p>mysql</p>
+<ul>
+<li><p>$ brew install mysql</p>
+</li>
+<li><p>root user作成</p>
+</li>
+<li><p>$ mysqladmin -u root password <em>PASS</em></p>
+</li>
+<li><p>$ mysql -u root -p でログインできるか確認</p>
+</li>
+<li><p>Railsで使用するユーザを作成</p>
+</li>
+<li><p>mysql&gt; create user ‘<em>xxx-dev</em>‘@localhost identified by ‘<em>PASS</em>‘;</p>
+</li>
+<li><p>mysql&gt; grant all on <em>.</em> to ‘<em>xxx-dev</em>‘@’localhost’;</p>
+</li>
+<li><p>mysql&gt; create user ‘<em>xxx-test</em>‘@localhost identified by ‘<em>PASS</em>‘;</p>
+</li>
+<li><p>mysql&gt; grant all on <em>.</em> to ‘<i>xxx-test</i>‘@’localhost’;</p>
+</li>
+</ul>
+</li>
+<li><p>ignoreしているファイルを追加</p>
+<ul>
+<li>config/secrets.yml</li>
+<li>config/database.yml</li>
+<li>.rspec</li>
+</ul>
+</li>
+<li><p>Gemfile追加</p>
+<ul>
+<li><p>$ bundle install</p>
+</li>
+<li><p>(このエラーがでた場合)<br><img src="2015-09-25-mac-os-x-yosemite-crean-install-rails-env-set-up/image-magick-error.png" alt="image-magick-error"></p>
+</li>
+<li><p>$ brew install imagemagick<br>  (rmagickがimagemagickを使用するが，imagemagickはgemでinstallできないため，マシンのを参照しようとするがinstallされていないことが原因)</p>
+</li>
+</ul>
+</li>
+<li><p>$ rake db:create</p>
+</li>
+<li><p>$ bundle exec rake db:migrate RAILS_ENV=development</p>
+</li>
+<li><p>$ bundle exec rails s</p>
+</li>
+</ul>
+</div></article></div></main><footer><div class="share-buttons"><ul class="share-buttons-list"><li class="share-buttons-list-item"><a data-fullpath="https://blog.tanaka.world/mac-os-x-yosemite-crean-install-rails-env-set-up/index.html" href="https://twitter.com/intent/tweet?text=【Mac OS X】Yosemiteをクリーンインストール(初期化)して Rails 開発環境をセットアップした&amp;url=https://blog.tanaka.world/mac-os-x-yosemite-crean-install-rails-env-set-up/&amp;via=_tanakaworld" onclick="window.open(https://blog.tanaka.world/mac-os-x-yosemite-crean-install-rails-env-set-up/, 'twitter-share', 'width=550,height=235');return false;" target="_blank" class="icon icon-twitter"><img src="/images/icon-twitter.svg"></a></li><li class="share-buttons-list-item"><a href="https://www.facebook.com/sharer/sharer.php?u=https://blog.tanaka.world/mac-os-x-yosemite-crean-install-rails-env-set-up/" data-fullpath="https://blog.tanaka.world/mac-os-x-yosemite-crean-install-rails-env-set-up/index.html" onclick="window.open(https://blog.tanaka.world/mac-os-x-yosemite-crean-install-rails-env-set-up/, 'facebook-share','width=580,height=296');return false;" target="_blank" class="icon icon-facebook"><img src="/images/icon-facebook.svg"></a></li><!--li.share-buttons-list-item--><!--    a.icon.icon-pocket(data-fullpath=url href="https://getpocket.com/edit?url=#{share_url}&title=#{title}" onclick="window.open(#{share_url}, 'google-plus-share', 'width=490,height=530');return false;" target="_blank")--><!--        img(src="/images/icon-twitter.svg")--><li class="share-buttons-list-item"><a data-fullpath="https://blog.tanaka.world/mac-os-x-yosemite-crean-install-rails-env-set-up/index.html" href="https://plus.google.com/share?url=https://blog.tanaka.world/mac-os-x-yosemite-crean-install-rails-env-set-up/" onclick="window.open(https://blog.tanaka.world/mac-os-x-yosemite-crean-install-rails-env-set-up/, 'google-plus-share', 'width=490,height=530');return false;" target="_blank" class="icon icon-google-plus"><img src="/images/icon-google-plus.svg"></a></li></ul></div><div class="paginator"><a href="/coffeescript-grunt-karma-jasmine/" class="prev">&laquo; PREV</a><a href="/action-item-5-2015-half/" class="next">NEXT &raquo;</a></div><div class="copyright"><p>© 2014 - 2020 <a href="https://blog.tanaka.world">tanakaworld</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/tanakaworld/hexo-theme-apollo" target="_blank">Forked of hexo-theme-apollo</a>.</p></div></footer></div><!--script(async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous")--><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-122034388-1",'auto');ga('send','pageview');</script></body></html>
