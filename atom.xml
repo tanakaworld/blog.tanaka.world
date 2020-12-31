@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.tanaka.world/"/>
-  <updated>2020-12-26T04:11:14.620Z</updated>
+  <updated>2020-12-31T04:35:28.871Z</updated>
   <id>https://blog.tanaka.world/</id>
   
   <author>
@@ -17,9 +17,33 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>業務で英語を使うときの準備と実践ログ</title>
+    <link href="https://blog.tanaka.world/english-2020/"/>
+    <id>https://blog.tanaka.world/english-2020/</id>
+    <published>2020-12-30T12:00:00.000Z</published>
+    <updated>2020-12-31T04:35:28.871Z</updated>
+    
+    <content type="html"><![CDATA[<p>2019 年は業務で英語を使うための準備し、2020 年は実際に業務で英語を使うようになったこの 2 年間を振り返る。結論、1 年間英会話をして準備していたが実際はあまり役立たなかった。やみくもに準備に時間をかけるよりも、実践して必要なことがわかってからそれにフォーカスした対策をした方がよいという話。</p><h2 id="2019-年"><a href="#2019-年" class="headerlink" title="2019 年"></a>2019 年</h2><ul><li><strong><a href="/english-conversation-every-day-3-month">1年間毎日英会話やってた</a>があまり意味がなかった。</strong></li><li>意味があったのは体感 30 %くらい (後述)</li><li>このやり方であれば準備は 3 ヶ月とかもっと少なくても変わらなかったと思う</li><li>※ 前提<ul><li>英語を使い業務を遂行できることが第一目標、TOEIC などの試験で点を取ることは考えていない</li><li>業務はソフトウェア開発、読み書き・会話が英語になる</li><li>複数人のチーム</li></ul></li></ul><h3 id="何がよくなかったか"><a href="#何がよくなかったか" class="headerlink" title="何がよくなかったか"></a>何がよくなかったか</h3><h4 id="1-考えて話す機会が少ない"><a href="#1-考えて話す機会が少ない" class="headerlink" title="1. 考えて話す機会が少ない"></a>1. 考えて話す機会が少ない</h4><p>DMM 英会話ではフリートーク・デイリーニュースを中心に題材を選択していた。フリートーク（20 ％）、デイリーニュース（60 ％）、その他教材（20 ％）という割合だった。フリートークでは「その国で流行っているスマホアプリは？」というテーマで話していた。毎回違う先生を予約していたので同じ話題で問題はなかった。デイリーニュースではニュース本文を音読して、質問に答えるという内容だった。実質、十数分以下しか話せていない。</p><p>ただ話を聞いているだけ、書いてあるテキストを読んでいるだけでは身につかない。相手が話すのを聞いている時間より自分が話すチャンスを意識的に増やす、内容を要約して伝えるといった<strong>頭を使う</strong>学習方法の方が効果的だったと思う。</p><h4 id="2-使わない-間違ったフレーズを覚えてしまう"><a href="#2-使わない-間違ったフレーズを覚えてしまう" class="headerlink" title="2. 使わない/間違ったフレーズを覚えてしまう"></a>2. 使わない/間違ったフレーズを覚えてしまう</h4><p>業務と関係ない内容で学習していても、業務には直接活きないのは容易に想像がつくだろう。<strong>目的にフォーカスした内容を優先して学習するべき</strong>だった。実際の業務で「盆栽」の話をすることなどない。</p><blockquote class="twitter-tweet"><p lang="ja" dir="ltr">これ日本語でディスカッションするのもムズイw<br><br>&quot;$90,000 Bonsai Tree Stolen in Saitama&quot;<a href="https://t.co/6acxa3Bhip" target="_blank" rel="noopener">https://t.co/6acxa3Bhip</a></p>&mdash; tanakaworld 🧢 (@_tanakaworld) <a href="https://twitter.com/_tanakaworld/status/1099982275930816512?ref_src=twsrc%5Etfw" target="_blank" rel="noopener">February 25, 2019</a></blockquote><p>文法が間違っている時にそれに気づかず話しつづけてていたこともよくない。DMM 英会話の機能で講師から指摘の頻度を上げてもらうオプションがあったがそれを指定していても意味が通じれば何も言ってこないケースが大半だった。ニュアンスが通じればそれでよい説はあるとは思う。しかしそれ止まりでは効率が悪い。</p><h4 id="3-復習をしていない"><a href="#3-復習をしていない" class="headerlink" title="3. 復習をしていない"></a>3. 復習をしていない</h4><p>言わずもがな、何度か繰り返し復習をしないと忘れていく。盆栽の話を復習したところでそこまで効果はなかったと思うが。単語やフレーズを、業務のフォーマットに変換した上でインプットするなどの工夫が必要である。</p><h3 id="ただやるだけでも身についていたこと"><a href="#ただやるだけでも身についていたこと" class="headerlink" title="ただやるだけでも身についていたこと"></a>ただやるだけでも身についていたこと</h3><p>2020 年から業務で英語を使い始め「<strong>あまり意味がなかった</strong>」ということにすぐに気がついた。しかしその中でも役に立ったなと思うこともあり、それは体感 30 %くらいだった。残り 70% は実践をやることでしか身につかなかった。身についていたことは次の通り。</p><ul><li>リスニング力</li><li>発音</li><li>瞬発力（どうにかする力）</li></ul><p>英語話者の話していることを頭で理解するという行為を繰り返す過程で<strong>リスニング力</strong>はついていた。<a href="https://amzn.to/3pFcrlb" target="_blank" rel="noopener">英語耳</a>で繰り返し<strong>発音</strong>を学習し、それを会話で実践することで、意識しなくても正しい発音になるようになった。自分発音できる音は聞き取れるという状態になっている。</p><p>自分から何かを話し続ける・相手の問いかけに何かをレスポンスするというのを<strong>瞬発的</strong>にできるようになった。文法は間違っていてもコミュニケーションが成り立つようにはなっていたと思う。よい言い回しが出てこなくても、語彙をつなげてなんとかして伝える「<strong>どうにかする力</strong>」とも言えるかもしれない。このコミュニケーションスタイルは時間がかかる点とニュアンスがうまく伝わらないときがある点で効率が悪い。</p><h2 id="2020-年"><a href="#2020-年" class="headerlink" title="2020 年"></a>2020 年</h2><p>下記、雑なメモ。</p><h3 id="前半"><a href="#前半" class="headerlink" title="前半"></a>前半</h3><ul><li>カナダ出身の W 氏がチームにジョインした<ul><li>自分はメンターとなり同じプロジェクトで一緒に開発することになった。一応、英語だけで業務を推進することはできたが、もっとこうしておけばよかったということが大半だった</li><li>やってみないと本当に必要なことはわからない</li><li>自分だけが英語を話せてもダメでチームとしての受け入れ体制が必要だった。ドキュメントを英語・日本語で併記する、ミーティングを通訳してもらうなど。クレジットカードの法律など日本語でも理解が難しいものがあり、それは日本語がメインとなっている。</li></ul></li><li>W 氏が使っているフレーズをひたすらメモして自分も使うということを繰り返した<ul><li>3ヶ月くらいでメモする回数がかなり減っていた</li><li>それほど限られた語彙でも会話は一定成立した (ニュアンスがおかしかったり、違和感がある表現はあるかも)</li></ul></li><li>W 氏の日本語上達が速い<ul><li>日本人は英語学習・実践に充てている時間が圧倒的に少ない</li><li>圧倒的に時間をかけて学習している、かつ業務で実践しているからだと肌で感じた</li></ul></li><li>シンプルに話すための訓練が必要<ul><li>日本語でもうまく話せない事柄は英語でもうまく話せないと気づく</li><li>日本語では話しながら思考を整理していく＝ダラダラ長い話をしてしまう、ということがある</li><li>自分の中でポイントを整理できていれば、シンプルに短く要点を伝えてコミュニケーションできる（言語は問わない）</li><li>例えば、ネイティブは能動態を使ってシンプルに話す印象がある。日本人は受動態で話しがちでよけい複雑になっている、というケースがある</li><li>そもそもシンプルな英語表現しかできないのだから、事前に思考を整理した上で短いコミュニケーションが求められる</li></ul></li><li>英語は筋トレ<ul><li>数ヶ月、別プロジェクトにスポットで取り組むことになり、英語実践環境から離れる期間があった</li><li>数ヶ月後にはうまく話せなくなっていた</li><li>筋トレのように継続しないと衰えは早い</li></ul></li></ul><h3 id="後半"><a href="#後半" class="headerlink" title="後半"></a>後半</h3><ul><li>チームとして英語コミュニケーションの機会を増やしている<ul><li>例えば<a href="https://engineering.mercari.com/blog/entry/20201222-merpay-frontend/" target="_blank" rel="noopener">チーム内コミュニケーションで使う言語を英語に統一</a>するなどしている</li><li>一時的にストレッチ状態になり痛みは伴うが、その分皆が成長しているのがわかる</li></ul></li><li>やさしい日本語が難しい<ul><li>やさしい日本語は、スラングを使わないことや慣用句・熟語を使わないということが求められる</li><li>それを意識しながら話すのは非常に疲れる。逆も同じ。ネイティブが自分たちの英語レベルにあわせてやさしい英語を使うようにしてくれていると思うと、より早く上達せねばという気になる。</li></ul></li><li>やさしい英語が難しい<ul><li>比較的英語に慣れていない日本人に、日本人が話す英語が伝わらないことがある。</li><li>チームの共通言語集をもつことでその解決に役立った。例えば、<a href="https://github.com/mercari/engineer-vocabulary-list" target="_blank" rel="noopener">Engineer Vocabulary List in Japanese/English エンジニア向け日英ボキャブラリーリスト</a>が非常に実践的で役立った</li></ul></li></ul><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;2019 年は業務で英語を使うための準備し、2020 年は実際に業務で英語を使うようになったこの 2 年間を振り返る。結論、1 年間英会話をして準備していたが実際はあまり役立たなかった。やみくもに準備に時間をかけるよりも、実践して必要なことがわかってからそれにフォーカスした
+      
+    
+    </summary>
+    
+    
+    
+      <category term="english" scheme="https://blog.tanaka.world/tags/english/"/>
+    
+  </entry>
+  
+  <entry>
     <title>2020年買ってよかったもの</title>
-    <link href="https://blog.tanaka.world//the-best-things-2020/"/>
-    <id>https://blog.tanaka.world//the-best-things-2020/</id>
+    <link href="https://blog.tanaka.world/the-best-things-2020/"/>
+    <id>https://blog.tanaka.world/the-best-things-2020/</id>
     <published>2020-12-26T03:00:00.000Z</published>
     <updated>2020-12-26T04:11:14.620Z</updated>
     
@@ -43,8 +67,8 @@
   
   <entry>
     <title>Proff の本番環境を刷新した（ECS/Fargate）</title>
-    <link href="https://blog.tanaka.world//revamp-proff-io-infra-ecs-fargate/"/>
-    <id>https://blog.tanaka.world//revamp-proff-io-infra-ecs-fargate/</id>
+    <link href="https://blog.tanaka.world/revamp-proff-io-infra-ecs-fargate/"/>
+    <id>https://blog.tanaka.world/revamp-proff-io-infra-ecs-fargate/</id>
     <published>2020-07-13T03:00:00.000Z</published>
     <updated>2020-12-25T03:35:42.894Z</updated>
     
@@ -76,8 +100,8 @@
   
   <entry>
     <title>Life From Home</title>
-    <link href="https://blog.tanaka.world//life-from-home-covid-19/"/>
-    <id>https://blog.tanaka.world//life-from-home-covid-19/</id>
+    <link href="https://blog.tanaka.world/life-from-home-covid-19/"/>
+    <id>https://blog.tanaka.world/life-from-home-covid-19/</id>
     <published>2020-05-11T01:53:01.000Z</published>
     <updated>2020-12-25T03:35:42.893Z</updated>
     
@@ -101,8 +125,8 @@
   
   <entry>
     <title>2019年の振り返り</title>
-    <link href="https://blog.tanaka.world//2019/"/>
-    <id>https://blog.tanaka.world//2019/</id>
+    <link href="https://blog.tanaka.world/2019/"/>
+    <id>https://blog.tanaka.world/2019/</id>
     <published>2019-12-27T11:00:00.000Z</published>
     <updated>2020-12-26T04:10:04.355Z</updated>
     
@@ -126,8 +150,8 @@
   
   <entry>
     <title>2019年買ってよかったもの</title>
-    <link href="https://blog.tanaka.world//the-best-things-2019/"/>
-    <id>https://blog.tanaka.world//the-best-things-2019/</id>
+    <link href="https://blog.tanaka.world/the-best-things-2019/"/>
+    <id>https://blog.tanaka.world/the-best-things-2019/</id>
     <published>2019-12-25T03:00:00.000Z</published>
     <updated>2020-12-26T04:10:04.354Z</updated>
     
@@ -150,8 +174,8 @@
   
   <entry>
     <title>2019年断捨離したもの</title>
-    <link href="https://blog.tanaka.world//minimalism-in-2019/"/>
-    <id>https://blog.tanaka.world//minimalism-in-2019/</id>
+    <link href="https://blog.tanaka.world/minimalism-in-2019/"/>
+    <id>https://blog.tanaka.world/minimalism-in-2019/</id>
     <published>2019-12-22T05:00:00.000Z</published>
     <updated>2020-12-25T03:35:42.868Z</updated>
     
@@ -174,8 +198,8 @@
   
   <entry>
     <title>Nuxt マイクロサービスを 3つに分割した話</title>
-    <link href="https://blog.tanaka.world//split-a-nuxt-microservice-to-3-microservices/"/>
-    <id>https://blog.tanaka.world//split-a-nuxt-microservice-to-3-microservices/</id>
+    <link href="https://blog.tanaka.world/split-a-nuxt-microservice-to-3-microservices/"/>
+    <id>https://blog.tanaka.world/split-a-nuxt-microservice-to-3-microservices/</id>
     <published>2019-08-26T14:00:00.000Z</published>
     <updated>2020-12-25T03:35:42.868Z</updated>
     
@@ -202,8 +226,8 @@
   
   <entry>
     <title>Automatic Code Generation for SPA</title>
-    <link href="https://blog.tanaka.world//automatic-code-generation-for-spa/"/>
-    <id>https://blog.tanaka.world//automatic-code-generation-for-spa/</id>
+    <link href="https://blog.tanaka.world/automatic-code-generation-for-spa/"/>
+    <id>https://blog.tanaka.world/automatic-code-generation-for-spa/</id>
     <published>2019-07-03T14:00:00.000Z</published>
     <updated>2020-12-25T03:35:42.868Z</updated>
     
@@ -232,8 +256,8 @@
   
   <entry>
     <title>Rails で swagger-blocks と fastjson_api を組み合わせる (API定義編)</title>
-    <link href="https://blog.tanaka.world//swagger-blocks-with-fastjson-api-part1/"/>
-    <id>https://blog.tanaka.world//swagger-blocks-with-fastjson-api-part1/</id>
+    <link href="https://blog.tanaka.world/swagger-blocks-with-fastjson-api-part1/"/>
+    <id>https://blog.tanaka.world/swagger-blocks-with-fastjson-api-part1/</id>
     <published>2019-04-21T02:48:00.000Z</published>
     <updated>2020-12-25T03:35:42.866Z</updated>
     
@@ -260,8 +284,8 @@
   
   <entry>
     <title>メルペイ 会社・事業説明会 for エンジニア</title>
-    <link href="https://blog.tanaka.world//merpay-engineering-meetup-2/"/>
-    <id>https://blog.tanaka.world//merpay-engineering-meetup-2/</id>
+    <link href="https://blog.tanaka.world/merpay-engineering-meetup-2/"/>
+    <id>https://blog.tanaka.world/merpay-engineering-meetup-2/</id>
     <published>2019-04-17T14:00:00.000Z</published>
     <updated>2020-12-25T03:35:42.866Z</updated>
     
@@ -284,8 +308,8 @@
   
   <entry>
     <title>英会話を3ヶ月間毎日やってみた感想</title>
-    <link href="https://blog.tanaka.world//english-conversation-every-day-3-month/"/>
-    <id>https://blog.tanaka.world//english-conversation-every-day-3-month/</id>
+    <link href="https://blog.tanaka.world/english-conversation-every-day-3-month/"/>
+    <id>https://blog.tanaka.world/english-conversation-every-day-3-month/</id>
     <published>2019-03-31T05:00:00.000Z</published>
     <updated>2020-12-25T03:35:42.864Z</updated>
     
@@ -310,8 +334,8 @@
   
   <entry>
     <title>2018年を振り返る</title>
-    <link href="https://blog.tanaka.world//2018/"/>
-    <id>https://blog.tanaka.world//2018/</id>
+    <link href="https://blog.tanaka.world/2018/"/>
+    <id>https://blog.tanaka.world/2018/</id>
     <published>2018-12-29T10:05:25.000Z</published>
     <updated>2020-12-26T04:10:04.353Z</updated>
     
@@ -335,8 +359,8 @@
   
   <entry>
     <title>2018年の積読リストを晒す</title>
-    <link href="https://blog.tanaka.world//books-review-2018/"/>
-    <id>https://blog.tanaka.world//books-review-2018/</id>
+    <link href="https://blog.tanaka.world/books-review-2018/"/>
+    <id>https://blog.tanaka.world/books-review-2018/</id>
     <published>2018-12-28T04:11:45.000Z</published>
     <updated>2020-12-25T03:35:42.810Z</updated>
     
@@ -362,8 +386,8 @@
   
   <entry>
     <title>行動経済学まんが ヘンテコノミクス</title>
-    <link href="https://blog.tanaka.world//hent-economics/"/>
-    <id>https://blog.tanaka.world//hent-economics/</id>
+    <link href="https://blog.tanaka.world/hent-economics/"/>
+    <id>https://blog.tanaka.world/hent-economics/</id>
     <published>2018-12-16T08:26:51.000Z</published>
     <updated>2020-12-25T03:35:42.810Z</updated>
     
@@ -387,8 +411,8 @@
   
   <entry>
     <title>Rails5 / webpacker を heroku で動かす</title>
-    <link href="https://blog.tanaka.world//rails5-webpacker-on-heroku/"/>
-    <id>https://blog.tanaka.world//rails5-webpacker-on-heroku/</id>
+    <link href="https://blog.tanaka.world/rails5-webpacker-on-heroku/"/>
+    <id>https://blog.tanaka.world/rails5-webpacker-on-heroku/</id>
     <published>2018-11-25T14:13:03.000Z</published>
     <updated>2020-12-25T03:35:42.809Z</updated>
     
@@ -417,8 +441,8 @@
   
   <entry>
     <title>Vue Fes Japan 2018 に行ってきた</title>
-    <link href="https://blog.tanaka.world//vue-fes-japan-2018/"/>
-    <id>https://blog.tanaka.world//vue-fes-japan-2018/</id>
+    <link href="https://blog.tanaka.world/vue-fes-japan-2018/"/>
+    <id>https://blog.tanaka.world/vue-fes-japan-2018/</id>
     <published>2018-11-03T03:51:46.000Z</published>
     <updated>2020-12-25T03:35:42.807Z</updated>
     
@@ -443,8 +467,8 @@
   
   <entry>
     <title>上海に行ってきた</title>
-    <link href="https://blog.tanaka.world//shanhai-2018/"/>
-    <id>https://blog.tanaka.world//shanhai-2018/</id>
+    <link href="https://blog.tanaka.world/shanhai-2018/"/>
+    <id>https://blog.tanaka.world/shanhai-2018/</id>
     <published>2018-10-28T15:37:57.000Z</published>
     <updated>2020-12-25T03:35:42.807Z</updated>
     
@@ -468,8 +492,8 @@
   
   <entry>
     <title>10秒で歯磨きできる V-WHITE+</title>
-    <link href="https://blog.tanaka.world//v-white-plus/"/>
-    <id>https://blog.tanaka.world//v-white-plus/</id>
+    <link href="https://blog.tanaka.world/v-white-plus/"/>
+    <id>https://blog.tanaka.world/v-white-plus/</id>
     <published>2018-10-24T12:37:04.000Z</published>
     <updated>2020-12-25T03:35:42.803Z</updated>
     
@@ -494,8 +518,8 @@
   
   <entry>
     <title>How fast dev.to is?</title>
-    <link href="https://blog.tanaka.world//how-fast-dev-to-is/"/>
-    <id>https://blog.tanaka.world//how-fast-dev-to-is/</id>
+    <link href="https://blog.tanaka.world/how-fast-dev-to-is/"/>
+    <id>https://blog.tanaka.world/how-fast-dev-to-is/</id>
     <published>2018-10-22T15:00:00.000Z</published>
     <updated>2020-12-25T03:35:42.803Z</updated>
     
@@ -515,36 +539,9 @@
     
       <category term="rails" scheme="https://blog.tanaka.world/tags/rails/"/>
     
-      <category term="presentation" scheme="https://blog.tanaka.world/tags/presentation/"/>
-    
       <category term="dev" scheme="https://blog.tanaka.world/tags/dev/"/>
     
-  </entry>
-  
-  <entry>
-    <title>技術書典５にスタッフとして参加した</title>
-    <link href="https://blog.tanaka.world//techbookfest-05/"/>
-    <id>https://blog.tanaka.world//techbookfest-05/</id>
-    <published>2018-10-14T11:02:08.000Z</published>
-    <updated>2020-12-25T03:35:42.782Z</updated>
-    
-    <content type="html"><![CDATA[<p>ひょんなことから <a href="https://techbookfest.org/event/tbf05" target="_blank" rel="noopener">技術書典５</a> にスタッフとして参加させてもらいました．</p><p>早朝の机椅子のセッティングから始まり，サークル受付，列整理，会場見回りなど色々と体験させてもらい，技術書典の熱気を体感することができました．スタッフの方々とも色々な話ができ，とても楽しかったです．</p><p><strong>サークルの皆様，スタッフの皆様お疲れ様でした！！！</strong></p><blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">これにて <a href="https://twitter.com/hashtag/%E6%8A%80%E8%A1%93%E6%9B%B8%E5%85%B8?src=hash&amp;ref_src=twsrc%5Etfw" target="_blank" rel="noopener">#技術書典</a> 閉会します。ご来場、誠にありがとうございました。総来場者数は のべ10341人、うちサークル・スタッフ等関係者は889人でした。</p>&mdash; 技術書典公式アカウント (@techbookfest) <a href="https://twitter.com/techbookfest/status/1049208448372465664?ref_src=twsrc%5Etfw" target="_blank" rel="noopener">October 8, 2018</a></blockquote><p>凄まじい熱気感．同人イベントは初参加だったのもあり，全てに圧倒されていました（笑）．</p><blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">【News Up 文系も知りたい「技術書典」 】「技術書典」この４文字を見て「なにかの辞典？」などと思ったあなたは、永遠の文系。心を熱くするのが、日本のＩＴエンジニアたちです。技術者たちの「コミケ」とも言われ、最近、注目のイベントの魅力に迫りました。<a href="https://t.co/KDBVCx5wdS" target="_blank" rel="noopener">https://t.co/KDBVCx5wdS</a></p>&mdash; NHKニュース (@nhk_news) <a href="https://twitter.com/nhk_news/status/1050252562748899328?ref_src=twsrc%5Etfw" target="_blank" rel="noopener">October 11, 2018</a></blockquote><p>NHKニュースにも取り上げられていました．</p><p>会場は<a href="http://co.sunshinecity.co.jp/exhibition/hall_spec.html" target="_blank" rel="noopener">池袋サンシャインシティ2F 展示ホールD</a>というところで，とてつもなく広かった．セッティング前の様子はこんな感じ．</p><p><img src="floor.JPG" alt="floor.JPG" title="floor.JPG"><br><img src="floor1.JPG" alt="floor1.JPG" title="floor1.JPG"></p><blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">技術書典で散財する予定です💸😇</p>&mdash; tanakaworld 🧢 (@_tanakaworld) <a href="https://twitter.com/_tanakaworld/status/1044957820318150657?ref_src=twsrc%5Etfw" target="_blank" rel="noopener">September 26, 2018</a></blockquote><p>とは言っていたものの，なんだかバタバタしていて結果的に散財するには至りませんでしたが，事前にウォッチしていた本はゲットできました．</p><h2 id="人はなぜ技術書典に出すのか"><a href="#人はなぜ技術書典に出すのか" class="headerlink" title="人はなぜ技術書典に出すのか"></a>人はなぜ技術書典に出すのか</h2><blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">人はなぜ技術書典に出すのか？という件、自分もその本質を理解していない気がする。今回の技術書典は足を運ぼうと思う <a href="https://t.co/uV8TKVJNFb" target="_blank" rel="noopener">https://t.co/uV8TKVJNFb</a></p>&mdash; tanakaworld 🧢 (@_tanakaworld) <a href="https://twitter.com/_tanakaworld/status/1033739002459828225?ref_src=twsrc%5Etfw" target="_blank" rel="noopener">August 26, 2018</a></blockquote><p>当日を終えた直後は，サークルの方々の熱気に圧倒されて「すごかった（小並感）」くらいの感想しか思い浮かびませんでした．</p><p>しかしその後，一週間経って自分も出してみたいという気持ちがジワジワ湧き上がってきています．サークル参加された方のツイートやブログ読んだりしていると，とても楽しそうだなぁ．．．と思い始めました．さらにサークル参加していた同僚の話をきいているとそれがより一層高まってきます．書典の数週間前の暗雲立ち込める姿と，終了後サウナから出てきたかのようなリフレッシュした姿がそれを物語っているな，と感じました．</p><h2 id="「同棲を支える技術」（仮）"><a href="#「同棲を支える技術」（仮）" class="headerlink" title="「同棲を支える技術」（仮）"></a>「同棲を支える技術」（仮）</h2><p>今のところこういう感じのことについて書いてみたいなと思っています．彼女と同棲をはじめてもうすぐ１年が経とうとしています．いちエンジニアとして日常をハックしたいというのを日々考えているのですが，それを１冊の本にまとめられたら面白そうだなと．イラストやマンガを載せて本にしている方々も印象的だったので織り交ぜたい．（僕はピクセル画しか描けないので，誰かサポートしてくれる方募集中です😇）</p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;ひょんなことから &lt;a href=&quot;https://techbookfest.org/event/tbf05&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;技術書典５&lt;/a&gt; にスタッフとして参加させてもらいました．&lt;/p&gt;
-&lt;p&gt;早朝の机椅子のセッティン
-      
-    
-    </summary>
-    
-    
-    
-      <category term="book" scheme="https://blog.tanaka.world/tags/book/"/>
-    
-      <category term="tbf" scheme="https://blog.tanaka.world/tags/tbf/"/>
+      <category term="presentation" scheme="https://blog.tanaka.world/tags/presentation/"/>
     
   </entry>
   
