@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.tanaka.world/"/>
-  <updated>2020-12-31T04:35:28.871Z</updated>
+  <updated>2020-12-31T06:38:19.975Z</updated>
   <id>https://blog.tanaka.world/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2020年の振り返り</title>
+    <link href="https://blog.tanaka.world/2020/"/>
+    <id>https://blog.tanaka.world/2020/</id>
+    <published>2020-12-31T04:00:00.000Z</published>
+    <updated>2020-12-31T06:38:19.975Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="メルペイ"><a href="#メルペイ" class="headerlink" title="メルペイ"></a>メルペイ</h2><p>入社してから約 2 年半経った。過去に正社員で働いた会社の中では最長となっている。振り返ると入社してから 2020 年入るまではメルペイリリース前後のバタバタであまり余裕がなかった。今年はメンバーが増えたおかげでこれまでやりたかったけどできなかったことができるようになった。</p><ul><li>1 月<ul><li>英語ネイティブと一緒に仕事するようになった (<a href="/english-2020/">業務で英語を使うときの準備と実践ログ</a>)</li></ul></li><li>2 月 〜 3 月<ul><li>2 末からフルリモートワークが続いている。結局 2 回だけしかオフィスに出社していない。</li><li>2 月にも 1 人外国籍メンバーが増え、さらに Origami のメンバーもジョインしチームメンバーが一気に増えた</li><li>オンボーディングやコンポーネントリニューアルを担当した</li></ul></li><li>4 月 〜 7 月<ul><li><a href="https://jp-news.mercari.com/2020/07/03/mynumber/" target="_blank" rel="noopener">マイナンバーポイントキャンペーン</a>の開発に関わった</li></ul></li><li>8 月 〜 現在<ul><li>Engineering Division でリグレッションテストの自動化をしていくことになった</li><li>自分は Frontend 領域のオーナーとして取り組んだ (<a href="https://engineering.mercari.com/blog/entry/20201207-cypress-testrail-frontend-e2e-automation/" target="_blank" rel="noopener">Cypress + TestRail による Frontend E2E テストの効率化について</a>)</li><li>10 月からは Engineering Manager をやっている。完全にコードを書かなくなったわけではなく、50% マネジメント・50% プロダクト開発という割合でやっている</li></ul></li></ul><h2 id="Proff"><a href="#Proff" class="headerlink" title="Proff"></a>Proff</h2><ul><li><a href="/revamp-proff-io-infra-ecs-fargate/">ECS/Fargate</a> に移行した</li><li>E2E テストを整備し、Renovate の更新を半自動でできるようにした</li><li>その他、細かい改修をいくつかやった</li></ul><h2 id="衣食住"><a href="#衣食住" class="headerlink" title="衣食住"></a>衣食住</h2><ul><li>WFH が主となり家にいる時間が圧倒的に増えた</li><li>前半は <a href="/life-from-home-covid-19/">Life From Home</a> で書いた</li><li>散歩は継続している</li><li>9 月に引っ越しをして環境を整えた (<a href="/the-best-things-2020/">2020 年買ってよかったもの</a>)</li></ul><h2 id="禁酒と健康"><a href="#禁酒と健康" class="headerlink" title="禁酒と健康"></a>禁酒と健康</h2><h3 id="禁酒"><a href="#禁酒" class="headerlink" title="禁酒"></a>禁酒</h3><p>お腹に違和感があり、3 ヶ月間禁酒していた。お腹が鳴っている感覚が半月ほど続いており、念の為診察をした。エコー検査、レントゲン検査は異常なし、血液検査をしたところ膵臓に関わる数値が基準値をやや超えていた。「軽度の膵炎」という診断結果で、3 ヶ月お酒を控えて様子見となった。</p><p>お酒は週に数回程度、晩ごはん食べるときに一緒に飲む程度だった。大量に飲んで酔っ払うということはほぼなくなっていた。いざ禁酒してみると案外なんとかなった。外食のときは飲みたくなるときはあった。</p><p>結局、<strong>お酒は関係なかった</strong>。ちょうど引っ越しをしたので再検査は別の病院にした。基準値をやや超えていたのも体質であろうという見解になった。この数値ならそこまで大げさなものではなく、ほぼ個人差という診察であった。セカンドオピニオンは大事だと感じた。</p><h3 id="健康"><a href="#健康" class="headerlink" title="健康"></a>健康</h3><p>禁酒期間は自分の健康を見直すいい機会となった。体組成計 (<a href="http://localhost:4000/the-best-things-2020/#8-Oura-Ring" target="_blank" rel="noopener">Oura Ring</a>) で日常の生活習慣を可視化するようにしたり、スタンディングデスクを購入したり、栄養や食品のことを勉強するようになった (<a href="https://www.youtube.com/channel/UCrPCzN6HOfK7FY2NJmKBeWg" target="_blank" rel="noopener">栄養チャンネル</a>みてる)。<a href="http://localhost:4000/the-best-things-2020/#8-Oura-Ring" target="_blank" rel="noopener">Oura Ring</a> は奥さんと一緒にはじめた。二人の数値を比べられて面白い。</p><h2 id="ゲーム"><a href="#ゲーム" class="headerlink" title="ゲーム"></a>ゲーム</h2><ul><li>ポケットモンスター ソード・シールド</li><li><a href="https://amzn.to/34Y2EP9" target="_blank" rel="noopener">スーパーマリオ 3Dコレクション</a></li><li><a href="https://amzn.to/2X4m6VT" target="_blank" rel="noopener">桃太郎電鉄 ~昭和 平成 令和も定番!</a></li><li>結局、PS 5 は未だに購入できていない</li></ul><h2 id="旅行"><a href="#旅行" class="headerlink" title="旅行"></a>旅行</h2><p>COVID-19 の影響で海外旅行は行けなかった。GoTo Travel で青森に行った。</p><ul><li>1月: 愛知 (帰省)</li><li>11月: 青森</li></ul><h2 id="YouTube"><a href="#YouTube" class="headerlink" title="YouTube"></a>YouTube</h2><p>地上波のテレビ番組を完全に観なくなった。代わりに YouTube を観ている。オンデマンドにいつでも好きなものを観れるのと、再生速度を変更できて字幕やスキップもできるなど機能的にもよい。単純にテレビは面白くないのと、ニュース番組でさえ観る価値がわからなくなった。</p><p>料理系 YouTuber を真似して実践するようになった 1 年だった。我が家では寝る前に YouTube を観ることを「夜食」と呼んでいる。<a href="https://www.youtube.com/user/toruteli" target="_blank" rel="noopener">きまぐれクック</a> や <a href="https://www.youtube.com/channel/UC1-4AnMxkLXLNL3-7UJ4KTQ" target="_blank" rel="noopener">谷やん</a> を寝る前の空腹しのぎとして観ていたのがその由来で、夜食は食べるものではなく観るものになった。夜食の中で食べたいものや料理したいものを奥さんと共有している YouTube リストに登録し、「何が食べたい？」となったらそこから選択するというルーティンが板についた。 </p><p>料理関係ないけど、<a href="https://www.youtube.com/channel/UCKa_NCzd8zhw3m3eDJojHAQ" target="_blank" rel="noopener">宋世羅の羅針盤ちゃんねる</a> にもハマった。</p><h2 id="2021-年"><a href="#2021-年" class="headerlink" title="2021 年"></a>2021 年</h2><ul><li>やっていき</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;メルペイ&quot;&gt;&lt;a href=&quot;#メルペイ&quot; class=&quot;headerlink&quot; title=&quot;メルペイ&quot;&gt;&lt;/a&gt;メルペイ&lt;/h2&gt;&lt;p&gt;入社してから約 2 年半経った。過去に正社員で働いた会社の中では最長となっている。振り返ると入社してから 2020 年入るま
+      
+    
+    </summary>
+    
+    
+    
+      <category term="year-review" scheme="https://blog.tanaka.world/tags/year-review/"/>
+    
+  </entry>
   
   <entry>
     <title>業務で英語を使うときの準備と実践ログ</title>
@@ -333,11 +357,11 @@
   </entry>
   
   <entry>
-    <title>2018年を振り返る</title>
+    <title>2018年の振り返り</title>
     <link href="https://blog.tanaka.world/2018/"/>
     <id>https://blog.tanaka.world/2018/</id>
     <published>2018-12-29T10:05:25.000Z</published>
-    <updated>2020-12-26T04:10:04.353Z</updated>
+    <updated>2020-12-31T05:01:16.813Z</updated>
     
     <content type="html"><![CDATA[<p>激動の一年でした．</p><h2 id="SXSW"><a href="#SXSW" class="headerlink" title="SXSW"></a>SXSW</h2><p>3 月にアメリカ/テキサス州オースティンで行われた <a href="https://www.sxsw.com/world/day-in-pictures/" target="_blank" rel="noopener">SXSW:SouthBySouthWest</a> というイベントに <a href="https://www.curiosity-inc.jp/solution/real-fantasy" target="_blank" rel="noopener">Real Fantasy</a> を出展しました．毎年 3 月にテキサスで行われている音楽・映画・テクノロジーの祭典で約2週間オースティンの待ちがお祭りになります．自分たちの出展期間は 4 日間でした．👉 <a href="https://www.curiosity-inc.jp/archives/1778" target="_blank" rel="noopener">Release</a></p><p><img src="sxsw-members.JPG" alt="sxsw-members.JPG" title="sxsw-members.JPG"></p><p>出展の荷物たち．入国審査や現地ついてからの運搬が地獄でした．</p><p><img src="sxsw-packs.JPG" alt="sxsw-packs.JPG" title="sxsw-packs.JPG"></p><p>2 週間 AirBnB で家借りて社のメンバー 3 人で住み，出展期間が終わるまでは UberEats を食べながらバグ直したり開発合宿のような日々でした．</p><p><img src="sxsw-air-bnb.JPG" alt="sxsw-air-bnb.JPG" title="sxsw-air-bnb.JPG"></p><p>滞在中はドライバーとしても活躍しました．一人で車借りたり，買い出し行ったりして現地で生活したらこんな感じなのかと，生活を疑似体験したのもいい思い出です．</p><p><img src="sxsw-car.JPG" alt="sxsw-car.JPG" title="sxsw-car.JPG"></p><p>貴重な経験をさせてもらったこと，とても感謝しています．</p><h2 id="Proff"><a href="#Proff" class="headerlink" title="Proff"></a>Proff</h2><p><img src="proff_main_.png" alt="proff_main_.png" title="proff_main_.png"></p><p><a href="https://proff.io/" target="_blank" rel="noopener">Proff - スマート履歴書「プロフ」</a></p><p>今年は多くの人に認知され使ってもらえるサービスになりました．元々，レジュメを管理するサービスでよいのがなく，Google SpreadSheets で管理していました．海外のサービスで<a href="https://www.visualcv.com/" target="_blank" rel="noopener">こういうの</a>はありましたが，日本語でいい感じに表示してくるサービスがなく自分でつくり始めたのがキッカケでした．<a href="https://twitter.com/u_furuya" target="_blank" rel="noopener">@u_furuya</a> が出てくれた記事 <a href="https://jp.techcrunch.com/2018/08/20/proff-launched/" target="_blank" rel="noopener">履歴書作成ツール兼ポートフォリオサービス「Proff」正式公開——ロールモデルの提案ツール目指す</a> を皮切りにユーザー数がグッと増えました．人づてで同じ業界以外の人も使ってくれていることを聞いたり，採用担当してる人から Proff の履歴書でエントリー来たという声をもらい，非常に嬉しかったです．</p><h2 id="OSS"><a href="#OSS" class="headerlink" title="OSS"></a>OSS</h2><p>プロダクトつくる上で必要になった機能をチマチマ OSS にしてました．</p><ul><li><a href="https://github.com/tanakaworld/enum_select_rails" target="_blank" rel="noopener">enum_select_rails</a></li><li><a href="https://github.com/tanakaworld/rumojinize" target="_blank" rel="noopener">rumojinize</a> ( <a href="https://blog.tanaka.world/release-rumojinize/">blog</a> )</li><li><a href="https://github.com/tanakaworld/multi_seeds_rails" target="_blank" rel="noopener">multi_seeds_rails</a> ( <a href="https://blog.tanaka.world/release-multi-seed-rails/">blog</a> )</li><li><a href="https://github.com/tanakaworld/web_service_uri" target="_blank" rel="noopener">web_service_uri</a> ( <a href="https://blog.tanaka.world/release-web-service-uri/">blog</a> )</li><li><a href="https://github.com/tanakaworld/nuxt-sentry" target="_blank" rel="noopener">nuxt-sentry</a> ( <a href="https://qiita.com/tanakaworld/items/910d766361d398f43254" target="_blank" rel="noopener">qiita: Sentry で Nuxt.js のエラー検知 + 環境変数の扱いに関する Tips</a> )</li></ul><h2 id="旅行"><a href="#旅行" class="headerlink" title="旅行"></a>旅行</h2><ul><li>アメリカ - テキサス</li><li>米子・米子</li><li>島根</li><li>軽井沢</li><li>名古屋</li><li><a href="https://blog.tanaka.world/linepay-merchari-in-fukuoka/">福岡</a></li><li>中国 - <a href="https://blog.tanaka.world/shanhai-2018/">上海</a></li></ul><h2 id="転職"><a href="#転職" class="headerlink" title="転職"></a>転職</h2><p>8 月から<a href="https://jp.merpay.com/" target="_blank" rel="noopener">メルペイ</a>で働いています．早いものでもう 5 ヶ月経とうとしています．前職 curiosity では Web・アプリ・IoT など色々やらせてもらっていましたが，なんでもできるエンジニアから 1 度どれかにフォーカスしてスパイク分野をつくりたいという思いで転職を決めました．今のジョブタイトルは Software Engineer (Frontend) で文字通り Web フロントエンド開発をやっています（Vue•Nuxt/TypeScript/Docker/K8S/GCP）．</p><h2 id="入籍"><a href="#入籍" class="headerlink" title="入籍"></a>入籍</h2><p>12 / 3 に入籍しました🎉🎉🎉<br>日頃お世話になっている方々，公私ともに何卒よろしくおねがいします❗❗❗</p><p>👏<strong><a href="http://amzn.asia/7XLT2nk" target="_blank" rel="noopener">ほしいも</a></strong>✨</p><h2 id="2019-年"><a href="#2019-年" class="headerlink" title="2019 年"></a>2019 年</h2><h4 id="Proff-1"><a href="#Proff-1" class="headerlink" title="Proff"></a>Proff</h4><blockquote><p>編集画面の SPA 移行完了</p></blockquote><p>途中まで進めていた SPA 化を完了させたい．Turbolinks は使っているが，画面遷移時に都度ページ読み込みをしているのが現状．特に編集画面はサクサク使えてデータ入力も楽にするために注力していきたい所存．</p><blockquote><p>紙データの自動読み込み</p></blockquote><p>紙データは検索できない上，再編集もできない．一度作られた紙履歴書は，出す側も読む側もメリットないと思っている．主に toB 向けに大量取り込みできるようになるところまで持っていきたいと思う．</p><h4 id="英語"><a href="#英語" class="headerlink" title="英語"></a>英語</h4><blockquote><p>英<strong>会話</strong>を毎日やる</p></blockquote><p>業務上でも英語を話す機会がチラホラ出てきて，もっと円滑に話したい欲が増してきました．業務外のことでももっと気軽に話せるようになりたい．当然ながら使わないと錆びていくものなので，英語に関しては継続を KPI とします．</p><p><strong>2019 年よろしくおねがいします！！！！！！</strong></p>]]></content>
     
@@ -513,35 +537,6 @@
       <category term="makuake" scheme="https://blog.tanaka.world/tags/makuake/"/>
     
       <category term="cloud-funding" scheme="https://blog.tanaka.world/tags/cloud-funding/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>How fast dev.to is?</title>
-    <link href="https://blog.tanaka.world/how-fast-dev-to-is/"/>
-    <id>https://blog.tanaka.world/how-fast-dev-to-is/</id>
-    <published>2018-10-22T15:00:00.000Z</published>
-    <updated>2020-12-25T03:35:42.803Z</updated>
-    
-    <content type="html"><![CDATA[<p>社内勉強会で dev.to について話した．</p><script async class="speakerdeck-embed" data-id="6cda82b6968049bdb46fc7e5f204368d" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script><p>mizuchi さんの <a href="https://dev.to/mizchi/-devto--b5" target="_blank" rel="noopener">なぜ dev.to がこんなにも速く、こんなにも自分にとって感動的なのか</a> という記事を皮切りに，2017 年に日本でもバズっていた <strong>Insanely Fast</strong> な Web サービス．今年の 8 月に <a href="https://github.com/thepracticaldev/dev.to" target="_blank" rel="noopener">OSS 化</a> されソースコード読んでたら面白そうだったので，話してみる運びになった．</p><p>普段 Rails 開発する上で <a href="https://github.com/annict/annict" target="_blank" rel="noopener">annict</a> のソースコードを参考にさせてもらっているが，dev.to のソースコードもとても参考になりそうだった．</p><p>普段は Keynote でスライドつくっているが，今回は Google Slides でやってみた．Google Slides よい．内容にもよるが，凝ったインタラクションやアニメーションしないなら Google Slides で事足りる感があった．デフォルトのテンプレートを使い，マスタで色味だけ調整した．マスタは保存はできないが，インポートすることはできるので他のスライドでも使うことができる．</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;社内勉強会で dev.to について話した．&lt;/p&gt;
-&lt;script async class=&quot;speakerdeck-embed&quot; data-id=&quot;6cda82b6968049bdb46fc7e5f204368d&quot; data-ratio=&quot;1.7777777777777
-      
-    
-    </summary>
-    
-    
-    
-      <category term="rails" scheme="https://blog.tanaka.world/tags/rails/"/>
-    
-      <category term="dev" scheme="https://blog.tanaka.world/tags/dev/"/>
-    
-      <category term="presentation" scheme="https://blog.tanaka.world/tags/presentation/"/>
     
   </entry>
   

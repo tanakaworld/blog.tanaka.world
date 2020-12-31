@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.tanaka.world/2020/</loc>
+    
+    <lastmod>2020-12-31T06:38:19.975Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.tanaka.world/2018/</loc>
+    
+    <lastmod>2020-12-31T05:01:16.813Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.tanaka.world/english-2020/</loc>
     
     <lastmod>2020-12-31T04:35:28.871Z</lastmod>
@@ -26,13 +40,6 @@
     <loc>https://blog.tanaka.world/the-best-things-2019/</loc>
     
     <lastmod>2020-12-26T04:10:04.354Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.tanaka.world/2018/</loc>
-    
-    <lastmod>2020-12-26T04:10:04.353Z</lastmod>
     
   </url>
   
@@ -72,14 +79,14 @@
   </url>
   
   <url>
-    <loc>https://blog.tanaka.world/merpay-engineering-meetup-2/</loc>
+    <loc>https://blog.tanaka.world/swagger-blocks-with-fastjson-api-part1/</loc>
     
     <lastmod>2020-12-25T03:35:42.866Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.tanaka.world/swagger-blocks-with-fastjson-api-part1/</loc>
+    <loc>https://blog.tanaka.world/merpay-engineering-meetup-2/</loc>
     
     <lastmod>2020-12-25T03:35:42.866Z</lastmod>
     
@@ -422,13 +429,6 @@
   </url>
   
   <url>
-    <loc>https://blog.tanaka.world/karma-jasmine-ajax-spec/</loc>
-    
-    <lastmod>2020-12-25T03:35:42.503Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.tanaka.world/how-to-detect-dialog-open-this-page-in-appname-from-javascript-on-ios92/</loc>
     
     <lastmod>2020-12-25T03:35:42.503Z</lastmod>
@@ -436,9 +436,9 @@
   </url>
   
   <url>
-    <loc>https://blog.tanaka.world/action-item-5-2015-half/</loc>
+    <loc>https://blog.tanaka.world/karma-jasmine-ajax-spec/</loc>
     
-    <lastmod>2020-12-25T03:35:42.501Z</lastmod>
+    <lastmod>2020-12-25T03:35:42.503Z</lastmod>
     
   </url>
   
@@ -450,7 +450,14 @@
   </url>
   
   <url>
-    <loc>https://blog.tanaka.world/threes-height-score/</loc>
+    <loc>https://blog.tanaka.world/action-item-5-2015-half/</loc>
+    
+    <lastmod>2020-12-25T03:35:42.501Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.tanaka.world/release-ng-pixel/</loc>
     
     <lastmod>2020-12-25T03:35:42.500Z</lastmod>
     
@@ -464,7 +471,7 @@
   </url>
   
   <url>
-    <loc>https://blog.tanaka.world/release-ng-pixel/</loc>
+    <loc>https://blog.tanaka.world/threes-height-score/</loc>
     
     <lastmod>2020-12-25T03:35:42.500Z</lastmod>
     
@@ -499,14 +506,14 @@
   </url>
   
   <url>
-    <loc>https://blog.tanaka.world/rubikscube-40th-anniversary/</loc>
+    <loc>https://blog.tanaka.world/haskell-sublimetext2-setting/</loc>
     
     <lastmod>2020-12-25T03:35:42.498Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.tanaka.world/haskell-sublimetext2-setting/</loc>
+    <loc>https://blog.tanaka.world/rubikscube-40th-anniversary/</loc>
     
     <lastmod>2020-12-25T03:35:42.498Z</lastmod>
     
@@ -541,13 +548,6 @@
   </url>
   
   <url>
-    <loc>https://blog.tanaka.world/white-day-baigaeshi-da/</loc>
-    
-    <lastmod>2020-12-25T03:35:42.495Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.tanaka.world/webstrom-deploy-sakura-server/</loc>
     
     <lastmod>2020-12-25T03:35:42.495Z</lastmod>
@@ -555,7 +555,7 @@
   </url>
   
   <url>
-    <loc>https://blog.tanaka.world/threes-score-over-two-million/</loc>
+    <loc>https://blog.tanaka.world/white-day-baigaeshi-da/</loc>
     
     <lastmod>2020-12-25T03:35:42.495Z</lastmod>
     
@@ -563,6 +563,13 @@
   
   <url>
     <loc>https://blog.tanaka.world/threes-on-ios/</loc>
+    
+    <lastmod>2020-12-25T03:35:42.495Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.tanaka.world/threes-score-over-two-million/</loc>
     
     <lastmod>2020-12-25T03:35:42.495Z</lastmod>
     
