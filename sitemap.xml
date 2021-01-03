@@ -4,7 +4,7 @@
   <url>
     <loc>https://blog.tanaka.world/2020/</loc>
     
-    <lastmod>2020-12-31T06:47:31.913Z</lastmod>
+    <lastmod>2021-01-03T01:16:10.018Z</lastmod>
     
   </url>
   
@@ -170,14 +170,14 @@
   </url>
   
   <url>
-    <loc>https://blog.tanaka.world/vue-i18n-autocompletion/</loc>
+    <loc>https://blog.tanaka.world/sense-from-knowledge/</loc>
     
     <lastmod>2020-12-25T03:35:42.765Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.tanaka.world/sense-from-knowledge/</loc>
+    <loc>https://blog.tanaka.world/vue-i18n-autocompletion/</loc>
     
     <lastmod>2020-12-25T03:35:42.765Z</lastmod>
     
@@ -219,14 +219,14 @@
   </url>
   
   <url>
-    <loc>https://blog.tanaka.world/vue-wysiwyg-editor-with-atjs/</loc>
+    <loc>https://blog.tanaka.world/pdf-on-browser/</loc>
     
     <lastmod>2020-12-25T03:35:42.649Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.tanaka.world/pdf-on-browser/</loc>
+    <loc>https://blog.tanaka.world/vue-wysiwyg-editor-with-atjs/</loc>
     
     <lastmod>2020-12-25T03:35:42.649Z</lastmod>
     
@@ -317,14 +317,14 @@
   </url>
   
   <url>
-    <loc>https://blog.tanaka.world/release-web-service-uri/</loc>
+    <loc>https://blog.tanaka.world/stretch-pole/</loc>
     
     <lastmod>2020-12-25T03:35:42.607Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.tanaka.world/stretch-pole/</loc>
+    <loc>https://blog.tanaka.world/release-web-service-uri/</loc>
     
     <lastmod>2020-12-25T03:35:42.607Z</lastmod>
     
@@ -401,6 +401,13 @@
   </url>
   
   <url>
+    <loc>https://blog.tanaka.world/host-test-data-by-google-spreadsheet.html/</loc>
+    
+    <lastmod>2020-12-25T03:35:42.504Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.tanaka.world/google-spreadsheets-parser.html/</loc>
     
     <lastmod>2020-12-25T03:35:42.504Z</lastmod>
@@ -409,13 +416,6 @@
   
   <url>
     <loc>https://blog.tanaka.world/be-a-youtuber/</loc>
-    
-    <lastmod>2020-12-25T03:35:42.504Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.tanaka.world/host-test-data-by-google-spreadsheet.html/</loc>
     
     <lastmod>2020-12-25T03:35:42.504Z</lastmod>
     
@@ -464,13 +464,6 @@
   </url>
   
   <url>
-    <loc>https://blog.tanaka.world/threes-height-score-3072/</loc>
-    
-    <lastmod>2020-12-25T03:35:42.500Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.tanaka.world/release-ng-pixel/</loc>
     
     <lastmod>2020-12-25T03:35:42.500Z</lastmod>
@@ -478,14 +471,21 @@
   </url>
   
   <url>
-    <loc>https://blog.tanaka.world/asp-dot-net-error-page/</loc>
+    <loc>https://blog.tanaka.world/threes-height-score-3072/</loc>
+    
+    <lastmod>2020-12-25T03:35:42.500Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.tanaka.world/dotcom-design-update/</loc>
     
     <lastmod>2020-12-25T03:35:42.499Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.tanaka.world/dotcom-design-update/</loc>
+    <loc>https://blog.tanaka.world/asp-dot-net-error-page/</loc>
     
     <lastmod>2020-12-25T03:35:42.499Z</lastmod>
     
@@ -499,7 +499,7 @@
   </url>
   
   <url>
-    <loc>https://blog.tanaka.world/html5-webstorage-sessionlocal/</loc>
+    <loc>https://blog.tanaka.world/rubikscube-40th-anniversary/</loc>
     
     <lastmod>2020-12-25T03:35:42.498Z</lastmod>
     
@@ -513,7 +513,7 @@
   </url>
   
   <url>
-    <loc>https://blog.tanaka.world/rubikscube-40th-anniversary/</loc>
+    <loc>https://blog.tanaka.world/html5-webstorage-sessionlocal/</loc>
     
     <lastmod>2020-12-25T03:35:42.498Z</lastmod>
     
@@ -527,14 +527,14 @@
   </url>
   
   <url>
-    <loc>https://blog.tanaka.world/csharp-const-vs-staticreadonly/</loc>
+    <loc>https://blog.tanaka.world/entry-domain-driven-design/</loc>
     
     <lastmod>2020-12-25T03:35:42.496Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.tanaka.world/entry-domain-driven-design/</loc>
+    <loc>https://blog.tanaka.world/csharp-const-vs-staticreadonly/</loc>
     
     <lastmod>2020-12-25T03:35:42.496Z</lastmod>
     
