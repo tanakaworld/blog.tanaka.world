@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hardware on For X Developers</title>
+    <link>https://blog.tanaka.world/tags/hardware/</link>
+    <description>Recent content in hardware on For X Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 29 Jun 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.tanaka.world/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>余った HDD を外付け HDD として再利用</title>
+      <link>https://blog.tanaka.world/make-external-hdd/</link>
+      <pubDate>Fri, 29 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/make-external-hdd/</guid>
+      <description>MacBookProのバッテリー/メモリ/HDDをセルフ交換し，Ubuntuをデュアルブートするで余った，MacのHDDを外付け HDD にしてみた．
+Salcar USB3.0 2.5インチ HDD/SSDケース これを買った．
+  AC アダプタ不要 USB 3.0 にも対応 軽い 安い  接続も問題ない USB 2.0 接続ではランプが白く点灯，3.0 接続では青く点灯 するのも地味によかった．</description>
+    </item>
+    
+    <item>
+      <title>MacBookProのバッテリー/メモリ/HDDをセルフ交換し，Ubuntuをデュアルブートする</title>
+      <link>https://blog.tanaka.world/remodeling-mbp/</link>
+      <pubDate>Tue, 18 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/remodeling-mbp/</guid>
+      <description>古いMacのバッテリーが膨張してしまっていたため，バッテリーを交換した． ついでにパワーアップ(メモリを増設＋HDD→SSD)，さらに機械学習用 Mac とするべく Ubuntu を入れてみた．
+MacBookPro 2012 mid 15 inch #開封の儀 昔使ってたMacが机にまっすぐ置けないと思ったら、バッテリーが膨張してたorz 開封ついでにメモリ増設とHDD→SSDもやるやつ。 pic.twitter.com/fprl1XQYYi
+&amp;mdash; tanaka.world ™ (@_tanakaworld) April 14, 2017  工具 必要な工具やパーツは Amazon で購入した．
+アネックス(ANEX) ESD精密ドライバー +00×50 No.3450-ESD ← Macの蓋をあけるのに必要
+ アネックス(ANEX) T型ヘクスローブドライバー T6×50 No.6300 ← HDD を止めてるネジやバッテリーを外すのに必要
+ バッテリー/SSD/メモリ バッテリー WorldPlus バッテリー Apple MacBook Pro 15 インチ 対応 A1382 A1286 ( 2011 2012 ) 6200mAh SLODA交換用バッテリーApple用Macbook Pro 15&amp;quot; A1321 A1286 (Mid 2009 Early 2010 Late 2010) に适用MacBook Pro 15 A1321 ノートPCバッテリー [リチウムポリマー，10.</description>
+    </item>
+    
+  </channel>
+</rss>

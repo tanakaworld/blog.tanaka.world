@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vue.js on For X Developers</title>
+    <link>https://blog.tanaka.world/tags/vue.js/</link>
+    <description>Recent content in vue.js on For X Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 03 Nov 2018 12:51:46 +0000</lastBuildDate><atom:link href="https://blog.tanaka.world/tags/vue.js/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vue Fes Japan 2018 に行ってきた</title>
+      <link>https://blog.tanaka.world/vue-fes-japan-2018/</link>
+      <pubDate>Sat, 03 Nov 2018 12:51:46 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/vue-fes-japan-2018/</guid>
+      <description>Event detail  2018.11.3 (Sat.) Akihabara UDX 4F / UDX Gallery タイムテーブルはこちら  Keynote by @youyuxi
+Vue3.0 の話
+ TL;DR;  速く，小さく，メンテしやすく，ネイティブ向け，保守性   速く  Virtual DOM 実装をフルスクラッチから作り直し  mount と patch 処理が最大100%向上   言語標準の最適化によって速度向上  Map/Set/WeakMap/WeakSet Class   プロパティプロキシの高速化  Object.definePropertyは使わなくなる ネイティブプロキシ   実行時オーバーヘッド削減のため，コンパイル時にヒントを追加  React の JSX に似ている   lazy function  Reactではこの仕組みを使っていない   Static Tree Hoisting  変更がなかったとしてもそれを調べる必要があった   コンポーネントのインスタンス化の効率化  速度２倍，メモリ使用量半減     小さく  Tree-shakingへの対応  使われない処理を，バンドルから取り除く機能 webpackとかにもこの機能はある ランタイムサイズ10kb以下(GZip)     メンテしすく よりネイティブ向けにつくりやすく  カスタムレンダラAPI   保守性向上  リアクティビティAPI Observer メソッドが追加される   Render Track  再描画の仕組みが分かりづらかった renderTriggered callback が追加される   保守性  TSX TS Support の強化 Warningもわかりやすくなる 実験的なHooks API 実験的なTimeSlicing  必要なくなった処理を間引く  同じcallbackが連続で実行されたとき，古い方は実行する必要がなくなる   これによって，60fps に最適化      Platinum Sponsor Session PLAIDさんのプラチナスポンサー枠発表</description>
+    </item>
+    
+    <item>
+      <title>【2018/09】tanaka.world バージョンアップのお知らせ</title>
+      <link>https://blog.tanaka.world/tanaka-world-version-up-2018-mid/</link>
+      <pubDate>Sun, 23 Sep 2018 23:11:46 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tanaka-world-version-up-2018-mid/</guid>
+      <description>色々バージョンアップしました👾
+色の切り替え + アニメーションスキップ機能を追加 👉 https://tanaka.world/
+色の切り替え+アニメーションスキップ機能を加えた 👾🚀
+https://t.co/vCVJp9G8qh #tanakaworld pic.twitter.com/cPngyAUx36
+&amp;mdash; tanakaworld 🧢 (@_tanakaworld) September 16, 2018  色の切り替え
+ クエリパラメータ color にカラーコード16進数を指定すると，その色で描画されます 例: https://tanaka.world/?color=4d1d9b 左上のカラフルボタンをクリックすると，ランダムでカラーを割り当て カラーの生成には randomColor を使用  アニメーションスキップ
+ 右上の Skip ボタンでアニメーションスキップされます 服を脱がされると，寒いので震えます  アイコンが新しくなりました  左: 旧，右: 新 ピクセル数を半分に減らし，シンプル化しました 48x48 → 24x24 使っているツールは aseprite 色味を微調整  </description>
+    </item>
+    
+    <item>
+      <title>vue-i18n の簡易入力補完を実装してみた雑感</title>
+      <link>https://blog.tanaka.world/vue-i18n-autocompletion/</link>
+      <pubDate>Sat, 22 Sep 2018 17:36:16 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/vue-i18n-autocompletion/</guid>
+      <description>vue-i18n の入力補完を実装してみた．久々に業務で i18n 対応をするようになって，若干ツラさを感じているところもあるので，併せて記す．
+はじめに断っておくが，ツラさを感じているのは vue-i18n に対してではなく，i18n 全般に対してのこと．
+文字列指定を入力補完したい エディタでvue-i18nの入力補完したい
+&amp;mdash; tanakaworld 🧢 (@_tanakaworld) August 30, 2018 vue-i18n に限らず i18n 系を扱うときは $tc(&#39;home.title&#39;) のような感じで文字列をキーとして指定することになる．
+ 文字列キーのタイポしなくしたい 文字列キーのパス入力をカンタンにしたい  これらを入力補完でなんとかしたい．
+普通に vue-i18n を使った場合 普通に実装するとこういう感じになる．
+import Vue from &amp;#34;vue&amp;#34;; import VueI18n from &amp;#34;vue-i18n&amp;#34;; Vue.use(VueI18n); const messages = { en: { message: { hello: &amp;#34;Hello World!&amp;#34; }, home: { title: &amp;#34;Home&amp;#34; }, about: { title: &amp;#34;About&amp;#34; } }, ja: { message: { hello: &amp;#34;こんにちは，世界!&amp;#34; }, home: { title: &amp;#34;ホーム&amp;#34; }, about: { title: &amp;#34;アバウト&amp;#34; } } }; const locale = &amp;#34;ja&amp;#34;; const i18n = new VueI18n({ locale, messages }); export { i18n }; &amp;lt;template&amp;gt; &amp;lt;div class=&amp;#34;home&amp;#34;&amp;gt; &amp;lt;h1&amp;gt;{{ $tc(&amp;#39;home.</description>
+    </item>
+    
+    <item>
+      <title>Vue.js Tokyo v-meetup 8 に登壇しました</title>
+      <link>https://blog.tanaka.world/vuejs-tokyo-v-meetup-8/</link>
+      <pubDate>Thu, 30 Aug 2018 22:24:38 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/vuejs-tokyo-v-meetup-8/</guid>
+      <description>2018年8月27日に開催された v-meetup #8 に登壇しました．
+約150の募集枠は，募集開始数分で埋まるほどの人気イベント．v-meetup の参加は初めてだったのですが，スタッフを始め参加者の方々の熱気に圧倒されました．
+Replace View of Backbone.js with Vue.js 2年半くらい運用していた Backbone.js SPA の一部を Vue.js でリニューアルしたときの話をしました．コアフレームワークが Backbone.Model に依存していて，Backbone.js から逃れられないプロジェクト，View 周りがツラいので組み合わせてみたら幸せになったという話です．どうしてもフルリプレイスが難しいプロジェクトとかで，小さく薄くはじめられるのが Vue.js のいいところ．2018年現在に使うのは色々ツラいところあるけど，Backbone.js 自体は嫌いではない(使いたいとは言っていない)
+ そもそもbackboneがつらい…#vuejs_meetup8
+&amp;mdash; ほんだし (@hondash918) August 28, 2018 backbone.js、繋ぎ先がhtmlである必要がないのでcocos2d-jsと組み合わせて使ったりしてた。今も結構好き。 #vuejs_meetup8
+&amp;mdash; hadakadenkyu (@hadakadenkyu) August 28, 2018 Vue コンポーネントの中で jQuery ライブラリ使うのあるある。 #vuejs_meetup8
+&amp;mdash; katashin (@ktsn) August 28, 2018 mountedでjqueryやるの親近感。#vuejs_meetup8
+&amp;mdash; Keima Kai (@keimakai1993) August 28, 2018 backboneとvueで共存キメラはすごい... #vuejs_meetup8
+&amp;mdash; イカID: Toshiwo (@toshiwo) August 28, 2018  サンプルプロジェクト サンプルプロジェクトを地味にちゃんとつくった．Realm つかってみたくて，サーバのデータストアに Realm Node.</description>
+    </item>
+    
+    <item>
+      <title>Vue.js と At.js を組み合わせる</title>
+      <link>https://blog.tanaka.world/vue-wysiwyg-editor-with-atjs/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/vue-wysiwyg-editor-with-atjs/</guid>
+      <description>jQuery 製の AutoComplete を提供する At.js を，Vue のコンポーネントと組み合わせて使ったときのメモ．
+完成イメージ 完成版ソースコードはこちら．
+At.js を使うと次のような挙動が実現できる．WYSIWYG 内で @ を入力すると，入力候補が一覧が表示され，選択すると任意の要素が追加できる．
+
+vue-at は使わなかった At.js の Vue 版 vue-at もあるが，At.js の全機能に対応していなかった．(検証当時) 具体的には insertTpl で挿入する HTML を定義する機能が正式リリースされておらず，結局は jQuery 版をそのまま使うことにした．
+ベースとなる WYSIWYG コンポーネント contenteditable で WYSIWYG を自作する．
+&amp;lt;template&amp;gt; &amp;lt;div&amp;gt; &amp;lt;div class=&amp;#34;WYSIWYG&amp;#34; contenteditable=&amp;#34;true&amp;#34; @focus=&amp;#34;handleFocus&amp;#34; v-html=&amp;#34;content&amp;#34;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/template&amp;gt; &amp;lt;script&amp;gt; export default { props: { value: { type: String, default: &amp;#39;&amp;#39; }, disabled: { type: Boolean, default: false } }, data() { return { content: this.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>csharp on For X Developers</title>
+    <link>https://blog.tanaka.world/tags/csharp/</link>
+    <description>Recent content in csharp on For X Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language><atom:link href="https://blog.tanaka.world/tags/csharp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ASP.NETのエラーページが表示されてしまうときの対策</title>
+      <link>https://blog.tanaka.world/asp-dot-net-error-page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/asp-dot-net-error-page/</guid>
+      <description>&lt;p&gt;URLに「.」が混ざると，ASP.NET でエラーページがでてしまう問題の解決法．（調査中．．．）&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>【C#の定数】const と static readonly の使い分け</title>
+      <link>https://blog.tanaka.world/csharp-const-vs-staticreadonly/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/csharp-const-vs-staticreadonly/</guid>
+      <description>&lt;p&gt;C#で時々迷う定数定義，const と static readonly の使い分けに関するまとめ．&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

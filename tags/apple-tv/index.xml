@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>apple-tv on For X Developers</title>
+    <link>https://blog.tanaka.world/tags/apple-tv/</link>
+    <description>Recent content in apple-tv on For X Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 12 Feb 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.tanaka.world/tags/apple-tv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apple TV 4K を買った</title>
+      <link>https://blog.tanaka.world/apple-tv-4k/</link>
+      <pubDate>Mon, 12 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/apple-tv-4k/</guid>
+      <description>Apple TV 4K を買った．
+最近の用途 主な用途は，ネット動画を観ること． その他，音楽や Podcast を再生するのにも使っている．
+ Netflix Amazon Prime Video Hulu YouTube iTunes Podcast  スペック  32GB 4K + HDR 対応  ストレージ容量は，大量に画像や動画・アプリを保存するわけではないので 32GB にした．
+Rebuild.fm #197 で
+ 旧型持っている人はあまりメリットがないかも 4K TV 持っていて iTunes,Netflix で動画観まくるならオススメ
+ とも言及されていて，僕は初めての購入だったので 4K にしてみた． なお，4K の発表に伴い旧型は値下げしていた．
+4K TV はまだ持っていない が，近いうちに買うだろうと思っている（たぶん）． 学生のときに買った レグザ 32inch をずっと使っているため，4K/HDR の凄さがまだ実感できていない．．．
+HDMIケーブルの呪縛から開放 これまでは，Mac の Thunderbolt2 -&amp;gt; HDMI -&amp;gt; TV というフローで観ていた． ケーブルを抜き差しするのが面倒だったり，HDMI 変換ケーブルの不調で映像が止まったり， さらに hulu は外部ディスプレイなどに映像を映すとエラーで再生できなかったり，とトラブルが耐えなかった．
+それらはもう気にしなくてよくなった．</description>
+    </item>
+    
+  </channel>
+</rss>

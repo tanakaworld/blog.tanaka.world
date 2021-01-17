@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cloud-front on For X Developers</title>
+    <link>https://blog.tanaka.world/tags/cloud-front/</link>
+    <description>Recent content in cloud-front on For X Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language><atom:link href="https://blog.tanaka.world/tags/cloud-front/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS CloudFront の Invalidation 完了を通知するブックマークレットをつくった</title>
+      <link>https://blog.tanaka.world/cloudfront-invalidate-checker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/cloudfront-invalidate-checker/</guid>
+      <description>CloudFrontのInvalidation(Purge)には最大15分かかる．
+開始してから完了を待つまでの間，終わったかどうかページをリロードしたり，パージを忘れてて気づいたら終わってたり．
+なんとなく気持ちが落ち着かないので，進捗をウォッチして完了を通知してくれるブックマークレットをつくった．
+🚀 cloudfront-invalidate-checker
+CloudFrontのAPI使えばもっと賢くできるかもしれないが，とりあえずJSでさくっとつくった．
+ブックマークレット登録
+Chromeの場合，cloudfront-invalidate-checker.min.jsの内容の前に javascript: を付けてブックマーク登録すればおｋ．
+新規Invalidationを開始
+ブックマークレットを実行してInvalidationIDを指定
+Invalidation完了・通知
+Invalidationが完了すると，Chromeから通知が来る． Chromeから離れて作業しててもポップアップで知らせてくれる．
+（※ AWSコンソール上で動くJSで実行しているのでタブを消すと通知されない）
+社内では完了後，社内の音声流せるサーバにHTTPリクエスト送って，FFのファンファーレが流れるようにしている♪♪♪
+(某T社に感化されてファンアーレにした)
+CloudFrontのInvalidation完了したらFFファンファーレ流れるようにしたら、結構いい感じだった♫♫♫
+&amp;mdash; TanakaWorld™ (@_tanakaworld) April 22, 2016  </description>
+    </item>
+    
+  </channel>
+</rss>

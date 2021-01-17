@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dev on For X Developers</title>
+    <link>https://blog.tanaka.world/tags/dev/</link>
+    <description>Recent content in dev on For X Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 23 Oct 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.tanaka.world/tags/dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How fast dev.to is?</title>
+      <link>https://blog.tanaka.world/how-fast-dev-to-is/</link>
+      <pubDate>Tue, 23 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/how-fast-dev-to-is/</guid>
+      <description>社内勉強会で dev.to について話した．
+ mizuchi さんの なぜ dev.to がこんなにも速く、こんなにも自分にとって感動的なのか という記事を皮切りに，2017 年に日本でもバズっていた Insanely Fast な Web サービス．今年の 8 月に OSS 化 されソースコード読んでたら面白そうだったので，話してみる運びになった．
+普段 Rails 開発する上で annict のソースコードを参考にさせてもらっているが，dev.to のソースコードもとても参考になりそうだった．
+普段は Keynote でスライドつくっているが，今回は Google Slides でやってみた．Google Slides よい．内容にもよるが，凝ったインタラクションやアニメーションしないなら Google Slides で事足りる感があった．デフォルトのテンプレートを使い，マスタで色味だけ調整した．マスタは保存はできないが，インポートすることはできるので他のスライドでも使うことができる．</description>
+    </item>
+    
+    <item>
+      <title>君たちが考えた最強の環境について知りたい ＃0 を開催した</title>
+      <link>https://blog.tanaka.world/your-best-dev-environment/</link>
+      <pubDate>Sat, 29 Sep 2018 07:24:32 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/your-best-dev-environment/</guid>
+      <description>先日，フロントエンドチームのメンバーと「君たちが考えた最強の環境について知りたい ＃0」を開催した．
+ここ５年くらい，ほぼ同じ環境設定やツールで開発している．ペアプログラミングやライブコーディングをやると，”今の操作なにやったの？&amp;quot; 的な感じで新しい発見がよくあるのだが，最近はそういう機会もなかったので，皆の時間を借りてその機会を設けた．時間は３０分．
+**まず，自分が出したやつ 👉 ** 1Password https://1password.com/
+ 有料 サブスクリプション  言わずとしれたパスワード管理アプリ．ブラウザの Extension もあり，あらゆる環境で使える．1Password 7 からパスワードの保存先が 1Password サーバにしか保存できなくなっているらしい（以前は逆に Dropbox とか自前の環境に保存する方式だった）．
+iOS12 から 1Password が OS とシームレスに連携できるようになった．Settings &amp;gt; Face ID &amp;amp; Passcode &amp;gt; Other Apps で設定できる．さらに 1Password 上で 2FA 設定しておくと，スマホ開いて Authenticator アプリ立ち上げて，といった手順が一切不要になる．
+実際の動作はこんな感じでとてもスムーズ．
+ Better Touch Tools https://folivora.ai/
+ 有料 買い切り トラックパッドのジェスチャーやキーバインドにOSのアクションを割り当てできる  自分は window の最大化や左右幅寄せにだけ使ってる
+Karabiner Elements https://github.com/tekezo/Karabiner-Elements
+ 日本人がつくっている OSS 無料 Sierra で使えなくなってたが，HighSierra では使える  Sierra では代わりにこれ使っていたが，時々動かなくなって再起動することがよくあった https://ei-kana.</description>
+    </item>
+    
+    <item>
+      <title>スクリーンショット駆動開発</title>
+      <link>https://blog.tanaka.world/screenshot-driven-development/</link>
+      <pubDate>Tue, 03 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/screenshot-driven-development/</guid>
+      <description>アプリケーション開発をしていて，日々，スクリーンショットに助けられている． 主に情報共有やバグトリアージ，メモ目的でよく使っているツールなどをまとめる．
+Gyazo Gyazo
+撮影したスクリーンショットをURLで共有できるサービス．アプリケーション起動すると， Gyazo のスクリーンショットモードになり撮影するとブラウザで URL が表示される（そのときに URL がクリップボードにコピーされる）．同様に GIF 動画も撮影でき，実装時の UI 表現の共有で使ったりする．
+Slack でのスクショ共有
+特に重宝しているのが，Slackでスクショ共有するとき． Slack の Thread では画像の添付ができず，メイン側に画像をアップロードしてその URL を Thread 側にコピペする，という手間をかけていた．Gyazo なら Thread に URL を投稿するだけでハイライトもされるし，楽チン．
+Gyazo Pro
+有料課金するか迷っている． ６秒まで録画可能で，有料課金すると６０秒まで録画できるみたい．サービス画面のキャプチャ撮りたいときは，１０秒だと足りないことがあるので，課金してもいいかなと思っている．それとキャプチャした画像に文字を入れるなど加工もできる点も魅力的．
+キャプチャに文字を入れたいシーンはわりとある． skitch にスクショを貼り付けて加工した結果を，Gyazo で再度キャプチャするというフローを踏んでいてとても手間を感じている．てか，skitch って Evernote のサービスだったのか．(2011年に買収されたらしい)
+Mac Screenshots 範囲選択スクショ
+をよくつかう．
+ スクリーンショットフォルダに保存：command + shift + 4 クリップボードに保存：command + shift + control + 4  スクリーンショットはデフォルトではデスクトップに保存されるが，Dropbox の機能で Dropbox フォルダに保存されるようにしている．
+スクリーンショットモード中の &amp;ldquo;スペースキー&amp;rdquo; が便利．
+スクショ範囲をフォーカスしているアプリケーションが，自動的にスクショ範囲になる機能． アプリケーションウィンドウだけでなく，ナビゲーションバーやアイコンにも自動フォーカスしてくれる．</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rubymine on For X Developers</title>
+    <link>https://blog.tanaka.world/tags/rubymine/</link>
+    <description>Recent content in rubymine on For X Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language><atom:link href="https://blog.tanaka.world/tags/rubymine/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【Mac OS X】Yosemiteをクリーンインストール(初期化)して Rails 開発環境をセットアップした</title>
+      <link>https://blog.tanaka.world/mac-os-x-yosemite-crean-install-rails-env-set-up/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/mac-os-x-yosemite-crean-install-rails-env-set-up/</guid>
+      <description>普段使っているメイン機 MacBook Air (13-inch, Mid 2012) が，突然落ちたりファンの音がうるさすぎたりしたので，クリーンインストールした．
+普段はRuby/Railsで開発しているので，ついでにセットアップ手順もまとめておく．
+(そろそろ新しいMac買おうと思ってたけど，クリーンインストールでサクサク動くようになったΣ(゜Д゜；))
+再インストールする前に何点か確認  ローカルで必要なデータはどこかにコピーしておく chromeのブックマークをGoogleアカウントにsyncしているか確認 https://www.google.com/settings/u/2/chrome/syncから数とか確認できる cloneしているリポジトリのlocalブランチをpushしているか  HDD初期化と再インストール  Macを再起動し，グレーの画面で ⌘ + R を押し続けるとOSユーティリティが起動 ディスクユーティリティで Macintosh HDを消去 OSユーティリティに戻ってOS再インストール  共通環境設定  caps lock と control を入れ替え 言語を英語に変更 Google IME インストールし，ひらがなのみを適用 BetterTouchTool  Karabiner 隠しファイル表示  $ defaults write com.apple.finder AppleShowAllFiles TRUE    よくつかうアプリ  Chrome Slack Rubymine アプリケーション起動時にJVMのinstallが必要 WebStorm SourceTree iTerm2  コマンドラインツール  node  $ brew install node   npm  $ curl -O -L https://npmjs.</description>
+    </item>
+    
+  </channel>
+</rss>

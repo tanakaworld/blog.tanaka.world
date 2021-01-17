@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rails on For X Developers</title>
+    <link>https://blog.tanaka.world/tags/rails/</link>
+    <description>Recent content in rails on For X Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 21 Apr 2019 11:48:00 +0000</lastBuildDate><atom:link href="https://blog.tanaka.world/tags/rails/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rails で swagger-blocks と fastjson_api を組み合わせる (API定義編)</title>
+      <link>https://blog.tanaka.world/swagger-blocks-with-fastjson-api-part1/</link>
+      <pubDate>Sun, 21 Apr 2019 11:48:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/swagger-blocks-with-fastjson-api-part1/</guid>
+      <description>Rails プロジェクトで クライアント向けの APIClient を自動生成するときの構成を試してみた． Swagger で記述した API 定義からコード生成する例はちらほら見かけるが，Netflix 製の fast_jsonapi を使った記事は見かけなかったので，まとめておく．
+完成版のソースコードはこちら 👉 tanakaworld/swagger-blocks-fastjson-api
+TL;DR; Part1: API定義編 (本記事)
+ Backend は Rails で API を実装 JSON シリアライザとして，Netflix 製の fastjson_api API 定義は swagger-blocks を使用  Part2: コード生成編 (作成中)
+ openapi-generator で TypeScript の APIClient を自動生成  Part3: 自動テスト編 (作成中)
+ RSpec で Reqeuests 自動テスト committee-rails で Swagger 定義との整合性チェック  Scaffold Books 書籍情報の CRUD を題材に考える． Rails 6.0.0.beta3 を使った．
+scaffold で Books を生成し，画像アップロードは Active Storage を使う．</description>
+    </item>
+    
+    <item>
+      <title>Rails5 / webpacker を heroku で動かす</title>
+      <link>https://blog.tanaka.world/rails5-webpacker-on-heroku/</link>
+      <pubDate>Sun, 25 Nov 2018 23:13:03 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/rails5-webpacker-on-heroku/</guid>
+      <description>Rails の開発環境をサクッ構築するために heroku を使ったときのメモ．
+環境  Rails 5.1.6 Ruby 2.4.x MySQL Webpacker つかう  Heroku CLI $ brew install heroku # if already installed $ brew upgrade heroku $ brew -v Heroku 設定  herokuでアプリケーション作成 クレカ登録（後述の MySQL 向けプラグインを追加するために必要．Free プランを選べば課金はされない） プラグイン追加  Configure Add-ons 「Clear DB」で検索して選択 -&amp;gt; Provision    Login heroku に登録している email, password でログインする．
+$ heroku login DB のセットアップ 先述の ClearDB をプラグインとして追加しているとそれ用の環境変数が設定される．
+$ heroku config -a &amp;lt;your-app-name&amp;gt; === your-app-name Config Vars CLEARDB_DATABASE_URL: mysql://xxxxxxxxxxxxxx:xxxxxxxxxx@xxxxxxxxxxxxxxxx.</description>
+    </item>
+    
+    <item>
+      <title>How fast dev.to is?</title>
+      <link>https://blog.tanaka.world/how-fast-dev-to-is/</link>
+      <pubDate>Tue, 23 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/how-fast-dev-to-is/</guid>
+      <description>社内勉強会で dev.to について話した．
+ mizuchi さんの なぜ dev.to がこんなにも速く、こんなにも自分にとって感動的なのか という記事を皮切りに，2017 年に日本でもバズっていた Insanely Fast な Web サービス．今年の 8 月に OSS 化 されソースコード読んでたら面白そうだったので，話してみる運びになった．
+普段 Rails 開発する上で annict のソースコードを参考にさせてもらっているが，dev.to のソースコードもとても参考になりそうだった．
+普段は Keynote でスライドつくっているが，今回は Google Slides でやってみた．Google Slides よい．内容にもよるが，凝ったインタラクションやアニメーションしないなら Google Slides で事足りる感があった．デフォルトのテンプレートを使い，マスタで色味だけ調整した．マスタは保存はできないが，インポートすることはできるので他のスライドでも使うことができる．</description>
+    </item>
+    
+    <item>
+      <title>dev.to をローカルで動かす</title>
+      <link>https://blog.tanaka.world/run-dev-to-in-local/</link>
+      <pubDate>Mon, 03 Sep 2018 23:37:51 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/run-dev-to-in-local/</guid>
+      <description>2018/08/08 に dev.to が OSS 化された．
+dev.to is now open source
+とりあえずローカルで動かすまでにやったことのメモ．
+Getting Started Getting Started が充実している．ほぼその通りに進めれば問題ない．Ruby は最新版が必要，DB は PostgreSQL．長年 Rails 触っているが地味に PostgreSQL 使ったことがなかった．
+$ ruby -v =&amp;gt; Ruby 2.5.1p57 (2018-03-29 revision 63029) [x86_64-darwin17] $ brew install postgresql $ postgres -V =&amp;gt; postgres (PostgreSQL) 10.5 $ pg_ctl -D /usr/local/var/postgres start # Stop $ pg_ctl -D /usr/local/var/postgres stop $ gem install bundler $ gem install foreman foreman は複数プロセスをまとめて管理できるツール． ローカル実行時は
+ Rails サーバ (puma) Webpacker (webpackのラッパー，webpack の実行と hot-reload が走る) Job (DelayedJob)  が実行される．</description>
+    </item>
+    
+    <item>
+      <title>Rails でユーザー毎に OGP 画像を自動生成するハンズオン</title>
+      <link>https://blog.tanaka.world/rails-generate-ogp/</link>
+      <pubDate>Wed, 08 Aug 2018 21:40:20 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/rails-generate-ogp/</guid>
+      <description>ユーザーの詳細ページがある Web アプリケーションで，ユーザー毎に OGP 画像を自動生成し表示させてみる．
+完成版のソースコードはこちら 👉 rails_ogp_generator_sample．
+前提条件  Ruby 2.4.2 Rails 5.1.6 RMagic 2.16.0  Gem 画像生成で rmagic，アップロードに carrierwave を使う．
+# Gemfile gem &amp;#39;rmagick&amp;#39; gem &amp;#39;carrierwave&amp;#39; $ bundle install User の Scaffold を作成 name と avatar を持つユーザーの Scaffold を作成する．
+$ bundle exec rails g scaffold User name:string avatar:text # db/migrate/20180720144053_create_users.rb class CreateUsers &amp;lt; ActiveRecord::Migration[5.1] def change create_table :users do |t| t.string :name, null: false t.text :avatar t.timestamps end end end $ bundle exec rails db:migrate UserOgpImage モデルを作成 User の OGP 画像を保持するモデルを作成する．</description>
+    </item>
+    
+    <item>
+      <title>multi_seeds_rails をリリースした</title>
+      <link>https://blog.tanaka.world/release-multi-seed-rails/</link>
+      <pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/release-multi-seed-rails/</guid>
+      <description>gem multi_seeds_rails をリリースした．
+seeds.rb を複数ファイルに分割して，それぞれ rake タスクとして実行できるようにします．
+gem つくった 🚀 #rails #rubygems
+seeds.rb を複数ファイルに分割して，それぞれ rake タスクとして実行できるようにします．https://t.co/QkzsFZZCVg
+&amp;mdash; tanaka.world ™ (@_tanakaworld) June 26, 2018  </description>
+    </item>
+    
+    <item>
+      <title>rumojinize をリリースした</title>
+      <link>https://blog.tanaka.world/release-rumojinize/</link>
+      <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/release-rumojinize/</guid>
+      <description>Rails で絵文字を扱いやすくする gem rumojinize をリリースした．
+Published a gem &amp;quot;rumojinize&amp;quot; for #rails #emoji 🎉 https://t.co/W7eVCvH2gz
+Featuring &amp;quot;rumoji&amp;quot; made by @markwunsch .
+&amp;mdash; tanaka.world ™ (@_tanakaworld) June 9, 2018  絵文字のエンコード/デコードの自動化 ActiveRecord でモデルのフィールドを指定するコードを１行記述すると，DB保存前に &amp;lsquo;🐶&amp;rsquo; → &amp;lsquo;:dog:&amp;rsquo; のように絵文字を変換してくれる． そして，モデルのインスタンスにロードしたときに，逆の変換が自動でなされるので，変換のことを意識せずに開発が可能になる．
+変換自体は rumoji に任せている．
+命名 この gem の名前は rumoji からとって rumojinize としている．
+Rails の ActiveRecord 系の gem では， &amp;ldquo;acts_as_xxxxx&amp;rdquo; という命名をするのが流行っている(?要出展)ようなのだが， acts_as_emoji や acts_as_rumoji はしっくりこず， rumojinize に落ち着いた．
+MySQLの文字コード MySQLは文字セットによって，絵文字が保存できるできないが変わってくる．絵文字は４バイト文字として扱われる．一般的なデフォルトの utf-8 だと扱えず，絵文字を保存しようとするとエラーになる．MySQL5.5 以上では，文字セットを utf8mb4 と変更することで，４バイト文字も扱えるようになるらしいのだが，正直どこに影響がでるか完全に理解できておらず断念した．絵文字を扱いたかったサービスが既に運用中のサービスで，迅速な対応が求められていたのもある．このあたりちゃんと理解してから導入してみたい．
+参考  rails + mysqlでの穏便な絵文字保存方法 実装参考にさせていただきました 🙏  </description>
+    </item>
+    
+    <item>
+      <title>【Mac OS X】Yosemiteをクリーンインストール(初期化)して Rails 開発環境をセットアップした</title>
+      <link>https://blog.tanaka.world/mac-os-x-yosemite-crean-install-rails-env-set-up/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/mac-os-x-yosemite-crean-install-rails-env-set-up/</guid>
+      <description>普段使っているメイン機 MacBook Air (13-inch, Mid 2012) が，突然落ちたりファンの音がうるさすぎたりしたので，クリーンインストールした．
+普段はRuby/Railsで開発しているので，ついでにセットアップ手順もまとめておく．
+(そろそろ新しいMac買おうと思ってたけど，クリーンインストールでサクサク動くようになったΣ(゜Д゜；))
+再インストールする前に何点か確認  ローカルで必要なデータはどこかにコピーしておく chromeのブックマークをGoogleアカウントにsyncしているか確認 https://www.google.com/settings/u/2/chrome/syncから数とか確認できる cloneしているリポジトリのlocalブランチをpushしているか  HDD初期化と再インストール  Macを再起動し，グレーの画面で ⌘ + R を押し続けるとOSユーティリティが起動 ディスクユーティリティで Macintosh HDを消去 OSユーティリティに戻ってOS再インストール  共通環境設定  caps lock と control を入れ替え 言語を英語に変更 Google IME インストールし，ひらがなのみを適用 BetterTouchTool  Karabiner 隠しファイル表示  $ defaults write com.apple.finder AppleShowAllFiles TRUE    よくつかうアプリ  Chrome Slack Rubymine アプリケーション起動時にJVMのinstallが必要 WebStorm SourceTree iTerm2  コマンドラインツール  node  $ brew install node   npm  $ curl -O -L https://npmjs.</description>
+    </item>
+    
+  </channel>
+</rss>

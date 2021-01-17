@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Design on For X Developers</title>
+    <link>https://blog.tanaka.world/tags/design/</link>
+    <description>Recent content in Design on For X Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language><atom:link href="https://blog.tanaka.world/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>YutaroTanaka.com デザインリニューアルしました</title>
+      <link>https://blog.tanaka.world/dotcom-design-update/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/dotcom-design-update/</guid>
+      <description>&lt;p&gt;本ブログ　「For X Developers」　開設半年を記念して，&lt;/p&gt;
+&lt;p&gt;ドメイン直下のデザインをリニューアルしました．&lt;/p&gt;
+&lt;ul class=&#34;bullet_arrow imglist&#34;&gt;
+- &lt;span style=&#34;font-size: 20px;&#34;&gt;** [YutaroTanaka.com](http://yutarotanaka.com/ &#34;YutaroTanaka.com&#34;)**&lt;/span&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

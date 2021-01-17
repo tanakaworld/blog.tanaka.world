@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on For X Developers</title>
+    <link>https://blog.tanaka.world/tags/</link>
+    <description>Recent content in Tags on For X Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 15 Jan 2021 21:00:00 +0000</lastBuildDate><atom:link href="https://blog.tanaka.world/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>book</title>
+      <link>https://blog.tanaka.world/tags/book/</link>
+      <pubDate>Fri, 15 Jan 2021 21:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/book/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>english</title>
+      <link>https://blog.tanaka.world/tags/english/</link>
+      <pubDate>Fri, 15 Jan 2021 21:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/english/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>year-review</title>
+      <link>https://blog.tanaka.world/tags/year-review/</link>
+      <pubDate>Thu, 31 Dec 2020 13:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/year-review/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>the-best-things</title>
+      <link>https://blog.tanaka.world/tags/the-best-things/</link>
+      <pubDate>Sat, 26 Dec 2020 12:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/the-best-things/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>aws</title>
+      <link>https://blog.tanaka.world/tags/aws/</link>
+      <pubDate>Mon, 13 Jul 2020 12:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://blog.tanaka.world/tags/docker/</link>
+      <pubDate>Mon, 13 Jul 2020 12:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ECS</title>
+      <link>https://blog.tanaka.world/tags/ecs/</link>
+      <pubDate>Mon, 13 Jul 2020 12:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/ecs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fargate</title>
+      <link>https://blog.tanaka.world/tags/fargate/</link>
+      <pubDate>Mon, 13 Jul 2020 12:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/fargate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>proff.io</title>
+      <link>https://blog.tanaka.world/tags/proff.io/</link>
+      <pubDate>Mon, 13 Jul 2020 12:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/proff.io/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WFH</title>
+      <link>https://blog.tanaka.world/tags/wfh/</link>
+      <pubDate>Mon, 11 May 2020 10:53:01 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/wfh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>minimalist</title>
+      <link>https://blog.tanaka.world/tags/minimalist/</link>
+      <pubDate>Sun, 22 Dec 2019 14:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/minimalist/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>microservices</title>
+      <link>https://blog.tanaka.world/tags/microservices/</link>
+      <pubDate>Mon, 26 Aug 2019 23:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/microservices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nuxt</title>
+      <link>https://blog.tanaka.world/tags/nuxt/</link>
+      <pubDate>Mon, 26 Aug 2019 23:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/nuxt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>presentation</title>
+      <link>https://blog.tanaka.world/tags/presentation/</link>
+      <pubDate>Mon, 26 Aug 2019 23:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/presentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fastjson-api</title>
+      <link>https://blog.tanaka.world/tags/fastjson-api/</link>
+      <pubDate>Wed, 03 Jul 2019 23:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/fastjson-api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>swagger</title>
+      <link>https://blog.tanaka.world/tags/swagger/</link>
+      <pubDate>Wed, 03 Jul 2019 23:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/swagger/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rails</title>
+      <link>https://blog.tanaka.world/tags/rails/</link>
+      <pubDate>Sun, 21 Apr 2019 11:48:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/rails/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>meetup</title>
+      <link>https://blog.tanaka.world/tags/meetup/</link>
+      <pubDate>Wed, 17 Apr 2019 23:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/meetup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kindle</title>
+      <link>https://blog.tanaka.world/tags/kindle/</link>
+      <pubDate>Fri, 28 Dec 2018 13:11:45 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/kindle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>heroku</title>
+      <link>https://blog.tanaka.world/tags/heroku/</link>
+      <pubDate>Sun, 25 Nov 2018 23:13:03 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/heroku/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>webpacker</title>
+      <link>https://blog.tanaka.world/tags/webpacker/</link>
+      <pubDate>Sun, 25 Nov 2018 23:13:03 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/webpacker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vue.js</title>
+      <link>https://blog.tanaka.world/tags/vue.js/</link>
+      <pubDate>Sat, 03 Nov 2018 12:51:46 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/vue.js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>trip</title>
+      <link>https://blog.tanaka.world/tags/trip/</link>
+      <pubDate>Mon, 29 Oct 2018 00:37:57 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/trip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cloud-funding</title>
+      <link>https://blog.tanaka.world/tags/cloud-funding/</link>
+      <pubDate>Wed, 24 Oct 2018 21:37:04 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/cloud-funding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>makuake</title>
+      <link>https://blog.tanaka.world/tags/makuake/</link>
+      <pubDate>Wed, 24 Oct 2018 21:37:04 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/makuake/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dev</title>
+      <link>https://blog.tanaka.world/tags/dev/</link>
+      <pubDate>Tue, 23 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/dev/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tbf</title>
+      <link>https://blog.tanaka.world/tags/tbf/</link>
+      <pubDate>Sun, 14 Oct 2018 20:02:08 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/tbf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>environment</title>
+      <link>https://blog.tanaka.world/tags/environment/</link>
+      <pubDate>Sat, 29 Sep 2018 07:24:32 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/environment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>portfolio</title>
+      <link>https://blog.tanaka.world/tags/portfolio/</link>
+      <pubDate>Sun, 23 Sep 2018 23:11:46 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/portfolio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>i18n</title>
+      <link>https://blog.tanaka.world/tags/i18n/</link>
+      <pubDate>Sat, 22 Sep 2018 17:36:16 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/i18n/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>okr</title>
+      <link>https://blog.tanaka.world/tags/okr/</link>
+      <pubDate>Tue, 11 Sep 2018 00:33:56 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/okr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fukuoka</title>
+      <link>https://blog.tanaka.world/tags/fukuoka/</link>
+      <pubDate>Mon, 10 Sep 2018 01:19:29 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/fukuoka/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linepay</title>
+      <link>https://blog.tanaka.world/tags/linepay/</link>
+      <pubDate>Mon, 10 Sep 2018 01:19:29 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/linepay/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>merchari</title>
+      <link>https://blog.tanaka.world/tags/merchari/</link>
+      <pubDate>Mon, 10 Sep 2018 01:19:29 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/merchari/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dev.to</title>
+      <link>https://blog.tanaka.world/tags/dev.to/</link>
+      <pubDate>Mon, 03 Sep 2018 23:37:51 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/dev.to/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ruby</title>
+      <link>https://blog.tanaka.world/tags/ruby/</link>
+      <pubDate>Mon, 03 Sep 2018 23:37:51 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/ruby/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lifehack</title>
+      <link>https://blog.tanaka.world/tags/lifehack/</link>
+      <pubDate>Sun, 26 Aug 2018 17:05:47 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/lifehack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>base64</title>
+      <link>https://blog.tanaka.world/tags/base64/</link>
+      <pubDate>Sat, 25 Aug 2018 16:43:12 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/base64/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pdf</title>
+      <link>https://blog.tanaka.world/tags/pdf/</link>
+      <pubDate>Sat, 25 Aug 2018 16:43:12 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/pdf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>atjs</title>
+      <link>https://blog.tanaka.world/tags/atjs/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/atjs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jQuery</title>
+      <link>https://blog.tanaka.world/tags/jquery/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/jquery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ogp</title>
+      <link>https://blog.tanaka.world/tags/ogp/</link>
+      <pubDate>Wed, 08 Aug 2018 21:40:20 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/ogp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rmagic</title>
+      <link>https://blog.tanaka.world/tags/rmagic/</link>
+      <pubDate>Wed, 08 Aug 2018 21:40:20 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/rmagic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>emacs</title>
+      <link>https://blog.tanaka.world/tags/emacs/</link>
+      <pubDate>Tue, 31 Jul 2018 15:25:13 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/emacs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ide</title>
+      <link>https://blog.tanaka.world/tags/ide/</link>
+      <pubDate>Tue, 31 Jul 2018 15:25:13 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/ide/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>intellij</title>
+      <link>https://blog.tanaka.world/tags/intellij/</link>
+      <pubDate>Mon, 30 Jul 2018 14:57:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/intellij/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jetbrains</title>
+      <link>https://blog.tanaka.world/tags/jetbrains/</link>
+      <pubDate>Mon, 30 Jul 2018 14:57:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/jetbrains/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>podcasts</title>
+      <link>https://blog.tanaka.world/tags/podcasts/</link>
+      <pubDate>Mon, 23 Jul 2018 14:57:43 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/podcasts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ergohuman</title>
+      <link>https://blog.tanaka.world/tags/ergohuman/</link>
+      <pubDate>Sun, 15 Jul 2018 13:18:23 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/ergohuman/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>apple</title>
+      <link>https://blog.tanaka.world/tags/apple/</link>
+      <pubDate>Wed, 11 Jul 2018 00:11:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/apple/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>touch-bar</title>
+      <link>https://blog.tanaka.world/tags/touch-bar/</link>
+      <pubDate>Wed, 11 Jul 2018 00:11:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/touch-bar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>high-sierra</title>
+      <link>https://blog.tanaka.world/tags/high-sierra/</link>
+      <pubDate>Wed, 11 Jul 2018 00:10:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/high-sierra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mac</title>
+      <link>https://blog.tanaka.world/tags/mac/</link>
+      <pubDate>Wed, 11 Jul 2018 00:10:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/mac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blog</title>
+      <link>https://blog.tanaka.world/tags/blog/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hexo</title>
+      <link>https://blog.tanaka.world/tags/hexo/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/hexo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>middleman</title>
+      <link>https://blog.tanaka.world/tags/middleman/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/middleman/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hardware</title>
+      <link>https://blog.tanaka.world/tags/hardware/</link>
+      <pubDate>Fri, 29 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/hardware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gem</title>
+      <link>https://blog.tanaka.world/tags/gem/</link>
+      <pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/gem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>apple-tv</title>
+      <link>https://blog.tanaka.world/tags/apple-tv/</link>
+      <pubDate>Mon, 12 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/apple-tv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>orthodontist</title>
+      <link>https://blog.tanaka.world/tags/orthodontist/</link>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/orthodontist/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ubuntu</title>
+      <link>https://blog.tanaka.world/tags/ubuntu/</link>
+      <pubDate>Tue, 18 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>game</title>
+      <link>https://blog.tanaka.world/tags/game/</link>
+      <pubDate>Sun, 11 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>threes-app</title>
+      <link>https://blog.tanaka.world/tags/threes-app/</link>
+      <pubDate>Sun, 11 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/threes-app/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>angular-js</title>
+      <link>https://blog.tanaka.world/tags/angular-js/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/angular-js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>app</title>
+      <link>https://blog.tanaka.world/tags/app/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/app/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cloud-front</title>
+      <link>https://blog.tanaka.world/tags/cloud-front/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/cloud-front/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>coffeescript</title>
+      <link>https://blog.tanaka.world/tags/coffeescript/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/coffeescript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>csharp</title>
+      <link>https://blog.tanaka.world/tags/csharp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/csharp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ddd</title>
+      <link>https://blog.tanaka.world/tags/ddd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/ddd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>deeplink</title>
+      <link>https://blog.tanaka.world/tags/deeplink/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/deeplink/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design</title>
+      <link>https://blog.tanaka.world/tags/design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DotNET</title>
+      <link>https://blog.tanaka.world/tags/dotnet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/dotnet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>eclipse</title>
+      <link>https://blog.tanaka.world/tags/eclipse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/eclipse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>google-spread-sheet</title>
+      <link>https://blog.tanaka.world/tags/google-spread-sheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/google-spread-sheet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>google-spreadsheets-parser</title>
+      <link>https://blog.tanaka.world/tags/google-spreadsheets-parser/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/google-spreadsheets-parser/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>grunt</title>
+      <link>https://blog.tanaka.world/tags/grunt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/grunt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>haskell</title>
+      <link>https://blog.tanaka.world/tags/haskell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/haskell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>html5</title>
+      <link>https://blog.tanaka.world/tags/html5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/html5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IIS</title>
+      <link>https://blog.tanaka.world/tags/iis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/iis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ios</title>
+      <link>https://blog.tanaka.world/tags/ios/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/ios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jasmine</title>
+      <link>https://blog.tanaka.world/tags/jasmine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/jasmine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>javascript</title>
+      <link>https://blog.tanaka.world/tags/javascript/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>job</title>
+      <link>https://blog.tanaka.world/tags/job/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/job/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>karma</title>
+      <link>https://blog.tanaka.world/tags/karma/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/karma/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>local-storage</title>
+      <link>https://blog.tanaka.world/tags/local-storage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/local-storage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mac-os-x</title>
+      <link>https://blog.tanaka.world/tags/mac-os-x/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/mac-os-x/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>npm</title>
+      <link>https://blog.tanaka.world/tags/npm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/npm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>oop</title>
+      <link>https://blog.tanaka.world/tags/oop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/oop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>podcast</title>
+      <link>https://blog.tanaka.world/tags/podcast/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/podcast/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>programming</title>
+      <link>https://blog.tanaka.world/tags/programming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>puzzle-and-dragon</title>
+      <link>https://blog.tanaka.world/tags/puzzle-and-dragon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/puzzle-and-dragon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rebuild-fm</title>
+      <link>https://blog.tanaka.world/tags/rebuild-fm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/rebuild-fm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rubiks-cube</title>
+      <link>https://blog.tanaka.world/tags/rubiks-cube/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/rubiks-cube/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rubymine</title>
+      <link>https://blog.tanaka.world/tags/rubymine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/rubymine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>safari</title>
+      <link>https://blog.tanaka.world/tags/safari/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/safari/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sakurainternet</title>
+      <link>https://blog.tanaka.world/tags/sakurainternet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/sakurainternet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>session-storage</title>
+      <link>https://blog.tanaka.world/tags/session-storage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/session-storage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sublime-text-2</title>
+      <link>https://blog.tanaka.world/tags/sublime-text-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/sublime-text-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>testing</title>
+      <link>https://blog.tanaka.world/tags/testing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/testing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ThreesApp</title>
+      <link>https://blog.tanaka.world/tags/threesapp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/threesapp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>webstorm</title>
+      <link>https://blog.tanaka.world/tags/webstorm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/webstorm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>yosemite</title>
+      <link>https://blog.tanaka.world/tags/yosemite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/yosemite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>youtube</title>
+      <link>https://blog.tanaka.world/tags/youtube/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/youtube/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

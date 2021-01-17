@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linepay on For X Developers</title>
+    <link>https://blog.tanaka.world/tags/linepay/</link>
+    <description>Recent content in linepay on For X Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 10 Sep 2018 01:19:29 +0000</lastBuildDate><atom:link href="https://blog.tanaka.world/tags/linepay/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>福岡で LINEPay の実証実験 &#43; メルチャリを体験してきた</title>
+      <link>https://blog.tanaka.world/linepay-merchari-in-fukuoka/</link>
+      <pubDate>Mon, 10 Sep 2018 01:19:29 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/linepay-merchari-in-fukuoka/</guid>
+      <description>友人と週末旅行を兼ねて，福岡に行った(ほぼ初)．主目的は食べ歩き，土日 1 泊 2 日で合計 8 件くらいハシゴした．1 日目に詰め込み過ぎて日が変わるころには胃が死んでいた．合間で LINEPay と メルチャリを体験した．
+LINEPay ちょうど実証実験中だったので，初 LINEPay の支払いをしてみた．
+毎日半額ばい！福岡の屋台でお得なキャンペーン開催
+ 9月1日（土）から9月30日（日）までの期間中、福岡市の屋台を対象に、ご飲食代をLINE Payにてお支払いいただくと、期間中は毎日！お支払い金額半額分のLINE Pay残高を還元いたします！
+ 2018年10月下旬頃，支払いされた LINEPay アカウントにディスカウント分の残高が付与されるスキームでその場で半額になるわけではない．また，LINE Pay残高付与上限額はお1人様2,000円/日 と制限もある．屋台 MAP には 14 店舗載っていたが，実際には屋台が出ていないところもあった．歩いて移動していたのでどこが実際に出ているのかがわかりやすいと助かる．．．
+バーコードを LINEPay 画面から読み取ると，取引開始．
+支払いの合計金額は 5900円，チャージしていた 5000 円だと足りなかった．入金しようとしたのだが連携していたみずほ銀行がメンテナンスで入金できなかったorz&amp;hellip;ちょうどみずほ銀行の臨時メンテナンスと被っているのを忘れていた笑
+仕方なくチャージ分全額と，残り 900 円は現金で支払った．店員さんは手元の iPhone Line アプリから支払いのトランザクション結果を確認して支払い完了をチェックしていた．
+屋台は特に現金の管理とか面倒くさそうなので，特に普及すると便利そう．
+merchari メルチャリ メルチャリ
+アプリインストールすると，メルカリアプリのインストール情報でシングルサインオンできる．地図から最寄りのポートを探して鍵を開ける．メルチャリポートは想定より多かったが，空きが少なかった(&amp;ldquo;0&amp;quot;と表示されているところが空きがないところ)．
+#メルチャリ アプリインストールからライド開始、駐輪までの導線がスムーズ過ぎて神🚲💨 4円/分らしいが、キャンペーンなのか無料だった pic.twitter.com/vKhfQcht0C
+&amp;mdash; tanakaworld 🧢 (@_tanakaworld) September 9, 2018 最後は自転車の鍵を閉めて暫くすると，停車したことになり完了した．とても体験がスムーズでよかった一方で，タイヤの空気が足りなくて若干こぎづらかったのと，停車するときにメルチャリポートの空きを探すのに手間取った．
+2018年8月22日〜11月末日まで，東京都国立市でも実証実験が実施されているとのこと．
+行ったところリスト 水炊き鍋 (@ Mizutaki Nagano in 福岡市, 福岡県 w/ @cokookie) https://t.</description>
+    </item>
+    
+  </channel>
+</rss>

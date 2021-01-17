@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>atjs on For X Developers</title>
+    <link>https://blog.tanaka.world/tags/atjs/</link>
+    <description>Recent content in atjs on For X Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 16 Aug 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.tanaka.world/tags/atjs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vue.js と At.js を組み合わせる</title>
+      <link>https://blog.tanaka.world/vue-wysiwyg-editor-with-atjs/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/vue-wysiwyg-editor-with-atjs/</guid>
+      <description>jQuery 製の AutoComplete を提供する At.js を，Vue のコンポーネントと組み合わせて使ったときのメモ．
+完成イメージ 完成版ソースコードはこちら．
+At.js を使うと次のような挙動が実現できる．WYSIWYG 内で @ を入力すると，入力候補が一覧が表示され，選択すると任意の要素が追加できる．
+
+vue-at は使わなかった At.js の Vue 版 vue-at もあるが，At.js の全機能に対応していなかった．(検証当時) 具体的には insertTpl で挿入する HTML を定義する機能が正式リリースされておらず，結局は jQuery 版をそのまま使うことにした．
+ベースとなる WYSIWYG コンポーネント contenteditable で WYSIWYG を自作する．
+&amp;lt;template&amp;gt; &amp;lt;div&amp;gt; &amp;lt;div class=&amp;#34;WYSIWYG&amp;#34; contenteditable=&amp;#34;true&amp;#34; @focus=&amp;#34;handleFocus&amp;#34; v-html=&amp;#34;content&amp;#34;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/template&amp;gt; &amp;lt;script&amp;gt; export default { props: { value: { type: String, default: &amp;#39;&amp;#39; }, disabled: { type: Boolean, default: false } }, data() { return { content: this.</description>
+    </item>
+    
+  </channel>
+</rss>

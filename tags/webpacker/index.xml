@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>webpacker on For X Developers</title>
+    <link>https://blog.tanaka.world/tags/webpacker/</link>
+    <description>Recent content in webpacker on For X Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 25 Nov 2018 23:13:03 +0000</lastBuildDate><atom:link href="https://blog.tanaka.world/tags/webpacker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rails5 / webpacker を heroku で動かす</title>
+      <link>https://blog.tanaka.world/rails5-webpacker-on-heroku/</link>
+      <pubDate>Sun, 25 Nov 2018 23:13:03 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/rails5-webpacker-on-heroku/</guid>
+      <description>Rails の開発環境をサクッ構築するために heroku を使ったときのメモ．
+環境  Rails 5.1.6 Ruby 2.4.x MySQL Webpacker つかう  Heroku CLI $ brew install heroku # if already installed $ brew upgrade heroku $ brew -v Heroku 設定  herokuでアプリケーション作成 クレカ登録（後述の MySQL 向けプラグインを追加するために必要．Free プランを選べば課金はされない） プラグイン追加  Configure Add-ons 「Clear DB」で検索して選択 -&amp;gt; Provision    Login heroku に登録している email, password でログインする．
+$ heroku login DB のセットアップ 先述の ClearDB をプラグインとして追加しているとそれ用の環境変数が設定される．
+$ heroku config -a &amp;lt;your-app-name&amp;gt; === your-app-name Config Vars CLEARDB_DATABASE_URL: mysql://xxxxxxxxxxxxxx:xxxxxxxxxx@xxxxxxxxxxxxxxxx.</description>
+    </item>
+    
+  </channel>
+</rss>

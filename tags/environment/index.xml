@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>environment on For X Developers</title>
+    <link>https://blog.tanaka.world/tags/environment/</link>
+    <description>Recent content in environment on For X Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 29 Sep 2018 07:24:32 +0000</lastBuildDate><atom:link href="https://blog.tanaka.world/tags/environment/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>君たちが考えた最強の環境について知りたい ＃0 を開催した</title>
+      <link>https://blog.tanaka.world/your-best-dev-environment/</link>
+      <pubDate>Sat, 29 Sep 2018 07:24:32 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/your-best-dev-environment/</guid>
+      <description>先日，フロントエンドチームのメンバーと「君たちが考えた最強の環境について知りたい ＃0」を開催した．
+ここ５年くらい，ほぼ同じ環境設定やツールで開発している．ペアプログラミングやライブコーディングをやると，”今の操作なにやったの？&amp;quot; 的な感じで新しい発見がよくあるのだが，最近はそういう機会もなかったので，皆の時間を借りてその機会を設けた．時間は３０分．
+**まず，自分が出したやつ 👉 ** 1Password https://1password.com/
+ 有料 サブスクリプション  言わずとしれたパスワード管理アプリ．ブラウザの Extension もあり，あらゆる環境で使える．1Password 7 からパスワードの保存先が 1Password サーバにしか保存できなくなっているらしい（以前は逆に Dropbox とか自前の環境に保存する方式だった）．
+iOS12 から 1Password が OS とシームレスに連携できるようになった．Settings &amp;gt; Face ID &amp;amp; Passcode &amp;gt; Other Apps で設定できる．さらに 1Password 上で 2FA 設定しておくと，スマホ開いて Authenticator アプリ立ち上げて，といった手順が一切不要になる．
+実際の動作はこんな感じでとてもスムーズ．
+ Better Touch Tools https://folivora.ai/
+ 有料 買い切り トラックパッドのジェスチャーやキーバインドにOSのアクションを割り当てできる  自分は window の最大化や左右幅寄せにだけ使ってる
+Karabiner Elements https://github.com/tekezo/Karabiner-Elements
+ 日本人がつくっている OSS 無料 Sierra で使えなくなってたが，HighSierra では使える  Sierra では代わりにこれ使っていたが，時々動かなくなって再起動することがよくあった https://ei-kana.</description>
+    </item>
+    
+  </channel>
+</rss>

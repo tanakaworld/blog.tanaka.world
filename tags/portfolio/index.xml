@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>portfolio on For X Developers</title>
+    <link>https://blog.tanaka.world/tags/portfolio/</link>
+    <description>Recent content in portfolio on For X Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 23 Sep 2018 23:11:46 +0000</lastBuildDate><atom:link href="https://blog.tanaka.world/tags/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【2018/09】tanaka.world バージョンアップのお知らせ</title>
+      <link>https://blog.tanaka.world/tanaka-world-version-up-2018-mid/</link>
+      <pubDate>Sun, 23 Sep 2018 23:11:46 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tanaka-world-version-up-2018-mid/</guid>
+      <description>色々バージョンアップしました👾
+色の切り替え + アニメーションスキップ機能を追加 👉 https://tanaka.world/
+色の切り替え+アニメーションスキップ機能を加えた 👾🚀
+https://t.co/vCVJp9G8qh #tanakaworld pic.twitter.com/cPngyAUx36
+&amp;mdash; tanakaworld 🧢 (@_tanakaworld) September 16, 2018  色の切り替え
+ クエリパラメータ color にカラーコード16進数を指定すると，その色で描画されます 例: https://tanaka.world/?color=4d1d9b 左上のカラフルボタンをクリックすると，ランダムでカラーを割り当て カラーの生成には randomColor を使用  アニメーションスキップ
+ 右上の Skip ボタンでアニメーションスキップされます 服を脱がされると，寒いので震えます  アイコンが新しくなりました  左: 旧，右: 新 ピクセル数を半分に減らし，シンプル化しました 48x48 → 24x24 使っているツールは aseprite 色味を微調整  </description>
+    </item>
+    
+  </channel>
+</rss>

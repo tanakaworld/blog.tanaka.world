@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>html5 on For X Developers</title>
+    <link>https://blog.tanaka.world/tags/html5/</link>
+    <description>Recent content in html5 on For X Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language><atom:link href="https://blog.tanaka.world/tags/html5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【SessionStorage/LocalStorage】ブラウザストレージによる処理速度高速化</title>
+      <link>https://blog.tanaka.world/html5-webstorage-sessionlocal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/html5-webstorage-sessionlocal/</guid>
+      <description>&lt;p&gt;HTML5 WebStorageのまとめ．&lt;/p&gt;&lt;p&gt;WebStorageを使うと，Key-Valueペアで，ブラウザ（ローカル環境）にデータが保存できる．&lt;/p&gt;&lt;p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

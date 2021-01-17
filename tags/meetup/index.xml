@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>meetup on For X Developers</title>
+    <link>https://blog.tanaka.world/tags/meetup/</link>
+    <description>Recent content in meetup on For X Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 17 Apr 2019 23:00:00 +0000</lastBuildDate><atom:link href="https://blog.tanaka.world/tags/meetup/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>メルペイ 会社・事業説明会 for エンジニア</title>
+      <link>https://blog.tanaka.world/merpay-engineering-meetup-2/</link>
+      <pubDate>Wed, 17 Apr 2019 23:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/merpay-engineering-meetup-2/</guid>
+      <description>メルペイ 会社・事業説明会 for エンジニア #2 にて Manager x メンバーのパネルディスカッションに出ました．
+モデレータとして EM の @keigow さんがメンバーからは Backend の @konboiさん，SRE の @tkuchiki さん，Frontend として自分がパネルをした． メルペイ開発の進め方や，入社前後のギャップなどについて話した．入社後約 9 ヶ月のこれまでを振り返るいい機会もなった．</description>
+    </item>
+    
+  </channel>
+</rss>

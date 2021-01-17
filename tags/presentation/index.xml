@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>presentation on For X Developers</title>
+    <link>https://blog.tanaka.world/tags/presentation/</link>
+    <description>Recent content in presentation on For X Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 26 Aug 2019 23:00:00 +0000</lastBuildDate><atom:link href="https://blog.tanaka.world/tags/presentation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nuxt マイクロサービスを 3つに分割した話</title>
+      <link>https://blog.tanaka.world/split-a-nuxt-microservice-to-3-microservices/</link>
+      <pubDate>Mon, 26 Aug 2019 23:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/split-a-nuxt-microservice-to-3-microservices/</guid>
+      <description>NuxtMeetUp#9 オールスターズ #nuxtmeetup にてマイクロサービスを分割したプロジェクトについてプレゼンした． 先に Vue コンポーネントを共通化してから，リポジトリや配信環境環境を分割した‥ 共通化に関しては一緒に分割を担当したメンバーが1つのアプリケーションを分割するためのコンポーネント管理方法にまとめてくれている．
+ 今回の Meetup はメルペイとして会場スポンサーすることになった．300人枠とやや挑戦的な設定をしてメルペイの仲介役として受け入れを担当した． 初めてのことばかりで色々と大変だったが，協力してくれたメルペイメンバーにはとても感謝している．
+スポンサートークとして @_ssky がメルペイフロントエンドの開発についてプレゼンを担当してくれた．
+ </description>
+    </item>
+    
+    <item>
+      <title>Automatic Code Generation for SPA</title>
+      <link>https://blog.tanaka.world/automatic-code-generation-for-spa/</link>
+      <pubDate>Wed, 03 Jul 2019 23:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/automatic-code-generation-for-spa/</guid>
+      <description>Mercari x Merpay Frontend Tech Talk vol.2 にて，コード生成の自動化についてプレゼンした．
+メルペイでのコード生成や，Proff.io で実際に組み込んだコード生成について話した．
+ </description>
+    </item>
+    
+    <item>
+      <title>How fast dev.to is?</title>
+      <link>https://blog.tanaka.world/how-fast-dev-to-is/</link>
+      <pubDate>Tue, 23 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/how-fast-dev-to-is/</guid>
+      <description>社内勉強会で dev.to について話した．
+ mizuchi さんの なぜ dev.to がこんなにも速く、こんなにも自分にとって感動的なのか という記事を皮切りに，2017 年に日本でもバズっていた Insanely Fast な Web サービス．今年の 8 月に OSS 化 されソースコード読んでたら面白そうだったので，話してみる運びになった．
+普段 Rails 開発する上で annict のソースコードを参考にさせてもらっているが，dev.to のソースコードもとても参考になりそうだった．
+普段は Keynote でスライドつくっているが，今回は Google Slides でやってみた．Google Slides よい．内容にもよるが，凝ったインタラクションやアニメーションしないなら Google Slides で事足りる感があった．デフォルトのテンプレートを使い，マスタで色味だけ調整した．マスタは保存はできないが，インポートすることはできるので他のスライドでも使うことができる．</description>
+    </item>
+    
+    <item>
+      <title>Vue.js Tokyo v-meetup 8 に登壇しました</title>
+      <link>https://blog.tanaka.world/vuejs-tokyo-v-meetup-8/</link>
+      <pubDate>Thu, 30 Aug 2018 22:24:38 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/vuejs-tokyo-v-meetup-8/</guid>
+      <description>2018年8月27日に開催された v-meetup #8 に登壇しました．
+約150の募集枠は，募集開始数分で埋まるほどの人気イベント．v-meetup の参加は初めてだったのですが，スタッフを始め参加者の方々の熱気に圧倒されました．
+Replace View of Backbone.js with Vue.js 2年半くらい運用していた Backbone.js SPA の一部を Vue.js でリニューアルしたときの話をしました．コアフレームワークが Backbone.Model に依存していて，Backbone.js から逃れられないプロジェクト，View 周りがツラいので組み合わせてみたら幸せになったという話です．どうしてもフルリプレイスが難しいプロジェクトとかで，小さく薄くはじめられるのが Vue.js のいいところ．2018年現在に使うのは色々ツラいところあるけど，Backbone.js 自体は嫌いではない(使いたいとは言っていない)
+ そもそもbackboneがつらい…#vuejs_meetup8
+&amp;mdash; ほんだし (@hondash918) August 28, 2018 backbone.js、繋ぎ先がhtmlである必要がないのでcocos2d-jsと組み合わせて使ったりしてた。今も結構好き。 #vuejs_meetup8
+&amp;mdash; hadakadenkyu (@hadakadenkyu) August 28, 2018 Vue コンポーネントの中で jQuery ライブラリ使うのあるある。 #vuejs_meetup8
+&amp;mdash; katashin (@ktsn) August 28, 2018 mountedでjqueryやるの親近感。#vuejs_meetup8
+&amp;mdash; Keima Kai (@keimakai1993) August 28, 2018 backboneとvueで共存キメラはすごい... #vuejs_meetup8
+&amp;mdash; イカID: Toshiwo (@toshiwo) August 28, 2018  サンプルプロジェクト サンプルプロジェクトを地味にちゃんとつくった．Realm つかってみたくて，サーバのデータストアに Realm Node.</description>
+    </item>
+    
+  </channel>
+</rss>

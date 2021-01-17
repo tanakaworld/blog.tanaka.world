@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>testing on For X Developers</title>
+    <link>https://blog.tanaka.world/tags/testing/</link>
+    <description>Recent content in testing on For X Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language><atom:link href="https://blog.tanaka.world/tags/testing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【npm &#43; Karma &#43; Jasmine】JavaScriptの単体テスト環境を構築する</title>
+      <link>https://blog.tanaka.world/unit-test-for-javascript-by-npm-karma-jasmine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/unit-test-for-javascript-by-npm-karma-jasmine/</guid>
+      <description>&lt;p&gt;JavaScriptの単体テスト環境構築のまとめ．&lt;/p&gt;
+&lt;p&gt;テストランナーとして「&lt;a href=&#34;https://github.com/karma-runner/karma&#34; title=&#34;Karma&#34;&gt;Karma&lt;/a&gt;」，テストフレームワーク・アサーションライブラリとして「&lt;a href=&#34;http://jasmine.github.io/&#34; title=&#34;Jasmine&#34;&gt;Jasmine&lt;/a&gt;」を使う．&lt;/p&gt;
+&lt;p&gt;PCのグローバル領域にこれらをインストールしても環境構築はできるが，今回はプロジェクト固有のツールとしてインストールする．&lt;/p&gt;
+&lt;p&gt;これによって，PCの環境に依存しないテスト環境が構築できる．&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

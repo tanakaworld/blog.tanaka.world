@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>youtube on For X Developers</title>
+    <link>https://blog.tanaka.world/tags/youtube/</link>
+    <description>Recent content in youtube on For X Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language><atom:link href="https://blog.tanaka.world/tags/youtube/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>YouTuberになりました</title>
+      <link>https://blog.tanaka.world/be-a-youtuber/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/be-a-youtuber/</guid>
+      <description>某氏からThrees!のプレイ動画に需要がある，とのありがたきお言葉を頂いたので， YouTuberになることにした．
+Channel: Tanaka World Channel Tanaka World
+  とりあえずThrees!をメインにアップしていく．
+自分の研究用にキャプチャしていたThrees!動画をメインにアップしていこうと思う．
+Threes!の現状・6144の壁 最高スコアは 265791
+3072も割りと出せるようになってきたので，そろそろ6144が出せそうな気がしている．
+「6144」を出したプレイヤーは，現在で388人いるようだ．
+全ユーザーで200万人くらいのうち，僕は502位．
+6144を出せばかなり順位が上がること間違いない．
+Threes! AI 最近，AlpherGoが世間を賑わせている．
+便乗してAlpherThrees!なるものを作ってやろうと思っていたら，先にやられていた． threes-ai
+@_tanakaworld ゲームバランス崩壊の危機ｗ
+&amp;mdash; TakahiroPolyHorikawa (@thorikawa) March 26, 2016  このThrees!AIは，6144も出していてかなり高いスコアを出しているようだ．
+このAI対策をするためにソースコードを読むことによってPython, C, C++もキャッチアップすることができるという，絶好のタイミングである．
+※ AIのソースは読むけど絶対に使わない
+Threes!AI vs TanakaWorld
+AIに勝てるようにガンバる ﾌ( ﾟдﾟ)乂(ﾟдﾟ )</description>
+    </item>
+    
+  </channel>
+</rss>

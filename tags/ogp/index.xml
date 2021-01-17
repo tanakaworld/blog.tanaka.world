@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ogp on For X Developers</title>
+    <link>https://blog.tanaka.world/tags/ogp/</link>
+    <description>Recent content in ogp on For X Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 08 Aug 2018 21:40:20 +0000</lastBuildDate><atom:link href="https://blog.tanaka.world/tags/ogp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rails でユーザー毎に OGP 画像を自動生成するハンズオン</title>
+      <link>https://blog.tanaka.world/rails-generate-ogp/</link>
+      <pubDate>Wed, 08 Aug 2018 21:40:20 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/rails-generate-ogp/</guid>
+      <description>ユーザーの詳細ページがある Web アプリケーションで，ユーザー毎に OGP 画像を自動生成し表示させてみる．
+完成版のソースコードはこちら 👉 rails_ogp_generator_sample．
+前提条件  Ruby 2.4.2 Rails 5.1.6 RMagic 2.16.0  Gem 画像生成で rmagic，アップロードに carrierwave を使う．
+# Gemfile gem &amp;#39;rmagick&amp;#39; gem &amp;#39;carrierwave&amp;#39; $ bundle install User の Scaffold を作成 name と avatar を持つユーザーの Scaffold を作成する．
+$ bundle exec rails g scaffold User name:string avatar:text # db/migrate/20180720144053_create_users.rb class CreateUsers &amp;lt; ActiveRecord::Migration[5.1] def change create_table :users do |t| t.string :name, null: false t.text :avatar t.timestamps end end end $ bundle exec rails db:migrate UserOgpImage モデルを作成 User の OGP 画像を保持するモデルを作成する．</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>podcasts on For X Developers</title>
+    <link>https://blog.tanaka.world/tags/podcasts/</link>
+    <description>Recent content in podcasts on For X Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 23 Jul 2018 14:57:43 +0000</lastBuildDate><atom:link href="https://blog.tanaka.world/tags/podcasts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【2018上期】最近きいている Podcast</title>
+      <link>https://blog.tanaka.world/podcasts-first-half-of-2018/</link>
+      <pubDate>Mon, 23 Jul 2018 14:57:43 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/podcasts-first-half-of-2018/</guid>
+      <description>最近は，音楽をきくより，Podcast をきいていることが多い．きいている番組も増えてきたので一度まとめてみようと思う．
+定期的に聞いているタイトル Tech系
+ rebuild.fm mozaic.fm Turing Complete FM ajitofm strobo.fm しがないラジオ boot.fm ACCIDENTAL TECH PODCAST News and podcasts for developers | Changelog  英語系
+ バイリンガルニュース (Bilingual News) Hapa 英会話 ELS Podcast スピードラーニングポッドキャスト｜英会話教材スピードラーニング  rebuild.fm
+rebuild.fm駆動開発は引き続き続けている．
+個人的には @naoya_ito さんや @N さんの回が好きで何回も繰り返しきいている．正直エピソード 100 くらいまでは @N さんのスタンスに馴染めず流し聴きしていたが，面白さがわかってくるとクセになって，ついつい聴き入ってしまう笑．最近だとエピソード213の食パンの話とか，何それって感じだけど，それがまたいい笑．@naoya_ito さんは最近出てきていないので，復活を切望しているし応援している．
+基本的に1.25倍速で視聴している．が唯一，@takorattaさんのときはスピードが速いのと，内容が難しいため1.0倍速に戻すことがある．
+mozaic.fm
+かなりコアな内容でブラウザベンダーの動向などを細かく観測している番組． 最近は Monthly Web というタイトルで各月毎のまとめを話している．月 1 ペースの更新で内容が充実していているので，スピーカーも大変だろうがリスナーも体力が必要．内容が難しいので1.0倍速で聞いている．一つ一つ知らないことを調べながら視聴しているので 1 エピソード聞くのに数週間かかることもあり，全部視聴するのを挫折することもしばしば．この番組の内容がスッとわかるくらいにはなりたい．
+Turing Complete FM
+@rui314 さんの Podcast で．内容や更新スピードが凄まじく熱意を感じる．Systems Programming 中心の番組で，違う畑の自分にとって内容はニッチで難しい．こちらも調べながらきいていて，学生のころのテキスト引っ張ってきては思い出したりしていた． 音の良いポッドキャストを録音するために ― Turing Complete FMの収録テクニックでも書かれている通り，音質にこだわっていて，実際他の Podcast と比べても音質がよく感じる． コンパイラやセキュリティなどローレイヤーの話が多い一方で，Shiro Kadowaki さんの生物・遺伝子や，@kinu さんの Webの話など他分野のエピソードもある． それとハッカーと画家の翻訳を担当された，川合史朗さんの肉声がきけるのは驚いた．</description>
+    </item>
+    
+  </channel>
+</rss>

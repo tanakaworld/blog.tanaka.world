@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dev.to on For X Developers</title>
+    <link>https://blog.tanaka.world/tags/dev.to/</link>
+    <description>Recent content in dev.to on For X Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 03 Sep 2018 23:37:51 +0000</lastBuildDate><atom:link href="https://blog.tanaka.world/tags/dev.to/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>dev.to をローカルで動かす</title>
+      <link>https://blog.tanaka.world/run-dev-to-in-local/</link>
+      <pubDate>Mon, 03 Sep 2018 23:37:51 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/run-dev-to-in-local/</guid>
+      <description>2018/08/08 に dev.to が OSS 化された．
+dev.to is now open source
+とりあえずローカルで動かすまでにやったことのメモ．
+Getting Started Getting Started が充実している．ほぼその通りに進めれば問題ない．Ruby は最新版が必要，DB は PostgreSQL．長年 Rails 触っているが地味に PostgreSQL 使ったことがなかった．
+$ ruby -v =&amp;gt; Ruby 2.5.1p57 (2018-03-29 revision 63029) [x86_64-darwin17] $ brew install postgresql $ postgres -V =&amp;gt; postgres (PostgreSQL) 10.5 $ pg_ctl -D /usr/local/var/postgres start # Stop $ pg_ctl -D /usr/local/var/postgres stop $ gem install bundler $ gem install foreman foreman は複数プロセスをまとめて管理できるツール． ローカル実行時は
+ Rails サーバ (puma) Webpacker (webpackのラッパー，webpack の実行と hot-reload が走る) Job (DelayedJob)  が実行される．</description>
+    </item>
+    
+  </channel>
+</rss>

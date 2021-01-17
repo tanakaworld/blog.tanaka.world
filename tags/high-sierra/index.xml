@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>high-sierra on For X Developers</title>
+    <link>https://blog.tanaka.world/tags/high-sierra/</link>
+    <description>Recent content in high-sierra on For X Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 11 Jul 2018 00:10:00 +0000</lastBuildDate><atom:link href="https://blog.tanaka.world/tags/high-sierra/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Clean install macOS High Sierra</title>
+      <link>https://blog.tanaka.world/clean-install-macos-high-sierra/</link>
+      <pubDate>Wed, 11 Jul 2018 00:10:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/clean-install-macos-high-sierra/</guid>
+      <description>General  Settings &amp;gt; Keyboard &amp;gt; Text &amp;gt; Disable Capitalize words automatically Settings &amp;gt; Keyboard &amp;gt; Modifier Keys &amp;gt; Change Caps Lock to Control Settings &amp;gt; Trackpad &amp;gt; More Gestures &amp;gt; Swipe between pages -&amp;gt; Switch with three fingers Settings &amp;gt; General &amp;gt; Enable Use dark menu bar and Dock TouchBar  Settings &amp;gt; Keyboard &amp;gt; Customize Control Strip &amp;gt; Remove &amp;ldquo;Siri&amp;rdquo; button   Finder  Show hidden files by shortcut Command + Shift + .</description>
+    </item>
+    
+  </channel>
+</rss>

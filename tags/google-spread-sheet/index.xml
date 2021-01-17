@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>google-spread-sheet on For X Developers</title>
+    <link>https://blog.tanaka.world/tags/google-spread-sheet/</link>
+    <description>Recent content in google-spread-sheet on For X Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language><atom:link href="https://blog.tanaka.world/tags/google-spread-sheet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GoogleSpreadsheetをパースするライブラリを作った</title>
+      <link>https://blog.tanaka.world/google-spreadsheets-parser.html/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/google-spreadsheets-parser.html/</guid>
+      <description>GoogleSpreadsheetをJSONにパースするライブラリを作った．
+google-spreadsheets-parser
+JSで使用する前提で作っていて，ブラウザやNodeで使用できる． シートのURLとシート名を指定するとObject形式・JSON形式にパースできる．
+var gss = new GoogleSpreadsheetsParser(publishedUrl, {sheetTitle: &amp;#39;Sample&amp;#39;, hasTitle: true}); ライブラリのセットアップなど詳しくはREADMEにて．
+半年くらい実プロジェクトでも使用してみて，割りと汎用的に使えたのでいろいろ拡張していく予定．
+動作デモなどはこちら</description>
+    </item>
+    
+    <item>
+      <title>パラメタライズドテストケースをGoogleSpeadsheetで管理する</title>
+      <link>https://blog.tanaka.world/host-test-data-by-google-spreadsheet.html/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/host-test-data-by-google-spreadsheet.html/</guid>
+      <description>**google-spreadsheets-parser**を使って， スプレッドシートで管理しているデータをテストで使用する．
+背景:データの二重管理をなくしたい あるJSモジュールのパラメタライズドテストコードを書いていた． パラメータとそのテスト結果はGoogleSpreadsheetで表管理していて，ビジネス・エンジニア共に使用していた．
+はじめはSpreadSheet上にそれらの値をJSで扱える形式にconcatenateとかしてコピペしていたが， バリエーションが膨大になり，データ二重管理の問題が発生しメンテナンスに難があった．
+普通にパラメタライズドテストを書くとこんな感じ grunt x karma x jasmine の環境構築手順はこちら．
+# src/user.coffee class User constructor: (@NAME, @age) -&amp;gt; canDrink: -&amp;gt; parseInt(@age) &amp;gt;= 20 # src/userSpec.coffee describe &amp;#34;User&amp;#34;, -&amp;gt; describe &amp;#34;#canDrink&amp;#34;, -&amp;gt; assertCanDrink = (name, age, canDrink) -&amp;gt; it &amp;#34;Age:#{age}, CanDrink:#{canDrink}&amp;#34;, -&amp;gt; user = new User(name, age) expect(user.canDrink()).toBe(canDrink) # ここのバリエーションが増えてくると管理がツラい  target = [ {no: 1, name: &amp;#39;User1&amp;#39;, age: 18, canDrink: false} {no: 2, name: &amp;#39;User2&amp;#39;, age: 19, canDrink: false} {no: 3, name: &amp;#39;User3&amp;#39;, age: 20, canDrink: true} {no: 4, name: &amp;#39;User4&amp;#39;, age: 21, canDrink: true} {no: 5, name: &amp;#39;User5&amp;#39;, age: 22, canDrink: true} ] for t in target assertCanDrink(t.</description>
+    </item>
+    
+  </channel>
+</rss>

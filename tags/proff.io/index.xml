@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>proff.io on For X Developers</title>
+    <link>https://blog.tanaka.world/tags/proff.io/</link>
+    <description>Recent content in proff.io on For X Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 13 Jul 2020 12:00:00 +0000</lastBuildDate><atom:link href="https://blog.tanaka.world/tags/proff.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Proff の本番環境を刷新した（ECS/Fargate）</title>
+      <link>https://blog.tanaka.world/revamp-proff-io-infra-ecs-fargate/</link>
+      <pubDate>Mon, 13 Jul 2020 12:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/revamp-proff-io-infra-ecs-fargate/</guid>
+      <description>Proff（プロフ）の本番環境を刷新した。2018 年から約 2 年ほど運用してきて初の大規模インフラ改修となった。
+TL;DR;  EC2 → ECS(Fargate) に変更 静的アセットを S3 から配信するように変更 CircleCI Orbs を使用し Docker ビルド Terraform で構成管理  サービス構成 概要 既存の本番環境とは別に VPC を作成し、関連する AWS サービスもほぼ全部新規に作成した(S3 以外)。というのも、まず新構成の開発環境を構築して色々と検証をした上で、まったく同じ構成で本番環境を構築したかったから。Terraform の workspace 切り替えで検証済みの構成と同等の設定で本番環境も作成した。CPU や Memory などスペックは本番向けに増強している。
+主な変更点は下記の通り。
+   Before After     ELB ALB (Application Load Balancer) に変更   EC2 (Nginx, RoR, Node.js) ECS + Fargate (RoR, Node.js) に変更 静的コンテンツを S3 から配信 (asset_sync)     | ECR (Docker Registry) | System Manager (ECS で使う秘匿情報を Parameter Store で保存) Capistrano | CircleCI で Docker ビルド (Orb を使用: circleci/aws-ecr, circleci/aws-ecs)  サービス選定 一番の目的は本番環境をコンテナ化することだった。IoC (Infrastructure as Code) したい、環境差分をなくしたい (ローカル, 本番, CI)、スケールを容易にしたい、というのが主な狙い。コンテナ化しない理由は逆になく ECS を選択した。</description>
+    </item>
+    
+    <item>
+      <title>Automatic Code Generation for SPA</title>
+      <link>https://blog.tanaka.world/automatic-code-generation-for-spa/</link>
+      <pubDate>Wed, 03 Jul 2019 23:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/automatic-code-generation-for-spa/</guid>
+      <description>Mercari x Merpay Frontend Tech Talk vol.2 にて，コード生成の自動化についてプレゼンした．
+メルペイでのコード生成や，Proff.io で実際に組み込んだコード生成について話した．
+ </description>
+    </item>
+    
+  </channel>
+</rss>

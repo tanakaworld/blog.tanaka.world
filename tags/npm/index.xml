@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>npm on For X Developers</title>
+    <link>https://blog.tanaka.world/tags/npm/</link>
+    <description>Recent content in npm on For X Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language><atom:link href="https://blog.tanaka.world/tags/npm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【Grunt &#43; Karma &#43; Jasmine】CoffeeScriptの開発環境を構築する</title>
+      <link>https://blog.tanaka.world/coffeescript-grunt-karma-jasmine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/coffeescript-grunt-karma-jasmine/</guid>
+      <description>Grunt + CoffeeScript + Karma + Jasmine での開発をスタートして数ヶ月たった． ある程度ノウハウも溜まってきたので，メモしておく．
+CoffeeScript関連ライブラリをセットアップ $ npm init $ npm install $ npm install coffee-script --save-dev $ npm install grunt --save-dev $ npm install grunt-contrib-coffee --save-dev $ npm install grunt-contrib-concat --save-dev $ npm install grunt-contrib-uglify --save-dev $ npm install grunt-contrib-watch --save-dev プロダクトコード # src/hello.coffee  hello = -&amp;gt; console.log(&amp;#34;Hello world!!&amp;#34;) # src/main.coffee  hello() user = new User(&amp;#34;Tanaka&amp;#34;, 24) console.log(user.profile()) # src/user.coffee  class User # static private param  _uid = 987654321 # constructor  constructor: (@NAME, @age) -&amp;gt; # public method  profile: -&amp;gt; return @NAME + &amp;#34; : &amp;#34; + @age # private method  _toAge = -&amp;gt; @age++ Gruntfile.</description>
+    </item>
+    
+  </channel>
+</rss>

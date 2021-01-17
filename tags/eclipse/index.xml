@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eclipse on For X Developers</title>
+    <link>https://blog.tanaka.world/tags/eclipse/</link>
+    <description>Recent content in eclipse on For X Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language><atom:link href="https://blog.tanaka.world/tags/eclipse/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Eclipseの文字コード設定を一括変換する方法</title>
+      <link>https://blog.tanaka.world/eclipse-batch-converte-character-code/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/eclipse-batch-converte-character-code/</guid>
+      <description>【Eclipseの文字コード設定を一括変換する方法】 以下のライブラリを使用する
+文字コードを一括変換する Eclipse プラグイン CharsetConv​
+プラグインを使う (ex)以下の設定の場合の対応 ----------------------------------------------------- Workspace Text File Encoding : MS932(Windowas31J) Project Encoding : MS932(Windowas31J) ----------------------------------------------------- ① Workspace Text File Encoding 変更 Eclipse Status Bar &amp;gt; Window &amp;gt; Preference &amp;gt; General &amp;gt; Workspace &amp;gt; Text file encoding &amp;gt; 「MS932 → UTF-8」 ② 文字化けする ③ ソースの Encoding 変更 変更対象パッケージを右クリック　＞　文字コード変換　＞　「Windowas31J → UTF-8」 ④ 完了
+そもそもエディタの文字コード設定をあらかじめしておく エディタの文字コード設定を始めにしておくこと推奨． Eclipse : XXX &amp;gt; XXX &amp;gt; XXX
+VisualStudio : XXX &amp;gt; XXX &amp;gt; XXX</description>
+    </item>
+    
+  </channel>
+</rss>

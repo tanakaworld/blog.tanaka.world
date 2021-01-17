@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>fastjson-api on For X Developers</title>
+    <link>https://blog.tanaka.world/tags/fastjson-api/</link>
+    <description>Recent content in fastjson-api on For X Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 03 Jul 2019 23:00:00 +0000</lastBuildDate><atom:link href="https://blog.tanaka.world/tags/fastjson-api/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automatic Code Generation for SPA</title>
+      <link>https://blog.tanaka.world/automatic-code-generation-for-spa/</link>
+      <pubDate>Wed, 03 Jul 2019 23:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/automatic-code-generation-for-spa/</guid>
+      <description>Mercari x Merpay Frontend Tech Talk vol.2 にて，コード生成の自動化についてプレゼンした．
+メルペイでのコード生成や，Proff.io で実際に組み込んだコード生成について話した．
+ </description>
+    </item>
+    
+    <item>
+      <title>Rails で swagger-blocks と fastjson_api を組み合わせる (API定義編)</title>
+      <link>https://blog.tanaka.world/swagger-blocks-with-fastjson-api-part1/</link>
+      <pubDate>Sun, 21 Apr 2019 11:48:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/swagger-blocks-with-fastjson-api-part1/</guid>
+      <description>Rails プロジェクトで クライアント向けの APIClient を自動生成するときの構成を試してみた． Swagger で記述した API 定義からコード生成する例はちらほら見かけるが，Netflix 製の fast_jsonapi を使った記事は見かけなかったので，まとめておく．
+完成版のソースコードはこちら 👉 tanakaworld/swagger-blocks-fastjson-api
+TL;DR; Part1: API定義編 (本記事)
+ Backend は Rails で API を実装 JSON シリアライザとして，Netflix 製の fastjson_api API 定義は swagger-blocks を使用  Part2: コード生成編 (作成中)
+ openapi-generator で TypeScript の APIClient を自動生成  Part3: 自動テスト編 (作成中)
+ RSpec で Reqeuests 自動テスト committee-rails で Swagger 定義との整合性チェック  Scaffold Books 書籍情報の CRUD を題材に考える． Rails 6.0.0.beta3 を使った．
+scaffold で Books を生成し，画像アップロードは Active Storage を使う．</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,1246 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>For X Developers</title>
+    <link>https://blog.tanaka.world/</link>
+    <description>Recent content on For X Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 15 Jan 2021 21:00:00 +0000</lastBuildDate><atom:link href="https://blog.tanaka.world/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>英語独習法を読んだ</title>
+      <link>https://blog.tanaka.world/self-learning-english/</link>
+      <pubDate>Fri, 15 Jan 2021 21:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/self-learning-english/</guid>
+      <description>Summary  日本語 &amp;lt;=&amp;gt; 英語を対応させて意味を移すことに意味がない（それでは上達しない）  英単語の意味を日本語に翻訳して、ただそれだけをインプットしても使えるようにはならない（文脈を誤って使ってしまうだけ） 例えば、「恥ずかしい」=「embarrassed」=「shy」という覚え方は NG. 本来性格のことをいう「shy」を I&#39;m shy to find a hole in my sock などと使ってしまうことに繋がる 例:「瓶がぷかぷか浮かんだまま洞窟の中に入っていった」  🚫 NG: A bottle entered the cave slowly floating. (ただの直訳で違和感がある) ✅ OK: A bottle floated into the cave.   日本語 → 英語 と変換するのではなく、日本語 → 話の意図や背景を含めた理解に変換 → 適切な英語 を意識する   そのために「スキーマ」の獲得が必要  違和感のない自然な英語を使うためには、外国語ネイティブの感覚を身に着ける必要がある 関連知識と一緒にインプットしていく 人間の情報処理は目的思考的で必要のない情報には目を向けない 視界には入っていても、見えてはいないということがあるように、英語を学習しようとするときにも同じことが起こっている    Note 1. 認知の仕組みから学習方法を見直そう  They looked, but didn’t see it.</description>
+    </item>
+    
+    <item>
+      <title>2020年の振り返り</title>
+      <link>https://blog.tanaka.world/2020/</link>
+      <pubDate>Thu, 31 Dec 2020 13:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/2020/</guid>
+      <description>WFH になり、仕事や生活様式が劇的に変化した 1 年だった。変化に強いものが生き残るということを体感した。
+メルペイ 入社してから約 2 年半経った。過去に正社員で働いた会社の中では最長となっている。振り返ると入社してから 2020 年に入るまではメルペイリリース前後のバタバタであまり余裕がなかった。今年はメンバーが増えたおかげでこれまでやりたかったけどできなかったことができるようになった。
+ 1 月  英語ネイティブと一緒に仕事するようになった (業務で英語を使うときの準備と実践ログ)   2 月 〜 3 月  2 末からフルリモートワークが続いている。結局 2 回だけしかオフィスに出社していない。 2 月にも 1 人外国籍メンバーが増え、さらに Origami のメンバーもジョインしチームメンバーが一気に増えた オンボーディングやコンポーネントリニューアルを担当した   4 月 〜 7 月  マイナンバーポイントキャンペーンの開発に関わった   8 月 〜 現在  Engineering Division でリグレッションテストの自動化をしていくことになった 自分は Frontend 領域のオーナーとして取り組んだ (Cypress + TestRail による Frontend E2E テストの効率化について) 10 月からは Engineering Manager をやっている。完全にコードを書かなくなったわけではなく、50% マネジメント・50% プロダクト開発という割合でやっている    Proff  ECS/Fargate に移行した E2E テストを整備し、Renovate の更新を半自動でできるようにした その他、細かい改修をいくつかやった  衣食住  WFH が主となり家にいる時間が圧倒的に増えた 前半は Life From Home で書いた 散歩は継続している 9 月に引っ越しをして環境を整えた (2020 年買ってよかったもの)  禁酒と健康 禁酒 お腹に違和感があり、3 ヶ月間禁酒していた。お腹が鳴っている感覚が半月ほど続いており、念の為診察をした。エコー検査、レントゲン検査は異常なし、血液検査をしたところ膵臓に関わる数値が基準値をやや超えていた。「軽度の膵炎」という診断結果で、3 ヶ月お酒を控えて様子見となった。</description>
+    </item>
+    
+    <item>
+      <title>業務で英語を使うときの準備と実践ログ</title>
+      <link>https://blog.tanaka.world/english-2020/</link>
+      <pubDate>Wed, 30 Dec 2020 21:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/english-2020/</guid>
+      <description>2019 年は業務で英語を使うための準備し、2020 年は実際に業務で英語を使うようになったこの 2 年間を振り返る。結論、1 年間英会話をして準備していたが実際はあまり役立たなかった。やみくもに準備に時間をかけるよりも、実践して必要なことがわかってからそれにフォーカスした対策をした方がよいという話。
+2019 年  1年間毎日英会話やってたがあまり意味がなかった。 意味があったのは体感 30 %くらい (後述) このやり方であれば準備は 3 ヶ月とかもっと少なくても変わらなかったと思う ※ 前提  英語を使い業務を遂行できることが第一目標、TOEIC などの試験で点を取ることは考えていない 業務はソフトウェア開発、読み書き・会話が英語になる 複数人のチーム    何がよくなかったか 1. 考えて話す機会が少ない DMM 英会話ではフリートーク・デイリーニュースを中心に題材を選択していた。フリートーク（20 ％）、デイリーニュース（60 ％）、その他教材（20 ％）という割合だった。フリートークでは「その国で流行っているスマホアプリは？」というテーマで話していた。毎回違う先生を予約していたので同じ話題で問題はなかった。デイリーニュースではニュース本文を音読して、質問に答えるという内容だった。実質、十数分以下しか話せていない。
+ただ話を聞いているだけ、書いてあるテキストを読んでいるだけでは身につかない。相手が話すのを聞いている時間より自分が話すチャンスを意識的に増やす、内容を要約して伝えるといった頭を使う学習方法の方が効果的だったと思う。
+2. 使わない/間違ったフレーズを覚えてしまう 業務と関係ない内容で学習していても、業務には直接活きないのは容易に想像がつくだろう。目的にフォーカスした内容を優先して学習するべきだった。実際の業務で「盆栽」の話をすることなどない。
+これ日本語でディスカッションするのもムズイw
+&amp;quot;$90,000 Bonsai Tree Stolen in Saitama&amp;quot;https://t.co/6acxa3Bhip
+&amp;mdash; tanakaworld 🧢 (@_tanakaworld) February 25, 2019 文法が間違っている時にそれに気づかず話しつづけてていたこともよくない。DMM 英会話の機能で講師から指摘の頻度を上げてもらうオプションがあったがそれを指定していても意味が通じれば何も言ってこないケースが大半だった。ニュアンスが通じればそれでよい説はあるとは思う。しかしそれ止まりでは効率が悪い。
+3. 復習をしていない 言わずもがな、何度か繰り返し復習をしないと忘れていく。盆栽の話を復習したところでそこまで効果はなかったと思うが。単語やフレーズを、業務のフォーマットに変換した上でインプットするなどの工夫が必要である。
+ただやるだけでも身についていたこと 2020 年から業務で英語を使い始め「あまり意味がなかった」ということにすぐに気がついた。しかしその中でも役に立ったなと思うこともあり、それは体感 30 %くらいだった。残り 70% は実践をやることでしか身につかなかった。身についていたことは次の通り。
+ リスニング力 発音 瞬発力（どうにかする力）  英語話者の話していることを頭で理解するという行為を繰り返す過程でリスニング力はついていた。英語耳で繰り返し発音を学習し、それを会話で実践することで、意識しなくても正しい発音になるようになった。自分発音できる音は聞き取れるという状態になっている。</description>
+    </item>
+    
+    <item>
+      <title>2020年買ってよかったもの</title>
+      <link>https://blog.tanaka.world/the-best-things-2020/</link>
+      <pubDate>Sat, 26 Dec 2020 12:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/the-best-things-2020/</guid>
+      <description>今年も色々買って・色々メルカリした。2 月からは完全にリモートワークになり、家の住環境・仕事環境を充実させることにお金を使った。Amazon での購入がメインで今年は「177件」注文していた。
+買ってよかったもの・今後も使い続けていくものを 10 個ピックアップした。
+1. 引っ越し 引っ越しもサブスクの一つとして含めると「買った」ことにはなる。
+1 LDK のリビングに作業デスク + チェアを二人分ならべて仕事をしていた。オンライン会議の声が被るので話すときは寝室や脱衣所に移動するなどしていたが限界だった。出勤することもなくなっていたので都心に住む理由もなかった。(結局 2 月末から 2 回しか出社していない)
+ 1LDK → 2LDK 家賃マイナス 3 万円 都心まで電車で 30分, 家から駅まで徒歩 15 分 日当たり良好  引っ越しして1週間自然と早寝早起き生活になった。1番大きかったのは日当たりと風通しのよさで一気に健康になった気がする。窓1つ→窓5つに増えた。
+&amp;mdash; tanakaworld 🧢 (@_tanakaworld) September 15, 2020 2. Aterm WX6000HP https://www.aterm.jp/product/atermstation/product/warpstar/wx6000hp/
+WFH になってから一番最初に購入した。オンライン会議するときに映像 ON にすると不安定になる、音声だけでも不安定という状況だった。AirMac Extreme から乗り換えた。AirMac Extreme で IPv6 も設定は可能だったがうまく疎通できず断念していた。
+人権を取り戻した💪ルータを変えて IPoE が使えるようにした、平均 10Mbps くらいだったのが 250〜450Mbps 出るようになった⚡️ pic.twitter.com/xsB78W8l9d
+&amp;mdash; tanakaworld 🧢 (@_tanakaworld) April 28, 2020  引っ越してから作業部屋は有線接続するようにしている。ルーターからドア 2 つ隔てた場所で接続が不安定だったため。100 均の両面テープで配線固定してて、今のところ剥がれることなく安定している。LAN をきしめん型の形状にしてよかった。</description>
+    </item>
+    
+    <item>
+      <title>Proff の本番環境を刷新した（ECS/Fargate）</title>
+      <link>https://blog.tanaka.world/revamp-proff-io-infra-ecs-fargate/</link>
+      <pubDate>Mon, 13 Jul 2020 12:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/revamp-proff-io-infra-ecs-fargate/</guid>
+      <description>Proff（プロフ）の本番環境を刷新した。2018 年から約 2 年ほど運用してきて初の大規模インフラ改修となった。
+TL;DR;  EC2 → ECS(Fargate) に変更 静的アセットを S3 から配信するように変更 CircleCI Orbs を使用し Docker ビルド Terraform で構成管理  サービス構成 概要 既存の本番環境とは別に VPC を作成し、関連する AWS サービスもほぼ全部新規に作成した(S3 以外)。というのも、まず新構成の開発環境を構築して色々と検証をした上で、まったく同じ構成で本番環境を構築したかったから。Terraform の workspace 切り替えで検証済みの構成と同等の設定で本番環境も作成した。CPU や Memory などスペックは本番向けに増強している。
+主な変更点は下記の通り。
+   Before After     ELB ALB (Application Load Balancer) に変更   EC2 (Nginx, RoR, Node.js) ECS + Fargate (RoR, Node.js) に変更 静的コンテンツを S3 から配信 (asset_sync)     | ECR (Docker Registry) | System Manager (ECS で使う秘匿情報を Parameter Store で保存) Capistrano | CircleCI で Docker ビルド (Orb を使用: circleci/aws-ecr, circleci/aws-ecs)  サービス選定 一番の目的は本番環境をコンテナ化することだった。IoC (Infrastructure as Code) したい、環境差分をなくしたい (ローカル, 本番, CI)、スケールを容易にしたい、というのが主な狙い。コンテナ化しない理由は逆になく ECS を選択した。</description>
+    </item>
+    
+    <item>
+      <title>Life From Home</title>
+      <link>https://blog.tanaka.world/life-from-home-covid-19/</link>
+      <pubDate>Mon, 11 May 2020 10:53:01 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/life-from-home-covid-19/</guid>
+      <description>COVID-19 の影響で 2 月末から家中心の生活になった。仕事や個人プロジェクトでも約 3 ヶ月間一度も物理出社はしていない。色々変化があったので振り返る。
+仕事 WFH WFH は基本的に推奨されていない、事情によっては OK という文化だった。それが昨今の事情で WFH 推奨 → WFH 原則という風に変わってきた。 会社が G Suite を使っているので会議はすべて Google Meet になった。全社会議など多くの人が集まる会議で自分が話す必要がないときは Live Stream を使っている。Live Stream は 10　万人までストリーミング配信できるらしくすごい。
+物理会議だと会議室を抑えるのが大変だったが、今はその手間がなくなった。
+生産性 個人としての生産性は明らかに落ちているのを感じていている。テキストチャットのコミュニケーションが中心になり、テキスト読んで理解する → 文章書くという繰り返しが増え、時間取られている。当初はそれに疲れを感じていたが最近は慣れた。タイミング的に兼務プロジェクトが増えたのも影響しているのかもしれないので一概には言えないが。皆がチャット上でわかりやすい文章書く手法を研究していく必要がある。 対面の同期コミュニケーションのスピード感を思い知った。通勤の往復時間がなくなり作業可能な時間は増えているが、メリハリはなくなりダラダラと仕事を継続してしまう傾向にある。 3 月から新たにジョインしたメンバーが多数いて、一度も物理対面していないのは新鮮な体験だった。オンボーディングから普段の開発まで全てリモートで行っている。プロジェクトの立ち上げやオンボーディングは対面の方が効率よいと感じた。
+衣 断捨離して着る服を限界まで減らしていたにも関わらず、さらに服を着なくなった。部屋着と寝衣の 2 パターンで生活が完結するので断捨離がより捗りそう。気兼ねなく洗濯ができるようになったのも大きい。思い切ってもう少し断捨離してみようと思う。
+自分は喉が弱く乾燥で喉が痛くなり熱が出がち、故に冬になると外出時は常にマスクをしている。これまでは不織布の使い捨てマスクを使っていたのだが、最近は洗って再利用できる PITTA MASK を常用している。 PITTA MASK は毎日手洗いしても 1 ヶ月くらいは使い続けていた。外に出る機会が激減したのでマスクが足りなくなることがなかった。
+食 Uber Eats を始め宅配メシや外食中心だったのが、現在はほぼ 3 食自炊に変わった。4 月からは相方氏も WFH になり食事をつくってくれているのがとても大きい。本当に感謝。自分もたまにスパイスからカレーつくったりステーキを焼いたりしている。もっと料理できるようになりたい。
+週 1 回スーパーに物理買い出しをしている。その他、クックパッドマートをリピートしている。品揃え良く、値段もそこまで高くないし、翌日届く。Amazon で直送野菜を試したが高かった。
+購入したものを置く場所がなかったためラックを購入した。
+冷蔵庫が一人暮らし用で小さい。買い出しの頻度を抑えるためにもデカイ冷蔵庫が欲しい。
+住 作業スペース 元々リビングに一人が作業できるスペースは完備されていたが、部屋の模様替えをしてそれを拡張した。 相方氏の椅子を新調し、リビングに二人並んで作業できるようにしている。</description>
+    </item>
+    
+    <item>
+      <title>2019年の振り返り</title>
+      <link>https://blog.tanaka.world/2019/</link>
+      <pubDate>Fri, 27 Dec 2019 20:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/2019/</guid>
+      <description>今年は結婚式や会社のサービス立ち上げ、副業・個人サービス開発などなど、2018 年以上に激動してました。
+結婚式 10/6 (日)にアメリカ 🇺🇸 シアトルで結婚式を挙げました。相方氏、家族、友人には本当に感謝してます。手前味噌ながら、皆の満足度も高くてとてもよかったです。
+その中でも特によかったのは、家族旅行ができたこと。式の翌日から 3 泊 4 日、AirBnB で借りた一軒家で一緒に生活しました。普段は地理的に離れているため、両家の家族が一つの場所に集まるいい機会となりました。自分の家族とも初の海外旅行で感慨深い。
+慣れないことで色々と大変でした。一緒に取り組んでくれた相方、式当日を企画・進行してくれた友人にも本当に感謝です。
+Seattle Snoqualmie Fall (式を挙げた場所)  式場とのやりとり  代理店とか使わず、現地の人と直接メールでやりとりした 直接の打ち合わせは 5 月の下見時と 10 月式の前日のみ、電話会議は一度もしていない アメリカではメールプッシュしないと返信くれないのが普通と聞いていたのは本当だった（笑）決めるべきことをしつこく確認した   小切手  合計 2 回発行した（みずほ銀行） 式代金の決済システムがアメリカ住所のクレカしか許可されなかった。AVS（Address Verification Service）によるによる制約。 海外送金は扱っていないとのことで、やむなく小切手を発行＆郵送することになった   航空券  主に Delta で家族分も予約。 Delta は搭乗するときに、決済したのクレカ（物理）が必要になるので注意。自分で決済した場合は、一緒に同行する必要がある。   宿  AirBnB (2箇所、合計10泊分) Vrbo (1箇所、合計2泊分) Expedia (5箇所、合計4泊分) 自分たち＋家族＋友人の宿泊場所を手配した。大人数で一度に宿泊できるところを探していたら候補が限られてしまった。AirBnB にはないが Vrvo にはある物件があり助かった。 式の前日・当日は友人と大きな家を借りてワイワイして、翌日からは家族と過ごした   前日の宿泊場所・2次会もここでやった (Airbnb)  荷物  結婚式の荷物（ドレス＋スーツ含む）といつもの旅行グッツ合わせて、スーツケース 2 つだけにまとまった 我ながらここまでコンパクトにまとまったのすごい   移動  家族でまとまってレンタカー移動した（レンタカー x 2台） 電車も使った。南北に走る電車があり IC カード ORCA も使った   新婚旅行  旅の後半に相方と二人でニューヨークへ行った。長くなるので別途まとめたいと思う    今年最大のOKRを達成したので、2019年はもう忘年に入りたい👨‍🚀</description>
+    </item>
+    
+    <item>
+      <title>2019年買ってよかったもの</title>
+      <link>https://blog.tanaka.world/the-best-things-2019/</link>
+      <pubDate>Wed, 25 Dec 2019 12:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/the-best-things-2019/</guid>
+      <description>AirPods Pro  ソニー SONY ワイヤレスノイズキャンセリングヘッドホン WH-1000XM3 を使っていたが、長時間着用していると頭が痛くなるのに悩まされていた 音質にこだわりなくノイキャンを手軽にしたい自分にとってはとてもよかった  IKEUCHI ORGANIC オーガニックタオルハンカチ  性能が最高、歴代のハンカチの中でこれに勝るものはなかった 速乾性、吸水性、肌さわりすべてに置いて最高  ブラーバ ジェット 240  友人から結婚のお祝いで頂いた。コンパクトで小回りが効くところも気に入っている クイックルワイパーでやればいい派閥だったけど、手が届きづらいところもブラーバが掃除してくれる  髪の毛くるくるポイ  同僚のススメで、半信半疑ながら試してみた もっと早く購入しておけばよかったと思った商品。髪の毛が絡まる問題は一切なくなった  山崎実業 バナナスタンド  ほぼ毎朝バナナ食べている身としては革新だった &amp;ldquo;バナナスタンドに吊るす&amp;rdquo; + &amp;ldquo;茎部分をラップで包む&amp;rdquo; をするだけでバナナの持ちが全然違う  </description>
+    </item>
+    
+    <item>
+      <title>2019年断捨離したもの</title>
+      <link>https://blog.tanaka.world/minimalism-in-2019/</link>
+      <pubDate>Sun, 22 Dec 2019 14:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/minimalism-in-2019/</guid>
+      <description>数年間 1年使わなかったものは全て断捨離する というのを実践している。 大したライフハックではないが、意識しないとモノを溜めてしまう自分にとってはルール化するくらいが丁度いいと思っている。
+しかし例外として家電類が捨てきれずにいた。もったいなく感じる、メインデバイスが壊れたときのサブとして使うかもしれない、などと捨てるのに心理的障壁が大きかった。ようやく今年は断捨離することができた。
+雑に振り返ってみる。
+What 🍎 Apple 製品 なかなか捨てられずにいたものの一つに Apple 製品が挙げられる。
+正常動作するかどうか自信がなくトラブルになるのも面倒だったので、これらはじゃんぱらで売却した。かなりいい値段がつき、もう少し早く出しておけばよかったと思った。これらの他に iPhone 6 Plus は親に贈呈し、iPhone 7 Plus は風呂用デバイス兼目覚まし時計として使っている。
+💻 Mac Book Pro 15inch 上京して初めて購入した Mac で思い入れがあった。Final Cut Pro で動画制作や Flash でゲーム作ったりしていた。この Mac がキッカケで出会った人もいて色々とエモい。
+重量が重く持ち運びに難があり、自宅用 Laptop として使っていた。TV につないでストリーミングや音楽再生機として使っていた他、Ubuntu を入れて遊んだり、CD ドライブでデータ取り込みとかに使っていた。Apple TV を購入してからその役目はなくなり文鎮化していた。
+💻 Mac Book Air 前職まで会社用 Mac というものがなく、自分の Mac で仕事していた。修理に出したり何かあったときのサブマシンとして Mac Book Air を使っていた。 実際4,5回はバックアップを復元して使っていた。
+この Air は購入した直後、友人とカフェで作業しているとき麦茶を浴びてしまい、お亡くなりになりかけた思い出がある。Apple Store に持っていったら水没扱いとなっていた。 水分を拭き取ってもらうと一応正常に動作したので、修理には出さずに使い続けていた。
+🎧 iPod (第 3 世代) 初めて購入した iPod。最近もランニング用として使っていた。</description>
+    </item>
+    
+    <item>
+      <title>Nuxt マイクロサービスを 3つに分割した話</title>
+      <link>https://blog.tanaka.world/split-a-nuxt-microservice-to-3-microservices/</link>
+      <pubDate>Mon, 26 Aug 2019 23:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/split-a-nuxt-microservice-to-3-microservices/</guid>
+      <description>NuxtMeetUp#9 オールスターズ #nuxtmeetup にてマイクロサービスを分割したプロジェクトについてプレゼンした． 先に Vue コンポーネントを共通化してから，リポジトリや配信環境環境を分割した‥ 共通化に関しては一緒に分割を担当したメンバーが1つのアプリケーションを分割するためのコンポーネント管理方法にまとめてくれている．
+ 今回の Meetup はメルペイとして会場スポンサーすることになった．300人枠とやや挑戦的な設定をしてメルペイの仲介役として受け入れを担当した． 初めてのことばかりで色々と大変だったが，協力してくれたメルペイメンバーにはとても感謝している．
+スポンサートークとして @_ssky がメルペイフロントエンドの開発についてプレゼンを担当してくれた．
+ </description>
+    </item>
+    
+    <item>
+      <title>Automatic Code Generation for SPA</title>
+      <link>https://blog.tanaka.world/automatic-code-generation-for-spa/</link>
+      <pubDate>Wed, 03 Jul 2019 23:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/automatic-code-generation-for-spa/</guid>
+      <description>Mercari x Merpay Frontend Tech Talk vol.2 にて，コード生成の自動化についてプレゼンした．
+メルペイでのコード生成や，Proff.io で実際に組み込んだコード生成について話した．
+ </description>
+    </item>
+    
+    <item>
+      <title>Rails で swagger-blocks と fastjson_api を組み合わせる (API定義編)</title>
+      <link>https://blog.tanaka.world/swagger-blocks-with-fastjson-api-part1/</link>
+      <pubDate>Sun, 21 Apr 2019 11:48:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/swagger-blocks-with-fastjson-api-part1/</guid>
+      <description>Rails プロジェクトで クライアント向けの APIClient を自動生成するときの構成を試してみた． Swagger で記述した API 定義からコード生成する例はちらほら見かけるが，Netflix 製の fast_jsonapi を使った記事は見かけなかったので，まとめておく．
+完成版のソースコードはこちら 👉 tanakaworld/swagger-blocks-fastjson-api
+TL;DR; Part1: API定義編 (本記事)
+ Backend は Rails で API を実装 JSON シリアライザとして，Netflix 製の fastjson_api API 定義は swagger-blocks を使用  Part2: コード生成編 (作成中)
+ openapi-generator で TypeScript の APIClient を自動生成  Part3: 自動テスト編 (作成中)
+ RSpec で Reqeuests 自動テスト committee-rails で Swagger 定義との整合性チェック  Scaffold Books 書籍情報の CRUD を題材に考える． Rails 6.0.0.beta3 を使った．
+scaffold で Books を生成し，画像アップロードは Active Storage を使う．</description>
+    </item>
+    
+    <item>
+      <title>メルペイ 会社・事業説明会 for エンジニア</title>
+      <link>https://blog.tanaka.world/merpay-engineering-meetup-2/</link>
+      <pubDate>Wed, 17 Apr 2019 23:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/merpay-engineering-meetup-2/</guid>
+      <description>メルペイ 会社・事業説明会 for エンジニア #2 にて Manager x メンバーのパネルディスカッションに出ました．
+モデレータとして EM の @keigow さんがメンバーからは Backend の @konboiさん，SRE の @tkuchiki さん，Frontend として自分がパネルをした． メルペイ開発の進め方や，入社前後のギャップなどについて話した．入社後約 9 ヶ月のこれまでを振り返るいい機会もなった．</description>
+    </item>
+    
+    <item>
+      <title>英会話を3ヶ月間毎日やってみた感想</title>
+      <link>https://blog.tanaka.world/english-conversation-every-day-3-month/</link>
+      <pubDate>Sun, 31 Mar 2019 14:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/english-conversation-every-day-3-month/</guid>
+      <description>モチベーション 自分の実力は次のように自覚している．
+ 日常で英語の読み書きはしている 英語で話すことに苦手意識がある 海外旅行に行って旅行者としては困らないくらいのコミュニケーションはできる TOEIC は受けたことがない  モチベーションは２つある．
+会社メンバーと英語でコミュニケーションしたい メルペイには外国籍の同僚や普通に英語しゃべっている日本人も多いのがモチベーションの一つになっている． 去年の秋頃，English Speaker の方々との会議があった．何をしゃべっているかは所々わかるが，発言しようと思ってもパッと英語が出てこずこれが割とショックだったのを覚えている．当然ながら，海外旅行で話すのと，普段日本語で話していること仕事のことを英語で話せるかどうかは全く別問題．
+海外挙式 今年の10月に海外挙式を予定している．奥さんが以前留学していたところに家族で行きたいという理由で，シアトル🇺🇸で挙式をすることに決めた． 昨年末に具体的に場所を決め，全てメールで現場の担当者とやりとりをしている．今はメールだけなので全く不自由はしていないが，細かいところとか電話や対面でちゃんと話せるようにしたい．
+やったこと この３ヶ月は大枠３つのことをやっていた．
+1. DMM英会話 DMM英会話
+会社の補助も受けれるが，今は自分で課金している．スタンダードプラン毎日1レッスンで5980円/月で毎日1レッスン25分，Skype 英会話ができる．とても安い．
+1回25分，毎日やるとこういう感じになる．トータルの時間でランクがつくようになっている．
+❏ レッスン内容
+ここ3ヶ月にやった内容
+ 1月 Free Conversation 2月 Daily News 3月 Daily News / Conversation  1月はやり初めでDMM英会話の使い方をよくわかっていなかった．1月はとりあえず会話に慣れる期間として Free Conversation だけやっていた．現地で流行っているスマホアプリの話や好きな映画の話，仕事の話などを話していた．
+ある日「普段どういうレッスンやってるの？」とチューターから聞かれて「Free Conversation しかやっていない」という話をしたら，「教材やった方がいいよ」というアドバイスをもらった．公式のレッスン教材がありこれがよくできている．
+確かに Free Conversation だけだと自分が興味があったり理解している内容しか話さなくなってしまい，よくないと感じた．教材だと世界のニュースや会話シチュエーションが用意されていて毎回新しいフレーズと出会うチャンスがある．
+こういう話題もあり，日本語でもディスカッション難しいような内容もあるが，これくらいの方が話す練習にはなりそうと思っている．
+これ日本語でディスカッションするのもムズイw
+&amp;quot;$90,000 Bonsai Tree Stolen in Saitama&amp;quot;https://t.co/6acxa3Bhip
+&amp;mdash; tanakaworld 🧢 (@_tanakaworld) February 25, 2019 2月末から新レッスンシステムが提供開始された．自分ののブラウザで開いている情報がリアルタイムにチューターに共有され，例えばテキストをハイライトすると，どこを選択しているかなどが相手にリアルタイム共有される．
+❏ チューター</description>
+    </item>
+    
+    <item>
+      <title>2018年の振り返り</title>
+      <link>https://blog.tanaka.world/2018/</link>
+      <pubDate>Sat, 29 Dec 2018 19:05:25 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/2018/</guid>
+      <description>激動の一年でした．
+SXSW 3 月にアメリカ/テキサス州オースティンで行われた SXSW:SouthBySouthWest というイベントに Real Fantasy を出展しました．毎年 3 月にテキサスで行われている音楽・映画・テクノロジーの祭典で約2週間オースティンの待ちがお祭りになります．自分たちの出展期間は 4 日間でした．👉 Release
+出展の荷物たち．入国審査や現地ついてからの運搬が地獄でした．
+2 週間 AirBnB で家借りて社のメンバー 3 人で住み，出展期間が終わるまでは UberEats を食べながらバグ直したり開発合宿のような日々でした．
+滞在中はドライバーとしても活躍しました．一人で車借りたり，買い出し行ったりして現地で生活したらこんな感じなのかと，生活を疑似体験したのもいい思い出です．
+貴重な経験をさせてもらったこと，とても感謝しています．
+Proff Proff - スマート履歴書「プロフ」
+今年は多くの人に認知され使ってもらえるサービスになりました．元々，レジュメを管理するサービスでよいのがなく，Google SpreadSheets で管理していました．海外のサービスでこういうのはありましたが，日本語でいい感じに表示してくるサービスがなく自分でつくり始めたのがキッカケでした．@u_furuya が出てくれた記事 履歴書作成ツール兼ポートフォリオサービス「Proff」正式公開——ロールモデルの提案ツール目指す を皮切りにユーザー数がグッと増えました．人づてで同じ業界以外の人も使ってくれていることを聞いたり，採用担当してる人から Proff の履歴書でエントリー来たという声をもらい，非常に嬉しかったです．
+OSS プロダクトつくる上で必要になった機能をチマチマ OSS にしてました．
+ enum_select_rails rumojinize ( blog ) multi_seeds_rails ( blog ) web_service_uri ( blog ) nuxt-sentry ( qiita: Sentry で Nuxt.js のエラー検知 + 環境変数の扱いに関する Tips )  旅行  アメリカ - テキサス 米子・米子 島根 軽井沢 名古屋 福岡 中国 - 上海  転職 8 月からメルペイで働いています．早いものでもう 5 ヶ月経とうとしています．前職 curiosity では Web・アプリ・IoT など色々やらせてもらっていましたが，なんでもできるエンジニアから 1 度どれかにフォーカスしてスパイク分野をつくりたいという思いで転職を決めました．今のジョブタイトルは Software Engineer (Frontend) で文字通り Web フロントエンド開発をやっています（Vue•Nuxt/TypeScript/Docker/K8S/GCP）．</description>
+    </item>
+    
+    <item>
+      <title>2018年の積読リストを晒す</title>
+      <link>https://blog.tanaka.world/books-review-2018/</link>
+      <pubDate>Fri, 28 Dec 2018 13:11:45 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/books-review-2018/</guid>
+      <description>普段から活字をよく読んでいるが，今年はいつにも増して本の購入量が増加し，そして積読量も増加した．
+本を買うモチベーションとルール 気になった本は秒でポチる 例えば Twitter のタイムラインとかでパッと目についただけでも出会った価値はある． それとお金を投じたという事実によって，本を読まなければという状況を強制的につくることもできる．
+電子版を優先して購入する 物理的な本は場所を取るので，基本的に全て処分した．読みたくなったら電子版を買い直せばよいと思っているし，紙の本を置いていても1年内に大半が読まれないだろう．
+現在の読書環境は iPhoneXMax の Kindle アプリ．Kindle であれば場所・時間を選ばす読みたいときに読める．Kindle 版がなければ ePub 版を探す．ここ数ヶ月で知ったのだが，iBooks アプリの体験もかなりよい．Kindle よりサクサク動くのが何よりよい．
+マンガはカラー版を買う 買い直すならちょっとお得感があった方がよい． カラー版だと全ページがこんな感じで見ることができる． モノクロと違って情報量も多く読みやすい．大体がモノクロ版と100円くらいの差なので，カラーは高いからと懸念している人は一度試してみてほしい．
+2018年 Kindle 購入リスト おおよそ購入順．
+ 1440分の使い方 ──成功者たちの時間管理15の秘訣	 約束のネバーランド 7 (ジャンプコミックスDIGITAL)	 10年戦えるデータ分析入門　SQLを武器にデータ活用時代を生き抜く (Informatics ＆IDEA)	 エンジニアリング組織論への招待　～不確実性に向き合う思考と組織のリファクタリング	 王様達のヴァイキング（１） (ビッグコミックス)	 ジョジョの奇妙な冒険 第8部 モノクロ版 16,17 (ジャンプコミックスDIGITAL)	 昆虫はすごい (光文社新書)	 約束のネバーランド 8 (ジャンプコミックスDIGITAL)	 10年後の仕事図鑑	 世界一シンプルで科学的に証明された究極の食事	 ONE PIECE カラー版 48〜82 (ジャンプコミックスDIGITAL)	 一九八四年 (ハヤカワepi文庫)	 異常探偵　宇宙船 (単行本)	 プラットフォーム革命――経済を支配するビジネスモデルはどう機能し、どう作られるのか	 ONE PIECE モノクロ版 88 (ジャンプコミックスDIGITAL)	 宇宙兄弟（３３） (モーニングコミックス)	 遅刻してくれて、ありがとう(上) 常識が通じない時代の生き方 遅刻してくれて、ありがとう 常識が通じない時代の生き方	 狂四郎2030【期間限定無料】 1〜３ (ヤングジャンプコミックスDIGITAL)	 なめらかなお金がめぐる社会。 あるいは、なぜあなたは小さな経済圏で生きるべきなのか、ということ。	 約束のネバーランド 9 (ジャンプコミックスDIGITAL)	 Ｖ字回復の経営　2年で会社を変えられますか 企業変革ドラマ (日経ビジネス人文庫)	 NARUTO―ナルト― カラー版 全巻 (ジャンプコミックスDIGITAL)	 インベスターZ 全巻	 ジョジョの奇妙な冒険 第8部 モノクロ版 18 (ジャンプコミックスDIGITAL)	 はたらく細胞（１〜５） (シリウスコミックス)	 OKR（オーケーアール）	 マンガ　サ道～マンガで読むサウナ道～（１） (モーニングコミックス)	 創世のタイガ（１） (イブニングコミックス)	 センスは知識からはじまる	 NETFLIXの最強人事戦略～自由と責任の文化を築く～	 Clean Architecture　達人に学ぶソフトウェアの構造と設計 (アスキードワンゴ)	 Vue.</description>
+    </item>
+    
+    <item>
+      <title>行動経済学まんが ヘンテコノミクス</title>
+      <link>https://blog.tanaka.world/hent-economics/</link>
+      <pubDate>Sun, 16 Dec 2018 17:26:51 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/hent-economics/</guid>
+      <description>#strobofm ep.27にて紹介されてて，即買いしてから積読していた本で，ようやく読了した．
+Kindle 版はなく，普段紙の本は買わないようにしている自分としては久々の紙本だった． 湯船に浸かりながら読んでいてたらシワシワになってしまった．
+ 認知心理学用語 短いマンガの後に，認知心理学的視点の解説を入れるという形式の本でとても読みやすかった．
+ 行動経済学者リチャード・セイラーは，普段の生活の中で，非合理的な行動を起こしそうな時，私たちをナッジ＝ nudge i.e. 注意をひくために，人を肘でそっと小突いて知らせるためのものになっていくべきだ，という考え方を示している
+ 下記，目次+α 抜粋
+ アンダーマイニング効果（報酬が動機を阻害する） 感動度逓減性（母数によって変わる価値） フレーミング効果（枠組みを変えると価値が変わる） 社会を成立させているのは，モラルかお金か（罰金による罪の意識の軽減） メンタル・アカウンティング（心の中で，お金の価値を計算する） アンカリング効果（基準が判断に影響を及ぼす） 代表性のヒューリスティック（私たちはイメージに囚われる） おとり効果（選択肢を生み出すことで，市民権を得る） 親近効果（終わりよければすべて良し） 極端回避（ついつい真ん中を選んでしまう） 保有効果（一度手にとった物は，手放したくなくなる） プライミング効果（事前の情報が解釈を左右する） ハロー効果（顕著な特徴だけで，物事を見極める） 上昇選好（だんだん良くなる方を好みます） 目標勾配仮説（ゴールに近づくほど，人間は「やる気」を起こす） 同調行動（集団の判断が，自分の判断を歪めてしまう） 認知的不協和の解消（不満な気持ちのバランスを散る） 参照点依存性（基準に引っ張られて，価値が変わる） 錯誤相関（関係ないこと同士に，関係があると思いこむ） 無料による選好の逆転（「タダ」が判断を狂わせる） プラセボ効果（信じ込むことで，感覚さえも変えてしまう） 双曲割引（自分との距離が遠ければ，差を感じない） サンク・コスト効果（一度費やしたコストを考えて止められずにさらなる深みに陥ってしまう） デフォルト効果（初期値からわざわざ変えようとしない心理現象） フォールス・コンセンサス（自分の意見が一般的だと思い込み，他者の意見を非常識と思い込んでしまうこと） ピーク．エンドの法則（最も強い印象と最後の終わった瞬間の印象を，平均してしまう） 確実性効果（完璧さに対して過剰に反応するあまり，費用対効果を無視して１００％にすることに固執してしまうことがある） 確証バイアス（直感で正しそうな答えを発見すると，それに固執し別の可能性を頭から排除してしまう） 決定回避の法則（多数の選択肢を持つことは，一見，自由さの象徴のように思えますが，実際には多すぎる選択肢を生む迷いや戸惑いが決定を遠ざけてしまう） 少数の法則（少ないサンプルによる偏った結果を，何故か正しいと思い込んでしまう） プロスペクト理論（利得・損失が関わる状況になると，主観的な評価が入り非合理的な判断をしてしまうことがある．例：同じ量の得と損を比較した時に，損の方を２倍も重大に感じてしまう傾向がある） 利用可能性ヒューリスティック（たまたま自分がそれ以前に見聞きして頭に思い浮かべやすかった事柄に影響される）  認知的不協和 「認知的不協和」は自分にとって不都合なときに生まれる心の中の不快感のことを指す．この不協和を解消するために，本当はよい思ってもいない行動や言動をして心のバランスをとろうとする習性が人間にはある．
+rebuild.fm でよく言及されていて，開発現場でもよくあるよなぁという印象が強い．
+ Aftershow 73: One-Letter Sushi (N, naan, naoya) Aftershow 85: Rebuild Tour (naan, hak) 137: Tested In Production (naoya)  関連書 行動経済学系の本は，アメリカのデューク大学の教授 ダン・アリエリー氏の本が有名らしい．ニューヨーク・タイムズでベストセラーになった「予想どおりに不合理　行動経済学が明かす「あなたがそれを選ぶわけ」」を買ってみた．</description>
+    </item>
+    
+    <item>
+      <title>Rails5 / webpacker を heroku で動かす</title>
+      <link>https://blog.tanaka.world/rails5-webpacker-on-heroku/</link>
+      <pubDate>Sun, 25 Nov 2018 23:13:03 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/rails5-webpacker-on-heroku/</guid>
+      <description>Rails の開発環境をサクッ構築するために heroku を使ったときのメモ．
+環境  Rails 5.1.6 Ruby 2.4.x MySQL Webpacker つかう  Heroku CLI $ brew install heroku # if already installed $ brew upgrade heroku $ brew -v Heroku 設定  herokuでアプリケーション作成 クレカ登録（後述の MySQL 向けプラグインを追加するために必要．Free プランを選べば課金はされない） プラグイン追加  Configure Add-ons 「Clear DB」で検索して選択 -&amp;gt; Provision    Login heroku に登録している email, password でログインする．
+$ heroku login DB のセットアップ 先述の ClearDB をプラグインとして追加しているとそれ用の環境変数が設定される．
+$ heroku config -a &amp;lt;your-app-name&amp;gt; === your-app-name Config Vars CLEARDB_DATABASE_URL: mysql://xxxxxxxxxxxxxx:xxxxxxxxxx@xxxxxxxxxxxxxxxx.</description>
+    </item>
+    
+    <item>
+      <title>Vue Fes Japan 2018 に行ってきた</title>
+      <link>https://blog.tanaka.world/vue-fes-japan-2018/</link>
+      <pubDate>Sat, 03 Nov 2018 12:51:46 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/vue-fes-japan-2018/</guid>
+      <description>Event detail  2018.11.3 (Sat.) Akihabara UDX 4F / UDX Gallery タイムテーブルはこちら  Keynote by @youyuxi
+Vue3.0 の話
+ TL;DR;  速く，小さく，メンテしやすく，ネイティブ向け，保守性   速く  Virtual DOM 実装をフルスクラッチから作り直し  mount と patch 処理が最大100%向上   言語標準の最適化によって速度向上  Map/Set/WeakMap/WeakSet Class   プロパティプロキシの高速化  Object.definePropertyは使わなくなる ネイティブプロキシ   実行時オーバーヘッド削減のため，コンパイル時にヒントを追加  React の JSX に似ている   lazy function  Reactではこの仕組みを使っていない   Static Tree Hoisting  変更がなかったとしてもそれを調べる必要があった   コンポーネントのインスタンス化の効率化  速度２倍，メモリ使用量半減     小さく  Tree-shakingへの対応  使われない処理を，バンドルから取り除く機能 webpackとかにもこの機能はある ランタイムサイズ10kb以下(GZip)     メンテしすく よりネイティブ向けにつくりやすく  カスタムレンダラAPI   保守性向上  リアクティビティAPI Observer メソッドが追加される   Render Track  再描画の仕組みが分かりづらかった renderTriggered callback が追加される   保守性  TSX TS Support の強化 Warningもわかりやすくなる 実験的なHooks API 実験的なTimeSlicing  必要なくなった処理を間引く  同じcallbackが連続で実行されたとき，古い方は実行する必要がなくなる   これによって，60fps に最適化      Platinum Sponsor Session PLAIDさんのプラチナスポンサー枠発表</description>
+    </item>
+    
+    <item>
+      <title>上海に行ってきた</title>
+      <link>https://blog.tanaka.world/shanhai-2018/</link>
+      <pubDate>Mon, 29 Oct 2018 00:37:57 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/shanhai-2018/</guid>
+      <description>会社の出張で 2 泊 3 日，上海に行ってきた． 個人的には 2013 年 3 月以来 5 年半ぶりの上海．
+TL;DR;  現地では，バーコードをスキャンするというフローが当たり前で生活に根ざしているのが，日本との違いだと感じた． 普段からキャッシュレス決済メインで生活しているので，これがとても新しかった！というのがあまりなかったが，ミニプログラムも含めると一つのアプリ＋その残高で生活が完結してしまう便利さは実感できた． アリババのニューリテールモール亲橙里(チンチェンリー)がとても印象的だった．当然だが Alipay がメインの決済手段で，WeChatPay は使えない．  事前にインストールしたアプリ  ALIPAY WeChat Baidu 検索 Baidu 地図 Mobike (クレカ連携して500円分チャージした) DiDi  換金・チャージ  日本円 → 元 の換金  事前に500元の現金に換金（日本円 18 円計算で 9035 円だった）   WechatPay のチャージ  羽田空港国際便ターミナルの 2F のポケットチャージャーでチャージ 日本円 1万円分チャージした    SIM 上海についてすぐ，空港出口のカウンタで購入した．
+ 通話なし SIM  通話ありにしておくべきだった（Wechat アプリ内のミニプログラムで Didi を使用するのに電話番号認証が必要だった&amp;hellip;）   データ通信 3GB 150元=約2700円くらい  中国のインターネット規制  検索エンジンが Google だと何も検索できない，ブラウザの設定を bing にする必要があった bing にしてもサイトによっては検索できない（google系ドメイン, instagram, YouTube, Twitter, LINE など使えない） Google マップや Google 検索アプリも使えないので，Baidu 関連アプリのインストールは必須 VPN Proxy Master というフリーアプリを入れると，日本にいるのと同じようにインターネット接続できた（但し速度と接続の安定性は保証できない，よく途切れる） （香港 SIM だと，中国のインターネット規制に引っかかることなく使えるらしい）  Alipay  中国の口座を持っていないと，銀行口座から自動引落しはできなかった 他人から残高を送ってもらわないと使えない  アリババのニューリテールモールでは，WeChatPay は全く使えなかった．当然だが Alipay 押し． 地下のスーパーではセルフレジにて Alipay で支払う形式だった．</description>
+    </item>
+    
+    <item>
+      <title>10秒で歯磨きできる V-WHITE&#43;</title>
+      <link>https://blog.tanaka.world/v-white-plus/</link>
+      <pubDate>Wed, 24 Oct 2018 21:37:04 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/v-white-plus/</guid>
+      <description>makuake でパトロンしてた 口にいれて、10秒歯磨き。360度電動歯ブラシ＆ホワイトニング　V-WHITE+ が届いた．
+中国初のプロジェクトで，日本上陸は初らしい． V-WHITE TEAM
+買ってみた
+口にいれて、10秒歯磨き。360度電動歯ブラシ＆ホワイトニング　V-WHITE+https://t.co/QoBegXzTRV#Makuake @makuake_caさんから pic.twitter.com/WEaQCPXeY8
+&amp;mdash; tanakaworld 🧢 (@_tanakaworld) July 2, 2018 なにかと思ったら、昔patronしてた全自動歯ブラシが来てた=͟͟͞͞ ( ꒪౪꒪) pic.twitter.com/Trgr7CIVji
+&amp;mdash; tanakaworld 🧢 (@_tanakaworld) October 18, 2018 仕様 11,700円コースでパトロンしていた．一般販売価格の 40% OFF なセットで
+ V-White+ マウスピース (2) V-White+ コアユニット 充電器 トラベルバッグ  が梱包されている．
+咥えるとマウスピース型のブラシがほぼ歯に密着する状態になる．超音波式の電動歯ブラシのブラシ部分がマウスピースに変わったようなイメージ．ワイヤレス充電器ということだったので，Qi規格かなにかかと思っていたが，実際はワイヤレスでもなんでもはなかった．金属のポッチが付いていてそれが接触しないと充電されない&amp;hellip;バッテリー自体はフル充電で１日２回の使用だと１ヶ月は持つらしい．IP65防水仕様．
+実際10秒で歯磨きできるのか １週間くらい使ってみたところ 歯磨きはできなかった というのが正直な感想．
+ 歯科医推奨の Bass technique で歯を磨きます。リニアモータの採用により、高速振動による強力なクリーニングが可能です。
+ Bass technique＝バス法？のことだと思うが，歯ブラシを歯と歯茎の間に当てて細かく振動させることによって，歯を磨くというより歯周全体のクリーンにするという方法．
+マウスピースがほぼ歯に密着するとはいえ，磨きたい場所全てに触れるわけではない．口の大きさや歯並びは千差万別なので当然の結果ではある．特に奥歯の奥には全く接触しない．初期の V-WHITE と比較すると，比較的密集したブラシ毛が備わったようではあるが，触れている歯や歯茎も磨けているかというと，体感は磨けていなさそう．
+ 到着されております商品ですが、V-Whiteのパッケージにてお届けさせていただいておりますが、内容物についてはV-white+となっております。ご不安をおかけしてしまい大変申し訳ございません。
+ 正直届いたときに間違いかと思ってビックリした（笑）
+コンセプトや夢には共感するけど，実用面で今後使い続けていくのは厳しいなぁと感じた．
+ホワイトニング  V-WHITE+ で使用されている冷光ホワイトニング技術は、歯がホワイトニングされるプロセスをスピードアップします。さらに、V-WHITEに埋め込まれた冷光ホワイトニング専用の電球は、安全性が高いため、使用者が十代であったとしても問題ありません。このテストはV-WHITE +でホワイトニングした後、VITAスケールを用いて測定した結果は本来より5〜14点ほど高く得られることが証明されています。ホワイトニングした後、本来の黄ばみをどれぐらい取り除いだのが数値が異なりますが、最終的には自然な白さで、光沢のある美しい歯になります。</description>
+    </item>
+    
+    <item>
+      <title>How fast dev.to is?</title>
+      <link>https://blog.tanaka.world/how-fast-dev-to-is/</link>
+      <pubDate>Tue, 23 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/how-fast-dev-to-is/</guid>
+      <description>社内勉強会で dev.to について話した．
+ mizuchi さんの なぜ dev.to がこんなにも速く、こんなにも自分にとって感動的なのか という記事を皮切りに，2017 年に日本でもバズっていた Insanely Fast な Web サービス．今年の 8 月に OSS 化 されソースコード読んでたら面白そうだったので，話してみる運びになった．
+普段 Rails 開発する上で annict のソースコードを参考にさせてもらっているが，dev.to のソースコードもとても参考になりそうだった．
+普段は Keynote でスライドつくっているが，今回は Google Slides でやってみた．Google Slides よい．内容にもよるが，凝ったインタラクションやアニメーションしないなら Google Slides で事足りる感があった．デフォルトのテンプレートを使い，マスタで色味だけ調整した．マスタは保存はできないが，インポートすることはできるので他のスライドでも使うことができる．</description>
+    </item>
+    
+    <item>
+      <title>技術書典５にスタッフとして参加した</title>
+      <link>https://blog.tanaka.world/techbookfest-05/</link>
+      <pubDate>Sun, 14 Oct 2018 20:02:08 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/techbookfest-05/</guid>
+      <description>ひょんなことから 技術書典５ にスタッフとして参加させてもらいました．
+早朝の机椅子のセッティングから始まり，サークル受付，列整理，会場見回りなど色々と体験させてもらい，技術書典の熱気を体感することができました．スタッフの方々とも色々な話ができ，とても楽しかったです．
+サークルの皆様，スタッフの皆様お疲れ様でした！！！
+これにて #技術書典 閉会します。ご来場、誠にありがとうございました。総来場者数は のべ10341人、うちサークル・スタッフ等関係者は889人でした。
+&amp;mdash; 技術書典公式アカウント (@techbookfest) October 8, 2018 凄まじい熱気感．同人イベントは初参加だったのもあり，全てに圧倒されていました（笑）．
+【News Up 文系も知りたい「技術書典」 】「技術書典」この４文字を見て「なにかの辞典？」などと思ったあなたは、永遠の文系。心を熱くするのが、日本のＩＴエンジニアたちです。技術者たちの「コミケ」とも言われ、最近、注目のイベントの魅力に迫りました。https://t.co/KDBVCx5wdS
+&amp;mdash; NHKニュース (@nhk_news) October 11, 2018 NHKニュースにも取り上げられていました．
+会場は池袋サンシャインシティ2F 展示ホールDというところで，とてつもなく広かった．セッティング前の様子はこんな感じ．
+技術書典で散財する予定です💸😇
+&amp;mdash; tanakaworld 🧢 (@_tanakaworld) September 26, 2018 とは言っていたものの，なんだかバタバタしていて結果的に散財するには至りませんでしたが，事前にウォッチしていた本はゲットできました．
+人はなぜ技術書典に出すのか 人はなぜ技術書典に出すのか？という件、自分もその本質を理解していない気がする。今回の技術書典は足を運ぼうと思う https://t.co/uV8TKVJNFb
+&amp;mdash; tanakaworld 🧢 (@_tanakaworld) August 26, 2018 当日を終えた直後は，サークルの方々の熱気に圧倒されて「すごかった（小並感）」くらいの感想しか思い浮かびませんでした．
+しかしその後，一週間経って自分も出してみたいという気持ちがジワジワ湧き上がってきています．サークル参加された方のツイートやブログ読んだりしていると，とても楽しそうだなぁ．．．と思い始めました．さらにサークル参加していた同僚の話をきいているとそれがより一層高まってきます．書典の数週間前の暗雲立ち込める姿と，終了後サウナから出てきたかのようなリフレッシュした姿がそれを物語っているな，と感じました．
+「同棲を支える技術」（仮） 今のところこういう感じのことについて書いてみたいなと思っています．彼女と同棲をはじめてもうすぐ１年が経とうとしています．いちエンジニアとして日常をハックしたいというのを日々考えているのですが，それを１冊の本にまとめられたら面白そうだなと．イラストやマンガを載せて本にしている方々も印象的だったので織り交ぜたい．（僕はピクセル画しか描けないので，誰かサポートしてくれる方募集中です😇）
+ </description>
+    </item>
+    
+    <item>
+      <title>君たちが考えた最強の環境について知りたい ＃0 を開催した</title>
+      <link>https://blog.tanaka.world/your-best-dev-environment/</link>
+      <pubDate>Sat, 29 Sep 2018 07:24:32 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/your-best-dev-environment/</guid>
+      <description>先日，フロントエンドチームのメンバーと「君たちが考えた最強の環境について知りたい ＃0」を開催した．
+ここ５年くらい，ほぼ同じ環境設定やツールで開発している．ペアプログラミングやライブコーディングをやると，”今の操作なにやったの？&amp;quot; 的な感じで新しい発見がよくあるのだが，最近はそういう機会もなかったので，皆の時間を借りてその機会を設けた．時間は３０分．
+**まず，自分が出したやつ 👉 ** 1Password https://1password.com/
+ 有料 サブスクリプション  言わずとしれたパスワード管理アプリ．ブラウザの Extension もあり，あらゆる環境で使える．1Password 7 からパスワードの保存先が 1Password サーバにしか保存できなくなっているらしい（以前は逆に Dropbox とか自前の環境に保存する方式だった）．
+iOS12 から 1Password が OS とシームレスに連携できるようになった．Settings &amp;gt; Face ID &amp;amp; Passcode &amp;gt; Other Apps で設定できる．さらに 1Password 上で 2FA 設定しておくと，スマホ開いて Authenticator アプリ立ち上げて，といった手順が一切不要になる．
+実際の動作はこんな感じでとてもスムーズ．
+ Better Touch Tools https://folivora.ai/
+ 有料 買い切り トラックパッドのジェスチャーやキーバインドにOSのアクションを割り当てできる  自分は window の最大化や左右幅寄せにだけ使ってる
+Karabiner Elements https://github.com/tekezo/Karabiner-Elements
+ 日本人がつくっている OSS 無料 Sierra で使えなくなってたが，HighSierra では使える  Sierra では代わりにこれ使っていたが，時々動かなくなって再起動することがよくあった https://ei-kana.</description>
+    </item>
+    
+    <item>
+      <title>【2018/09】tanaka.world バージョンアップのお知らせ</title>
+      <link>https://blog.tanaka.world/tanaka-world-version-up-2018-mid/</link>
+      <pubDate>Sun, 23 Sep 2018 23:11:46 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/tanaka-world-version-up-2018-mid/</guid>
+      <description>色々バージョンアップしました👾
+色の切り替え + アニメーションスキップ機能を追加 👉 https://tanaka.world/
+色の切り替え+アニメーションスキップ機能を加えた 👾🚀
+https://t.co/vCVJp9G8qh #tanakaworld pic.twitter.com/cPngyAUx36
+&amp;mdash; tanakaworld 🧢 (@_tanakaworld) September 16, 2018  色の切り替え
+ クエリパラメータ color にカラーコード16進数を指定すると，その色で描画されます 例: https://tanaka.world/?color=4d1d9b 左上のカラフルボタンをクリックすると，ランダムでカラーを割り当て カラーの生成には randomColor を使用  アニメーションスキップ
+ 右上の Skip ボタンでアニメーションスキップされます 服を脱がされると，寒いので震えます  アイコンが新しくなりました  左: 旧，右: 新 ピクセル数を半分に減らし，シンプル化しました 48x48 → 24x24 使っているツールは aseprite 色味を微調整  </description>
+    </item>
+    
+    <item>
+      <title>vue-i18n の簡易入力補完を実装してみた雑感</title>
+      <link>https://blog.tanaka.world/vue-i18n-autocompletion/</link>
+      <pubDate>Sat, 22 Sep 2018 17:36:16 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/vue-i18n-autocompletion/</guid>
+      <description>vue-i18n の入力補完を実装してみた．久々に業務で i18n 対応をするようになって，若干ツラさを感じているところもあるので，併せて記す．
+はじめに断っておくが，ツラさを感じているのは vue-i18n に対してではなく，i18n 全般に対してのこと．
+文字列指定を入力補完したい エディタでvue-i18nの入力補完したい
+&amp;mdash; tanakaworld 🧢 (@_tanakaworld) August 30, 2018 vue-i18n に限らず i18n 系を扱うときは $tc(&#39;home.title&#39;) のような感じで文字列をキーとして指定することになる．
+ 文字列キーのタイポしなくしたい 文字列キーのパス入力をカンタンにしたい  これらを入力補完でなんとかしたい．
+普通に vue-i18n を使った場合 普通に実装するとこういう感じになる．
+import Vue from &amp;#34;vue&amp;#34;; import VueI18n from &amp;#34;vue-i18n&amp;#34;; Vue.use(VueI18n); const messages = { en: { message: { hello: &amp;#34;Hello World!&amp;#34; }, home: { title: &amp;#34;Home&amp;#34; }, about: { title: &amp;#34;About&amp;#34; } }, ja: { message: { hello: &amp;#34;こんにちは，世界!&amp;#34; }, home: { title: &amp;#34;ホーム&amp;#34; }, about: { title: &amp;#34;アバウト&amp;#34; } } }; const locale = &amp;#34;ja&amp;#34;; const i18n = new VueI18n({ locale, messages }); export { i18n }; &amp;lt;template&amp;gt; &amp;lt;div class=&amp;#34;home&amp;#34;&amp;gt; &amp;lt;h1&amp;gt;{{ $tc(&amp;#39;home.</description>
+    </item>
+    
+    <item>
+      <title>センスは知識からはじまる を読んで</title>
+      <link>https://blog.tanaka.world/sense-from-knowledge/</link>
+      <pubDate>Mon, 17 Sep 2018 15:25:36 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/sense-from-knowledge/</guid>
+      <description>水野学さんの「センスは知識からはじまる」を読んだ．
+ 2013 年に水野さんが情熱大陸に出演されていた．今でも覚えているのが，散歩しながらふと見かけたラーメン屋の呼び方を考察するシーン．「札幌ラーメンの店」という人，「山田ラーメン」という人と，二手に分かれる，という考察をしていた．こういう日々の観察がセンスを磨くということなのだろうと勝手に思っていたが，実際そういうことがこの本には書いてあった．つまり，物事を多角的にみる視点を増やす，知識を増やすということを日常からやること．「みんな感覚を神格化しすぎている」．くまモンのほっぺたにある &amp;ldquo;赤丸&amp;rdquo; も，アンパンマンやピカチュウなど人気キャラクターから自分なりに考察したものだという．「答え導き出しオタク」「&amp;ldquo;自分に自信がない&amp;rdquo; というのは一度も誰にも負けたことが特技」と言っていたのも，とても印象的だった．
+「センス」とは 斬新なアウトプット＝ひらめき＝センスと思われがちだが，実際はそうではない．「センス」は「知識の集積」であるというのが，この本では再三言われている．
+ グッドデザインカンパニー は、〝 企業秘密 ゼロ〟箱 の 中 身 の ほ と ん ど は 、 プ ラ ク テ ィ カ ル な も の で す 。 つ ま り 、 方 法 を 知 っ て 、 や る べ き こ と を や り 、 必 要 な 時 間 を か け れ ば 、 皆 で き る よ う に な る こ と で す 。 僕 が 特 別 な 人 間 だ か ら で き る 、 と い う わ け で は あ り ま せ ん 。</description>
+    </item>
+    
+    <item>
+      <title>OKR 本を読んだ</title>
+      <link>https://blog.tanaka.world/okr-book/</link>
+      <pubDate>Tue, 11 Sep 2018 00:33:56 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/okr-book/</guid>
+      <description>OKR（オーケーアール）シリコンバレー式で大胆な目標を達成する方法を読んだ．前半は EC スタートアップの中で創業者と社員が伸び悩む中，OKR を導入して改善していくという現実にありそうな物語．後半は実在する人物が OKR を導入した結果のノウハウが語られる．
+ OKR は，日々のタスク＋アクションと事業のミッションの関連を，個々人が意識しやすい仕組みだと感じた．大きい組織だと，会社ミッションから全体の OKR が決まり，各プロダクト，チームはそれに紐づく OKR を設定するという流れが，シンプルでわかりやすい．恐らく，よくある KPI/KGI 的な目標管理方法でも同じことはできるのだろうけど，以前やっていた経験だと「これ何のためにやっているんだっけ？」ということが起こりがちな印象．OKR だと，その辺りがシンプルにわかりやすく，チーム全員がモチベーションを維持しやすい(強制される)というのがミソなのだろう．
+O=Objective  目標 明確で定性的で，定量的にはならない 難しいけど 3 ヶ月で達成可能な内容  KR=KeyResult  主な結果 定量的で，O が達成できたかどうかを数値で計測できる 3 つくらい決める ストレッチゴールを設定する 達成できる自信度 10 分の 5 自信度 1 : 無理 自信度 10 : 確実に達成できる (＝サンドバッグ，楽な目標) 自信度状況を，毎週のチェックイン MTG で確認する (上下の理由について話し合う)  memo  スタートアップのライバルは時間 自宣を得た実行のライバルは「脱線」 フォーカスを定めるために，四半期ごとに OKR を定める やるべき仕事に意味を持たせ，疲れていても脱線しないようにするプロセスが必要になる OKR は，やる気が出ないときでも，やるべきことを思い起こさせてくれるプロセス ノルマを課すためではなく，自分が本当にできることを学ぶためにある 今やっているタスクと OKR の関連を考えて，やることやらないことを判断できるようになるのが，大切 時間がないというのは，そのタスクを自分が優先していなかったということにすぎない．本当に大事と思うタスクならば，優先度を上げ，それに時間を割けばよい 個人的なタスクが失敗しがちなのは，その優先度を上げずに時間を確保しないということに加え，進捗が見えづらくモチベーションが維持できないというのも阻害要因  </description>
+    </item>
+    
+    <item>
+      <title>福岡で LINEPay の実証実験 &#43; メルチャリを体験してきた</title>
+      <link>https://blog.tanaka.world/linepay-merchari-in-fukuoka/</link>
+      <pubDate>Mon, 10 Sep 2018 01:19:29 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/linepay-merchari-in-fukuoka/</guid>
+      <description>友人と週末旅行を兼ねて，福岡に行った(ほぼ初)．主目的は食べ歩き，土日 1 泊 2 日で合計 8 件くらいハシゴした．1 日目に詰め込み過ぎて日が変わるころには胃が死んでいた．合間で LINEPay と メルチャリを体験した．
+LINEPay ちょうど実証実験中だったので，初 LINEPay の支払いをしてみた．
+毎日半額ばい！福岡の屋台でお得なキャンペーン開催
+ 9月1日（土）から9月30日（日）までの期間中、福岡市の屋台を対象に、ご飲食代をLINE Payにてお支払いいただくと、期間中は毎日！お支払い金額半額分のLINE Pay残高を還元いたします！
+ 2018年10月下旬頃，支払いされた LINEPay アカウントにディスカウント分の残高が付与されるスキームでその場で半額になるわけではない．また，LINE Pay残高付与上限額はお1人様2,000円/日 と制限もある．屋台 MAP には 14 店舗載っていたが，実際には屋台が出ていないところもあった．歩いて移動していたのでどこが実際に出ているのかがわかりやすいと助かる．．．
+バーコードを LINEPay 画面から読み取ると，取引開始．
+支払いの合計金額は 5900円，チャージしていた 5000 円だと足りなかった．入金しようとしたのだが連携していたみずほ銀行がメンテナンスで入金できなかったorz&amp;hellip;ちょうどみずほ銀行の臨時メンテナンスと被っているのを忘れていた笑
+仕方なくチャージ分全額と，残り 900 円は現金で支払った．店員さんは手元の iPhone Line アプリから支払いのトランザクション結果を確認して支払い完了をチェックしていた．
+屋台は特に現金の管理とか面倒くさそうなので，特に普及すると便利そう．
+merchari メルチャリ メルチャリ
+アプリインストールすると，メルカリアプリのインストール情報でシングルサインオンできる．地図から最寄りのポートを探して鍵を開ける．メルチャリポートは想定より多かったが，空きが少なかった(&amp;ldquo;0&amp;quot;と表示されているところが空きがないところ)．
+#メルチャリ アプリインストールからライド開始、駐輪までの導線がスムーズ過ぎて神🚲💨 4円/分らしいが、キャンペーンなのか無料だった pic.twitter.com/vKhfQcht0C
+&amp;mdash; tanakaworld 🧢 (@_tanakaworld) September 9, 2018 最後は自転車の鍵を閉めて暫くすると，停車したことになり完了した．とても体験がスムーズでよかった一方で，タイヤの空気が足りなくて若干こぎづらかったのと，停車するときにメルチャリポートの空きを探すのに手間取った．
+2018年8月22日〜11月末日まで，東京都国立市でも実証実験が実施されているとのこと．
+行ったところリスト 水炊き鍋 (@ Mizutaki Nagano in 福岡市, 福岡県 w/ @cokookie) https://t.</description>
+    </item>
+    
+    <item>
+      <title>dev.to をローカルで動かす</title>
+      <link>https://blog.tanaka.world/run-dev-to-in-local/</link>
+      <pubDate>Mon, 03 Sep 2018 23:37:51 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/run-dev-to-in-local/</guid>
+      <description>2018/08/08 に dev.to が OSS 化された．
+dev.to is now open source
+とりあえずローカルで動かすまでにやったことのメモ．
+Getting Started Getting Started が充実している．ほぼその通りに進めれば問題ない．Ruby は最新版が必要，DB は PostgreSQL．長年 Rails 触っているが地味に PostgreSQL 使ったことがなかった．
+$ ruby -v =&amp;gt; Ruby 2.5.1p57 (2018-03-29 revision 63029) [x86_64-darwin17] $ brew install postgresql $ postgres -V =&amp;gt; postgres (PostgreSQL) 10.5 $ pg_ctl -D /usr/local/var/postgres start # Stop $ pg_ctl -D /usr/local/var/postgres stop $ gem install bundler $ gem install foreman foreman は複数プロセスをまとめて管理できるツール． ローカル実行時は
+ Rails サーバ (puma) Webpacker (webpackのラッパー，webpack の実行と hot-reload が走る) Job (DelayedJob)  が実行される．</description>
+    </item>
+    
+    <item>
+      <title>Vue.js Tokyo v-meetup 8 に登壇しました</title>
+      <link>https://blog.tanaka.world/vuejs-tokyo-v-meetup-8/</link>
+      <pubDate>Thu, 30 Aug 2018 22:24:38 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/vuejs-tokyo-v-meetup-8/</guid>
+      <description>2018年8月27日に開催された v-meetup #8 に登壇しました．
+約150の募集枠は，募集開始数分で埋まるほどの人気イベント．v-meetup の参加は初めてだったのですが，スタッフを始め参加者の方々の熱気に圧倒されました．
+Replace View of Backbone.js with Vue.js 2年半くらい運用していた Backbone.js SPA の一部を Vue.js でリニューアルしたときの話をしました．コアフレームワークが Backbone.Model に依存していて，Backbone.js から逃れられないプロジェクト，View 周りがツラいので組み合わせてみたら幸せになったという話です．どうしてもフルリプレイスが難しいプロジェクトとかで，小さく薄くはじめられるのが Vue.js のいいところ．2018年現在に使うのは色々ツラいところあるけど，Backbone.js 自体は嫌いではない(使いたいとは言っていない)
+ そもそもbackboneがつらい…#vuejs_meetup8
+&amp;mdash; ほんだし (@hondash918) August 28, 2018 backbone.js、繋ぎ先がhtmlである必要がないのでcocos2d-jsと組み合わせて使ったりしてた。今も結構好き。 #vuejs_meetup8
+&amp;mdash; hadakadenkyu (@hadakadenkyu) August 28, 2018 Vue コンポーネントの中で jQuery ライブラリ使うのあるある。 #vuejs_meetup8
+&amp;mdash; katashin (@ktsn) August 28, 2018 mountedでjqueryやるの親近感。#vuejs_meetup8
+&amp;mdash; Keima Kai (@keimakai1993) August 28, 2018 backboneとvueで共存キメラはすごい... #vuejs_meetup8
+&amp;mdash; イカID: Toshiwo (@toshiwo) August 28, 2018  サンプルプロジェクト サンプルプロジェクトを地味にちゃんとつくった．Realm つかってみたくて，サーバのデータストアに Realm Node.</description>
+    </item>
+    
+    <item>
+      <title>コードレスクリーナーを買った</title>
+      <link>https://blog.tanaka.world/toshiba-vacuum-cleaner/</link>
+      <pubDate>Sun, 26 Aug 2018 17:05:47 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/toshiba-vacuum-cleaner/</guid>
+      <description>8月に発売された東芝の VC-CL1500 というモデルの，1世代前の商品 VC-CL1400 を購入した． 型落ちなので値段もお手頃だった．
+コードレスクリーナー VC-CL1500／VC-CL500
+スペック  ハイスピードDCモーターHD25 毎分最大 約 110,000回転 (Dysonにも劣らないらしい) サイクロン部のフィルタがない サイクロン手前のフィルタ掃除は時々でOK ゴミ捨てがカンタン(自走式) 片手で楽に操作可能 20分連続可動 前方巻き込み式 +α アタッチメント  前方巻き込み式
+一番良かったのは「前方巻き込み式」な点．巻き込み式でない場合，部屋の隅に溜まったゴミがとれるかどうかが違う． 掃除機は当たっているはずなのにゴミが残っているという経験したことないだろうか．これは掃除機の真下部分のゴミしか吸引してくれないタイプでよく起こる問題で，見た目はゴミに当たっているようでも吸引場所まで届いていないのが，原因らしい． その点，実際に試したところ抜群に吸引してくれて，それだけで買いそうになった．
+自走式
+&amp;ldquo;自走式&amp;rdquo; なのも地味に違いを感じた． 片手で軽く持っているだけで勝手に前に進んでくれる．自動式でないモデルと並行で試すと違いが歴然．特にカーペットの上とか物理的に摩擦が起きやすいところでもスッと進むのはかなり楽．
+以前，エレクトロラックス製のコードレスクリーナーを使っていたことがある． デザインかっこいいしハンディにもなるしよさそう，と思って買ったが，物足りず売ってしまった過去がある．&amp;ldquo;ハンディになる&amp;rdquo; というのはハンディレベルの吸引力のマシンをスタンディングで使えるようにしているということらしい．上記の良い点も全くカバーされていなかった．．．
+クイックルワイパー + コロコロで事足りる派 だったのだが，引っ越して事情が変わった．
+ ソファーの隅 カーペット 部屋の隅 その他，手が届かないところ  引っ越して半年，これらのゴミが気になりだした．クイックルワイパーは優れものだが，ヘッドの形的に手が届かないところも多い．ヘッドからシートを外して手で掃除していたが，部屋も広く大変だった．週1まとめて掃除する頻度でも大変だったので，掃除機は必然になってきていた．
+てか，コロコロの正式名称は「粘着カーペットクリーナー」というらしい笑．株式会社ニトムズという生活消費財関連を扱う会社が，商標出願もしていて出願から33年も経っている．ニトムズ＝NITTO HOME PRODUCTS
+Dyson は買わなかった 掃除機の性能は，モーターの回転数で決まるらしい．&amp;ldquo;吸引力が変わらない&amp;rdquo; というのがウリの Dyson のやつも検討していたが，東芝のこのモデルも回転数的には負けず劣らずだった．実際にそれぞれ体験してみたところ，本体の軽さや性能・付属品含め東芝の方で全く問題なかった．
+Dyson 製品は
+ 本体が重い イギリス人の体型をペルソナにしていて，やや大きい  というのがネックだった．
+なお，コードレスでないモデルの方が，Dyson のコードレスクリーナーより，吸引力は圧倒的に強いらしい．一軒家とか部屋がとても広いケースだとバッテリーの持続時間も考慮してコードありの方がよいと思う．</description>
+    </item>
+    
+    <item>
+      <title>Base64 エンコードされた PDF ファイルをブラウザで扱う</title>
+      <link>https://blog.tanaka.world/pdf-on-browser/</link>
+      <pubDate>Sat, 25 Aug 2018 16:43:12 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/pdf-on-browser/</guid>
+      <description>諸々の事情で，Base64 化されたファイル文字列をブラウザで復元して扱いたいケースがあり，そのとき検証した作業ログ．画像と PDF データを扱う．
+画像ファイルの場合 Base64 エンコードされた画像データは，&amp;lt;img&amp;gt; タグの src に指定することができる．
+Data URLs の形式で，次のように記述する．
+&amp;lt;!-- data:[&amp;lt;mediatype&amp;gt;][;base64],&amp;lt;data&amp;gt; --&amp;gt; &amp;lt;img src=&amp;#34;data:image/png;base64,R0lGODlhAQABAIAA•••&amp;#34;/&amp;gt; PDF ファイルの場合 PDF データは，Blob に変換した後，ファイル URL を取得しアクセスすると表示できる．
+const base64Str = &amp;#39;JVBERi0xLjMNCiXi48/TDQoNCjE•••&amp;#39;; const file = new Blob([atob(base64Str)], { type: &amp;#39;application/pdf&amp;#39; }); const fileURL = URL.createObjectURL(file); window.open(fileURL); と，思ったが正常に表示できるケースと，表示されないケースがあり，原因がわからず．． 具体的には，枠は表示されるが内容が真っ白になってしまうという状況．
+pdf.js を使う Mozilla 製の pdf.js を使うと正常に表示できた． pdf.js には viewer もついているが，.pdf ファイルの実態が必要になるので使わず，今回はファイル内容を直接扱っている．
+ビルド済みのパッケージ pdfjs-dist を使う．
+.getDocument で Bae64 化されたファイルを読み込み，pdfDoc.getPage(1).render() でファイル内容をレンダリングする．この例は，1ページだけレンダリングするが，pdfDoc.numPages で得られるページ数分描画すれば複数ファイル内容を一度に表示可能．
+import PDFJS from &amp;#39;pdfjs-dist&amp;#39;; const base64Str = &amp;#39;JVBERi0xLjMNCiXi48/TDQoNCjE•••&amp;#39;; const canvasContainer = document.</description>
+    </item>
+    
+    <item>
+      <title>Vue.js と At.js を組み合わせる</title>
+      <link>https://blog.tanaka.world/vue-wysiwyg-editor-with-atjs/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/vue-wysiwyg-editor-with-atjs/</guid>
+      <description>jQuery 製の AutoComplete を提供する At.js を，Vue のコンポーネントと組み合わせて使ったときのメモ．
+完成イメージ 完成版ソースコードはこちら．
+At.js を使うと次のような挙動が実現できる．WYSIWYG 内で @ を入力すると，入力候補が一覧が表示され，選択すると任意の要素が追加できる．
+
+vue-at は使わなかった At.js の Vue 版 vue-at もあるが，At.js の全機能に対応していなかった．(検証当時) 具体的には insertTpl で挿入する HTML を定義する機能が正式リリースされておらず，結局は jQuery 版をそのまま使うことにした．
+ベースとなる WYSIWYG コンポーネント contenteditable で WYSIWYG を自作する．
+&amp;lt;template&amp;gt; &amp;lt;div&amp;gt; &amp;lt;div class=&amp;#34;WYSIWYG&amp;#34; contenteditable=&amp;#34;true&amp;#34; @focus=&amp;#34;handleFocus&amp;#34; v-html=&amp;#34;content&amp;#34;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/template&amp;gt; &amp;lt;script&amp;gt; export default { props: { value: { type: String, default: &amp;#39;&amp;#39; }, disabled: { type: Boolean, default: false } }, data() { return { content: this.</description>
+    </item>
+    
+    <item>
+      <title>Rails でユーザー毎に OGP 画像を自動生成するハンズオン</title>
+      <link>https://blog.tanaka.world/rails-generate-ogp/</link>
+      <pubDate>Wed, 08 Aug 2018 21:40:20 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/rails-generate-ogp/</guid>
+      <description>ユーザーの詳細ページがある Web アプリケーションで，ユーザー毎に OGP 画像を自動生成し表示させてみる．
+完成版のソースコードはこちら 👉 rails_ogp_generator_sample．
+前提条件  Ruby 2.4.2 Rails 5.1.6 RMagic 2.16.0  Gem 画像生成で rmagic，アップロードに carrierwave を使う．
+# Gemfile gem &amp;#39;rmagick&amp;#39; gem &amp;#39;carrierwave&amp;#39; $ bundle install User の Scaffold を作成 name と avatar を持つユーザーの Scaffold を作成する．
+$ bundle exec rails g scaffold User name:string avatar:text # db/migrate/20180720144053_create_users.rb class CreateUsers &amp;lt; ActiveRecord::Migration[5.1] def change create_table :users do |t| t.string :name, null: false t.text :avatar t.timestamps end end end $ bundle exec rails db:migrate UserOgpImage モデルを作成 User の OGP 画像を保持するモデルを作成する．</description>
+    </item>
+    
+    <item>
+      <title>Emacs の設定を見直しした</title>
+      <link>https://blog.tanaka.world/emacs-2018/</link>
+      <pubDate>Tue, 31 Jul 2018 15:25:13 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/emacs-2018/</guid>
+      <description>普段の開発は IntelliJ 製品をメインでつかっている．JavaScript/Nodejs や Ruby 系の開発が多く，WebStorm・RubyMine をかれこれ 5 年くらい使っている．一方，Python や Go 使ったり，このブログをかくときは Emacs を使っているが，ちゃんと設定せず使っていてツラみだったので，設定を見直しした．
+先に述べておくと，自分の Emacs に対するこだわりやスキルは初心者と言っても過言ではなく，これらがベストだとは思っていない．他のやり方でもそれできるじゃん，というのは多々あると思う．かれこれ何回か Emacs の設定をイジっては挫折してきたけれど，これらの設定で落ち着いてきた．
+環境 開発環境は次の通り． Emacs はデフォルトで入っているのが，バージョン 24 系だった．ちゃんと使い始めるなら最新版にしたかったので brew install emacs でインストールした．
+ macOS High Sierra 10.13.5 Mac Book Pro (15-inch, 2016) US Keyboard (改良版, 改良版のバタフライキーボード，何回か修理に出したため，幸い最新版になっている，最新版は Option キーにオプションマークがついている) GNU Emacs 26.1  straight.el でパッケージ管理 パッケージ管理を Cask から straight.el に乗り換えた．
+ straight.el: next-generation, purely functional package manager for the Emacs hacker.
+ Emacs 系のパッケージマネージャーの中では最新で更新も活発な模様． Note: straight.</description>
+    </item>
+    
+    <item>
+      <title>JetBrains Toolbox による IDE 管理</title>
+      <link>https://blog.tanaka.world/jetbrains-toolbox/</link>
+      <pubDate>Mon, 30 Jul 2018 14:57:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/jetbrains-toolbox/</guid>
+      <description>Adobe Creative Cloud みたいに，IntelliJ 製品を管理できる JetBrains Toolbox を使ってみた． 今まで気づかなかったが，JetBrains Toolboxがリリースされました！によると 2016 年にバージョン 1.0 がリリースされていたようだ．
+Update や Install/Uninstall が管理できる． ほぼ Adobe CC と同じ．Mac の Navigation Bar にもアイコンが表示され，そこから表示ができる．
+Update すると，旧バージョンを Uninstall できる．
+Update 後，起動すると旧設定を引き継ぐことができる． これは今までの仕様と同じ．旧バージョンを Uninstall していても，設定ファイルは残っている．
+しかし，CustomVMOption は引き継がれないようだ． 自分はメモリ割り当てなどを変更しているので，バージョンアップ後に Help &amp;gt; Edit Custom VM Options から設定を変更した．</description>
+    </item>
+    
+    <item>
+      <title>【2018上期】最近きいている Podcast</title>
+      <link>https://blog.tanaka.world/podcasts-first-half-of-2018/</link>
+      <pubDate>Mon, 23 Jul 2018 14:57:43 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/podcasts-first-half-of-2018/</guid>
+      <description>最近は，音楽をきくより，Podcast をきいていることが多い．きいている番組も増えてきたので一度まとめてみようと思う．
+定期的に聞いているタイトル Tech系
+ rebuild.fm mozaic.fm Turing Complete FM ajitofm strobo.fm しがないラジオ boot.fm ACCIDENTAL TECH PODCAST News and podcasts for developers | Changelog  英語系
+ バイリンガルニュース (Bilingual News) Hapa 英会話 ELS Podcast スピードラーニングポッドキャスト｜英会話教材スピードラーニング  rebuild.fm
+rebuild.fm駆動開発は引き続き続けている．
+個人的には @naoya_ito さんや @N さんの回が好きで何回も繰り返しきいている．正直エピソード 100 くらいまでは @N さんのスタンスに馴染めず流し聴きしていたが，面白さがわかってくるとクセになって，ついつい聴き入ってしまう笑．最近だとエピソード213の食パンの話とか，何それって感じだけど，それがまたいい笑．@naoya_ito さんは最近出てきていないので，復活を切望しているし応援している．
+基本的に1.25倍速で視聴している．が唯一，@takorattaさんのときはスピードが速いのと，内容が難しいため1.0倍速に戻すことがある．
+mozaic.fm
+かなりコアな内容でブラウザベンダーの動向などを細かく観測している番組． 最近は Monthly Web というタイトルで各月毎のまとめを話している．月 1 ペースの更新で内容が充実していているので，スピーカーも大変だろうがリスナーも体力が必要．内容が難しいので1.0倍速で聞いている．一つ一つ知らないことを調べながら視聴しているので 1 エピソード聞くのに数週間かかることもあり，全部視聴するのを挫折することもしばしば．この番組の内容がスッとわかるくらいにはなりたい．
+Turing Complete FM
+@rui314 さんの Podcast で．内容や更新スピードが凄まじく熱意を感じる．Systems Programming 中心の番組で，違う畑の自分にとって内容はニッチで難しい．こちらも調べながらきいていて，学生のころのテキスト引っ張ってきては思い出したりしていた． 音の良いポッドキャストを録音するために ― Turing Complete FMの収録テクニックでも書かれている通り，音質にこだわっていて，実際他の Podcast と比べても音質がよく感じる． コンパイラやセキュリティなどローレイヤーの話が多い一方で，Shiro Kadowaki さんの生物・遺伝子や，@kinu さんの Webの話など他分野のエピソードもある． それとハッカーと画家の翻訳を担当された，川合史朗さんの肉声がきけるのは驚いた．</description>
+    </item>
+    
+    <item>
+      <title>Ergohuman Fit</title>
+      <link>https://blog.tanaka.world/ergohuman-fit/</link>
+      <pubDate>Sun, 15 Jul 2018 13:18:23 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/ergohuman-fit/</guid>
+      <description>家の作業イスをアップデートした．
+旧作業椅子 かれこれ数年間，バランスボールを椅子として使っていた．昔は全く問題なかったが，最近は，背中や腰が張るようになってきたのと，座面がムレるのが最大の敵だった．筋トレにもなるし一石二鳥だと感じていたのも，今となっては筋トレ効果も感じなくなってきていた．引っ越しして家が広くなったのもあり，購入を検討することにした．
+人生で２度のギックリ腰を経験している身としては，作業環境は死活問題になりうる．
+WORKAHOLIC へ I&amp;#39;m at @WORKAHOLIC_web in 中央区, 東京都 https://t.co/z9zbWsQB9p
+&amp;mdash; tanakaworld (@_tanakaworld) June 3, 2018  割と高額な買い物，長く使う想定で失敗したくない．WORKAHOLICで試乗することにした．コンシェルジュが色々説明してくれた後，部屋中に置かれているチェアを自由に試しいくスタイル．
+Ergohuman Fit 置いてある椅子ほぼ全部座ってみたところ，一番フィットしたのがエルゴヒューマン製品だった．オフィスでも使っていたのもあって，一番カラダに負荷を感じず自然な姿勢で作業できそうな気がした．
+色々検討した結果，Ergohuman Fit を買った．
+ Ergohuman Fitはシリーズの中でもミドルサイズに設計され、小柄な女性から平均成人男性まで、幅広く日本人の体型にフィットするサイズになっています。 エルゴヒューマンの特徴でもある独立ランバーサポートはもちろん、機能やアジャスタビリティーをさらに進化させたニュースタンダードモデルです。
+ というモデルらしい．座面とフレームの色が選べる．派手な色と全部真っ黒は，自分の家にはマッチしない気がしたので，ホワイト/ホワイトが欲しかったが，そのモデルは１ヶ月〜２ヶ月待ちだった．皆考えることは同じらしい．
+ネットで探せば出てくるだろうと思い，その場では買わずネットで探した．が，しかし，Amazon・楽天市場・中古椅子卸しなど探してもどこも在庫切れで，同じく１ヶ月〜２ヶ月待ちだった．結局，公式のオンラインショップで予約して気長に待つことにした．座面はウレタンとメッシュが選べ，後者を選択．
+注文から約１ヶ月ほどで到着した．
+作業イスが来た #Ergohuman #ErgohumanFit pic.twitter.com/qrg3eQkpQd
+&amp;mdash; tanakaworld (@_tanakaworld) July 7, 2018  感想 一週間くらい毎日使っていて，結論としては全く問題なく作業が捗る．
+ 色はホワイト/ホワイトにしてよかった． Fit といえど部屋にある存在感はでかく，少しでも圧迫感はない方がよい． FIt はサイズがやや小さいので，身長180cm以上ある人は Fit でない方がいいかも．  </description>
+    </item>
+    
+    <item>
+      <title>(再)MBPのキーボードを修理してきた</title>
+      <link>https://blog.tanaka.world/apple-official-keyboard-service-program/</link>
+      <pubDate>Wed, 11 Jul 2018 00:11:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/apple-official-keyboard-service-program/</guid>
+      <description>待望の神対応がきた😇🍎
+ 旧モデルと比較して2倍も不具合が発生すると報告され、集団訴訟にまで発展した「MacBook」および「MacBook Pro」のバタフライ式キーボードだが、Appleはついに自分たちのデザインに問題があることを公式に認め、「MacBook および MacBook Pro キーボード修理プログラム」を実施することを発表した。 ➡️ Apple、「MacBookおよびMacBook Proキーボード修理プログラム」を発表
+ 偶然にも，1ヶ月ほど前に Apple Store で診断してもらっていた．
+Macなおす🍎 (at @Apple Shinjuku in 新宿区, 東京都) https://t.co/dVskLEI0TS
+&amp;mdash; tanakaworld (@_tanakaworld) May 25, 2018  そのときはこのプログラムは発表されておらず，修理見積もりは ¥88,000 だったので様子を見ることにしていた．
+過去にも同様の問題が 過去にも同じ問題で修正していた． 全く同じ問題で，特に「b」をクリックすると複数回文字が入力されてしまう． emacsキーバインドを多様するため，「b」や「f」は酷使しているのが影響しているのか :(
+Macが修理から戻ってきた。
+バッテリー、キーボード、ロジックボードとフル対応も、買ってから一年以内だったので、無料₍₍ (ง ˙ω˙)ว ⁾⁾ pic.twitter.com/eqHYoIzT4y
+&amp;mdash; tanakaworld (@_tanakaworld) September 15, 2017  Touch BarというよりTouch IDがないのツラい MBP修理のため、久々のMBA🍎 Touch Bar ないのは地味に不便 pic.twitter.com/5jmCp9wp8i
+&amp;mdash; tanakaworld (@_tanakaworld) June 27, 2018  MBAはTouchBarがないので，1Passwordのロック解除で毎回PW入力してててツラい...
+&amp;mdash; tanakaworld (@_tanakaworld) June 29, 2018  3日で戻ってきた :) #ZOZOスーツ かと思ったら MBP だった pic.</description>
+    </item>
+    
+    <item>
+      <title>Clean install macOS High Sierra</title>
+      <link>https://blog.tanaka.world/clean-install-macos-high-sierra/</link>
+      <pubDate>Wed, 11 Jul 2018 00:10:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/clean-install-macos-high-sierra/</guid>
+      <description>General  Settings &amp;gt; Keyboard &amp;gt; Text &amp;gt; Disable Capitalize words automatically Settings &amp;gt; Keyboard &amp;gt; Modifier Keys &amp;gt; Change Caps Lock to Control Settings &amp;gt; Trackpad &amp;gt; More Gestures &amp;gt; Swipe between pages -&amp;gt; Switch with three fingers Settings &amp;gt; General &amp;gt; Enable Use dark menu bar and Dock TouchBar  Settings &amp;gt; Keyboard &amp;gt; Customize Control Strip &amp;gt; Remove &amp;ldquo;Siri&amp;rdquo; button   Finder  Show hidden files by shortcut Command + Shift + .</description>
+    </item>
+    
+    <item>
+      <title>Middleman から Hexo に引っ越した</title>
+      <link>https://blog.tanaka.world/move-to-hexo-from-middleman/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/move-to-hexo-from-middleman/</guid>
+      <description>ブログフレームワークを Hexo に Middleman から Hexo に移行した． はてなダイアリー &amp;gt; WordPress (さくらレンタルサーバ) &amp;gt; Middleman (GitHub Pages) と渡ってきて Hexo は第４世代となる．
+個人で作っているものは，技術的な検証をしたり遊んだりする場所にしたいと思っている． HUGO とかも選択肢にあったが，最近は Node 環境で開発していることが多く，色々カスタマイズしたい性分の自分にとっては Node の方がよかった．
+ドメインを blog.tanaka.world に http://yutarotanaka.com/blog で運用していたブログを廃止した． ドメインはなにかに使うかもしれないので，一応残しておく．
+現在は全コンテンツを移行し，全部 404ページにしている． GitHub Pages はルートに 404.html を置くことで，GitHub デフォルトの 404 ページをカスタマイズできるようになっている．
+➡️ Creating a custom 404 page for your GitHub Pages site
+ちなみに，杉並区議員に同姓同名の議員さんがいるらしく時々間違われていた（笑）．昔は http://tanakayutaro.com/だった気がするので，あちらも引っ越しされたのか．
+GitHub Pages でサブドメインを設定 ホスティングは引き続き GitHub Pages にしている．昔はできなかったが，現在は SSL 対応も可能になっている．tanaka.world の方は， Vue.js + Nuxt.js + Firebase (Hosting/CloudFunctions) でホスティングしていて，ブログはそこに混ぜたくなかった．別プロジェクトで運用するべくサブドメインにした．</description>
+    </item>
+    
+    <item>
+      <title>スクリーンショット駆動開発</title>
+      <link>https://blog.tanaka.world/screenshot-driven-development/</link>
+      <pubDate>Tue, 03 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/screenshot-driven-development/</guid>
+      <description>アプリケーション開発をしていて，日々，スクリーンショットに助けられている． 主に情報共有やバグトリアージ，メモ目的でよく使っているツールなどをまとめる．
+Gyazo Gyazo
+撮影したスクリーンショットをURLで共有できるサービス．アプリケーション起動すると， Gyazo のスクリーンショットモードになり撮影するとブラウザで URL が表示される（そのときに URL がクリップボードにコピーされる）．同様に GIF 動画も撮影でき，実装時の UI 表現の共有で使ったりする．
+Slack でのスクショ共有
+特に重宝しているのが，Slackでスクショ共有するとき． Slack の Thread では画像の添付ができず，メイン側に画像をアップロードしてその URL を Thread 側にコピペする，という手間をかけていた．Gyazo なら Thread に URL を投稿するだけでハイライトもされるし，楽チン．
+Gyazo Pro
+有料課金するか迷っている． ６秒まで録画可能で，有料課金すると６０秒まで録画できるみたい．サービス画面のキャプチャ撮りたいときは，１０秒だと足りないことがあるので，課金してもいいかなと思っている．それとキャプチャした画像に文字を入れるなど加工もできる点も魅力的．
+キャプチャに文字を入れたいシーンはわりとある． skitch にスクショを貼り付けて加工した結果を，Gyazo で再度キャプチャするというフローを踏んでいてとても手間を感じている．てか，skitch って Evernote のサービスだったのか．(2011年に買収されたらしい)
+Mac Screenshots 範囲選択スクショ
+をよくつかう．
+ スクリーンショットフォルダに保存：command + shift + 4 クリップボードに保存：command + shift + control + 4  スクリーンショットはデフォルトではデスクトップに保存されるが，Dropbox の機能で Dropbox フォルダに保存されるようにしている．
+スクリーンショットモード中の &amp;ldquo;スペースキー&amp;rdquo; が便利．
+スクショ範囲をフォーカスしているアプリケーションが，自動的にスクショ範囲になる機能． アプリケーションウィンドウだけでなく，ナビゲーションバーやアイコンにも自動フォーカスしてくれる．</description>
+    </item>
+    
+    <item>
+      <title>余った HDD を外付け HDD として再利用</title>
+      <link>https://blog.tanaka.world/make-external-hdd/</link>
+      <pubDate>Fri, 29 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/make-external-hdd/</guid>
+      <description>MacBookProのバッテリー/メモリ/HDDをセルフ交換し，Ubuntuをデュアルブートするで余った，MacのHDDを外付け HDD にしてみた．
+Salcar USB3.0 2.5インチ HDD/SSDケース これを買った．
+  AC アダプタ不要 USB 3.0 にも対応 軽い 安い  接続も問題ない USB 2.0 接続ではランプが白く点灯，3.0 接続では青く点灯 するのも地味によかった．</description>
+    </item>
+    
+    <item>
+      <title>ストレッチポール</title>
+      <link>https://blog.tanaka.world/stretch-pole/</link>
+      <pubDate>Wed, 13 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/stretch-pole/</guid>
+      <description>首痛・姿勢改善のためにストレッチポール買ってみた．
+高校生のころ，部活でよくつかっていたのが懐かしい． 基本乗るだけでもOK．
+２週間ほど使ってみたところ，首や腰の &amp;ldquo;ツマリ&amp;rdquo; みたいなものがなくなったのを実感できた． 特に両手足を広げてポールに全体重をあずける姿勢を取ると，デスクワークと間逆な姿勢が確保できてよい．
+ </description>
+    </item>
+    
+    <item>
+      <title>multi_seeds_rails をリリースした</title>
+      <link>https://blog.tanaka.world/release-multi-seed-rails/</link>
+      <pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/release-multi-seed-rails/</guid>
+      <description>gem multi_seeds_rails をリリースした．
+seeds.rb を複数ファイルに分割して，それぞれ rake タスクとして実行できるようにします．
+gem つくった 🚀 #rails #rubygems
+seeds.rb を複数ファイルに分割して，それぞれ rake タスクとして実行できるようにします．https://t.co/QkzsFZZCVg
+&amp;mdash; tanaka.world ™ (@_tanakaworld) June 26, 2018  </description>
+    </item>
+    
+    <item>
+      <title>web_service_uri をリリースした</title>
+      <link>https://blog.tanaka.world/release-web-service-uri/</link>
+      <pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/release-web-service-uri/</guid>
+      <description>gem web_service_uri をリリースした．
+Web サービスの URI をパースしてアカウントIDを抜き出したりするパーサ．
+gemつくった🎉🌈https://t.co/E4LRVHS142 #Ruby #RoR #Rails
+&amp;mdash; tanaka.world ™ (@_tanakaworld) June 10, 2018  </description>
+    </item>
+    
+    <item>
+      <title>rumojinize をリリースした</title>
+      <link>https://blog.tanaka.world/release-rumojinize/</link>
+      <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/release-rumojinize/</guid>
+      <description>Rails で絵文字を扱いやすくする gem rumojinize をリリースした．
+Published a gem &amp;quot;rumojinize&amp;quot; for #rails #emoji 🎉 https://t.co/W7eVCvH2gz
+Featuring &amp;quot;rumoji&amp;quot; made by @markwunsch .
+&amp;mdash; tanaka.world ™ (@_tanakaworld) June 9, 2018  絵文字のエンコード/デコードの自動化 ActiveRecord でモデルのフィールドを指定するコードを１行記述すると，DB保存前に &amp;lsquo;🐶&amp;rsquo; → &amp;lsquo;:dog:&amp;rsquo; のように絵文字を変換してくれる． そして，モデルのインスタンスにロードしたときに，逆の変換が自動でなされるので，変換のことを意識せずに開発が可能になる．
+変換自体は rumoji に任せている．
+命名 この gem の名前は rumoji からとって rumojinize としている．
+Rails の ActiveRecord 系の gem では， &amp;ldquo;acts_as_xxxxx&amp;rdquo; という命名をするのが流行っている(?要出展)ようなのだが， acts_as_emoji や acts_as_rumoji はしっくりこず， rumojinize に落ち着いた．
+MySQLの文字コード MySQLは文字セットによって，絵文字が保存できるできないが変わってくる．絵文字は４バイト文字として扱われる．一般的なデフォルトの utf-8 だと扱えず，絵文字を保存しようとするとエラーになる．MySQL5.5 以上では，文字セットを utf8mb4 と変更することで，４バイト文字も扱えるようになるらしいのだが，正直どこに影響がでるか完全に理解できておらず断念した．絵文字を扱いたかったサービスが既に運用中のサービスで，迅速な対応が求められていたのもある．このあたりちゃんと理解してから導入してみたい．
+参考  rails + mysqlでの穏便な絵文字保存方法 実装参考にさせていただきました 🙏  </description>
+    </item>
+    
+    <item>
+      <title>世界一シンプルで科学的に証明された究極の食事</title>
+      <link>https://blog.tanaka.world/simple-ultimate-foods/</link>
+      <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/simple-ultimate-foods/</guid>
+      <description>この本、個人的に激アツ過ぎて、一気に読了した🍽🤔 / Check out this book: &amp;quot;世界一シンプルで科学的に証明された究極の食事&amp;quot; by 津川 友介 https://t.co/WHih5RONh5 pic.twitter.com/Mtc7pmPy3I
+&amp;mdash; tanaka.world ™ (@_tanakaworld) April 17, 2018  巷に蔓延している健康情報が本当に正しいのか？という視点から，科学的根拠を元に考察していた． 資格を有する管理栄養士や医者であっても，それらの情報が正しいと判断できる知識を持っているとは限らないし，マーケティング的な側面で情報が流れてしまうことを言及している．
+特に食品５つグループに分類がわかりやすかった．
+  グループ１：健康に良いということが複数の信頼できる研究で報告されている食品． グループ２：ひょっとしたら健康に良いかもしれない食品．少数の研究で健康に良い可能性が示唆されている． グループ３：健康へのメリットもデメリットも報告されていない食品． グループ４：ひょっとしたら健康に悪いかもしれない食品．少数の研究で健康に悪い可能性が示唆されている グループ５：健康に悪いということが複数の信頼できる研究で報告されている食品．   さらに「研究」は次のような種類があり，順にエビデンスが強い．
+  観察研究（特定の食品を多く摂取しているグループ/あまり摂取しないグループに分けて分析，数年後の結果を比較．食品以外の運動などの条件はことなるので，必ずしも食品が影響したかは確実でない） ランダム化比較試験（ランダムに食品を摂取するグループ/しないグループに分けて比較．食品以外の条件はほぼ同じとする．） メタアナリシス（複数の研究結果をとりまとめた最強のエビデンス．ランダム化）   </description>
+    </item>
+    
+    <item>
+      <title>Apple TV 4K を買った</title>
+      <link>https://blog.tanaka.world/apple-tv-4k/</link>
+      <pubDate>Mon, 12 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/apple-tv-4k/</guid>
+      <description>Apple TV 4K を買った．
+最近の用途 主な用途は，ネット動画を観ること． その他，音楽や Podcast を再生するのにも使っている．
+ Netflix Amazon Prime Video Hulu YouTube iTunes Podcast  スペック  32GB 4K + HDR 対応  ストレージ容量は，大量に画像や動画・アプリを保存するわけではないので 32GB にした．
+Rebuild.fm #197 で
+ 旧型持っている人はあまりメリットがないかも 4K TV 持っていて iTunes,Netflix で動画観まくるならオススメ
+ とも言及されていて，僕は初めての購入だったので 4K にしてみた． なお，4K の発表に伴い旧型は値下げしていた．
+4K TV はまだ持っていない が，近いうちに買うだろうと思っている（たぶん）． 学生のときに買った レグザ 32inch をずっと使っているため，4K/HDR の凄さがまだ実感できていない．．．
+HDMIケーブルの呪縛から開放 これまでは，Mac の Thunderbolt2 -&amp;gt; HDMI -&amp;gt; TV というフローで観ていた． ケーブルを抜き差しするのが面倒だったり，HDMI 変換ケーブルの不調で映像が止まったり， さらに hulu は外部ディスプレイなどに映像を映すとエラーで再生できなかったり，とトラブルが耐えなかった．
+それらはもう気にしなくてよくなった．</description>
+    </item>
+    
+    <item>
+      <title>親知らずを全て抜歯した</title>
+      <link>https://blog.tanaka.world/wisdom-teethes-pulled-out/</link>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/wisdom-teethes-pulled-out/</guid>
+      <description>自分の場合，親知らずが歯並び，かみ合わせに悪影響をあたえており，全ての親知らずの抜歯が &amp;ldquo;必須&amp;rdquo; だった．
+２年前くらいに抜いた親知らず（右上１本）に加え，残りの３本は，各月ごとに１本ずつ抜歯していった．
+下２本は骨に埋まっていて，骨を切ったりする外科手術が必要だったので，大学病院への紹介状をもらって訪問した． オフィスが近かったので，東京歯科大学水道橋病院を選択した．
+１本抜歯するのに約３０００円〜５０００円くらいかかった．
+数をこなしているだけあってか，主治医のウデは一般の歯医者よりウマいように感じた． 麻酔や実際の抜歯など含め，スピーディーで患者への負荷が少ない． 大学病院だけあって，歯学生が実地研修で抜歯に立ち会いしていて，自分も説明を聞きながら抜歯は執り行われた．
+今日は外科手術で下の親知らずを抜歯した。2針縫ったので、暫くモゴモゴしゃべりますが、各位よろしくおねがいします。
+&amp;mdash; tanaka.world ™ (@_tanakaworld) September 21, 2017  しかし恐怖だったのは、抜歯のアシスタント(恐らく学生か研修医)に解説しながらの手術だったこと。骨を削るときの骨膜・筋膜の削り方、器具の選び方や角度、後処理のポイントなど生々しくて、痛くないはずなのに痛みが倍増した気がした。この辺はある意味アトラクションにしてもよさそうな…
+&amp;mdash; tanaka.world ™ (@_tanakaworld) October 24, 2017  抜歯前は麻酔が少し痛いのと，顎に物理的な負荷がかかる（テコの原理で抜く）くらいで大したことはなかった． 本当に大変だったのは，抜歯後だった．
+傷が治るまで，糸が入ったまま数週間生活，会話・食事・寝返りなど全てに痛みが伴うのがとにかくツライ． 食事は基本的に味噌汁や豆腐，完全食COMPでしのいでいる．</description>
+    </item>
+    
+    <item>
+      <title>歯科矯正をはじめた</title>
+      <link>https://blog.tanaka.world/start-orthodontics/</link>
+      <pubDate>Wed, 02 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/start-orthodontics/</guid>
+      <description>今日からインビザラインというマウスピースで歯科矯正がスタートした． 親知らずの影響などから歯並び・かみ合わせがズレていたり，頭痛がひどかったりと日常生活にも支障をきたすようになってきていた． それを治療するのが目的．
+カウンセリング -&amp;gt; 検査＋型取り -&amp;gt; マウスピース到着，まで約１ヶ月かかった． 米国アライン・テクノロジー社の専売特許で，製造はアメリカで製造しているらしく，型データを送って空輸でピースを日本に運ぶらしい．
+親知らずの抜歯は必須．２年前に抜いた上１本以外の残りを徐々に抜いていくことが決まった（恐怖）． 下の親知らずはほぼ骨のしたに埋まっていて，歯科大学で抜歯する必要がある（恐怖）．
+マウスピース矯正は，検査のときに一括で料金を支払い，５年間何度でもマウスピースを追加発注できる． 初回に作成されたマウスピースは１９個． マウスピースの形が少しづつ変化していて，１週間〜１０日毎に交換することによって徐々に歯が動いていくシステム．
+今日からマウスピース系男子になりますた😬常に、全部の歯の間に肉が挟まってるような感覚…
+&amp;mdash; tanaka.world ™ (@_tanakaworld) August 1, 2017  </description>
+    </item>
+    
+    <item>
+      <title>MacBookProのバッテリー/メモリ/HDDをセルフ交換し，Ubuntuをデュアルブートする</title>
+      <link>https://blog.tanaka.world/remodeling-mbp/</link>
+      <pubDate>Tue, 18 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/remodeling-mbp/</guid>
+      <description>古いMacのバッテリーが膨張してしまっていたため，バッテリーを交換した． ついでにパワーアップ(メモリを増設＋HDD→SSD)，さらに機械学習用 Mac とするべく Ubuntu を入れてみた．
+MacBookPro 2012 mid 15 inch #開封の儀 昔使ってたMacが机にまっすぐ置けないと思ったら、バッテリーが膨張してたorz 開封ついでにメモリ増設とHDD→SSDもやるやつ。 pic.twitter.com/fprl1XQYYi
+&amp;mdash; tanaka.world ™ (@_tanakaworld) April 14, 2017  工具 必要な工具やパーツは Amazon で購入した．
+アネックス(ANEX) ESD精密ドライバー +00×50 No.3450-ESD ← Macの蓋をあけるのに必要
+ アネックス(ANEX) T型ヘクスローブドライバー T6×50 No.6300 ← HDD を止めてるネジやバッテリーを外すのに必要
+ バッテリー/SSD/メモリ バッテリー WorldPlus バッテリー Apple MacBook Pro 15 インチ 対応 A1382 A1286 ( 2011 2012 ) 6200mAh SLODA交換用バッテリーApple用Macbook Pro 15&amp;quot; A1321 A1286 (Mid 2009 Early 2010 Late 2010) に适用MacBook Pro 15 A1321 ノートPCバッテリー [リチウムポリマー，10.</description>
+    </item>
+    
+    <item>
+      <title>Threes!で6144を達成</title>
+      <link>https://blog.tanaka.world/threes-6144-volleo/</link>
+      <pubDate>Sun, 11 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/threes-6144-volleo/</guid>
+      <description>ついに念願の 6144 生成に成功した！！！！！
+Got to &amp;quot;6144&amp;quot;!!!!!!!!!!!!!!!!!! I just scored 554,274 in @ThreesGame! https://t.co/aMwmdl7vvh pic.twitter.com/ma8FgQkYUm
+&amp;mdash; tanaka.world ™ (@_tanakaworld) September 11, 2016  抜粋動画はこちら↓
+  </description>
+    </item>
+    
+    <item>
+      <title>1年使わなかったものは全て断捨離するライフハック</title>
+      <link>https://blog.tanaka.world/methods-to-be-minimalism/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/methods-to-be-minimalism/</guid>
+      <description>「１年間使わなかったもの」という基準を厳格に守って断捨離をした．
+上京してから7年，一時期ふたり暮らしをしてたこともあって，今の家にはモノが散乱していた． 「何かにつかうかも」「もったいない」とか言ってモノが捨てられない性格なので，溜まっていき部屋は狭くなる一方だった．
+&amp;ldquo;いつか使うかもしれない&amp;rdquo; のいつかはやってこない １年間使わなかったものは，次の１年間も大体使わない． という風に心を鬼にしないと，人は捨てられないものだ．
+人に捨ててもらうのは１つの手かもしれないが，自分の場合，自分で決断しないと人のせいにしてしまうような気がして自分ひとりで決行した．
+断捨離したモノ 古着屋やネットの買い取りサービス（メルカリ，買取王子）の他，ゴミとして捨てたり，欲しい人がいたら差し上げたりした． 買取王子というサービスは，ダンボールを届けてくれて，さらに集荷までオンラインで完結してしまうので，本当に重宝している．
+食器・調理器具
+そもそも料理をほとんどしない．やってもカンタンなことしかしないので，ほとんど処分した．
+マンガ・本 天井まである本棚にギッシリ詰め込んでもあふれるくらいの量があったが，95%くらい処分した． マンガ・技術書・大学のときの教科書なども，ほとんど売った．
+マンガは正直名残惜しかったが，また読みたくなった Kindle で書い直せばいいやくらいの気持ちで乗り切った． （Kindle だとカラー漫画も読めるので，また新しい気持ちでマンガが読めて最高）
+CD/DVD データ化できるものはデータに変換して処分した． この変換は自分が使っているソフトだと，再生時間分データ化に時間を食われるので，業者に委託してもよかったかも．
+書類 紙の書類はかさばる． 特に契約書の封筒など中身だけとっておくようにすると，スペースが増える． 後々，目でみたいと思われる書類はスキャンした．
+衣類
+「一週間7日間でどれだけの在庫を着回せているだろうか？」という気持ちで選別． いつか着るだろうと思って数年来ていない服も多々あった．
+全体の 2/3 くらいの衣類を処分．
+家具
+処分したことによって空になった収納家具，プラスチックケースは全て処分した．
+断捨離精神を維持するために  何かを買ったら，何かを捨てる（代謝） 収納を極力つくらない（スペースがあると，溜めてしまう） 1年使わなかったものは処分する 1年間使わなくなりそうなものは買わない  </description>
+    </item>
+    
+    <item>
+      <title>2015年前半の振り返り</title>
+      <link>https://blog.tanaka.world/action-item-5-2015-half/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/action-item-5-2015-half/</guid>
+      <description>&lt;p&gt;2015年も折り返しを迎えました．&lt;/p&gt;
+&lt;p&gt;転職などもあり，環境の変化によってステップアップもできた半年でした．&lt;/p&gt;
+&lt;p&gt;年初に立てたアクションアイテムを元に，2015年前半を振り返ってみます．&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ASP.NETのエラーページが表示されてしまうときの対策</title>
+      <link>https://blog.tanaka.world/asp-dot-net-error-page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/asp-dot-net-error-page/</guid>
+      <description>&lt;p&gt;URLに「.」が混ざると，ASP.NET でエラーページがでてしまう問題の解決法．（調査中．．．）&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>AWS CloudFront の Invalidation 完了を通知するブックマークレットをつくった</title>
+      <link>https://blog.tanaka.world/cloudfront-invalidate-checker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/cloudfront-invalidate-checker/</guid>
+      <description>CloudFrontのInvalidation(Purge)には最大15分かかる．
+開始してから完了を待つまでの間，終わったかどうかページをリロードしたり，パージを忘れてて気づいたら終わってたり．
+なんとなく気持ちが落ち着かないので，進捗をウォッチして完了を通知してくれるブックマークレットをつくった．
+🚀 cloudfront-invalidate-checker
+CloudFrontのAPI使えばもっと賢くできるかもしれないが，とりあえずJSでさくっとつくった．
+ブックマークレット登録
+Chromeの場合，cloudfront-invalidate-checker.min.jsの内容の前に javascript: を付けてブックマーク登録すればおｋ．
+新規Invalidationを開始
+ブックマークレットを実行してInvalidationIDを指定
+Invalidation完了・通知
+Invalidationが完了すると，Chromeから通知が来る． Chromeから離れて作業しててもポップアップで知らせてくれる．
+（※ AWSコンソール上で動くJSで実行しているのでタブを消すと通知されない）
+社内では完了後，社内の音声流せるサーバにHTTPリクエスト送って，FFのファンファーレが流れるようにしている♪♪♪
+(某T社に感化されてファンアーレにした)
+CloudFrontのInvalidation完了したらFFファンファーレ流れるようにしたら、結構いい感じだった♫♫♫
+&amp;mdash; TanakaWorld™ (@_tanakaworld) April 22, 2016  </description>
+    </item>
+    
+    <item>
+      <title>Eclipseの文字コード設定を一括変換する方法</title>
+      <link>https://blog.tanaka.world/eclipse-batch-converte-character-code/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/eclipse-batch-converte-character-code/</guid>
+      <description>【Eclipseの文字コード設定を一括変換する方法】 以下のライブラリを使用する
+文字コードを一括変換する Eclipse プラグイン CharsetConv​
+プラグインを使う (ex)以下の設定の場合の対応 ----------------------------------------------------- Workspace Text File Encoding : MS932(Windowas31J) Project Encoding : MS932(Windowas31J) ----------------------------------------------------- ① Workspace Text File Encoding 変更 Eclipse Status Bar &amp;gt; Window &amp;gt; Preference &amp;gt; General &amp;gt; Workspace &amp;gt; Text file encoding &amp;gt; 「MS932 → UTF-8」 ② 文字化けする ③ ソースの Encoding 変更 変更対象パッケージを右クリック　＞　文字コード変換　＞　「Windowas31J → UTF-8」 ④ 完了
+そもそもエディタの文字コード設定をあらかじめしておく エディタの文字コード設定を始めにしておくこと推奨． Eclipse : XXX &amp;gt; XXX &amp;gt; XXX
+VisualStudio : XXX &amp;gt; XXX &amp;gt; XXX</description>
+    </item>
+    
+    <item>
+      <title>GoogleSpreadsheetをパースするライブラリを作った</title>
+      <link>https://blog.tanaka.world/google-spreadsheets-parser.html/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/google-spreadsheets-parser.html/</guid>
+      <description>GoogleSpreadsheetをJSONにパースするライブラリを作った．
+google-spreadsheets-parser
+JSで使用する前提で作っていて，ブラウザやNodeで使用できる． シートのURLとシート名を指定するとObject形式・JSON形式にパースできる．
+var gss = new GoogleSpreadsheetsParser(publishedUrl, {sheetTitle: &amp;#39;Sample&amp;#39;, hasTitle: true}); ライブラリのセットアップなど詳しくはREADMEにて．
+半年くらい実プロジェクトでも使用してみて，割りと汎用的に使えたのでいろいろ拡張していく予定．
+動作デモなどはこちら</description>
+    </item>
+    
+    <item>
+      <title>Rebuild.fm駆動開発</title>
+      <link>https://blog.tanaka.world/rebuild-fm-driven-development.html/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/rebuild-fm-driven-development.html/</guid>
+      <description>Rebuild.fmをSubscribeしはじめてから1年経った．
+Rebuild.fm  Rebuild はソフトウェア開発、テクノロジー、ガジェットなどの話題を中心に、ゲストと話すギーク、デベロッパー向けのポッドキャスト番組です。 A Podcast by Tatsuhiko Miyagawa. Talking about Tech, Software Development and Gadgets.
+ ホストの@miyagawaさんとゲストが，ソフトウェアやウェブについて30分〜1時間くらいトークしている．
+ゲストもソフトウェアエンジニアの人が多く，プログラミング全般の話から，ハードウェア・マネジメントなどホットな話題から，昔の技術まで聞いてて楽しい． 普段はLiveではなく，Podcastにアップされてから聞くことが多い．
+Wikipediaにもまとめられている．
+Rebuild is like &amp;ldquo;RedBull&amp;rdquo; for me. 転職を機に聞き始めて，ほぼ毎日聞いてた．
+2016.2.23現在では131エピソードあるが，気づいたら3周くらい聞き返していた．
+1周目はわからない話も多かったが，気づいたらすんなりわかるようになっていた． 意識して会話の内容を調べることはなくとも，後で「そういえばRebuildで言ってたな」みたいなことがよくあって それがきっかけで情報をキャッチアップすることも多い．
+アニメやゲームの話もちょくちょく出てきて，SHIROBAKOもRebuildきっかけでハマった．
+Rebuildを聞いていると無性にコードを書きたくなる．
+勉強会とかテック系の公演に行った後に，やる気になるのと同じような感じで，僕にとってはレッドブルのような存在だった． 朝から晩まで開発して，仕事帰りとかに聞いてるとやる気がみなぎって，帰ってすぐデスクに向かっていた．
+今更ながらもっと早くから聞いとけばよかったと思った． ウェブ・アプリエンジニアになりたてのころ，何やっていいかわからなかったが「とりあえずRebuildを聞き流せ」と言いたい．
+Always be X  続けないとめんどくさくなるから，めんどくさくなる前に次をやってしまう．
+ あるエピソードでこんなことを宮川さんがおっしゃってた． Live収録・Podcast配信をこれだけ長期間続けられているのは正直驚いた．
+何か三日坊主になりそうなときにこれを思い出して，頑張らなきゃみたいな気になる．
+この1年間のソフトウェア開発は，Rebuildによって駆動していたと言っても過言ではない．
+ということで，そろそろサポーターにならねばッ(｀・ω・´)</description>
+    </item>
+    
+    <item>
+      <title>Threes! 3072 を達成した</title>
+      <link>https://blog.tanaka.world/threes-height-score-3072/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/threes-height-score-3072/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://itunes.apple.com/us/app/threes!/id779157948?mt=8&#34; title=&#34;Threes!&#34;&gt;Threes!&lt;/a&gt; で「3072」をつくるのに成功した．&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://yutarotanaka.com/blog/threes-height-score/&#34; title=&#34;【スコア80000突破!!】Threes!で高得点をとるためのコツ ＋α&#34;&gt;【スコア80000突破!!】Threes!で高得点をとるためのコツ ＋α&lt;/a&gt; 以来初の「3072」になる．&lt;/p&gt;
+&lt;p&gt;再現性というより，もはや感覚になってしまったが，現状をまとめておく．&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>WebStormとレンタルサーバの連携方法</title>
+      <link>https://blog.tanaka.world/webstrom-deploy-sakura-server/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/webstrom-deploy-sakura-server/</guid>
+      <description>&lt;div&gt;WebStormとレンタルサーバの連携でハマったので，まとめておきます．&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;さくらインターネットのレンタルサーバにWebStorm上からFTPでデプロイします．&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;</description>
+    </item>
+    
+    <item>
+      <title>YouTuberになりました</title>
+      <link>https://blog.tanaka.world/be-a-youtuber/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/be-a-youtuber/</guid>
+      <description>某氏からThrees!のプレイ動画に需要がある，とのありがたきお言葉を頂いたので， YouTuberになることにした．
+Channel: Tanaka World Channel Tanaka World
+  とりあえずThrees!をメインにアップしていく．
+自分の研究用にキャプチャしていたThrees!動画をメインにアップしていこうと思う．
+Threes!の現状・6144の壁 最高スコアは 265791
+3072も割りと出せるようになってきたので，そろそろ6144が出せそうな気がしている．
+「6144」を出したプレイヤーは，現在で388人いるようだ．
+全ユーザーで200万人くらいのうち，僕は502位．
+6144を出せばかなり順位が上がること間違いない．
+Threes! AI 最近，AlpherGoが世間を賑わせている．
+便乗してAlpherThrees!なるものを作ってやろうと思っていたら，先にやられていた． threes-ai
+@_tanakaworld ゲームバランス崩壊の危機ｗ
+&amp;mdash; TakahiroPolyHorikawa (@thorikawa) March 26, 2016  このThrees!AIは，6144も出していてかなり高いスコアを出しているようだ．
+このAI対策をするためにソースコードを読むことによってPython, C, C++もキャッチアップすることができるという，絶好のタイミングである．
+※ AIのソースは読むけど絶対に使わない
+Threes!AI vs TanakaWorld
+AIに勝てるようにガンバる ﾌ( ﾟдﾟ)乂(ﾟдﾟ )</description>
+    </item>
+    
+    <item>
+      <title>YutaroTanaka.com デザインリニューアルしました</title>
+      <link>https://blog.tanaka.world/dotcom-design-update/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/dotcom-design-update/</guid>
+      <description>&lt;p&gt;本ブログ　「For X Developers」　開設半年を記念して，&lt;/p&gt;
+&lt;p&gt;ドメイン直下のデザインをリニューアルしました．&lt;/p&gt;
+&lt;ul class=&#34;bullet_arrow imglist&#34;&gt;
+- &lt;span style=&#34;font-size: 20px;&#34;&gt;** [YutaroTanaka.com](http://yutarotanaka.com/ &#34;YutaroTanaka.com&#34;)**&lt;/span&gt;</description>
+    </item>
+    
+    <item>
+      <title>「プログラミング上達がはやいヤツの特徴10個」を9ヶ月間実践してわかったこと</title>
+      <link>https://blog.tanaka.world/10features-for-progress-in-programming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/10features-for-progress-in-programming/</guid>
+      <description>@HIROCASTER さんの記事
+プログラミング上達がはやいヤツの特徴10個
+を騙されたと思って試し，９ヶ月経った今の気づきを書いておきます．
+① 毎日コードを書く 始めた当初は楽しさがわからず，なかなか辛かったです． しかし入社した時に，5分でもとにかく「毎日」続けようと決めて，PCも常に持ち歩いて続けました．
+ コードを書く 不明点が出て壁にぶつかる 調べる 解決 モノが動く 楽しい コードを書く ．．．  結論これです．
+毎日続けると，様々なものがどんどん積み上がります．
+コードを書くスピード，品質が上がるのに伴って，コードを通して実現できることが増えます．そして，難しいことにも挑戦してみようと思うようになります． その結果，やっている内にどうしていいかわからないバグなどが発生し，一旦は壁にぶつかります．しかし，ネットで調べたり人に相談したりして解決できると，楽しくて，またさらに新しいことに取り組むようになります．
+机の上の勉強も大事だけど，結局かかないと何も始まらないです．
+② テストコードも書く 単体テストのコードを書くには，逆にテストできる適切な設計をする必要になります． TDDとかやるようになってからは，自ずと設計も整うようになりました．
+テストコード書くのは，ただコード書くことの倍，コストが掛かるので当初は面倒くさがって敬遠してました． しかし，サービスが大きくなってきたり，複数人で開発するようになると，テストが無い方が，後々コストがかかって面倒くさいです． リファクタリングしようとすると，莫大なエラーが発生して元にもどせない・コード修正して次の日になったらエラーでサービス落ちてるなど， コード量が増えれば増えるほど自分で監視できなくなって破綻します．
+今はテスト書かれてないと不安で仕方が無いという心持ちです．
+③ ソフトウェア全体を仕上げるまで書く 「Hello World」と出力するだけのアプリやサービスはあり得ません．クラス同士のデータやり取り，DBへのCRUD，HTTP通信など，必ず何かと何かが組み合わさって完成です．
+そういう意味で，正しいサービスをつくれるようになるには， 普段から全体を俯瞰するよう心掛ける必要がある考えています．
+ハードウェアやネットワーク，サーバの仕組みを始め，企画者が考えていることも理解しようとする． これを理解しているのと理解していないのとでは，プログラムをつくる際に，考慮できる範囲が全然違います． さらには，プロダクトオーナーの思いや，一緒のチームで開発するメンバのことまで．
+④ コードを公開する Githubに公開しています．
+公開するまでは，こんなしょぼいコード公開しても意味無い，とか考えて敬遠してました． しかしそもそも，コードを公開している人なんてたくさんいるので，余程のことがないとアクセスすらされないものだとわかってから，気にせず公開するようになりました．
+ただ，Webに公開することで人にみられる可能性は少なからずあると思うと，逆にもっと良いコードが書けるようになろうっていう自己啓発にもなります．
+本格的な開発をするようになってからは，privateリポジトリも使うようになったので，上記のGithubで閲覧できるものは，現状，大したものは上がってないです．
+⑤ ソフトウェアを動作する状態で公開する 上に同じです．
+⑥ How to を見たら実践する ①で書いた通り，調べものしてると，いわゆるHow toはたくさん出てきます．何もわからない時は，とりあえず写経したり，関連することはその都度調べたりしてました．
+⑦に続く↓
+⑦ How to にアレンジを入れる 続きです．
+そのうち，How toのプログラムの「ここの書き方美しくないとか」，「俺ならこう書く」といったアレンジができるようになってきます．
+それぞれの流儀があるので一概には言えませんが，Web上にあるHow toは全部正しいとは限りません． 正しくコードが書ける人も，人に見せるように簡略化して書いていたり，そもそも変な書き方してる人もいて，様々です． 結局最後は，自分自身で理解する必要があります．
+⑧ 好きな言語がある 現状，本格的に触ったことがある言語は，Java, C#, JavaScript(言語？)です．</description>
+    </item>
+    
+    <item>
+      <title>【C#の定数】const と static readonly の使い分け</title>
+      <link>https://blog.tanaka.world/csharp-const-vs-staticreadonly/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/csharp-const-vs-staticreadonly/</guid>
+      <description>&lt;p&gt;C#で時々迷う定数定義，const と static readonly の使い分けに関するまとめ．&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>【Grunt &#43; Karma &#43; Jasmine】CoffeeScriptの開発環境を構築する</title>
+      <link>https://blog.tanaka.world/coffeescript-grunt-karma-jasmine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/coffeescript-grunt-karma-jasmine/</guid>
+      <description>Grunt + CoffeeScript + Karma + Jasmine での開発をスタートして数ヶ月たった． ある程度ノウハウも溜まってきたので，メモしておく．
+CoffeeScript関連ライブラリをセットアップ $ npm init $ npm install $ npm install coffee-script --save-dev $ npm install grunt --save-dev $ npm install grunt-contrib-coffee --save-dev $ npm install grunt-contrib-concat --save-dev $ npm install grunt-contrib-uglify --save-dev $ npm install grunt-contrib-watch --save-dev プロダクトコード # src/hello.coffee  hello = -&amp;gt; console.log(&amp;#34;Hello world!!&amp;#34;) # src/main.coffee  hello() user = new User(&amp;#34;Tanaka&amp;#34;, 24) console.log(user.profile()) # src/user.coffee  class User # static private param  _uid = 987654321 # constructor  constructor: (@NAME, @age) -&amp;gt; # public method  profile: -&amp;gt; return @NAME + &amp;#34; : &amp;#34; + @age # private method  _toAge = -&amp;gt; @age++ Gruntfile.</description>
+    </item>
+    
+    <item>
+      <title>【Haskell】SublimeText2 &#43; REPL 初期設定まとめ</title>
+      <link>https://blog.tanaka.world/haskell-sublimetext2-setting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/haskell-sublimetext2-setting/</guid>
+      <description>&lt;p&gt;すこしハマった，関数型言語Haskellの開発環境構築のまとめ．&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>【iOS9.2】Detect dialog &#34;Open this page in APPNAME&#34; from JavaScript</title>
+      <link>https://blog.tanaka.world/how-to-detect-dialog-open-this-page-in-appname-from-javascript-on-ios92/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/how-to-detect-dialog-open-this-page-in-appname-from-javascript-on-ios92/</guid>
+      <description>iOS9.2でSafariからアプリを起動する際のアラート表示の仕様が変わった．
+iOS9.1以前ではアラートが表示されている間はJavaScriptの実行が止まっていたが，9.2からは止まらなくなっている． おまけにこのダイアログ、Webkitが実行しているのではなく、OSから起動されているダイアログなのでJavaScriptから検知ができないようだ．
+ Given that all browser-based detection is now disabled
+  iOS 9.2 may break deeplinking How to detect dialog &amp;ldquo;Open this page in APPNAME&#39;&#39; from JavaScript on iOS9.2 Mobile Safari?  </description>
+    </item>
+    
+    <item>
+      <title>【Karma &#43; Jasmine】非同期を含む場合のテストコードをかく</title>
+      <link>https://blog.tanaka.world/karma-jasmine-ajax-spec/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/karma-jasmine-ajax-spec/</guid>
+      <description>下記のようなケースを考える．
+基本的なテスト環境設定はこちら
+# sample.coffee  class Sample getData: -&amp;gt; url = &amp;#34;http://example.com/1/json&amp;#34; xhr = new XMLHttpRequest() xhr.open(&amp;#34;GET&amp;#34;, url, false) xhr.send() data = null if xhr.status is 200 data = JSON.parse(xhr.responseText) return data .getData のテストを書く際に，xhrの通信部分をスタブしたい．
+jasmine-ajax，jasmine-jquery を使用する．
+npm install jasmine-ajax --save-dev npm install jasmine-jquery --save-dev # sampleSpec.coffee  describe Sample, -&amp;gt; beforeAll -&amp;gt; jasmine.Ajax.install() afterAll -&amp;gt; jasmine.Ajax.uninstall() describe &amp;#39;.getData&amp;#39;, -&amp;gt; beforeEach -&amp;gt; mockedData = {sample: 1} requestUrl = &amp;#34;http://example.com/1/json&amp;#34; jasmine.Ajax.stubRequest(requestUrl).andReturn status: 200 responseText: JSON.</description>
+    </item>
+    
+    <item>
+      <title>【Mac OS X】Yosemiteをクリーンインストール(初期化)して Rails 開発環境をセットアップした</title>
+      <link>https://blog.tanaka.world/mac-os-x-yosemite-crean-install-rails-env-set-up/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/mac-os-x-yosemite-crean-install-rails-env-set-up/</guid>
+      <description>普段使っているメイン機 MacBook Air (13-inch, Mid 2012) が，突然落ちたりファンの音がうるさすぎたりしたので，クリーンインストールした．
+普段はRuby/Railsで開発しているので，ついでにセットアップ手順もまとめておく．
+(そろそろ新しいMac買おうと思ってたけど，クリーンインストールでサクサク動くようになったΣ(゜Д゜；))
+再インストールする前に何点か確認  ローカルで必要なデータはどこかにコピーしておく chromeのブックマークをGoogleアカウントにsyncしているか確認 https://www.google.com/settings/u/2/chrome/syncから数とか確認できる cloneしているリポジトリのlocalブランチをpushしているか  HDD初期化と再インストール  Macを再起動し，グレーの画面で ⌘ + R を押し続けるとOSユーティリティが起動 ディスクユーティリティで Macintosh HDを消去 OSユーティリティに戻ってOS再インストール  共通環境設定  caps lock と control を入れ替え 言語を英語に変更 Google IME インストールし，ひらがなのみを適用 BetterTouchTool  Karabiner 隠しファイル表示  $ defaults write com.apple.finder AppleShowAllFiles TRUE    よくつかうアプリ  Chrome Slack Rubymine アプリケーション起動時にJVMのinstallが必要 WebStorm SourceTree iTerm2  コマンドラインツール  node  $ brew install node   npm  $ curl -O -L https://npmjs.</description>
+    </item>
+    
+    <item>
+      <title>【npm &#43; Karma &#43; Jasmine】JavaScriptの単体テスト環境を構築する</title>
+      <link>https://blog.tanaka.world/unit-test-for-javascript-by-npm-karma-jasmine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/unit-test-for-javascript-by-npm-karma-jasmine/</guid>
+      <description>&lt;p&gt;JavaScriptの単体テスト環境構築のまとめ．&lt;/p&gt;
+&lt;p&gt;テストランナーとして「&lt;a href=&#34;https://github.com/karma-runner/karma&#34; title=&#34;Karma&#34;&gt;Karma&lt;/a&gt;」，テストフレームワーク・アサーションライブラリとして「&lt;a href=&#34;http://jasmine.github.io/&#34; title=&#34;Jasmine&#34;&gt;Jasmine&lt;/a&gt;」を使う．&lt;/p&gt;
+&lt;p&gt;PCのグローバル領域にこれらをインストールしても環境構築はできるが，今回はプロジェクト固有のツールとしてインストールする．&lt;/p&gt;
+&lt;p&gt;これによって，PCの環境に依存しないテスト環境が構築できる．&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>【SessionStorage/LocalStorage】ブラウザストレージによる処理速度高速化</title>
+      <link>https://blog.tanaka.world/html5-webstorage-sessionlocal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/html5-webstorage-sessionlocal/</guid>
+      <description>&lt;p&gt;HTML5 WebStorageのまとめ．&lt;/p&gt;&lt;p&gt;WebStorageを使うと，Key-Valueペアで，ブラウザ（ローカル環境）にデータが保存できる．&lt;/p&gt;&lt;p&gt;</description>
+    </item>
+    
+    <item>
+      <title>【アジャイル開発 X 設計】DDD（ドメイン駆動開発）に入門してみた</title>
+      <link>https://blog.tanaka.world/entry-domain-driven-design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/entry-domain-driven-design/</guid>
+      <description>&lt;p&gt;先月から，フルスクラッチでサーバアプリケーションの開発に携わることになり，設計に関して悶々と格闘している日々です．&lt;/p&gt;
+&lt;p&gt;その中で，リーダーの紹介で，DDDに興味を持ち始めました．DDDは，ある一つの設計思想ですが，アジャイル開発を前提としている概念です．&lt;/p&gt;
+&lt;p&gt;今回は，アジャイル開発を実践していることを踏まえ，DDDの基本パターンから感じた事を書きます．&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>【スコア80000突破!!】Threes!で高得点をとるためのコツ ＋α</title>
+      <link>https://blog.tanaka.world/threes-height-score/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/threes-height-score/</guid>
+      <description>&lt;p&gt;Threes!で，「1536」をつくりだすことに成功した．&lt;/p&gt;
+&lt;p&gt;半年前，&lt;a href=&#34;http://yutarotanaka.com/blog/threes-score-over-two-million/&#34; title=&#34;【意外とカンタン】Threes!でスコア20000以上とるための3つのコツ&#34;&gt;【意外とカンタン】Threes!でスコア20000以上とるための3つのコツ&lt;/a&gt; とか書いたけど，当時はパネル「768」をつくるのが限界で，ハイスコアも30000くらいだった．&lt;/p&gt;
+&lt;p&gt;当時書いたコツに加えて，&lt;strong&gt;１点注意するだけ&lt;/strong&gt;ですぐにスコアが上がった．&lt;/p&gt;
+&lt;p&gt;再現性がある（と思われるので）まとめておく．&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>【スマホ対応】jQuery 連続スワイプイベントをハンドリングする方法</title>
+      <link>https://blog.tanaka.world/touch-sequence-handling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/touch-sequence-handling/</guid>
+      <description>&lt;p&gt;スマートフォンなどで，&lt;strong&gt;連続スワイプ&lt;/strong&gt;のハンドリング方法をまとめておきます．&lt;/p&gt;
+&lt;p&gt;指が触れ始めたときのDOMや，離れた瞬間のDOMは簡単に取得できましたが，&lt;strong&gt;「今」指が触れている&lt;/strong&gt;DOMを取得するのに苦戦しました．&lt;/p&gt;
+&lt;p&gt;先日行ったデザインリニューアル（&lt;a href=&#34;http://yutarotanaka.com/&#34; title=&#34;YutaroTanaka.com&#34;&gt;YutaroTanaka.com&lt;/a&gt;）でも，この方法を使ってスマホのスワイプ対応をしています．&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>【意外とカンタン】Threes!でスコア20000以上とるための3つのコツ</title>
+      <link>https://blog.tanaka.world/threes-score-over-two-million/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/threes-score-over-two-million/</guid>
+      <description>&lt;p&gt;以前，&lt;a title=&#34;ハマりすぎ注意！新感覚数字パズル「threes!」をやってみた |  For X Developers&#34; href=&#34;http://yutarotanaka.com/blog/threes-on-ios/&#34; target=&#34;_blank&#34;&gt;本ブログで紹介したスマホアプリ「Threes!」&lt;/a&gt;に関して，スコアを上げ安定させる方法を書きます．&lt;/p&gt;
+&lt;p&gt;現在の最大スコア30000強，平均20000くらいです． この方法で大体20000万以上は出せるようになります．&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ドット絵が描けるAngularJSライブラリをリリースしました</title>
+      <link>https://blog.tanaka.world/release-ng-pixel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/release-ng-pixel/</guid>
+      <description>&lt;p&gt;ドット絵が描けるAngularJSライブラリをリリースしました．&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/TanakaYutaro/ng-pixel&#34; title=&#34;ng-pixel - Simple directive that generate pixel pattern&#34;&gt;ng-pixel - Simple directive that generate pixel pattern&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ハマりすぎ注意！新感覚数字パズル「threes!」をやってみた</title>
+      <link>https://blog.tanaka.world/threes-on-ios/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/threes-on-ios/</guid>
+      <description>&lt;p&gt;2/6に公開された，「&lt;a title=&#34;threes!&#34; href=&#34;https://itunes.apple.com/jp/app/threes!/id779157948?mt=8&#34; target=&#34;_blank&#34;&gt;Threes!&lt;/a&gt;」というパズルゲームにハマってます．&lt;/p&gt;
+&lt;p&gt;3の倍数の数字を合成していくゲームなので，この名前みたいです．&lt;/p&gt;
+&lt;p&gt;今回は，一週間やってみた感想を書きます．&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>パラメタライズドテストケースをGoogleSpeadsheetで管理する</title>
+      <link>https://blog.tanaka.world/host-test-data-by-google-spreadsheet.html/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/host-test-data-by-google-spreadsheet.html/</guid>
+      <description>**google-spreadsheets-parser**を使って， スプレッドシートで管理しているデータをテストで使用する．
+背景:データの二重管理をなくしたい あるJSモジュールのパラメタライズドテストコードを書いていた． パラメータとそのテスト結果はGoogleSpreadsheetで表管理していて，ビジネス・エンジニア共に使用していた．
+はじめはSpreadSheet上にそれらの値をJSで扱える形式にconcatenateとかしてコピペしていたが， バリエーションが膨大になり，データ二重管理の問題が発生しメンテナンスに難があった．
+普通にパラメタライズドテストを書くとこんな感じ grunt x karma x jasmine の環境構築手順はこちら．
+# src/user.coffee class User constructor: (@NAME, @age) -&amp;gt; canDrink: -&amp;gt; parseInt(@age) &amp;gt;= 20 # src/userSpec.coffee describe &amp;#34;User&amp;#34;, -&amp;gt; describe &amp;#34;#canDrink&amp;#34;, -&amp;gt; assertCanDrink = (name, age, canDrink) -&amp;gt; it &amp;#34;Age:#{age}, CanDrink:#{canDrink}&amp;#34;, -&amp;gt; user = new User(name, age) expect(user.canDrink()).toBe(canDrink) # ここのバリエーションが増えてくると管理がツラい  target = [ {no: 1, name: &amp;#39;User1&amp;#39;, age: 18, canDrink: false} {no: 2, name: &amp;#39;User2&amp;#39;, age: 19, canDrink: false} {no: 3, name: &amp;#39;User3&amp;#39;, age: 20, canDrink: true} {no: 4, name: &amp;#39;User4&amp;#39;, age: 21, canDrink: true} {no: 5, name: &amp;#39;User5&amp;#39;, age: 22, canDrink: true} ] for t in target assertCanDrink(t.</description>
+    </item>
+    
+    <item>
+      <title>ホワイトデーのお返しは，倍返しだっ！！！簡易プレゼント包装紙つくりました</title>
+      <link>https://blog.tanaka.world/white-day-baigaeshi-da/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/white-day-baigaeshi-da/</guid>
+      <description>&lt;p&gt;本日はホワイトデーです．&lt;/p&gt;
+&lt;p&gt;お店で買ったチョコをそのまま渡すのも素っ気ない．&lt;/p&gt;
+&lt;p&gt;かといって手作りも重すぎる．&lt;/p&gt;
+&lt;p&gt;ということで，簡易包装紙をつくりました．&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ルービックキューブ40周年記念！！！</title>
+      <link>https://blog.tanaka.world/rubikscube-40th-anniversary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/rubikscube-40th-anniversary/</guid>
+      <description>&lt;p&gt;ということで動画つくりました．&lt;/p&gt;
+&lt;p&gt;ルービックキューブおめでとう！！！&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>今度こそ本当にパズドラやめました</title>
+      <link>https://blog.tanaka.world/uninstall-pazzle-and-dragon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/uninstall-pazzle-and-dragon/</guid>
+      <description>今度こそ本当にパズドラをやめました．
+パズドラ始めました #パズドラ
+&amp;mdash; TanakaWorld (@_tanakaworld) November 15, 2013  【速報】パズドラやめます
+&amp;mdash; TanakaWorld (@_tanakaworld) July 3, 2014  すいません、やっぱり辞められませんでした．
+【ご報告】500日経ったのでパズドラ辞めました #パズドラ pic.twitter.com/ywvjmSziax
+&amp;mdash; TanakaWorld (@_tanakaworld) April 1, 2015  エイプリルフール
+パズドラやめます
+&amp;mdash; TanakaWorld (@_tanakaworld) March 17, 2016  今度こそ本当に辞めました．</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>threes-app on For X Developers</title>
+    <link>https://blog.tanaka.world/tags/threes-app/</link>
+    <description>Recent content in threes-app on For X Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 11 Sep 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.tanaka.world/tags/threes-app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Threes!で6144を達成</title>
+      <link>https://blog.tanaka.world/threes-6144-volleo/</link>
+      <pubDate>Sun, 11 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/threes-6144-volleo/</guid>
+      <description>ついに念願の 6144 生成に成功した！！！！！
+Got to &amp;quot;6144&amp;quot;!!!!!!!!!!!!!!!!!! I just scored 554,274 in @ThreesGame! https://t.co/aMwmdl7vvh pic.twitter.com/ma8FgQkYUm
+&amp;mdash; tanaka.world ™ (@_tanakaworld) September 11, 2016  抜粋動画はこちら↓
+  </description>
+    </item>
+    
+    <item>
+      <title>Threes! 3072 を達成した</title>
+      <link>https://blog.tanaka.world/threes-height-score-3072/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/threes-height-score-3072/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://itunes.apple.com/us/app/threes!/id779157948?mt=8&#34; title=&#34;Threes!&#34;&gt;Threes!&lt;/a&gt; で「3072」をつくるのに成功した．&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://yutarotanaka.com/blog/threes-height-score/&#34; title=&#34;【スコア80000突破!!】Threes!で高得点をとるためのコツ ＋α&#34;&gt;【スコア80000突破!!】Threes!で高得点をとるためのコツ ＋α&lt;/a&gt; 以来初の「3072」になる．&lt;/p&gt;
+&lt;p&gt;再現性というより，もはや感覚になってしまったが，現状をまとめておく．&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>YouTuberになりました</title>
+      <link>https://blog.tanaka.world/be-a-youtuber/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/be-a-youtuber/</guid>
+      <description>某氏からThrees!のプレイ動画に需要がある，とのありがたきお言葉を頂いたので， YouTuberになることにした．
+Channel: Tanaka World Channel Tanaka World
+  とりあえずThrees!をメインにアップしていく．
+自分の研究用にキャプチャしていたThrees!動画をメインにアップしていこうと思う．
+Threes!の現状・6144の壁 最高スコアは 265791
+3072も割りと出せるようになってきたので，そろそろ6144が出せそうな気がしている．
+「6144」を出したプレイヤーは，現在で388人いるようだ．
+全ユーザーで200万人くらいのうち，僕は502位．
+6144を出せばかなり順位が上がること間違いない．
+Threes! AI 最近，AlpherGoが世間を賑わせている．
+便乗してAlpherThrees!なるものを作ってやろうと思っていたら，先にやられていた． threes-ai
+@_tanakaworld ゲームバランス崩壊の危機ｗ
+&amp;mdash; TakahiroPolyHorikawa (@thorikawa) March 26, 2016  このThrees!AIは，6144も出していてかなり高いスコアを出しているようだ．
+このAI対策をするためにソースコードを読むことによってPython, C, C++もキャッチアップすることができるという，絶好のタイミングである．
+※ AIのソースは読むけど絶対に使わない
+Threes!AI vs TanakaWorld
+AIに勝てるようにガンバる ﾌ( ﾟдﾟ)乂(ﾟдﾟ )</description>
+    </item>
+    
+    <item>
+      <title>【スコア80000突破!!】Threes!で高得点をとるためのコツ ＋α</title>
+      <link>https://blog.tanaka.world/threes-height-score/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/threes-height-score/</guid>
+      <description>&lt;p&gt;Threes!で，「1536」をつくりだすことに成功した．&lt;/p&gt;
+&lt;p&gt;半年前，&lt;a href=&#34;http://yutarotanaka.com/blog/threes-score-over-two-million/&#34; title=&#34;【意外とカンタン】Threes!でスコア20000以上とるための3つのコツ&#34;&gt;【意外とカンタン】Threes!でスコア20000以上とるための3つのコツ&lt;/a&gt; とか書いたけど，当時はパネル「768」をつくるのが限界で，ハイスコアも30000くらいだった．&lt;/p&gt;
+&lt;p&gt;当時書いたコツに加えて，&lt;strong&gt;１点注意するだけ&lt;/strong&gt;ですぐにスコアが上がった．&lt;/p&gt;
+&lt;p&gt;再現性がある（と思われるので）まとめておく．&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ハマりすぎ注意！新感覚数字パズル「threes!」をやってみた</title>
+      <link>https://blog.tanaka.world/threes-on-ios/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/threes-on-ios/</guid>
+      <description>&lt;p&gt;2/6に公開された，「&lt;a title=&#34;threes!&#34; href=&#34;https://itunes.apple.com/jp/app/threes!/id779157948?mt=8&#34; target=&#34;_blank&#34;&gt;Threes!&lt;/a&gt;」というパズルゲームにハマってます．&lt;/p&gt;
+&lt;p&gt;3の倍数の数字を合成していくゲームなので，この名前みたいです．&lt;/p&gt;
+&lt;p&gt;今回は，一週間やってみた感想を書きます．&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

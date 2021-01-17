@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ThreesApp on For X Developers</title>
+    <link>https://blog.tanaka.world/tags/threesapp/</link>
+    <description>Recent content in ThreesApp on For X Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language><atom:link href="https://blog.tanaka.world/tags/threesapp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【意外とカンタン】Threes!でスコア20000以上とるための3つのコツ</title>
+      <link>https://blog.tanaka.world/threes-score-over-two-million/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/threes-score-over-two-million/</guid>
+      <description>&lt;p&gt;以前，&lt;a title=&#34;ハマりすぎ注意！新感覚数字パズル「threes!」をやってみた |  For X Developers&#34; href=&#34;http://yutarotanaka.com/blog/threes-on-ios/&#34; target=&#34;_blank&#34;&gt;本ブログで紹介したスマホアプリ「Threes!」&lt;/a&gt;に関して，スコアを上げ安定させる方法を書きます．&lt;/p&gt;
+&lt;p&gt;現在の最大スコア30000強，平均20000くらいです． この方法で大体20000万以上は出せるようになります．&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

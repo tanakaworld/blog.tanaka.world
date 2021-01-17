@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>i18n on For X Developers</title>
+    <link>https://blog.tanaka.world/tags/i18n/</link>
+    <description>Recent content in i18n on For X Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 22 Sep 2018 17:36:16 +0000</lastBuildDate><atom:link href="https://blog.tanaka.world/tags/i18n/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>vue-i18n の簡易入力補完を実装してみた雑感</title>
+      <link>https://blog.tanaka.world/vue-i18n-autocompletion/</link>
+      <pubDate>Sat, 22 Sep 2018 17:36:16 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/vue-i18n-autocompletion/</guid>
+      <description>vue-i18n の入力補完を実装してみた．久々に業務で i18n 対応をするようになって，若干ツラさを感じているところもあるので，併せて記す．
+はじめに断っておくが，ツラさを感じているのは vue-i18n に対してではなく，i18n 全般に対してのこと．
+文字列指定を入力補完したい エディタでvue-i18nの入力補完したい
+&amp;mdash; tanakaworld 🧢 (@_tanakaworld) August 30, 2018 vue-i18n に限らず i18n 系を扱うときは $tc(&#39;home.title&#39;) のような感じで文字列をキーとして指定することになる．
+ 文字列キーのタイポしなくしたい 文字列キーのパス入力をカンタンにしたい  これらを入力補完でなんとかしたい．
+普通に vue-i18n を使った場合 普通に実装するとこういう感じになる．
+import Vue from &amp;#34;vue&amp;#34;; import VueI18n from &amp;#34;vue-i18n&amp;#34;; Vue.use(VueI18n); const messages = { en: { message: { hello: &amp;#34;Hello World!&amp;#34; }, home: { title: &amp;#34;Home&amp;#34; }, about: { title: &amp;#34;About&amp;#34; } }, ja: { message: { hello: &amp;#34;こんにちは，世界!&amp;#34; }, home: { title: &amp;#34;ホーム&amp;#34; }, about: { title: &amp;#34;アバウト&amp;#34; } } }; const locale = &amp;#34;ja&amp;#34;; const i18n = new VueI18n({ locale, messages }); export { i18n }; &amp;lt;template&amp;gt; &amp;lt;div class=&amp;#34;home&amp;#34;&amp;gt; &amp;lt;h1&amp;gt;{{ $tc(&amp;#39;home.</description>
+    </item>
+    
+  </channel>
+</rss>

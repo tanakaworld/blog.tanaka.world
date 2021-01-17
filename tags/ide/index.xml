@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ide on For X Developers</title>
+    <link>https://blog.tanaka.world/tags/ide/</link>
+    <description>Recent content in ide on For X Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 31 Jul 2018 15:25:13 +0000</lastBuildDate><atom:link href="https://blog.tanaka.world/tags/ide/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Emacs の設定を見直しした</title>
+      <link>https://blog.tanaka.world/emacs-2018/</link>
+      <pubDate>Tue, 31 Jul 2018 15:25:13 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/emacs-2018/</guid>
+      <description>普段の開発は IntelliJ 製品をメインでつかっている．JavaScript/Nodejs や Ruby 系の開発が多く，WebStorm・RubyMine をかれこれ 5 年くらい使っている．一方，Python や Go 使ったり，このブログをかくときは Emacs を使っているが，ちゃんと設定せず使っていてツラみだったので，設定を見直しした．
+先に述べておくと，自分の Emacs に対するこだわりやスキルは初心者と言っても過言ではなく，これらがベストだとは思っていない．他のやり方でもそれできるじゃん，というのは多々あると思う．かれこれ何回か Emacs の設定をイジっては挫折してきたけれど，これらの設定で落ち着いてきた．
+環境 開発環境は次の通り． Emacs はデフォルトで入っているのが，バージョン 24 系だった．ちゃんと使い始めるなら最新版にしたかったので brew install emacs でインストールした．
+ macOS High Sierra 10.13.5 Mac Book Pro (15-inch, 2016) US Keyboard (改良版, 改良版のバタフライキーボード，何回か修理に出したため，幸い最新版になっている，最新版は Option キーにオプションマークがついている) GNU Emacs 26.1  straight.el でパッケージ管理 パッケージ管理を Cask から straight.el に乗り換えた．
+ straight.el: next-generation, purely functional package manager for the Emacs hacker.
+ Emacs 系のパッケージマネージャーの中では最新で更新も活発な模様． Note: straight.</description>
+    </item>
+    
+  </channel>
+</rss>

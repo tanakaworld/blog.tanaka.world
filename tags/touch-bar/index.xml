@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>touch-bar on For X Developers</title>
+    <link>https://blog.tanaka.world/tags/touch-bar/</link>
+    <description>Recent content in touch-bar on For X Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 11 Jul 2018 00:11:00 +0000</lastBuildDate><atom:link href="https://blog.tanaka.world/tags/touch-bar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>(再)MBPのキーボードを修理してきた</title>
+      <link>https://blog.tanaka.world/apple-official-keyboard-service-program/</link>
+      <pubDate>Wed, 11 Jul 2018 00:11:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/apple-official-keyboard-service-program/</guid>
+      <description>待望の神対応がきた😇🍎
+ 旧モデルと比較して2倍も不具合が発生すると報告され、集団訴訟にまで発展した「MacBook」および「MacBook Pro」のバタフライ式キーボードだが、Appleはついに自分たちのデザインに問題があることを公式に認め、「MacBook および MacBook Pro キーボード修理プログラム」を実施することを発表した。 ➡️ Apple、「MacBookおよびMacBook Proキーボード修理プログラム」を発表
+ 偶然にも，1ヶ月ほど前に Apple Store で診断してもらっていた．
+Macなおす🍎 (at @Apple Shinjuku in 新宿区, 東京都) https://t.co/dVskLEI0TS
+&amp;mdash; tanakaworld (@_tanakaworld) May 25, 2018  そのときはこのプログラムは発表されておらず，修理見積もりは ¥88,000 だったので様子を見ることにしていた．
+過去にも同様の問題が 過去にも同じ問題で修正していた． 全く同じ問題で，特に「b」をクリックすると複数回文字が入力されてしまう． emacsキーバインドを多様するため，「b」や「f」は酷使しているのが影響しているのか :(
+Macが修理から戻ってきた。
+バッテリー、キーボード、ロジックボードとフル対応も、買ってから一年以内だったので、無料₍₍ (ง ˙ω˙)ว ⁾⁾ pic.twitter.com/eqHYoIzT4y
+&amp;mdash; tanakaworld (@_tanakaworld) September 15, 2017  Touch BarというよりTouch IDがないのツラい MBP修理のため、久々のMBA🍎 Touch Bar ないのは地味に不便 pic.twitter.com/5jmCp9wp8i
+&amp;mdash; tanakaworld (@_tanakaworld) June 27, 2018  MBAはTouchBarがないので，1Passwordのロック解除で毎回PW入力してててツラい...
+&amp;mdash; tanakaworld (@_tanakaworld) June 29, 2018  3日で戻ってきた :) #ZOZOスーツ かと思ったら MBP だった pic.</description>
+    </item>
+    
+  </channel>
+</rss>

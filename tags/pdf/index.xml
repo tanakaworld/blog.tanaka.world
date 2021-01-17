@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pdf on For X Developers</title>
+    <link>https://blog.tanaka.world/tags/pdf/</link>
+    <description>Recent content in pdf on For X Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 25 Aug 2018 16:43:12 +0000</lastBuildDate><atom:link href="https://blog.tanaka.world/tags/pdf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Base64 エンコードされた PDF ファイルをブラウザで扱う</title>
+      <link>https://blog.tanaka.world/pdf-on-browser/</link>
+      <pubDate>Sat, 25 Aug 2018 16:43:12 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/pdf-on-browser/</guid>
+      <description>諸々の事情で，Base64 化されたファイル文字列をブラウザで復元して扱いたいケースがあり，そのとき検証した作業ログ．画像と PDF データを扱う．
+画像ファイルの場合 Base64 エンコードされた画像データは，&amp;lt;img&amp;gt; タグの src に指定することができる．
+Data URLs の形式で，次のように記述する．
+&amp;lt;!-- data:[&amp;lt;mediatype&amp;gt;][;base64],&amp;lt;data&amp;gt; --&amp;gt; &amp;lt;img src=&amp;#34;data:image/png;base64,R0lGODlhAQABAIAA•••&amp;#34;/&amp;gt; PDF ファイルの場合 PDF データは，Blob に変換した後，ファイル URL を取得しアクセスすると表示できる．
+const base64Str = &amp;#39;JVBERi0xLjMNCiXi48/TDQoNCjE•••&amp;#39;; const file = new Blob([atob(base64Str)], { type: &amp;#39;application/pdf&amp;#39; }); const fileURL = URL.createObjectURL(file); window.open(fileURL); と，思ったが正常に表示できるケースと，表示されないケースがあり，原因がわからず．． 具体的には，枠は表示されるが内容が真っ白になってしまうという状況．
+pdf.js を使う Mozilla 製の pdf.js を使うと正常に表示できた． pdf.js には viewer もついているが，.pdf ファイルの実態が必要になるので使わず，今回はファイル内容を直接扱っている．
+ビルド済みのパッケージ pdfjs-dist を使う．
+.getDocument で Bae64 化されたファイルを読み込み，pdfDoc.getPage(1).render() でファイル内容をレンダリングする．この例は，1ページだけレンダリングするが，pdfDoc.numPages で得られるページ数分描画すれば複数ファイル内容を一度に表示可能．
+import PDFJS from &amp;#39;pdfjs-dist&amp;#39;; const base64Str = &amp;#39;JVBERi0xLjMNCiXi48/TDQoNCjE•••&amp;#39;; const canvasContainer = document.</description>
+    </item>
+    
+  </channel>
+</rss>

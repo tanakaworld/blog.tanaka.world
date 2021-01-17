@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gem on For X Developers</title>
+    <link>https://blog.tanaka.world/tags/gem/</link>
+    <description>Recent content in gem on For X Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 11 Jun 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.tanaka.world/tags/gem/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>multi_seeds_rails をリリースした</title>
+      <link>https://blog.tanaka.world/release-multi-seed-rails/</link>
+      <pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/release-multi-seed-rails/</guid>
+      <description>gem multi_seeds_rails をリリースした．
+seeds.rb を複数ファイルに分割して，それぞれ rake タスクとして実行できるようにします．
+gem つくった 🚀 #rails #rubygems
+seeds.rb を複数ファイルに分割して，それぞれ rake タスクとして実行できるようにします．https://t.co/QkzsFZZCVg
+&amp;mdash; tanaka.world ™ (@_tanakaworld) June 26, 2018  </description>
+    </item>
+    
+    <item>
+      <title>web_service_uri をリリースした</title>
+      <link>https://blog.tanaka.world/release-web-service-uri/</link>
+      <pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/release-web-service-uri/</guid>
+      <description>gem web_service_uri をリリースした．
+Web サービスの URI をパースしてアカウントIDを抜き出したりするパーサ．
+gemつくった🎉🌈https://t.co/E4LRVHS142 #Ruby #RoR #Rails
+&amp;mdash; tanaka.world ™ (@_tanakaworld) June 10, 2018  </description>
+    </item>
+    
+    <item>
+      <title>rumojinize をリリースした</title>
+      <link>https://blog.tanaka.world/release-rumojinize/</link>
+      <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/release-rumojinize/</guid>
+      <description>Rails で絵文字を扱いやすくする gem rumojinize をリリースした．
+Published a gem &amp;quot;rumojinize&amp;quot; for #rails #emoji 🎉 https://t.co/W7eVCvH2gz
+Featuring &amp;quot;rumoji&amp;quot; made by @markwunsch .
+&amp;mdash; tanaka.world ™ (@_tanakaworld) June 9, 2018  絵文字のエンコード/デコードの自動化 ActiveRecord でモデルのフィールドを指定するコードを１行記述すると，DB保存前に &amp;lsquo;🐶&amp;rsquo; → &amp;lsquo;:dog:&amp;rsquo; のように絵文字を変換してくれる． そして，モデルのインスタンスにロードしたときに，逆の変換が自動でなされるので，変換のことを意識せずに開発が可能になる．
+変換自体は rumoji に任せている．
+命名 この gem の名前は rumoji からとって rumojinize としている．
+Rails の ActiveRecord 系の gem では， &amp;ldquo;acts_as_xxxxx&amp;rdquo; という命名をするのが流行っている(?要出展)ようなのだが， acts_as_emoji や acts_as_rumoji はしっくりこず， rumojinize に落ち着いた．
+MySQLの文字コード MySQLは文字セットによって，絵文字が保存できるできないが変わってくる．絵文字は４バイト文字として扱われる．一般的なデフォルトの utf-8 だと扱えず，絵文字を保存しようとするとエラーになる．MySQL5.5 以上では，文字セットを utf8mb4 と変更することで，４バイト文字も扱えるようになるらしいのだが，正直どこに影響がでるか完全に理解できておらず断念した．絵文字を扱いたかったサービスが既に運用中のサービスで，迅速な対応が求められていたのもある．このあたりちゃんと理解してから導入してみたい．
+参考  rails + mysqlでの穏便な絵文字保存方法 実装参考にさせていただきました 🙏  </description>
+    </item>
+    
+  </channel>
+</rss>

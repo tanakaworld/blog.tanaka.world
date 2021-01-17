@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jasmine on For X Developers</title>
+    <link>https://blog.tanaka.world/tags/jasmine/</link>
+    <description>Recent content in jasmine on For X Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language><atom:link href="https://blog.tanaka.world/tags/jasmine/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【Grunt &#43; Karma &#43; Jasmine】CoffeeScriptの開発環境を構築する</title>
+      <link>https://blog.tanaka.world/coffeescript-grunt-karma-jasmine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/coffeescript-grunt-karma-jasmine/</guid>
+      <description>Grunt + CoffeeScript + Karma + Jasmine での開発をスタートして数ヶ月たった． ある程度ノウハウも溜まってきたので，メモしておく．
+CoffeeScript関連ライブラリをセットアップ $ npm init $ npm install $ npm install coffee-script --save-dev $ npm install grunt --save-dev $ npm install grunt-contrib-coffee --save-dev $ npm install grunt-contrib-concat --save-dev $ npm install grunt-contrib-uglify --save-dev $ npm install grunt-contrib-watch --save-dev プロダクトコード # src/hello.coffee  hello = -&amp;gt; console.log(&amp;#34;Hello world!!&amp;#34;) # src/main.coffee  hello() user = new User(&amp;#34;Tanaka&amp;#34;, 24) console.log(user.profile()) # src/user.coffee  class User # static private param  _uid = 987654321 # constructor  constructor: (@NAME, @age) -&amp;gt; # public method  profile: -&amp;gt; return @NAME + &amp;#34; : &amp;#34; + @age # private method  _toAge = -&amp;gt; @age++ Gruntfile.</description>
+    </item>
+    
+    <item>
+      <title>【Karma &#43; Jasmine】非同期を含む場合のテストコードをかく</title>
+      <link>https://blog.tanaka.world/karma-jasmine-ajax-spec/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/karma-jasmine-ajax-spec/</guid>
+      <description>下記のようなケースを考える．
+基本的なテスト環境設定はこちら
+# sample.coffee  class Sample getData: -&amp;gt; url = &amp;#34;http://example.com/1/json&amp;#34; xhr = new XMLHttpRequest() xhr.open(&amp;#34;GET&amp;#34;, url, false) xhr.send() data = null if xhr.status is 200 data = JSON.parse(xhr.responseText) return data .getData のテストを書く際に，xhrの通信部分をスタブしたい．
+jasmine-ajax，jasmine-jquery を使用する．
+npm install jasmine-ajax --save-dev npm install jasmine-jquery --save-dev # sampleSpec.coffee  describe Sample, -&amp;gt; beforeAll -&amp;gt; jasmine.Ajax.install() afterAll -&amp;gt; jasmine.Ajax.uninstall() describe &amp;#39;.getData&amp;#39;, -&amp;gt; beforeEach -&amp;gt; mockedData = {sample: 1} requestUrl = &amp;#34;http://example.com/1/json&amp;#34; jasmine.Ajax.stubRequest(requestUrl).andReturn status: 200 responseText: JSON.</description>
+    </item>
+    
+    <item>
+      <title>【npm &#43; Karma &#43; Jasmine】JavaScriptの単体テスト環境を構築する</title>
+      <link>https://blog.tanaka.world/unit-test-for-javascript-by-npm-karma-jasmine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/unit-test-for-javascript-by-npm-karma-jasmine/</guid>
+      <description>&lt;p&gt;JavaScriptの単体テスト環境構築のまとめ．&lt;/p&gt;
+&lt;p&gt;テストランナーとして「&lt;a href=&#34;https://github.com/karma-runner/karma&#34; title=&#34;Karma&#34;&gt;Karma&lt;/a&gt;」，テストフレームワーク・アサーションライブラリとして「&lt;a href=&#34;http://jasmine.github.io/&#34; title=&#34;Jasmine&#34;&gt;Jasmine&lt;/a&gt;」を使う．&lt;/p&gt;
+&lt;p&gt;PCのグローバル領域にこれらをインストールしても環境構築はできるが，今回はプロジェクト固有のツールとしてインストールする．&lt;/p&gt;
+&lt;p&gt;これによって，PCの環境に依存しないテスト環境が構築できる．&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>パラメタライズドテストケースをGoogleSpeadsheetで管理する</title>
+      <link>https://blog.tanaka.world/host-test-data-by-google-spreadsheet.html/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/host-test-data-by-google-spreadsheet.html/</guid>
+      <description>**google-spreadsheets-parser**を使って， スプレッドシートで管理しているデータをテストで使用する．
+背景:データの二重管理をなくしたい あるJSモジュールのパラメタライズドテストコードを書いていた． パラメータとそのテスト結果はGoogleSpreadsheetで表管理していて，ビジネス・エンジニア共に使用していた．
+はじめはSpreadSheet上にそれらの値をJSで扱える形式にconcatenateとかしてコピペしていたが， バリエーションが膨大になり，データ二重管理の問題が発生しメンテナンスに難があった．
+普通にパラメタライズドテストを書くとこんな感じ grunt x karma x jasmine の環境構築手順はこちら．
+# src/user.coffee class User constructor: (@NAME, @age) -&amp;gt; canDrink: -&amp;gt; parseInt(@age) &amp;gt;= 20 # src/userSpec.coffee describe &amp;#34;User&amp;#34;, -&amp;gt; describe &amp;#34;#canDrink&amp;#34;, -&amp;gt; assertCanDrink = (name, age, canDrink) -&amp;gt; it &amp;#34;Age:#{age}, CanDrink:#{canDrink}&amp;#34;, -&amp;gt; user = new User(name, age) expect(user.canDrink()).toBe(canDrink) # ここのバリエーションが増えてくると管理がツラい  target = [ {no: 1, name: &amp;#39;User1&amp;#39;, age: 18, canDrink: false} {no: 2, name: &amp;#39;User2&amp;#39;, age: 19, canDrink: false} {no: 3, name: &amp;#39;User3&amp;#39;, age: 20, canDrink: true} {no: 4, name: &amp;#39;User4&amp;#39;, age: 21, canDrink: true} {no: 5, name: &amp;#39;User5&amp;#39;, age: 22, canDrink: true} ] for t in target assertCanDrink(t.</description>
+    </item>
+    
+  </channel>
+</rss>

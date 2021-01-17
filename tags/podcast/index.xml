@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>podcast on For X Developers</title>
+    <link>https://blog.tanaka.world/tags/podcast/</link>
+    <description>Recent content in podcast on For X Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language><atom:link href="https://blog.tanaka.world/tags/podcast/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rebuild.fm駆動開発</title>
+      <link>https://blog.tanaka.world/rebuild-fm-driven-development.html/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.tanaka.world/rebuild-fm-driven-development.html/</guid>
+      <description>Rebuild.fmをSubscribeしはじめてから1年経った．
+Rebuild.fm  Rebuild はソフトウェア開発、テクノロジー、ガジェットなどの話題を中心に、ゲストと話すギーク、デベロッパー向けのポッドキャスト番組です。 A Podcast by Tatsuhiko Miyagawa. Talking about Tech, Software Development and Gadgets.
+ ホストの@miyagawaさんとゲストが，ソフトウェアやウェブについて30分〜1時間くらいトークしている．
+ゲストもソフトウェアエンジニアの人が多く，プログラミング全般の話から，ハードウェア・マネジメントなどホットな話題から，昔の技術まで聞いてて楽しい． 普段はLiveではなく，Podcastにアップされてから聞くことが多い．
+Wikipediaにもまとめられている．
+Rebuild is like &amp;ldquo;RedBull&amp;rdquo; for me. 転職を機に聞き始めて，ほぼ毎日聞いてた．
+2016.2.23現在では131エピソードあるが，気づいたら3周くらい聞き返していた．
+1周目はわからない話も多かったが，気づいたらすんなりわかるようになっていた． 意識して会話の内容を調べることはなくとも，後で「そういえばRebuildで言ってたな」みたいなことがよくあって それがきっかけで情報をキャッチアップすることも多い．
+アニメやゲームの話もちょくちょく出てきて，SHIROBAKOもRebuildきっかけでハマった．
+Rebuildを聞いていると無性にコードを書きたくなる．
+勉強会とかテック系の公演に行った後に，やる気になるのと同じような感じで，僕にとってはレッドブルのような存在だった． 朝から晩まで開発して，仕事帰りとかに聞いてるとやる気がみなぎって，帰ってすぐデスクに向かっていた．
+今更ながらもっと早くから聞いとけばよかったと思った． ウェブ・アプリエンジニアになりたてのころ，何やっていいかわからなかったが「とりあえずRebuildを聞き流せ」と言いたい．
+Always be X  続けないとめんどくさくなるから，めんどくさくなる前に次をやってしまう．
+ あるエピソードでこんなことを宮川さんがおっしゃってた． Live収録・Podcast配信をこれだけ長期間続けられているのは正直驚いた．
+何か三日坊主になりそうなときにこれを思い出して，頑張らなきゃみたいな気になる．
+この1年間のソフトウェア開発は，Rebuildによって駆動していたと言っても過言ではない．
+ということで，そろそろサポーターにならねばッ(｀・ω・´)</description>
+    </item>
+    
+  </channel>
+</rss>
