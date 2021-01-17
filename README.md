@@ -16,3 +16,9 @@ $ git submodule update --init --recursive
 ```
 $ hugo -D
 ```
+
+## Deploy
+
+```
+$ ./publish_to_ghpages.sh
+```
