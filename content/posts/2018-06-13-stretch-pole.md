@@ -9,7 +9,7 @@ tags:
 
 首痛・姿勢改善のためにストレッチポール買ってみた．
 
-![Stretch Pole Orange](stretch-pole-orange.jpg "Stretch Pole Orange")
+![Stretch Pole Orange](/images/2018-06-13-stretch-pole/stretch-pole-orange.jpg "Stretch Pole Orange")
 
 高校生のころ，部活でよくつかっていたのが懐かしい．
 基本乗るだけでもOK．

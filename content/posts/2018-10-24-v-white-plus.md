@@ -18,7 +18,7 @@ makuake でパトロンしてた [口にいれて、10秒歯磨き。360度電�
 
 ## 仕様
 
-![travel-set.jpg](travel-set.jpg 'travel-set.jpg')
+![travel-set.jpg](/images/2018-10-24-v-white-plus/travel-set.jpg 'travel-set.jpg')
 
 11,700円コースでパトロンしていた．一般販売価格の 40% OFF なセットで
 

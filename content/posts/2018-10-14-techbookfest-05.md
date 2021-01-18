@@ -24,8 +24,8 @@ NHKニュースにも取り上げられていました．
 
 会場は[池袋サンシャインシティ2F 展示ホールD](http://co.sunshinecity.co.jp/exhibition/hall_spec.html)というところで，とてつもなく広かった．セッティング前の様子はこんな感じ．
 
-![floor.JPG](floor.JPG "floor.JPG")
-![floor1.JPG](floor1.JPG "floor1.JPG")
+![floor.JPG](/images/2018-10-14-techbookfest-05/floor.JPG "floor.JPG")
+![floor1.JPG](/images/2018-10-14-techbookfest-05/floor1.JPG "floor1.JPG")
 
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">技術書典で散財する予定です💸😇</p>&mdash; tanakaworld 🧢 (@_tanakaworld) <a href="https://twitter.com/_tanakaworld/status/1044957820318150657?ref_src=twsrc%5Etfw">September 26, 2018</a></blockquote>

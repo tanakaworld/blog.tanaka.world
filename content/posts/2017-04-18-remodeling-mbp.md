@@ -48,7 +48,7 @@ tags:
 
 デフォルトだと 2GB x 2 = 4GB しか積まれていなかったので，8GB x 2 = 16GB にアップグレードする．
 
-![Memory 2GB x 2](memory-2gx2.JPG "Memory 2GB x 2")
+![Memory 2GB x 2](/images/2017-04-18-remodeling-mbp/memory-2gx2.JPG "Memory 2GB x 2")
 
 ## バッテリー+メモリ交換
 
@@ -68,12 +68,12 @@ tags:
 
 ## メモリ交換
 
-![exchange memory](exchange-memory.JPG "exchange memory")
+![exchange memory](/images/2017-04-18-remodeling-mbp/exchange-memory.JPG "exchange memory")
 
 何をやってもカーネルパニックが解決できず．
 メモリに関しては後回しにすることにした．
 
-![kernel panic](kernel-panic.png "kernel panic")
+![kernel panic](/images/2017-04-18-remodeling-mbp/kernel-panic.png "kernel panic")
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">Macのメモリ交換したんだが、一向に起動しない… <a href="https://t.co/Z5wkQCmNV6">pic.twitter.com/Z5wkQCmNV6</a></p>&mdash; tanaka.world ™ (@_tanakaworld) <a href="https://twitter.com/_tanakaworld/status/854156952691068928?ref_src=twsrc%5Etfw">April 18, 2017</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -99,7 +99,7 @@ SSDもフォーマットする必要がありそう．
 - Internet Recovery で最新のOSをDL&インストール
 - 完了
 
-![exchange to ssd](exchange-to-ssd.JPG   "exchange to ssd")
+![exchange to ssd](/images/2017-04-18-remodeling-mbp/exchange-to-ssd.JPG   "exchange to ssd")
 
 
 **参考**
@@ -144,8 +144,8 @@ cd /Volumes/path/to/binary-dir
 
 ### Ubuntu 起動
 
-![ubuntu-1](ubuntu-1.JPG   "ubuntu-1")
-![ubuntu-2](ubuntu-2.JPG   "ubuntu-2")
+![ubuntu-1](/images/2017-04-18-remodeling-mbp/ubuntu-1.JPG   "ubuntu-1")
+![ubuntu-2](/images/2017-04-18-remodeling-mbp/ubuntu-2.JPG   "ubuntu-2")
 
 
 ## まとめ

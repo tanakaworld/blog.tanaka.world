@@ -23,7 +23,7 @@ tags:
 ## Apps
 - [Karabiner Elements](https://pqrs.org/osx/karabiner/)	
      Complex Modifications > Add rule > Import more rules from the Internet > Search by `For Japanese` > Install > Enable following:
-     ![karabiner-elements.png](karabiner-elements.png 'karabiner-elements.png')
+     ![karabiner-elements.png](/images/2018-07-11-clean-install-macos-high-sierra/karabiner-elements.png 'karabiner-elements.png')
 - [1Password](https://1password.com/downloads/)
     Scan Barcode
 - [CotEditor](https://coteditor.com/)
@@ -31,11 +31,11 @@ tags:
      - Preferences > Terminal > Scrollback Lines > `Unlimited scrollback`
      - Preferences > Keys > Left ⌥ Key > Esc+
 - [BetterTouchTool](https://folivora.ai/downloads/)
-    ![better-touch-tools.png](better-touch-tools.png 'better-touch-tools.png')
+    ![better-touch-tools.png](/images/2018-07-11-clean-install-macos-high-sierra/better-touch-tools.png 'better-touch-tools.png')
 - Chrome
 - Google IME
 	Google Japanese Input > Preferences > General > Change Punctuation style "，．"
-	![google-japanese-input-preferences.png](google-japanese-input-preferences.png 'google-japanese-input-preferences.png')
+	![google-japanese-input-preferences.png](/images/2018-07-11-clean-install-macos-high-sierra/google-japanese-input-preferences.png 'google-japanese-input-preferences.png')
 - Slack for Mac
 - Git
     ```
@@ -62,13 +62,13 @@ tags:
 	$ ln -s /Applications/Docker.app/Contents/Resources/etc/docker-machine.bash-completion /usr/local/etc/bash_completion.d/docker-machine
 	$ ln -s /Applications/Docker.app/Contents/Resources/etc/docker-compose.bash-completion /usr/local/etc/bash_completion.d/docker-compose
 	```
-	![docker-login.png](docker-login.png 'docker-login.png')
+	![docker-login.png](/images/2018-07-11-clean-install-macos-high-sierra/docker-login.png 'docker-login.png')
 	Create a docker machine
 	```
     $ docker-machine create --driver virtualbox dev
     => Error
     ```
-    ![docker-machine-error.png](docker-machine-error.png 'docker-machine-error.png')
+    ![docker-machine-error.png](/images/2018-07-11-clean-install-macos-high-sierra/docker-machine-error.png 'docker-machine-error.png')
 	[Solved] Bump version of Virtual Box (v5.2.8 -> v5.2.12) and solved the error.
 - MySQL
 	create mysql container in Docker
@@ -112,7 +112,7 @@ tags:
 - [WebStorm](https://www.jetbrains.com/webstorm/)
 	- Settings Repository > [https://github.com/tanakaworld/WebStorm](https://github.com/tanakaworld/WebStorm)
 	- [Increasing Memory Heap](https://www.jetbrains.com/help/idea/increasing-memory-heap.html)
-    ![intellij-edit-custom-vm-options.png](intellij-edit-custom-vm-options.png 'intellij-edit-custom-vm-options.png')
+    ![intellij-edit-custom-vm-options.png](/images/2018-07-11-clean-install-macos-high-sierra/intellij-edit-custom-vm-options.png 'intellij-edit-custom-vm-options.png')
     ```
     -Xms3072m
     -Xmx3072m

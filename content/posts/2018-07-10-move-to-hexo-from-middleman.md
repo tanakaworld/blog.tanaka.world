@@ -22,13 +22,13 @@ tags:
 ドメインはなにかに使うかもしれないので，一応残しておく．
 
 現在は全コンテンツを移行し，全部 404ページにしている．
-![yutarotanaka.com_404.png](yutarotanaka.com_404.png "yutarotanaka.com_404")
+![yutarotanaka.com_404.png](/images/2018-07-10-move-to-hexo-from-middleman/yutarotanaka.com_404.png "yutarotanaka.com_404")
 
 GitHub Pages はルートに 404.html を置くことで，GitHub デフォルトの 404 ページをカスタマイズできるようになっている．
 
 ➡️ [Creating a custom 404 page for your GitHub Pages site](https://help.github.com/articles/creating-a-custom-404-page-for-your-github-pages-site/)
 
-![gh-pages-404.png](gh-pages-404.png "gh-pages-404.png")
+![gh-pages-404.png](/images/2018-07-10-move-to-hexo-from-middleman/gh-pages-404.png "gh-pages-404.png")
 
 ちなみに，[杉並区議員に同姓同名の議員さんがいるらしく](http://blog.tanakayutaro.net/)時々間違われていた（笑）．昔は [http://tanakayutaro.com/](http://tanakayutaro.com/)だった気がするので，あちらも引っ越しされたのか．
 
@@ -39,7 +39,7 @@ GitHub Pages はルートに 404.html を置くことで，GitHub デフォル�
 GH Pages はサブドメインを設定することもできる．ルートに CNAME ファイルを設定し，DNS で `YOUR-GITHUB-USERNAME.github.io` という A レコードを設定するだけでOK．
 
 ➡️ [Setting up a custom subdomain](https://help.github.com/articles/setting-up-a-custom-subdomain/#configuring-a-cname-record-with-your-dns-provider)
-![お名前ドットコムのDNS設定画面](gh-pages-sub-domain.png "お名前ドットコムのDNS設定画面")
+![お名前ドットコムのDNS設定画面](/images/2018-07-10-move-to-hexo-from-middleman/gh-pages-sub-domain.png "お名前ドットコムのDNS設定画面")
 
 ## 2018 年下期に向けて
 

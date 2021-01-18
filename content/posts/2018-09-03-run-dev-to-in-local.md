@@ -95,7 +95,7 @@ $ bin/setup
 $ bin/startup
 ```
 
-![first-page-in-local.png](first-page-in-local.png "first-page-in-local")
+![first-page-in-local.png](/images/2018-09-03-run-dev-to-in-local/first-page-in-local.png "first-page-in-local")
 
 
 ## おまけ

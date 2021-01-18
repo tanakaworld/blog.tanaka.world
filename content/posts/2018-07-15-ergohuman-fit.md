@@ -11,7 +11,7 @@ tags:
 
 ## 旧作業椅子
 
-![balance-ball.jpg](balance-ball.jpg 'balance-ball.jpg')
+![balance-ball.jpg](/images/2018-07-15-ergohuman-fit/balance-ball.jpg 'balance-ball.jpg')
 
 かれこれ数年間，バランスボールを椅子として使っていた．昔は全く問題なかったが，最近は，背中や腰が張るようになってきたのと，座面がムレるのが最大の敵だった．筋トレにもなるし一石二鳥だと感じていたのも，今となっては筋トレ効果も感じなくなってきていた．引っ越しして家が広くなったのもあり，購入を検討することにした．
 

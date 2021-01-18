@@ -9,7 +9,7 @@ tags:
 
 [MacBookProのバッテリー/メモリ/HDDをセルフ交換し，Ubuntuをデュアルブートする](/remodeling-mbp)で余った，MacのHDDを外付け HDD にしてみた．
 
-![Salcar USB3.0 2.5インチ HDD/SSDケース](case-2.jpg "Salcar USB3.0 2.5インチ HDD/SSDケース")
+![Salcar USB3.0 2.5インチ HDD/SSDケース](/images/2018-06-29-make-external-hdd/case-2.jpg "Salcar USB3.0 2.5インチ HDD/SSDケース")
 
 
 # Salcar USB3.0 2.5インチ HDD/SSDケース
@@ -26,6 +26,6 @@ tags:
 
 # 接続も問題ない
 
-![接続も問題なかった](connected.png "接続も問題なかった")
+![接続も問題なかった](/images/2018-06-29-make-external-hdd/connected.png "接続も問題なかった")
 
 USB 2.0 接続ではランプが**白く点灯**，3.0 接続では**青く点灯** するのも地味によかった．

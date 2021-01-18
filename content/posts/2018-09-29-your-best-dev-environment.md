@@ -40,7 +40,7 @@ https://folivora.ai/
 
 自分は window の最大化や左右幅寄せにだけ使ってる
 
-![better-touch-tools.png](better-touch-tools.png "better-touch-tools.png")
+![better-touch-tools.png](/images/2018-09-29-your-best-dev-environment/better-touch-tools.png "better-touch-tools.png")
 
 
 ## Karabiner Elements
@@ -55,7 +55,7 @@ https://github.com/tekezo/Karabiner-Elements
 p- US キーボードでキーボード切り替えるのに使っている
 - 左の Command で "英"，右で "かな" に切り替わるようにしている
 
-![karabiner-elements.png](karabiner-elements.png "karabiner-elements.png")
+![karabiner-elements.png](/images/2018-09-29-your-best-dev-environment/karabiner-elements.png "karabiner-elements.png")
 
 
 ## Quiver
@@ -112,7 +112,7 @@ https://contexts.co/
 
 Mac でアプリを切り替えるときに ⌘ + Tab はよく使うが，これはアプリの種類ごとにしか切り替えができない．例えば Chrome で複数 window を開いているときに，どっちの window をアクティブにするかを指定できるようになる．アプリを入れると ↓ このような表示になる．文字入力で項目の Filter ができる．
 
-![contexts.jpg](contexts.jpg 'contexts.jpg')
+![contexts.jpg](/images/2018-09-29-your-best-dev-environment/contexts.jpg 'contexts.jpg')
 
 ## toggl
 
@@ -169,9 +169,9 @@ https://www.grammarly.com/
 - 単語の typo だけでなく "a" "the" とか冠詞の間違いも指摘してくれる
 - Chrome Extension もありブラウザでの入力もチェックしてくれる
 
-![grammarly.png](grammarly.png 'grammarly.png')
+![grammarly.png](/images/2018-09-29-your-best-dev-environment/grammarly.png 'grammarly.png')
 
-![grammarly-in-chrome.png](grammarly-in-chrome.png 'grammarly-in-chrome.png')
+![grammarly-in-chrome.png](/images/2018-09-29-your-best-dev-environment/grammarly-in-chrome.png 'grammarly-in-chrome.png')
 
 ## BEAR
 
@@ -183,7 +183,7 @@ https://bear.app
 
 ## OS のダイアログボタンを タブで選択できるようになる
 
-![keyboard-all-controls.png](keyboard-all-controls.png "keyboard-all-controls.png")
+![keyboard-all-controls.png](/images/2018-09-29-your-best-dev-environment/keyboard-all-controls.png "keyboard-all-controls.png")
 
 ## まとめ
 

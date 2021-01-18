@@ -34,7 +34,7 @@ tags:
 
 ## アイコンが新しくなりました
 
-![update-icon.png](update-icon.png 'update-icon.png')
+![update-icon.png](/images/2018-09-23-tanaka-world-version-up-2018-mid/update-icon.png 'update-icon.png')
 
 - 左: 旧，右: 新
 - ピクセル数を半分に減らし，シンプル化しました

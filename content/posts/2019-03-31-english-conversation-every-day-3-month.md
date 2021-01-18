@@ -41,7 +41,7 @@ tags:
 
 会社の補助も受けれるが，今は自分で課金している．スタンダードプラン毎日1レッスンで5980円/月で毎日1レッスン25分，Skype 英会話ができる．とても安い．
 
-![dmm_summary.png](dmm_summary.png 'dmm_summary.png')
+![dmm_summary.png](/images/2019-03-31-english-conversation-every-day-3-month/dmm_summary.png 'dmm_summary.png')
 1回25分，毎日やるとこういう感じになる．トータルの時間でランクがつくようになっている．
 
 **❏ レッスン内容**
@@ -71,7 +71,7 @@ tags:
 チューターは毎回新しい人，時々リピートになる．当日予約すると人気のある人は大抵スケジュールが埋まっていて，リピートしたくてもそもそもできない．誰とやるかは正直誰でもいいと思っていて同じ人に慣れてしまわないようにくらいの意識．
 メダルコレクションというのがあり，チューター出身国ごとの受講回数でメダルがもらえる．自分のプランだと English ネイティブは予約できないので，英語を第２言語として話している国の人としかやっていない．
 
-![dmm_medal_collection.png](dmm_medal_collection.png 'dmm_medal_collection.png')
+![dmm_medal_collection.png](/images/2019-03-31-english-conversation-every-day-3-month/dmm_medal_collection.png 'dmm_medal_collection.png')
 
 **❏ いつやるか**
 

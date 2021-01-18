@@ -7,7 +7,6 @@ tags:
 - presentation
 ---
 
-
 2018年8月27日に開催された [v-meetup #8](https://vuejs-meetup.connpass.com/event/95678/) に登壇しました．
 
 約150の募集枠は，募集開始数分で埋まるほどの人気イベント．v-meetup の参加は初めてだったのですが，スタッフを始め参加者の方々の熱気に圧倒されました．
@@ -19,7 +18,7 @@ tags:
 
 <script async class="speakerdeck-embed" data-id="0ba17ee105ce4746878923d89dca0cc7" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
-![presentating.JPG](presentating.JPG 'presentating.JPG')
+![presentating.JPG](/images/2018-08-30-vuejs-tokyo-v-meetup-8/presentating.JPG 'presentating.JPG')
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">そもそもbackboneがつらい…<a href="https://twitter.com/hashtag/vuejs_meetup8?src=hash&amp;ref_src=twsrc%5Etfw">#vuejs_meetup8</a></p>&mdash; ほんだし (@hondash918) <a href="https://twitter.com/hondash918/status/1034409445655080961?ref_src=twsrc%5Etfw">August 28, 2018</a></blockquote>
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">backbone.js、繋ぎ先がhtmlである必要がないのでcocos2d-jsと組み合わせて使ったりしてた。今も結構好き。 <a href="https://twitter.com/hashtag/vuejs_meetup8?src=hash&amp;ref_src=twsrc%5Etfw">#vuejs_meetup8</a></p>&mdash; hadakadenkyu (@hadakadenkyu) <a href="https://twitter.com/hadakadenkyu/status/1034409979556446208?ref_src=twsrc%5Etfw">August 28, 2018</a></blockquote>

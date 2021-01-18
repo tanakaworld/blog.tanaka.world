@@ -75,7 +75,7 @@ export { i18n };
 
 翻訳のキーには文字列 `home.title` が使われる．このキーを typo したり，locale ファイルの構造が変わり，正常に翻訳できないことを気づくのは，大抵実行時になる．また`messages` の数が多くなったり，複数ファイルにまたがったりすると記述するときに迷うのもツラい．
 
-![translation-missing.png](translation-missing.png 'translation-missing.png')
+![translation-missing.png](/images/2018-09-22-vue-i18n-autocompletion/translation-missing.png 'translation-missing.png')
 
 
 
@@ -157,7 +157,7 @@ export default Vue.extend({
 
 こんな感じで入力補完されるようになる．
 
-![autocomplete.png](autocomplete.png 'autocomplete.png')
+![autocomplete.png](/images/2018-09-22-vue-i18n-autocompletion/autocomplete.png 'autocomplete.png')
 
 ## その他 i18n でツラいところ
 
@@ -171,7 +171,7 @@ export default Vue.extend({
 
 Rails 開発でよく使っている [RubyMine](https://www.jetbrains.com/ruby/) だと，i18n 文字列をデフォルトロケールの文字列で表示することができる(Code > Folding > Expand/Collapse)．普段フロントエンド開発は [WebStorm](https://www.jetbrains.com/webstorm/) 使っているがそっちでも同じ機能が欲しい．RubyMine に慣れているだけなのかもしれないが，これ結構ツライ．．．
 
-![i18n-folding-expand.png](i18n-folding-expand.png 'i18n-folding-expand.png')
+![i18n-folding-expand.png](/images/2018-09-22-vue-i18n-autocompletion/i18n-folding-expand.png 'i18n-folding-expand.png')
 
 
 #### locale ファイル構造どうするか

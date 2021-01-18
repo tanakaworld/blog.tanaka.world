@@ -36,7 +36,7 @@ $ brew -v
     - Configure Add-ons
 	- 「Clear DB」で検索して選択 -> Provision
 
-![heroku-clear-db.png](heroku-clear-db.png 'heroku-clear-db.png')
+![heroku-clear-db.png](/images/2018-11-25-rails5-webpacker-on-heroku/heroku-clear-db.png 'heroku-clear-db.png')
 
 
 ## Login

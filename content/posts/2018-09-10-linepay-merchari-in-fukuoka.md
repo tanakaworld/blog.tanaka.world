@@ -23,19 +23,19 @@ tags:
 2018年10月下旬頃，支払いされた LINEPay アカウントにディスカウント分の残高が付与されるスキームでその場で半額になるわけではない．また，`LINE Pay残高付与上限額はお1人様2,000円/日` と制限もある．屋台 MAP には 14 店舗載っていたが，実際には屋台が出ていないところもあった．歩いて移動していたのでどこが実際に出ているのかがわかりやすいと助かる．．．
 
 
-![linepay-barcode.jpg](linepay-barcode.jpg 'linepay-barcode.jpg')
+![linepay-barcode.jpg](/images/2018-09-10-linepay-merchari-in-fukuoka/linepay-barcode.jpg 'linepay-barcode.jpg')
 
 バーコードを LINEPay 画面から読み取ると，取引開始．
 
 支払いの合計金額は 5900円，チャージしていた 5000 円だと足りなかった．入金しようとしたのだが連携していた**みずほ銀行がメンテナンス**で入金できなかったorz...ちょうどみずほ銀行の臨時メンテナンスと被っているのを忘れていた笑
 
-![linepay-mizuho](linepay-mizuho.png 'linepay-mizuho')
-![linepay-add-money.png](linepay-add-money.png 'linepay-add-money.png')
+![linepay-mizuho](/images/2018-09-10-linepay-merchari-in-fukuoka/linepay-mizuho.png 'linepay-mizuho')
+![linepay-add-money.png](/images/2018-09-10-linepay-merchari-in-fukuoka/linepay-add-money.png 'linepay-add-money.png')
 
 
 仕方なくチャージ分全額と，残り 900 円は現金で支払った．店員さんは手元の iPhone Line アプリから支払いのトランザクション結果を確認して支払い完了をチェックしていた．
 
-![linepay-completed.png](linepay-completed.png 'linepay-completed.png')
+![linepay-completed.png](/images/2018-09-10-linepay-merchari-in-fukuoka/linepay-completed.png 'linepay-completed.png')
 
 屋台は特に現金の管理とか面倒くさそうなので，特に普及すると便利そう．
 
@@ -47,9 +47,9 @@ tags:
 
 アプリインストールすると，メルカリアプリのインストール情報でシングルサインオンできる．地図から最寄りのポートを探して鍵を開ける．メルチャリポートは想定より多かったが，空きが少なかった("0"と表示されているところが空きがないところ)．
 
-![merchari-search-ports.PNG](merchari-search-ports.PNG 'merchari-search-ports.PNG')
-![merchari-ports.jpg](merchari-ports.jpg 'merchari-ports.jpg')
-![merchari-scan.PNG](merchari-scan.PNG 'merchari-scan.PNG')
+![merchari-search-ports.PNG](/images/2018-09-10-linepay-merchari-in-fukuoka/merchari-search-ports.PNG 'merchari-search-ports.PNG')
+![merchari-ports.jpg](/images/2018-09-10-linepay-merchari-in-fukuoka/merchari-ports.jpg 'merchari-ports.jpg')
+![merchari-scan.PNG](/images/2018-09-10-linepay-merchari-in-fukuoka/merchari-scan.PNG 'merchari-scan.PNG')
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/%E3%83%A1%E3%83%AB%E3%83%81%E3%83%A3%E3%83%AA?src=hash&amp;ref_src=twsrc%5Etfw">#メルチャリ</a> アプリインストールからライド開始、駐輪までの導線がスムーズ過ぎて神🚲💨 4円/分らしいが、キャンペーンなのか無料だった <a href="https://t.co/vKhfQcht0C">pic.twitter.com/vKhfQcht0C</a></p>&mdash; tanakaworld 🧢 (@_tanakaworld) <a href="https://twitter.com/_tanakaworld/status/1038616927688515585?ref_src=twsrc%5Etfw">September 9, 2018</a></blockquote>
 

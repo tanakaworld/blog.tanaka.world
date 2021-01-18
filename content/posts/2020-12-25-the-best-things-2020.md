@@ -8,7 +8,7 @@ tags:
 
 今年も色々買って・色々メルカリした。2 月からは完全にリモートワークになり、家の住環境・仕事環境を充実させることにお金を使った。Amazon での購入がメインで今年は「**177件**」注文していた。
 
-![amazon-orders-2020.png](amazon-orders-2020.png 'amazon-orders-2020.png')
+![amazon-orders-2020.png](/images/2020-12-25-the-best-things-2020/amazon-orders-2020.png 'amazon-orders-2020.png')
 
 買ってよかったもの・今後も使い続けていくものを 10 個ピックアップした。
 

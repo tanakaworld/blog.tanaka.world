@@ -54,7 +54,7 @@ class Book < ApplicationRecord
 end
 ```
 
-![scaffold_books_list](scaffold_books_list.png  'scaffold_books_list.png')
+![scaffold_books_list](/images/2019-04-21-swagger-blocks-with-fastjson-api-part1/scaffold_books_list.png  'scaffold_books_list.png')
 
 
 ## Serializer
@@ -160,7 +160,7 @@ end
 
 `/api/books` のレスポンスはこうなる．
 
-![api_books_response](api_books_response.png 'api_books_response.png')
+![api_books_response](/images/2019-04-21-swagger-blocks-with-fastjson-api-part1/api_books_response.png 'api_books_response.png')
 
 
 ## Swagger 定義のディレクトリ構成
@@ -170,7 +170,7 @@ Swagger 定義と API 実装の記述箇所を分離するために次の構成�
 （参考：[Rails + swagger-blocks で OpenAPI 形式の API ドキュメントを作成する](https://qiita.com/kymmt90/items/439868c21abe077642fa)）
 
 
-![swagger_dir.png](swagger_dir.png 'swagger_dir.png')
+![swagger_dir.png](/images/2019-04-21-swagger-blocks-with-fastjson-api-part1/swagger_dir.png 'swagger_dir.png')
 
 Controller に依存する定義は `app/controllers/concerns` に配置，`swagger_path` で API リクエストパスに対応する定義を記述する．
 

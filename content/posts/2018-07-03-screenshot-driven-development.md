@@ -55,7 +55,7 @@ DOMなどのスクリーンショットを取ることができる．
 - "capture" で検索
 - 例えば，capture node screenshot を選択すると，Dev Tools で選択している node のスクショが撮影できる
 
-![chrome-dev-tools-1](chrome-dev-tools-1.png "chrome-dev-tools-1")
+![chrome-dev-tools-1](/images/2018-07-03-screenshot-driven-development/chrome-dev-tools-1.png "chrome-dev-tools-1")
 
 
 ## モバイルのスクリーンショット

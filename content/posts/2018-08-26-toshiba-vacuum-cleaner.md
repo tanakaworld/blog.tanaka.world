@@ -11,7 +11,7 @@ tags:
 
 [コードレスクリーナー VC-CL1500／VC-CL500](https://www.toshiba-lifestyle.co.jp/living/cleaners/vc-cl/)
 
-![toshiba-cleaner-cv-cl.png](toshiba-cleaner-cv-cl.png "toshiba-cleaner-cv-cl")
+![toshiba-cleaner-cv-cl.png](/images/2018-08-26-toshiba-vacuum-cleaner/toshiba-cleaner-cv-cl.png "toshiba-cleaner-cv-cl")
 
 ## スペック
 

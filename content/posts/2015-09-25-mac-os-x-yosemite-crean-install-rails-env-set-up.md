@@ -36,7 +36,7 @@ https://www.google.com/settings/u/2/chrome/syncから数とか確認できる
 * <a href="https://www.google.co.jp/ime/" target="_blank">Google IME
 </a>インストールし，ひらがなのみを適用
 * <a href="http://www.bettertouchtool.net/" target="_blank">BetterTouchTool
-![better-touch-tools](2015-09-25-mac-os-x-yosemite-crean-install-rails-env-set-up/better-touch-tools.png)
+![better-touch-tools](/images/2015-09-25-mac-os-x-yosemite-crean-install-rails-env-set-up/better-touch-tools.png)
 * [Karabiner](http://qiita.com/daichi87gi/items/ded35e9d9a54c8fcb9d6 "Karabiner")
 * 隠しファイル表示
     * $ defaults write com.apple.finder AppleShowAllFiles TRUE
@@ -111,7 +111,7 @@ https://www.google.com/settings/u/2/chrome/syncから数とか確認できる
 
     * $ bundle install
     * (このエラーがでた場合)
-    ![image-magick-error](2015-09-25-mac-os-x-yosemite-crean-install-rails-env-set-up/image-magick-error.png)
+    ![image-magick-error](/images/2015-09-25-mac-os-x-yosemite-crean-install-rails-env-set-up/image-magick-error.png)
 
     * $ brew install imagemagick
         (rmagickがimagemagickを使用するが，imagemagickはgemでinstallできないため，マシンのを参照しようとするがinstallされていないことが原因)
