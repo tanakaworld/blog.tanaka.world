@@ -45,20 +45,6 @@ params:
     icon: /favicon.png
     iconHeight: 35
 
-  # profile-mode
-  profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    imageUrl: /favicon.png
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
-
   # home-info mode
   homeInfoParams:
     Title: "Hi there 👋️"
@@ -70,22 +56,14 @@ params:
       url: "https://twitter.com/_tanakaworld"
     - name: github
       url: "https://github.com/tanakaworld"
+    - name: RSS
+      url: "index.xml"
 
   cover:
     hidden: true # hide everywhere but not in structured data
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
-  # for search
-  # https://fusejs.io/api/options.html
-  fuseOpts:
-    isCaseSensitive: false
-    shouldSort: true
-    location: 0
-    distance: 1000
-    threshold: 0.4
-    minMatchCharLength: 0
-    keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
     - identifier: Tags
@@ -110,3 +88,12 @@ markup:
     endLevel: 3
     ordered: false
     startLevel: 2
+
+defaultContentLanguage: ja
+languages:
+  ja:
+    weight: 1
+    languageName: Japanese
+  en:
+    weight: 2
+    languageName: English
