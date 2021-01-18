@@ -3,21 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://blog.tanaka.world/en/categories/</loc>
+    <loc>https://blog.tanaka.world/en/tags/blog/</loc>
+    <lastmod>2021-01-18T21:35:10+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://blog.tanaka.world/categories/"
+                href="https://blog.tanaka.world/tags/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://blog.tanaka.world/en/categories/"
+                href="https://blog.tanaka.world/en/tags/blog/"
                 />
   </url>
   
   <url>
     <loc>https://blog.tanaka.world/en/</loc>
+    <lastmod>2021-01-18T21:35:10+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
@@ -31,7 +33,38 @@
   </url>
   
   <url>
+    <loc>https://blog.tanaka.world/en/migrate-from-hexo-to-hugo/</loc>
+    <lastmod>2021-01-18T21:35:10+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://blog.tanaka.world/migrate-from-hexo-to-hugo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tanaka.world/en/migrate-from-hexo-to-hugo/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://blog.tanaka.world/en/posts/</loc>
+    <lastmod>2021-01-18T21:35:10+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://blog.tanaka.world/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tanaka.world/en/posts/"
+                />
+  </url>
+  
+  <url>
     <loc>https://blog.tanaka.world/en/tags/</loc>
+    <lastmod>2021-01-18T21:35:10+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
@@ -41,6 +74,20 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://blog.tanaka.world/en/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://blog.tanaka.world/en/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://blog.tanaka.world/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tanaka.world/en/categories/"
                 />
   </url>
   

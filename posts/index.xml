@@ -6,7 +6,19 @@
     <description>Recent content in Posts on For X Developers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 15 Jan 2021 21:00:00 +0000</lastBuildDate><atom:link href="https://blog.tanaka.world/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Jan 2021 21:35:10 +0900</lastBuildDate><atom:link href="https://blog.tanaka.world/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hexo から Hugo に移行した</title>
+      <link>https://blog.tanaka.world/migrate-from-hexo-to-hugo/</link>
+      <pubDate>Mon, 18 Jan 2021 21:35:10 +0900</pubDate>
+      
+      <guid>https://blog.tanaka.world/migrate-from-hexo-to-hugo/</guid>
+      <description>ブログツールを Hugo に引っ越しをした。(前回: Middleman から Hexo に引っ越した)
+モチベーション  Hexo のジェネレート処理が重くなってきた ダークモード対応 多言語対応 (英語でも書くために) 飽きた  2.,3. は hexo でできたかもしれないが、4.もあり別のツールを調べていた。Hugo でいい感じのテンプレートがあったのでそれにした。正直あまり考えずに即決した。
+移行時に変更が必要だった箇所 本文の Markdown ファイルはほぼそのまま使用できたが、一部変更を加えた。
+ディレクトリ構成  Markdown ファイルの移動 (source -&amp;gt; content/posts) 画像パスの変更  Front Matter  tags 要素のインデントを削除 slug を追加  Hexo では Markdown ファイル名の先頭に yyyy-MM-dd-&amp;lt;path名&amp;gt;.md というファイル名にすると path 名が実際の path になっていた Hugo ではデフォルトで「ファイル名」または Front Matter の slug が path 名になる ファイル名から slug を自動挿入するようにした(雑な gist)    </description>
+    </item>
+    
     <item>
       <title>英語独習法を読んだ</title>
       <link>https://blog.tanaka.world/self-learning-english/</link>

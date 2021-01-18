@@ -3,18 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://blog.tanaka.world/tags/book/</loc>
-    <lastmod>2021-01-15T21:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.tanaka.world/tags/english/</loc>
-    <lastmod>2021-01-15T21:00:00+00:00</lastmod>
+    <loc>https://blog.tanaka.world/tags/blog/</loc>
+    <lastmod>2021-01-18T21:35:10+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tanaka.world/en/tags/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://blog.tanaka.world/tags/blog/"
+                />
   </url>
   
   <url>
     <loc>https://blog.tanaka.world/</loc>
-    <lastmod>2021-01-15T21:00:00+00:00</lastmod>
+    <lastmod>2021-01-18T21:35:10+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -28,13 +33,38 @@
   </url>
   
   <url>
+    <loc>https://blog.tanaka.world/migrate-from-hexo-to-hugo/</loc>
+    <lastmod>2021-01-18T21:35:10+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tanaka.world/en/migrate-from-hexo-to-hugo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://blog.tanaka.world/migrate-from-hexo-to-hugo/"
+                />
+  </url>
+  
+  <url>
     <loc>https://blog.tanaka.world/posts/</loc>
-    <lastmod>2021-01-15T21:00:00+00:00</lastmod>
+    <lastmod>2021-01-18T21:35:10+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tanaka.world/en/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://blog.tanaka.world/posts/"
+                />
   </url>
   
   <url>
     <loc>https://blog.tanaka.world/tags/</loc>
-    <lastmod>2021-01-15T21:00:00+00:00</lastmod>
+    <lastmod>2021-01-18T21:35:10+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -45,6 +75,16 @@
                 hreflang="ja"
                 href="https://blog.tanaka.world/tags/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://blog.tanaka.world/tags/book/</loc>
+    <lastmod>2021-01-15T21:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.tanaka.world/tags/english/</loc>
+    <lastmod>2021-01-15T21:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -505,11 +545,6 @@
   <url>
     <loc>https://blog.tanaka.world/tags/mac/</loc>
     <lastmod>2018-07-11T00:10:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.tanaka.world/tags/blog/</loc>
-    <lastmod>2018-07-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
