@@ -1,0 +1,112 @@
+baseURL: https://blog.tanaka.world
+languageCode: ja
+title: For X Developers
+theme: PaperMod
+paginate: 5
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+# TODO
+#googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: For X Developers
+  description: Memorandom for me and "X" developers in the world.
+  author: tanakaworld
+
+  images: ["/favicon.png"]
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  comments: false
+  defaultTheme: auto
+  disableThemeToggle: false
+  disableSpecial1stPost: false
+
+  assets:
+    # disableHLJS: true # to disable highlightjs
+    # disableFingerprinting: true
+    favicon: /favicon.png
+    favicon16x16: /favicon.png
+    favicon32x32: /favicon.png
+    apple_touch_icon: /favicon.png
+    safari_pinned_tab: /favicon.png
+
+  label:
+    text: "For X Developer"
+    icon: /favicon.png
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: false # needs to be explicitly set
+    title: ExampleSite
+    imageUrl: /favicon.png
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Hi there 👋️"
+    Content:
+      This is the memorandom for me and "X" developers in the world.
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/_tanakaworld"
+    - name: github
+      url: "https://github.com/tanakaworld"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+menu:
+  main:
+    - identifier: Tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: Author
+      name: Author
+      url: https://tanaka.world/about
+      weight: 30
+
+permalinks:
+  posts: /:slug/
+
+markup:
+  goldmark:
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xhtml: false
+  tableOfContents:
+    endLevel: 3
+    ordered: false
+    startLevel: 2
