@@ -9,7 +9,7 @@ Cypress のテストコードも TypeScript で記述する。Cypress の型定�
 GitHub Actions (CI/CD) Merge 前に実行する用と、リリース用の２つのワークフローがある。
 before-merge.yml は、Lint, Unit Test, Build, E2E Test を実行し、release.yml はそれに加えて Deploy を実行する。両者の違いは実行の起点となる branch と Deploy の有無だけなので、YAML インポート的なことがやりたいが、公式にはそのような仕組みは存在しないようだ。冗長だが一旦同じ内容を記述している。
 大枠の処理は次の通り。
-lint-test-build ジョブで生成されたアプリケーションビルド対して、E2E テストを実行 対象ブラウザは最低限 chrome, firefox, edge、それぞれ並列で実行される テストに失敗したら、スクリーンショットと動画をアップロード (release.yml の場合) テスト済みのビルドをデプロイ test-e2e: needs: lint-test-build strategy: matrix: node-version: [ 14....</p></section><footer class=entry-footer>January 30, 2021&nbsp;·&nbsp;1 min</footer><a class=entry-link aria-label="post link to Renovate と Cypress でパッケージ更新とリリースを完全自動化する" href=https://blog.tanaka.world/automated-pkg-update-release-cypress-with-renovate/></a></article></main><footer class=footer><span>&copy; 2021 <a href=https://blog.tanaka.world>For X Developers</a></span>
+lint-test-build ジョブで生成されたアプリケーションビルド対して、E2E テストを実行 対象ブラウザは最低限 chrome, firefox, edge、それぞれ並列で実行される テストに失敗したら、スクリーンショットと動画をアップロード (release.yml の場合) テスト済みのビルドをデプロイ test-e2e: needs: lint-test-build strategy: matrix: node-version: [ 14....</p></section><footer class=entry-footer>January 30, 2021</footer><a class=entry-link aria-label="post link to Renovate と Cypress でパッケージ更新とリリースを完全自動化する" href=https://blog.tanaka.world/automated-pkg-update-release-cypress-with-renovate/></a></article></main><footer class=footer><span>&copy; 2021 <a href=https://blog.tanaka.world>For X Developers</a></span>
 <span>&#183;</span>
 <span>Powered by <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a></span>
 <span>&#183;</span>
