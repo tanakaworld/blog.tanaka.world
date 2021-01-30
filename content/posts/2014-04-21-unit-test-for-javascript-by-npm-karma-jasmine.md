@@ -1,7 +1,7 @@
 ---
 title: 【npm + Karma + Jasmine】JavaScriptの単体テスト環境を構築する
 slug: unit-test-for-javascript-by-npm-karma-jasmine
-date: 2014/04/21 19:20
+date: 2014-04-21T10:00:00+09:00
 tags:
 - javascript
 - jasmine
