@@ -19,7 +19,7 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: For X Developers
   description: Memorandom for me and "X" developers in the world.
-  author: tanakaworld
+  # author: tanakaworld
 
   images: ["/favicon.png"]
 
