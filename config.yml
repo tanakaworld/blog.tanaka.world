@@ -23,7 +23,7 @@ params:
 
   images: ["/favicon.png"]
 
-  ShowReadingTime: true
+  ShowReadingTime: false
   ShowShareButtons: true
   comments: false
   defaultTheme: auto
