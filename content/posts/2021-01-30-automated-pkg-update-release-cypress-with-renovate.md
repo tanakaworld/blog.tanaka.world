@@ -8,13 +8,13 @@ tags:
 - cypress
 - renovate
 - testing
+cover:
+    image: "/images/2021-01-30-automated-pkg-update-release-cypress-with-renovate/a-workflow-for-release.png"
 ---
 
 https://tanaka.world/ のパッケージ更新とリリースを自動化した。パッケージ更新時に CI のジョブが全て成功したら master に自動マージし、本番リリースされるようにしている。
 
 例: [リリース時のワークフロー](https://github.com/tanakaworld/tanaka.world/actions/runs/521300728)
-
-![a-workflow-for-release.png](/images/2021-01-30-automated-pkg-update-release-cypress-with-renovate/a-workflow-for-release.png)
 
 ## Renovate (Package Update)
 

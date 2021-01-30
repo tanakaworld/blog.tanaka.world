@@ -8,13 +8,13 @@ tags:
 - cypress
 - renovate
 - testing
+cover:
+    image: "/images/2021-01-30-automated-pkg-update-release-cypress-with-renovate/a-workflow-for-release.png"
 ---
 
 I've automated the package update and release of https://tanaka.world/. When a npm package is updated, it will be merged and production deployed automatically after all CI jobs finish.
 
 Example: [The workflow for release](https://github.com/tanakaworld/tanaka.world/actions/runs/521300728)
-
-![a-workflow-for-release.png](/images/2021-01-30-automated-pkg-update-release-cypress-with-renovate/a-workflow-for-release.png)
 
 ## Renovate (Package Update)
 
