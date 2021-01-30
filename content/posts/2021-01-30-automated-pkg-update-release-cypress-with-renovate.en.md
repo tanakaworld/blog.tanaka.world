@@ -29,7 +29,7 @@ Set up Renovate via [GitHub App - Renovate](https://github.com/apps/renovate). Y
 Previously, I tested manually when I updated. I've replaced the way to test with Cypress.
 It tests all pages roughly. ([Test Code](https://github.com/tanakaworld/tanaka.world/tree/e9315cff502901728e2b5dbd388adf2919f4e40d/cypress/integration))
 
-It is available to use TypeScript in Cypress. I added `tsconfig.cypress.json` file apart from a `tsconfig.json` for your application since they were conflicted.
+It is available to use TypeScript in Cypress. I added `tsconfig.cypress.json` file apart from  `tsconfig.json` for your application because the type definition for `Jest` was conflicted to `Cypress`'s one.
 
 ## GitHub Actions (CI/CD)
 
