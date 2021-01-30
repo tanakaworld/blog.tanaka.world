@@ -5,7 +5,20 @@
     <link>https://blog.tanaka.world/tags/karma/</link>
     <description>Recent content in karma on For X Developers</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language><atom:link href="https://blog.tanaka.world/tags/karma/index.xml" rel="self" type="application/rss+xml" />
+    <language>ja</language>
+    <lastBuildDate>Mon, 21 Apr 2014 10:00:00 +0900</lastBuildDate><atom:link href="https://blog.tanaka.world/tags/karma/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【npm &#43; Karma &#43; Jasmine】JavaScriptの単体テスト環境を構築する</title>
+      <link>https://blog.tanaka.world/unit-test-for-javascript-by-npm-karma-jasmine/</link>
+      <pubDate>Mon, 21 Apr 2014 10:00:00 +0900</pubDate>
+      
+      <guid>https://blog.tanaka.world/unit-test-for-javascript-by-npm-karma-jasmine/</guid>
+      <description>&lt;p&gt;JavaScriptの単体テスト環境構築のまとめ．&lt;/p&gt;
+&lt;p&gt;テストランナーとして「&lt;a href=&#34;https://github.com/karma-runner/karma&#34; title=&#34;Karma&#34;&gt;Karma&lt;/a&gt;」，テストフレームワーク・アサーションライブラリとして「&lt;a href=&#34;http://jasmine.github.io/&#34; title=&#34;Jasmine&#34;&gt;Jasmine&lt;/a&gt;」を使う．&lt;/p&gt;
+&lt;p&gt;PCのグローバル領域にこれらをインストールしても環境構築はできるが，今回はプロジェクト固有のツールとしてインストールする．&lt;/p&gt;
+&lt;p&gt;これによって，PCの環境に依存しないテスト環境が構築できる．&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>【Grunt &#43; Karma &#43; Jasmine】CoffeeScriptの開発環境を構築する</title>
       <link>https://blog.tanaka.world/coffeescript-grunt-karma-jasmine/</link>
@@ -27,18 +40,6 @@ CoffeeScript関連ライブラリをセットアップ $ npm init $ npm install 
 # sample.coffee  class Sample getData: -&amp;gt; url = &amp;#34;http://example.com/1/json&amp;#34; xhr = new XMLHttpRequest() xhr.open(&amp;#34;GET&amp;#34;, url, false) xhr.send() data = null if xhr.status is 200 data = JSON.parse(xhr.responseText) return data .getData のテストを書く際に，xhrの通信部分をスタブしたい．
 jasmine-ajax，jasmine-jquery を使用する．
 npm install jasmine-ajax --save-dev npm install jasmine-jquery --save-dev # sampleSpec.coffee  describe Sample, -&amp;gt; beforeAll -&amp;gt; jasmine.Ajax.install() afterAll -&amp;gt; jasmine.Ajax.uninstall() describe &amp;#39;.getData&amp;#39;, -&amp;gt; beforeEach -&amp;gt; mockedData = {sample: 1} requestUrl = &amp;#34;http://example.com/1/json&amp;#34; jasmine.Ajax.stubRequest(requestUrl).andReturn status: 200 responseText: JSON.</description>
-    </item>
-    
-    <item>
-      <title>【npm &#43; Karma &#43; Jasmine】JavaScriptの単体テスト環境を構築する</title>
-      <link>https://blog.tanaka.world/unit-test-for-javascript-by-npm-karma-jasmine/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.tanaka.world/unit-test-for-javascript-by-npm-karma-jasmine/</guid>
-      <description>&lt;p&gt;JavaScriptの単体テスト環境構築のまとめ．&lt;/p&gt;
-&lt;p&gt;テストランナーとして「&lt;a href=&#34;https://github.com/karma-runner/karma&#34; title=&#34;Karma&#34;&gt;Karma&lt;/a&gt;」，テストフレームワーク・アサーションライブラリとして「&lt;a href=&#34;http://jasmine.github.io/&#34; title=&#34;Jasmine&#34;&gt;Jasmine&lt;/a&gt;」を使う．&lt;/p&gt;
-&lt;p&gt;PCのグローバル領域にこれらをインストールしても環境構築はできるが，今回はプロジェクト固有のツールとしてインストールする．&lt;/p&gt;
-&lt;p&gt;これによって，PCの環境に依存しないテスト環境が構築できる．&lt;/p&gt;</description>
     </item>
     
     <item>

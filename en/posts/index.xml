@@ -6,7 +6,21 @@
     <description>Recent content in Posts on For X Developers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 18 Jan 2021 21:35:10 +0900</lastBuildDate><atom:link href="https://blog.tanaka.world/en/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Jan 2021 10:00:00 +0900</lastBuildDate><atom:link href="https://blog.tanaka.world/en/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automate package update and release with Cypress &#43; Renovate</title>
+      <link>https://blog.tanaka.world/en/automated-pkg-update-release-cypress-with-renovate/</link>
+      <pubDate>Sat, 30 Jan 2021 10:00:00 +0900</pubDate>
+      
+      <guid>https://blog.tanaka.world/en/automated-pkg-update-release-cypress-with-renovate/</guid>
+      <description>I&amp;rsquo;ve automated the package update and release of https://tanaka.world/. When a npm package is updated, it will be merged and production deployed automatically after all CI jobs finish.
+Example: The workflow for release
+Renovate (Package Update) Renovate
+Set up Renovate via GitHub App - Renovate. You can select a repo.
+Cypress (E2E) Cypress
+Previously, I tested manually when I updated. I&amp;rsquo;ve replaced the way to test with Cypress. It tests all pages roughly.</description>
+    </item>
+    
     <item>
       <title>Migrated From Hexo to Hugo</title>
       <link>https://blog.tanaka.world/en/migrate-from-hexo-to-hugo/</link>

@@ -3,6 +3,111 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.tanaka.world/tags/cypress/</loc>
+    <lastmod>2021-01-30T10:00:00+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tanaka.world/en/tags/cypress/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://blog.tanaka.world/tags/cypress/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://blog.tanaka.world/</loc>
+    <lastmod>2021-01-30T10:00:00+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tanaka.world/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://blog.tanaka.world/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://blog.tanaka.world/posts/</loc>
+    <lastmod>2021-01-30T10:00:00+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tanaka.world/en/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://blog.tanaka.world/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://blog.tanaka.world/tags/renovate/</loc>
+    <lastmod>2021-01-30T10:00:00+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tanaka.world/en/tags/renovate/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://blog.tanaka.world/tags/renovate/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://blog.tanaka.world/automated-pkg-update-release-cypress-with-renovate/</loc>
+    <lastmod>2021-01-30T10:00:00+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tanaka.world/en/automated-pkg-update-release-cypress-with-renovate/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://blog.tanaka.world/automated-pkg-update-release-cypress-with-renovate/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://blog.tanaka.world/tags/</loc>
+    <lastmod>2021-01-30T10:00:00+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tanaka.world/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://blog.tanaka.world/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://blog.tanaka.world/tags/testing/</loc>
+    <lastmod>2021-01-30T10:00:00+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tanaka.world/en/tags/testing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://blog.tanaka.world/tags/testing/"
+                />
+  </url>
+  
+  <url>
     <loc>https://blog.tanaka.world/tags/blog/</loc>
     <lastmod>2021-01-18T21:35:10+09:00</lastmod>
     <xhtml:link
@@ -18,21 +123,6 @@
   </url>
   
   <url>
-    <loc>https://blog.tanaka.world/</loc>
-    <lastmod>2021-01-18T21:35:10+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.tanaka.world/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://blog.tanaka.world/"
-                />
-  </url>
-  
-  <url>
     <loc>https://blog.tanaka.world/migrate-from-hexo-to-hugo/</loc>
     <lastmod>2021-01-18T21:35:10+09:00</lastmod>
     <xhtml:link
@@ -44,36 +134,6 @@
                 rel="alternate"
                 hreflang="ja"
                 href="https://blog.tanaka.world/migrate-from-hexo-to-hugo/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://blog.tanaka.world/posts/</loc>
-    <lastmod>2021-01-18T21:35:10+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.tanaka.world/en/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://blog.tanaka.world/posts/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://blog.tanaka.world/tags/</loc>
-    <lastmod>2021-01-18T21:35:10+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.tanaka.world/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://blog.tanaka.world/tags/"
                 />
   </url>
   
@@ -658,6 +718,26 @@
   </url>
   
   <url>
+    <loc>https://blog.tanaka.world/tags/jasmine/</loc>
+    <lastmod>2014-04-21T10:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.tanaka.world/tags/javascript/</loc>
+    <lastmod>2014-04-21T10:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.tanaka.world/tags/karma/</loc>
+    <lastmod>2014-04-21T10:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.tanaka.world/unit-test-for-javascript-by-npm-karma-jasmine/</loc>
+    <lastmod>2014-04-21T10:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.tanaka.world/methods-to-be-minimalism/</loc>
   </url>
   
@@ -764,19 +844,7 @@
   </url>
   
   <url>
-    <loc>https://blog.tanaka.world/tags/jasmine/</loc>
-  </url>
-  
-  <url>
-    <loc>https://blog.tanaka.world/tags/javascript/</loc>
-  </url>
-  
-  <url>
     <loc>https://blog.tanaka.world/tags/job/</loc>
-  </url>
-  
-  <url>
-    <loc>https://blog.tanaka.world/tags/karma/</loc>
   </url>
   
   <url>
@@ -840,10 +908,6 @@
   </url>
   
   <url>
-    <loc>https://blog.tanaka.world/tags/testing/</loc>
-  </url>
-  
-  <url>
     <loc>https://blog.tanaka.world/threes-height-score-3072/</loc>
   </url>
   
@@ -901,10 +965,6 @@
   
   <url>
     <loc>https://blog.tanaka.world/mac-os-x-yosemite-crean-install-rails-env-set-up/</loc>
-  </url>
-  
-  <url>
-    <loc>https://blog.tanaka.world/unit-test-for-javascript-by-npm-karma-jasmine/</loc>
   </url>
   
   <url>

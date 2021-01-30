@@ -6,7 +6,26 @@
     <description>Recent content on For X Developers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 18 Jan 2021 21:35:10 +0900</lastBuildDate><atom:link href="https://blog.tanaka.world/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Jan 2021 10:00:00 +0900</lastBuildDate><atom:link href="https://blog.tanaka.world/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Renovate と Cypress でパッケージ更新とリリースを完全自動化する</title>
+      <link>https://blog.tanaka.world/automated-pkg-update-release-cypress-with-renovate/</link>
+      <pubDate>Sat, 30 Jan 2021 10:00:00 +0900</pubDate>
+      
+      <guid>https://blog.tanaka.world/automated-pkg-update-release-cypress-with-renovate/</guid>
+      <description>https://tanaka.world/ のパッケージ更新とリリースを自動化した。パッケージ更新時に CI のジョブが全て成功したら master に自動マージし、本番リリースされるようにしている。
+例: リリース時のワークフロー
+Renovate (Package Update) Renovate
+GitHub App - Renovate からリポジトリを選択して設定する。
+Cypress (E2E) Cypress
+手動でやっていた動作確認を Cypress で自動化した。各ページごとにざっくりテストしている。(テストコード)
+Cypress のテストコードも TypeScript で記述する。Cypress の型定義ファイルを読み込むと、アプリケーション側の Jest の型定義と競合するため tsconfig.cypress.json を別途追加している。
+GitHub Actions (CI/CD) Merge 前に実行する用と、リリース用の２つのワークフローがある。
+before-merge.yml は、Lint, Unit Test, Build, E2E Test を実行し、release.yml はそれに加えて Deploy を実行する。両者の違いは実行の起点となる branch と Deploy の有無だけなので、YAML インポート的なことがやりたいが、公式にはそのような仕組みは存在しないようだ。冗長だが一旦同じ内容を記述している。
+大枠の処理は次の通り。
+ lint-test-build ジョブで生成されたアプリケーションビルド対して、E2E テストを実行 対象ブラウザは最低限 chrome, firefox, edge、それぞれ並列で実行される テストに失敗したら、スクリーンショットと動画をアップロード (release.yml の場合) テスト済みのビルドをデプロイ  test-e2e: needs: lint-test-build strategy: matrix: node-version: [ 14.</description>
+    </item>
+    
     <item>
       <title>Hexo から Hugo に移行した</title>
       <link>https://blog.tanaka.world/migrate-from-hexo-to-hugo/</link>
@@ -838,6 +857,18 @@ Got to &amp;quot;6144&amp;quot;!!!!!!!!!!!!!!!!!! I just scored 554,274 in @Thre
     </item>
     
     <item>
+      <title>【npm &#43; Karma &#43; Jasmine】JavaScriptの単体テスト環境を構築する</title>
+      <link>https://blog.tanaka.world/unit-test-for-javascript-by-npm-karma-jasmine/</link>
+      <pubDate>Mon, 21 Apr 2014 10:00:00 +0900</pubDate>
+      
+      <guid>https://blog.tanaka.world/unit-test-for-javascript-by-npm-karma-jasmine/</guid>
+      <description>&lt;p&gt;JavaScriptの単体テスト環境構築のまとめ．&lt;/p&gt;
+&lt;p&gt;テストランナーとして「&lt;a href=&#34;https://github.com/karma-runner/karma&#34; title=&#34;Karma&#34;&gt;Karma&lt;/a&gt;」，テストフレームワーク・アサーションライブラリとして「&lt;a href=&#34;http://jasmine.github.io/&#34; title=&#34;Jasmine&#34;&gt;Jasmine&lt;/a&gt;」を使う．&lt;/p&gt;
+&lt;p&gt;PCのグローバル領域にこれらをインストールしても環境構築はできるが，今回はプロジェクト固有のツールとしてインストールする．&lt;/p&gt;
+&lt;p&gt;これによって，PCの環境に依存しないテスト環境が構築できる．&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>1年使わなかったものは全て断捨離するライフハック</title>
       <link>https://blog.tanaka.world/methods-to-be-minimalism/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1115,18 +1146,6 @@ npm install jasmine-ajax --save-dev npm install jasmine-jquery --save-dev # samp
 普段はRuby/Railsで開発しているので，ついでにセットアップ手順もまとめておく．
 (そろそろ新しいMac買おうと思ってたけど，クリーンインストールでサクサク動くようになったΣ(゜Д゜；))
 再インストールする前に何点か確認  ローカルで必要なデータはどこかにコピーしておく chromeのブックマークをGoogleアカウントにsyncしているか確認 https://www.google.com/settings/u/2/chrome/syncから数とか確認できる cloneしているリポジトリのlocalブランチをpushしているか  HDD初期化と再インストール  Macを再起動し，グレーの画面で ⌘ + R を押し続けるとOSユーティリティが起動 ディスクユーティリティで Macintosh HDを消去 OSユーティリティに戻ってOS再インストール  共通環境設定  caps lock と control を入れ替え 言語を英語に変更 Google IME インストールし，ひらがなのみを適用 BetterTouchTool  Karabiner 隠しファイル表示  $ defaults write com.apple.finder AppleShowAllFiles TRUE    よくつかうアプリ  Chrome Slack Rubymine アプリケーション起動時にJVMのinstallが必要 WebStorm SourceTree iTerm2  コマンドラインツール  node  $ brew install node   npm  $ curl -O -L https://npmjs.</description>
-    </item>
-    
-    <item>
-      <title>【npm &#43; Karma &#43; Jasmine】JavaScriptの単体テスト環境を構築する</title>
-      <link>https://blog.tanaka.world/unit-test-for-javascript-by-npm-karma-jasmine/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.tanaka.world/unit-test-for-javascript-by-npm-karma-jasmine/</guid>
-      <description>&lt;p&gt;JavaScriptの単体テスト環境構築のまとめ．&lt;/p&gt;
-&lt;p&gt;テストランナーとして「&lt;a href=&#34;https://github.com/karma-runner/karma&#34; title=&#34;Karma&#34;&gt;Karma&lt;/a&gt;」，テストフレームワーク・アサーションライブラリとして「&lt;a href=&#34;http://jasmine.github.io/&#34; title=&#34;Jasmine&#34;&gt;Jasmine&lt;/a&gt;」を使う．&lt;/p&gt;
-&lt;p&gt;PCのグローバル領域にこれらをインストールしても環境構築はできるが，今回はプロジェクト固有のツールとしてインストールする．&lt;/p&gt;
-&lt;p&gt;これによって，PCの環境に依存しないテスト環境が構築できる．&lt;/p&gt;</description>
     </item>
     
     <item>

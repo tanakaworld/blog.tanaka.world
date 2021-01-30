@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cypress on For X Developers</title>
+    <link>https://blog.tanaka.world/tags/cypress/</link>
+    <description>Recent content in cypress on For X Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 30 Jan 2021 10:00:00 +0900</lastBuildDate><atom:link href="https://blog.tanaka.world/tags/cypress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Renovate と Cypress でパッケージ更新とリリースを完全自動化する</title>
+      <link>https://blog.tanaka.world/automated-pkg-update-release-cypress-with-renovate/</link>
+      <pubDate>Sat, 30 Jan 2021 10:00:00 +0900</pubDate>
+      
+      <guid>https://blog.tanaka.world/automated-pkg-update-release-cypress-with-renovate/</guid>
+      <description>https://tanaka.world/ のパッケージ更新とリリースを自動化した。パッケージ更新時に CI のジョブが全て成功したら master に自動マージし、本番リリースされるようにしている。
+例: リリース時のワークフロー
+Renovate (Package Update) Renovate
+GitHub App - Renovate からリポジトリを選択して設定する。
+Cypress (E2E) Cypress
+手動でやっていた動作確認を Cypress で自動化した。各ページごとにざっくりテストしている。(テストコード)
+Cypress のテストコードも TypeScript で記述する。Cypress の型定義ファイルを読み込むと、アプリケーション側の Jest の型定義と競合するため tsconfig.cypress.json を別途追加している。
+GitHub Actions (CI/CD) Merge 前に実行する用と、リリース用の２つのワークフローがある。
+before-merge.yml は、Lint, Unit Test, Build, E2E Test を実行し、release.yml はそれに加えて Deploy を実行する。両者の違いは実行の起点となる branch と Deploy の有無だけなので、YAML インポート的なことがやりたいが、公式にはそのような仕組みは存在しないようだ。冗長だが一旦同じ内容を記述している。
+大枠の処理は次の通り。
+ lint-test-build ジョブで生成されたアプリケーションビルド対して、E2E テストを実行 対象ブラウザは最低限 chrome, firefox, edge、それぞれ並列で実行される テストに失敗したら、スクリーンショットと動画をアップロード (release.yml の場合) テスト済みのビルドをデプロイ  test-e2e: needs: lint-test-build strategy: matrix: node-version: [ 14.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -5,7 +5,20 @@
     <link>https://blog.tanaka.world/tags/javascript/</link>
     <description>Recent content in javascript on For X Developers</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language><atom:link href="https://blog.tanaka.world/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <language>ja</language>
+    <lastBuildDate>Mon, 21 Apr 2014 10:00:00 +0900</lastBuildDate><atom:link href="https://blog.tanaka.world/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【npm &#43; Karma &#43; Jasmine】JavaScriptの単体テスト環境を構築する</title>
+      <link>https://blog.tanaka.world/unit-test-for-javascript-by-npm-karma-jasmine/</link>
+      <pubDate>Mon, 21 Apr 2014 10:00:00 +0900</pubDate>
+      
+      <guid>https://blog.tanaka.world/unit-test-for-javascript-by-npm-karma-jasmine/</guid>
+      <description>&lt;p&gt;JavaScriptの単体テスト環境構築のまとめ．&lt;/p&gt;
+&lt;p&gt;テストランナーとして「&lt;a href=&#34;https://github.com/karma-runner/karma&#34; title=&#34;Karma&#34;&gt;Karma&lt;/a&gt;」，テストフレームワーク・アサーションライブラリとして「&lt;a href=&#34;http://jasmine.github.io/&#34; title=&#34;Jasmine&#34;&gt;Jasmine&lt;/a&gt;」を使う．&lt;/p&gt;
+&lt;p&gt;PCのグローバル領域にこれらをインストールしても環境構築はできるが，今回はプロジェクト固有のツールとしてインストールする．&lt;/p&gt;
+&lt;p&gt;これによって，PCの環境に依存しないテスト環境が構築できる．&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>GoogleSpreadsheetをパースするライブラリを作った</title>
       <link>https://blog.tanaka.world/google-spreadsheets-parser.html/</link>
@@ -52,18 +65,6 @@ CoffeeScript関連ライブラリをセットアップ $ npm init $ npm install 
 iOS9.1以前ではアラートが表示されている間はJavaScriptの実行が止まっていたが，9.2からは止まらなくなっている． おまけにこのダイアログ、Webkitが実行しているのではなく、OSから起動されているダイアログなのでJavaScriptから検知ができないようだ．
  Given that all browser-based detection is now disabled
   iOS 9.2 may break deeplinking How to detect dialog &amp;ldquo;Open this page in APPNAME&#39;&#39; from JavaScript on iOS9.2 Mobile Safari?  </description>
-    </item>
-    
-    <item>
-      <title>【npm &#43; Karma &#43; Jasmine】JavaScriptの単体テスト環境を構築する</title>
-      <link>https://blog.tanaka.world/unit-test-for-javascript-by-npm-karma-jasmine/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.tanaka.world/unit-test-for-javascript-by-npm-karma-jasmine/</guid>
-      <description>&lt;p&gt;JavaScriptの単体テスト環境構築のまとめ．&lt;/p&gt;
-&lt;p&gt;テストランナーとして「&lt;a href=&#34;https://github.com/karma-runner/karma&#34; title=&#34;Karma&#34;&gt;Karma&lt;/a&gt;」，テストフレームワーク・アサーションライブラリとして「&lt;a href=&#34;http://jasmine.github.io/&#34; title=&#34;Jasmine&#34;&gt;Jasmine&lt;/a&gt;」を使う．&lt;/p&gt;
-&lt;p&gt;PCのグローバル領域にこれらをインストールしても環境構築はできるが，今回はプロジェクト固有のツールとしてインストールする．&lt;/p&gt;
-&lt;p&gt;これによって，PCの環境に依存しないテスト環境が構築できる．&lt;/p&gt;</description>
     </item>
     
     <item>

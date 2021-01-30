@@ -6,7 +6,34 @@
     <description>Recent content in Tags on For X Developers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 18 Jan 2021 21:35:10 +0900</lastBuildDate><atom:link href="https://blog.tanaka.world/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Jan 2021 10:00:00 +0900</lastBuildDate><atom:link href="https://blog.tanaka.world/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cypress</title>
+      <link>https://blog.tanaka.world/en/tags/cypress/</link>
+      <pubDate>Sat, 30 Jan 2021 10:00:00 +0900</pubDate>
+      
+      <guid>https://blog.tanaka.world/en/tags/cypress/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>renovate</title>
+      <link>https://blog.tanaka.world/en/tags/renovate/</link>
+      <pubDate>Sat, 30 Jan 2021 10:00:00 +0900</pubDate>
+      
+      <guid>https://blog.tanaka.world/en/tags/renovate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>testing</title>
+      <link>https://blog.tanaka.world/en/tags/testing/</link>
+      <pubDate>Sat, 30 Jan 2021 10:00:00 +0900</pubDate>
+      
+      <guid>https://blog.tanaka.world/en/tags/testing/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>blog</title>
       <link>https://blog.tanaka.world/en/tags/blog/</link>
