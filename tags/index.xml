@@ -6,7 +6,25 @@
     <description>Recent content in Tags on For X Developers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 30 Jan 2021 10:00:00 +0900</lastBuildDate><atom:link href="https://blog.tanaka.world/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Jan 2021 12:00:00 +0900</lastBuildDate><atom:link href="https://blog.tanaka.world/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>monthly-report</title>
+      <link>https://blog.tanaka.world/tags/monthly-report/</link>
+      <pubDate>Sun, 31 Jan 2021 12:00:00 +0900</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/monthly-report/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>report</title>
+      <link>https://blog.tanaka.world/tags/report/</link>
+      <pubDate>Sun, 31 Jan 2021 12:00:00 +0900</pubDate>
+      
+      <guid>https://blog.tanaka.world/tags/report/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>cypress</title>
       <link>https://blog.tanaka.world/tags/cypress/</link>
@@ -62,11 +80,11 @@
     </item>
     
     <item>
-      <title>year-review</title>
-      <link>https://blog.tanaka.world/tags/year-review/</link>
+      <title>yearly-report</title>
+      <link>https://blog.tanaka.world/tags/yearly-report/</link>
       <pubDate>Thu, 31 Dec 2020 13:00:00 +0000</pubDate>
       
-      <guid>https://blog.tanaka.world/tags/year-review/</guid>
+      <guid>https://blog.tanaka.world/tags/yearly-report/</guid>
       <description></description>
     </item>
     

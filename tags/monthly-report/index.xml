@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>monthly-report on For X Developers</title>
+    <link>https://blog.tanaka.world/tags/monthly-report/</link>
+    <description>Recent content in monthly-report on For X Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 31 Jan 2021 12:00:00 +0900</lastBuildDate><atom:link href="https://blog.tanaka.world/tags/monthly-report/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021年1月の振り返り</title>
+      <link>https://blog.tanaka.world/2021-01/</link>
+      <pubDate>Sun, 31 Jan 2021 12:00:00 +0900</pubDate>
+      
+      <guid>https://blog.tanaka.world/2021-01/</guid>
+      <description>英語 会社の開発業務や 1on1 を英語でやっていて、英語で困ることは少なくなってきた。CRFR に準拠している EF SET や会社独自の英語テストなどの結果を踏まえると自分のレベルは B2 Upper Intermediate くらい。
+文法とニュアンスに課題感を感じている。
+文法 話しているときに文法の誤りや迷いがあり、それを矯正するためにまずは文法を一通りやりなおすことにした。今月はひとまず キク英文法 を1周学習した。
+この本は会話で使える文法の 9 割くらいを網羅しているという評判は実感としても正しかった。下記の動画を参考にした。
+ 英文法を「完璧」にする勉強法～キク英文法を使って　TOEIC満点・英検1級・IELTS8.5 【１冊だけで】文法を完璧にする本【２ヶ月で文法攻略】  2月はこの本を何回か繰り返して、完璧に近づけていく。ネイティブからすると「フォーマル過ぎる」「文語的」と指摘もらった点もあったので、よりナチュラルな表現もキャッチアップする。
+ニュアンス 英語独習法を読んで、学習方法を見直す必要があると思わされた。英語で業務できているが、文法的には合っていてもニュアンスが違うケースが多々ある。まずは通じるところを目指していたのでそれでもよかったが、より効率的に業務をするために改善が必要と感じている。
+stand.fm を始めた https://stand.fm/channels/5fd41adcdd3aea937b5cebcf
+妻と雑談しそれを stand.fm に垂れ流すのを始めてみた。週1回程度、そのときに考えていることを雑に話している。コロナが流行してからお互い一緒の空間にいる時間は増えたが、お互いのやっていることや、思っていることを話す機会が少ないと感じていた。意識的に機会をつくること、Public に公開することで適度な緊張感と継続性を保つことを目的としている。
+音声メディアは専ら聴く専門だった。マイクや収録環境を整えたり、ガッツリ編集したりといったことが大変そうと感じていたからだ。しかし実際やってみるとそこまで大変ではなかった(話している時間が短いのと、内容・音質ともにそこまでこだわっているわけではないからかも)。現在は、iPhone の Voice Memos アプリで収録し、stand.fm にアップロードするという流れでやっている。
+衣食住  冷蔵庫を新調し、容量が 3 倍ほどになった nosh を試した マットレスを 高反発マットレス「モットン」 に買い替えた  本・娯楽   1兆ドルコーチ――シリコンバレーのレジェンド　ビル・キャンベルの成功の教え
+  英語独習法
+  チェンソーマン (10巻で完結したと早とちりしていた。11巻を待っている)
+  (Reading) HIGH OUTPUT MANAGEMENT</description>
+    </item>
+    
+  </channel>
+</rss>

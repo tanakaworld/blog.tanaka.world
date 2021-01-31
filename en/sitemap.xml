@@ -3,6 +3,96 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.tanaka.world/en/</loc>
+    <lastmod>2021-01-31T12:00:00+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://blog.tanaka.world/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tanaka.world/en/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://blog.tanaka.world/en/2021-01/</loc>
+    <lastmod>2021-01-31T12:00:00+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://blog.tanaka.world/2021-01/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tanaka.world/en/2021-01/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://blog.tanaka.world/en/tags/monthly-report/</loc>
+    <lastmod>2021-01-31T12:00:00+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://blog.tanaka.world/tags/monthly-report/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tanaka.world/en/tags/monthly-report/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://blog.tanaka.world/en/posts/</loc>
+    <lastmod>2021-01-31T12:00:00+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://blog.tanaka.world/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tanaka.world/en/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://blog.tanaka.world/en/tags/report/</loc>
+    <lastmod>2021-01-31T12:00:00+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://blog.tanaka.world/tags/report/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tanaka.world/en/tags/report/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://blog.tanaka.world/en/tags/</loc>
+    <lastmod>2021-01-31T12:00:00+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://blog.tanaka.world/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tanaka.world/en/tags/"
+                />
+  </url>
+  
+  <url>
     <loc>https://blog.tanaka.world/en/automated-pkg-update-release-cypress-with-renovate/</loc>
     <lastmod>2021-01-30T10:00:00+09:00</lastmod>
     <xhtml:link
@@ -33,36 +123,6 @@
   </url>
   
   <url>
-    <loc>https://blog.tanaka.world/en/</loc>
-    <lastmod>2021-01-30T10:00:00+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://blog.tanaka.world/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.tanaka.world/en/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://blog.tanaka.world/en/posts/</loc>
-    <lastmod>2021-01-30T10:00:00+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://blog.tanaka.world/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.tanaka.world/en/posts/"
-                />
-  </url>
-  
-  <url>
     <loc>https://blog.tanaka.world/en/tags/renovate/</loc>
     <lastmod>2021-01-30T10:00:00+09:00</lastmod>
     <xhtml:link
@@ -74,21 +134,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://blog.tanaka.world/en/tags/renovate/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://blog.tanaka.world/en/tags/</loc>
-    <lastmod>2021-01-30T10:00:00+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://blog.tanaka.world/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.tanaka.world/en/tags/"
                 />
   </url>
   
