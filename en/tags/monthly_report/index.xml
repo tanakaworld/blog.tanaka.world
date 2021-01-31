@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>monthly-report on For X Developers</title>
-    <link>https://blog.tanaka.world/en/tags/monthly-report/</link>
-    <description>Recent content in monthly-report on For X Developers</description>
+    <title>monthly_report on For X Developers</title>
+    <link>https://blog.tanaka.world/en/tags/monthly_report/</link>
+    <description>Recent content in monthly_report on For X Developers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 31 Jan 2021 12:00:00 +0900</lastBuildDate><atom:link href="https://blog.tanaka.world/en/tags/monthly-report/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Jan 2021 12:00:00 +0900</lastBuildDate><atom:link href="https://blog.tanaka.world/en/tags/monthly_report/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Monthly Report - January 2021</title>
       <link>https://blog.tanaka.world/en/2021-01/</link>
