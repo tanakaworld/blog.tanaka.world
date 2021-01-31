@@ -22,3 +22,9 @@ $ hugo -D
 ```
 $ ./publish_to_ghpages.sh
 ```
+
+## New Post
+
+```
+$ make new slug=<your-slug-name>
+```
