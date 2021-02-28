@@ -8,6 +8,7 @@ tags:
 - ECS
 - Fargate
 - Docker
+- Terraform
 ---
 
 [Proff（プロフ）](https://proff.io/)の本番環境を刷新した。2018 年から約 2 年ほど運用してきて初の大規模インフラ改修となった。
