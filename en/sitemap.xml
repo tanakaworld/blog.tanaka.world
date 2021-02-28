@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://blog.tanaka.world/en/tags/english/</loc>
-    <lastmod>2021-01-31T12:00:00+09:00</lastmod>
+    <lastmod>2021-02-28T21:40:53+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
@@ -19,7 +19,7 @@
   
   <url>
     <loc>https://blog.tanaka.world/en/</loc>
-    <lastmod>2021-01-31T12:00:00+09:00</lastmod>
+    <lastmod>2021-02-28T21:40:53+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
@@ -29,6 +29,81 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://blog.tanaka.world/en/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://blog.tanaka.world/en/2021-02/</loc>
+    <lastmod>2021-02-28T21:40:53+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://blog.tanaka.world/2021-02/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tanaka.world/en/2021-02/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://blog.tanaka.world/en/tags/monthly_report/</loc>
+    <lastmod>2021-02-28T21:40:53+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://blog.tanaka.world/tags/monthly_report/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tanaka.world/en/tags/monthly_report/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://blog.tanaka.world/en/posts/</loc>
+    <lastmod>2021-02-28T21:40:53+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://blog.tanaka.world/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tanaka.world/en/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://blog.tanaka.world/en/tags/report/</loc>
+    <lastmod>2021-02-28T21:40:53+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://blog.tanaka.world/tags/report/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tanaka.world/en/tags/report/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://blog.tanaka.world/en/tags/</loc>
+    <lastmod>2021-02-28T21:40:53+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://blog.tanaka.world/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tanaka.world/en/tags/"
                 />
   </url>
   
@@ -44,66 +119,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://blog.tanaka.world/en/2021-01/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://blog.tanaka.world/en/tags/monthly_report/</loc>
-    <lastmod>2021-01-31T12:00:00+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://blog.tanaka.world/tags/monthly_report/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.tanaka.world/en/tags/monthly_report/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://blog.tanaka.world/en/posts/</loc>
-    <lastmod>2021-01-31T12:00:00+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://blog.tanaka.world/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.tanaka.world/en/posts/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://blog.tanaka.world/en/tags/report/</loc>
-    <lastmod>2021-01-31T12:00:00+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://blog.tanaka.world/tags/report/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.tanaka.world/en/tags/report/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://blog.tanaka.world/en/tags/</loc>
-    <lastmod>2021-01-31T12:00:00+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://blog.tanaka.world/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.tanaka.world/en/tags/"
                 />
   </url>
   
