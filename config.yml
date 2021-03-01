@@ -21,7 +21,7 @@ params:
   description: Memorandom for me and "X" developers in the world.
   # author: tanakaworld
 
-  images: ["/favicon.png"]
+  images: ["/cover.jpg"]
 
   ShowReadingTime: false
   ShowShareButtons: true
