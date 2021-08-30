@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>management on For X Developers</title>
+    <link>https://blog.tanaka.world/tags/management/</link>
+    <description>Recent content in management on For X Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 30 Aug 2021 20:00:00 +0900</lastBuildDate><atom:link href="https://blog.tanaka.world/tags/management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The First Year of Engineering Manager</title>
+      <link>https://blog.tanaka.world/the-first-year-of-engineering-manager/</link>
+      <pubDate>Mon, 30 Aug 2021 20:00:00 +0900</pubDate>
+      
+      <guid>https://blog.tanaka.world/the-first-year-of-engineering-manager/</guid>
+      <description>メルペイに入社して 8 月で丸 3 年経った。そして 2020 年 10 月からは Engineering Manager (= EM) をやっていてもうすぐ 1 年になる。「EM って何やっているの？」とよく聞かれるし、自分もやる前は正直そう思っていた。「コードを書かなくなることへの恐れ」もあったが、色々と見えてきたこともある。この 1 年間を振り返ってみる。
+現職における EM の定義 会社によって EM の定義は異なると思う。メルペイにおける EM 定義は下記の通り。
+ 役職ではなく役割 (EM に限らず Manager は役割) 戦略・業務・チームをマネジメントして成果創出をする 主に Who, Where, How に責任を持つ 縦軸 Project に対して、横断的に関わる (下図参照)  期待値は Engineering Ladder 1 の [Engineering Manager Skills] に記載がある。他にも Manager 全般の定義もあるがここでは割愛する。
+私は Frontend チームの EM。2021 年 8 月現在、総勢 14 名が在籍しているチームで、EM は私を含め 2 人、業務委託＋インターンの方も在籍している。私は 5,6 人を直属のレポートラインとして見ている。
+EM の中にも色々なタイプの人がいる。EM 兼 TL2 としてプロジェクトに入ってガッツリコードを書く人、チームマネジメントやプロジェクトマネジメントに比重が大きい人、など様々だ。</description>
+    </item>
+    
+  </channel>
+</rss>
