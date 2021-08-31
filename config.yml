@@ -71,7 +71,7 @@ menu:
       weight: 20
     - identifier: Author
       name: Author
-      url: https://tanaka.world/about
+      url: https://tanaka.world/
       weight: 30
     - identifier: RSS
       name: RSS
