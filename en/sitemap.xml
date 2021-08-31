@@ -2,6 +2,71 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.tanaka.world/en/</loc>
+    <lastmod>2021-08-30T20:00:00+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://blog.tanaka.world/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tanaka.world/en/"
+                />
+  </url><url>
+    <loc>https://blog.tanaka.world/en/tags/management/</loc>
+    <lastmod>2021-08-30T20:00:00+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://blog.tanaka.world/tags/management/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tanaka.world/en/tags/management/"
+                />
+  </url><url>
+    <loc>https://blog.tanaka.world/en/posts/</loc>
+    <lastmod>2021-08-30T20:00:00+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://blog.tanaka.world/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tanaka.world/en/posts/"
+                />
+  </url><url>
+    <loc>https://blog.tanaka.world/en/tags/</loc>
+    <lastmod>2021-08-30T20:00:00+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://blog.tanaka.world/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tanaka.world/en/tags/"
+                />
+  </url><url>
+    <loc>https://blog.tanaka.world/en/the-first-year-of-engineering-manager/</loc>
+    <lastmod>2021-08-30T20:00:00+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://blog.tanaka.world/the-first-year-of-engineering-manager/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tanaka.world/en/the-first-year-of-engineering-manager/"
+                />
+  </url><url>
     <loc>https://blog.tanaka.world/en/tags/english/</loc>
     <lastmod>2021-02-28T21:40:53+09:00</lastmod>
     <xhtml:link
@@ -13,19 +78,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://blog.tanaka.world/en/tags/english/"
-                />
-  </url><url>
-    <loc>https://blog.tanaka.world/en/</loc>
-    <lastmod>2021-02-28T21:40:53+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://blog.tanaka.world/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.tanaka.world/en/"
                 />
   </url><url>
     <loc>https://blog.tanaka.world/en/2021-02/</loc>
@@ -54,19 +106,6 @@
                 href="https://blog.tanaka.world/en/tags/monthly_report/"
                 />
   </url><url>
-    <loc>https://blog.tanaka.world/en/posts/</loc>
-    <lastmod>2021-02-28T21:40:53+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://blog.tanaka.world/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.tanaka.world/en/posts/"
-                />
-  </url><url>
     <loc>https://blog.tanaka.world/en/tags/report/</loc>
     <lastmod>2021-02-28T21:40:53+09:00</lastmod>
     <xhtml:link
@@ -78,19 +117,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://blog.tanaka.world/en/tags/report/"
-                />
-  </url><url>
-    <loc>https://blog.tanaka.world/en/tags/</loc>
-    <lastmod>2021-02-28T21:40:53+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://blog.tanaka.world/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.tanaka.world/en/tags/"
                 />
   </url><url>
     <loc>https://blog.tanaka.world/en/2021-01/</loc>
