@@ -17,11 +17,11 @@ The definition of "EM" is different between company. In Merpay, it is as follows
 - Not a position but **a role**
 - Manage **Strategy, Operation, and Team** to create results
 - Has responsible for **Who, Where, and When**
-- Work in the horizontal axis against vertical projects
+- Work in **the horizontal axis** against vertical projects
 
 ![Work from a horizontal axis against vertical projects](/images/2021-08-30-the-first-year-of-engineering-manager/products-engineering-matrix.jpeg "Products vs Engineering Matrix")
 
-Expectations for EM are *[Engineering Manager Skills]* written in Engineering Ladder [^1]. There are other definitions for "Manager" in general, but I won't go into them here.
+Expectations for EM are `[Engineering Manager Skills]` written in Engineering Ladder [^1]. There are other definitions for "Manager" in general, but I won't go into them here.
 
 [^1]: Mercari Engineering Ladder https://engineering.mercari.com/en/ladder/
 
@@ -71,7 +71,7 @@ The growth of an individual brings about changes in the organization, and these 
 
 As organizational learning accelerates, EM's own pseudo learning accelerates. Even though not writing code, the tech level that EM faces is improved if the level of the organizational tech skill is improved. Striving for management, the tech skill may be improved that I never came out before.
 
-### Verbalization Skill
+### Verbalization Skills
 
 Verbalization is one of the important skills in management to get others move. It depends on "how you communicate" whether able to tell. In this Mercari group, there are many managers, I can learn from them. Even though the content may seem simple at first glance, I was able to see up close how he strategically verbalized it, paying attention to how and when they expressed it. I've seen cases where it worked and cases where it did not work, I feel the difficulty but I've been able to accumulate a lot of experience.
 
