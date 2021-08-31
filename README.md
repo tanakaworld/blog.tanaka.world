@@ -2,25 +2,25 @@
 ## Run
 
 ```
-$ hugo server -D
+$ make run
 ```
 
 ## Update theme
 
 ```
-$ git submodule update --init --recursive
+$ make update_theme
 ```
 
 ## Build
 
 ```
-$ hugo -D
+$ make build
 ```
 
 ## Deploy
 
 ```
-$ ./publish_to_ghpages.sh
+$ make deploy
 ```
 
 ## New Post

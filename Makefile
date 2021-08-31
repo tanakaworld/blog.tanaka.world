@@ -13,5 +13,11 @@ new:
 run:
 	hugo -D server
 
+build:
+	hugo -D
+
 deploy:
 	./publish_to_ghpages.sh
+
+update_theme:
+	git submodule update --init --recursive
