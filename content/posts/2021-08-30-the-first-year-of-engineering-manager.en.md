@@ -73,7 +73,7 @@ As organizational learning accelerates, EM's own pseudo learning accelerates. Ev
 
 ### Verbalization Skills
 
-Verbalization is one of the important skills in management to get others to move. It depends on "how you communicate" whether you're able to tell. In this Mercari group, there are many managers, I can learn from them. Even though the content may seem simple at first glance, I was able to see up close how he strategically verbalized it, paying attention to how and when they expressed it. I've seen cases where it worked and cases where it did not work, I feel the difficulty but I've been able to accumulate a lot of experience.
+Verbalization is one of the important skills in management to get others to move. It depends on "how you communicate" whether you're able to tell. In this Mercari group, there are many managers, I can learn from them. Even though the content may seem simple at first glance, I was able to see up close how he/she strategically verbalized it, paying attention to how and when they expressed it. I've seen cases where it worked and cases where it did not work, I feel the difficulty but I've been able to accumulate a lot of experience.
 
 **Verbalization skill** is more important than **Language skill**. Language skill was one of my concerns, it doesn't work unless I cannot organize the information, even if I can speak English fluently. I'm not able to tell even in Japanese either. Simple is the best to tell something to someone. Improving verbalization skills was necessary for me.
 
@@ -86,6 +86,6 @@ As I wrote above, I experienced my growth in skills that may improve my tech ski
 
 ## Wrap Up
 
-As an engineer/business person, management experience could be a way to expand your insight. You can figure it out after doing. Regarding the fear of not writing code, To experience "Engineering Manager" has given me a lot of new challenges by putting it aside. If you're afraid of something, just do it since you can come back anytime.
+As an engineer/business person, management experience could be a way to expand your insight. You can figure it out after doing. Regarding the fear of not writing code, to experience "Engineering Manager" has given me a lot of new challenges by putting "Coding" aside. If you're afraid of something, just do it since you can come back anytime.
 
 It was the first year of one engineering manager in Japan. There may be various kinds of perspectives. I would like to talk about management with managers inside/outside the company.
