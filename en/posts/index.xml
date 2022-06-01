@@ -6,7 +6,17 @@
     <description>Recent content in Posts on For X Developers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 30 Aug 2021 20:00:00 +0900</lastBuildDate><atom:link href="https://blog.tanaka.world/en/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 May 2022 12:00:00 +0900</lastBuildDate><atom:link href="https://blog.tanaka.world/en/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fullstack Web App with Turborepo</title>
+      <link>https://blog.tanaka.world/en/fullstack-web-app-with-turborepo/</link>
+      <pubDate>Sun, 29 May 2022 12:00:00 +0900</pubDate>
+      
+      <guid>https://blog.tanaka.world/en/fullstack-web-app-with-turborepo/</guid>
+      <description>This is a note when I investigated Turborepo, a monorepo tool that Vercel develops. I had created a flashcard web application for my own language study, using a static JSON file to store the cards&#39; data. I re-implemented it using TypeScript, Next.js, and GraphQL (Code).
+What is &amp;ldquo;monorepo&amp;rdquo;? Monorepo is a pattern of storing all code for an application or microservices in a single repository. When adopting a microservice architecture, repositories are usually divided into separate repositories.</description>
+    </item>
+    
     <item>
       <title>The First Year of Engineering Manager</title>
       <link>https://blog.tanaka.world/en/the-first-year-of-engineering-manager/</link>

@@ -6,7 +6,25 @@
     <description>Recent content in Tags on For X Developers</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 30 Aug 2021 20:00:00 +0900</lastBuildDate><atom:link href="https://blog.tanaka.world/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 May 2022 12:00:00 +0900</lastBuildDate><atom:link href="https://blog.tanaka.world/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>monorepo</title>
+      <link>https://blog.tanaka.world/en/tags/monorepo/</link>
+      <pubDate>Sun, 29 May 2022 12:00:00 +0900</pubDate>
+      
+      <guid>https://blog.tanaka.world/en/tags/monorepo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>turborepo</title>
+      <link>https://blog.tanaka.world/en/tags/turborepo/</link>
+      <pubDate>Sun, 29 May 2022 12:00:00 +0900</pubDate>
+      
+      <guid>https://blog.tanaka.world/en/tags/turborepo/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>management</title>
       <link>https://blog.tanaka.world/en/tags/management/</link>

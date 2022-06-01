@@ -26,7 +26,7 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://blog.tanaka.world/">
 <meta property="og:image" content="https://blog.tanaka.world/cover.jpg">
-<meta property="og:updated_time" content="2021-08-30T20:00:00+09:00"><meta property="og:site_name" content="For X Developers">
+<meta property="og:updated_time" content="2022-05-29T12:00:00+09:00"><meta property="og:site_name" content="For X Developers">
 <meta name=twitter:card content="summary_large_image">
 <meta name=twitter:image content="https://blog.tanaka.world/cover.jpg">
 <meta name=twitter:title content="For X Developers">
@@ -77,6 +77,22 @@
 </nav>
 </header>
 <main class=main>
+<article class=post-entry>
+<header class=entry-header>
+<h2>
+Hexo から Hugo に移行した
+</h2>
+</header>
+<section class=entry-content>
+<p>ブログツールを Hugo に引っ越しをした。(前回: Middleman から Hexo に引っ越した)
+モチベーション Hexo のジェネレート処理が重くなってきた ダークモード対応 多言語対応 (英語でも書くために) 飽きた 2.,3. は Hexo でできたかもしれないが、4.もあり別のツールを調べていた。Hugo でいい感じのテンプレートがあったのでそれにした。正直あまり考えずに即決した。
+移行時に変更が必要だった箇所 本文の Markdown ファイルはほぼそのまま使用できたが、一部変更を加えた。
+ディレクトリ構成 Markdown ファイルの移動 (source -> content/posts) 画像置き場と path の変更 Front Matter tags 要素のインデントを削除 slug を追加 Hexo では Markdown ファイル名の先頭に yyyy-MM-dd-&lt;path名>.md というファイル名にすると path 名が実際の path になっていた Hugo ではデフォルトでファイル名の全て、または Front Matter の slug が path 名になる ファイル名から slug を自動挿入するようにした(雑な gist) ...</p>
+</section>
+<footer class=entry-footer>January 18, 2021
+</footer>
+<a class=entry-link aria-label="post link to Hexo から Hugo に移行した" href=https://blog.tanaka.world/migrate-from-hexo-to-hugo/></a>
+</article>
 <article class=post-entry>
 <header class=entry-header>
 <h2>
@@ -148,22 +164,6 @@ WFH になってから一番最初に購入した。オンライン会議する�
 </footer>
 <a class=entry-link aria-label="post link to 2020年買ってよかったもの" href=https://blog.tanaka.world/the-best-things-2020/></a>
 </article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>
-Proff の本番環境を刷新した（ECS/Fargate）
-</h2>
-</header>
-<section class=entry-content>
-<p>Proff（プロフ）の本番環境を刷新した。2018 年から約 2 年ほど運用してきて初の大規模インフラ改修となった。
-TL;DR; EC2 → ECS(Fargate) に変更 静的アセットを S3 から配信するように変更 CircleCI Orbs を使用し Docker ビルド Terraform で構成管理 サービス構成 概要 既存の本番環境とは別に VPC を作成し、関連する AWS サービスもほぼ全部新規に作成した(S3 以外)。というのも、まず新構成の開発環境を構築して色々と検証をした上で、まったく同じ構成で本番環境を構築したかったから。Terraform の workspace 切り替えで検証済みの構成と同等の設定で本番環境も作成した。CPU や Memory などスペックは本番向けに増強している。
-主な変更点は下記の通り。
-Before After ELB ALB (Application Load Balancer) に変更 EC2 (Nginx, RoR, Node.js) ECS + Fargate (RoR, Node.js) に変更 静的コンテンツを S3 から配信 (asset_sync) | ECR (Docker Registry) | System Manager (ECS で使う秘匿情報を Parameter Store で保存) Capistrano | CircleCI で Docker ビルド (Orb を使用: circleci/aws-ecr, circleci/aws-ecs) サービス選定 一番の目的は本番環境をコンテナ化することだった。IoC (Infrastructure as Code) したい、環境差分をなくしたい (ローカル, 本番, CI)、スケールを容易にしたい、というのが主な狙い。コンテナ化しない理由は逆になく ECS を選択した。...</p>
-</section>
-<footer class=entry-footer>July 13, 2020
-</footer>
-<a class=entry-link aria-label="post link to Proff の本番環境を刷新した（ECS/Fargate）" href=https://blog.tanaka.world/revamp-proff-io-infra-ecs-fargate/></a>
-</article>
 <footer class=page-footer>
 <nav class=pagination>
 <a class=prev href=https://blog.tanaka.world/>« 前のページ</a>
@@ -171,7 +171,7 @@ Before After ELB ALB (Application Load Balancer) に変更 EC2 (Nginx, RoR, Node
 </nav>
 </footer>
 </main><footer class=footer>
-<span>&copy; 2021 <a href=https://blog.tanaka.world>For X Developers</a></span>
+<span>&copy; 2022 <a href=https://blog.tanaka.world>For X Developers</a></span>
 <span>&#183;</span>
 <span>Powered by <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a></span>
 <span>&#183;</span>

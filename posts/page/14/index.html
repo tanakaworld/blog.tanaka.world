@@ -26,7 +26,7 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://blog.tanaka.world/posts/">
 <meta property="og:image" content="https://blog.tanaka.world/cover.jpg">
-<meta property="og:updated_time" content="2021-08-30T20:00:00+09:00"><meta property="og:site_name" content="For X Developers">
+<meta property="og:updated_time" content="2022-05-29T12:00:00+09:00"><meta property="og:site_name" content="For X Developers">
 <meta name=twitter:card content="summary_large_image">
 <meta name=twitter:image content="https://blog.tanaka.world/cover.jpg">
 <meta name=twitter:title content="Posts">
@@ -79,6 +79,23 @@
 <header class=page-header>
 <h1>Posts</h1>
 </header>
+<article class=post-entry>
+<header class=entry-header>
+<h2>
+Eclipseの文字コード設定を一括変換する方法
+</h2>
+</header>
+<section class=entry-content>
+<p>【Eclipseの文字コード設定を一括変換する方法】 以下のライブラリを使用する
+文字コードを一括変換する Eclipse プラグイン CharsetConv​
+プラグインを使う (ex)以下の設定の場合の対応 ----------------------------------------------------- Workspace Text File Encoding : MS932(Windowas31J) Project Encoding : MS932(Windowas31J) ----------------------------------------------------- ① Workspace Text File Encoding 変更 Eclipse Status Bar > Window > Preference > General > Workspace > Text file encoding > 「MS932 → UTF-8」 ② 文字化けする ③ ソースの Encoding 変更 変更対象パッケージを右クリック　＞　文字コード変換　＞　「Windowas31J → UTF-8」 ④ 完了
+そもそもエディタの文字コード設定をあらかじめしておく エディタの文字コード設定を始めにしておくこと推奨． Eclipse : XXX > XXX > XXX
+VisualStudio : XXX > XXX > XXX...</p>
+</section>
+<footer class=entry-footer>
+</footer>
+<a class=entry-link aria-label="post link to Eclipseの文字コード設定を一括変換する方法" href=https://blog.tanaka.world/eclipse-batch-converte-character-code/></a>
+</article>
 <article class=post-entry>
 <header class=entry-header>
 <h2>
@@ -155,35 +172,6 @@ WebStormとレンタルサーバの連携方法
 </footer>
 <a class=entry-link aria-label="post link to WebStormとレンタルサーバの連携方法" href=https://blog.tanaka.world/webstrom-deploy-sakura-server/></a>
 </article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>
-YouTuberになりました
-</h2>
-</header>
-<section class=entry-content>
-<p>某氏からThrees!のプレイ動画に需要がある，とのありがたきお言葉を頂いたので， YouTuberになることにした．
-Channel: Tanaka World Channel Tanaka World
-とりあえずThrees!をメインにアップしていく．
-自分の研究用にキャプチャしていたThrees!動画をメインにアップしていこうと思う．
-Threes!の現状・6144の壁 最高スコアは 265791
-3072も割りと出せるようになってきたので，そろそろ6144が出せそうな気がしている．
-「6144」を出したプレイヤーは，現在で388人いるようだ．
-全ユーザーで200万人くらいのうち，僕は502位．
-6144を出せばかなり順位が上がること間違いない．
-Threes! AI 最近，AlpherGoが世間を賑わせている．
-便乗してAlpherThrees!なるものを作ってやろうと思っていたら，先にやられていた． threes-ai
-@_tanakaworld ゲームバランス崩壊の危機ｗ
-— TakahiroPolyHorikawa (@thorikawa) March 26, 2016 このThrees!AIは，6144も出していてかなり高いスコアを出しているようだ．
-このAI対策をするためにソースコードを読むことによってPython, C, C++もキャッチアップすることができるという，絶好のタイミングである．
-※ AIのソースは読むけど絶対に使わない
-Threes!AI vs TanakaWorld
-AIに勝てるようにガンバる ﾌ( ﾟдﾟ)乂(ﾟдﾟ )...</p>
-</section>
-<footer class=entry-footer>
-</footer>
-<a class=entry-link aria-label="post link to YouTuberになりました" href=https://blog.tanaka.world/be-a-youtuber/></a>
-</article>
 <footer class=page-footer>
 <nav class=pagination>
 <a class=prev href=https://blog.tanaka.world/posts/page/13/>« 前のページ</a>
@@ -191,7 +179,7 @@ AIに勝てるようにガンバる ﾌ( ﾟдﾟ)乂(ﾟдﾟ )...</p>
 </nav>
 </footer>
 </main><footer class=footer>
-<span>&copy; 2021 <a href=https://blog.tanaka.world>For X Developers</a></span>
+<span>&copy; 2022 <a href=https://blog.tanaka.world>For X Developers</a></span>
 <span>&#183;</span>
 <span>Powered by <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a></span>
 <span>&#183;</span>

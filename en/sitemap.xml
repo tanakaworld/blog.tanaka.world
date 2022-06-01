@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.tanaka.world/en/</loc>
-    <lastmod>2021-08-30T20:00:00+09:00</lastmod>
+    <lastmod>2022-05-29T12:00:00+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
@@ -13,6 +13,71 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://blog.tanaka.world/en/"
+                />
+  </url><url>
+    <loc>https://blog.tanaka.world/en/fullstack-web-app-with-turborepo/</loc>
+    <lastmod>2022-05-29T12:00:00+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://blog.tanaka.world/fullstack-web-app-with-turborepo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tanaka.world/en/fullstack-web-app-with-turborepo/"
+                />
+  </url><url>
+    <loc>https://blog.tanaka.world/en/tags/monorepo/</loc>
+    <lastmod>2022-05-29T12:00:00+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://blog.tanaka.world/tags/monorepo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tanaka.world/en/tags/monorepo/"
+                />
+  </url><url>
+    <loc>https://blog.tanaka.world/en/posts/</loc>
+    <lastmod>2022-05-29T12:00:00+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://blog.tanaka.world/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tanaka.world/en/posts/"
+                />
+  </url><url>
+    <loc>https://blog.tanaka.world/en/tags/</loc>
+    <lastmod>2022-05-29T12:00:00+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://blog.tanaka.world/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tanaka.world/en/tags/"
+                />
+  </url><url>
+    <loc>https://blog.tanaka.world/en/tags/turborepo/</loc>
+    <lastmod>2022-05-29T12:00:00+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://blog.tanaka.world/tags/turborepo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tanaka.world/en/tags/turborepo/"
                 />
   </url><url>
     <loc>https://blog.tanaka.world/en/tags/management/</loc>
@@ -26,32 +91,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://blog.tanaka.world/en/tags/management/"
-                />
-  </url><url>
-    <loc>https://blog.tanaka.world/en/posts/</loc>
-    <lastmod>2021-08-30T20:00:00+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://blog.tanaka.world/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.tanaka.world/en/posts/"
-                />
-  </url><url>
-    <loc>https://blog.tanaka.world/en/tags/</loc>
-    <lastmod>2021-08-30T20:00:00+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://blog.tanaka.world/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.tanaka.world/en/tags/"
                 />
   </url><url>
     <loc>https://blog.tanaka.world/en/the-first-year-of-engineering-manager/</loc>

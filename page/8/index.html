@@ -26,7 +26,7 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://blog.tanaka.world/">
 <meta property="og:image" content="https://blog.tanaka.world/cover.jpg">
-<meta property="og:updated_time" content="2021-08-30T20:00:00+09:00"><meta property="og:site_name" content="For X Developers">
+<meta property="og:updated_time" content="2022-05-29T12:00:00+09:00"><meta property="og:site_name" content="For X Developers">
 <meta name=twitter:card content="summary_large_image">
 <meta name=twitter:image content="https://blog.tanaka.world/cover.jpg">
 <meta name=twitter:title content="For X Developers">
@@ -77,6 +77,24 @@
 </nav>
 </header>
 <main class=main>
+<article class=post-entry>
+<header class=entry-header>
+<h2>
+dev.to をローカルで動かす
+</h2>
+</header>
+<section class=entry-content>
+<p>2018/08/08 に dev.to が OSS 化された．
+dev.to is now open source
+とりあえずローカルで動かすまでにやったことのメモ．
+Getting Started Getting Started が充実している．ほぼその通りに進めれば問題ない．Ruby は最新版が必要，DB は PostgreSQL．長年 Rails 触っているが地味に PostgreSQL 使ったことがなかった．
+$ ruby -v => Ruby 2.5.1p57 (2018-03-29 revision 63029) [x86_64-darwin17] $ brew install postgresql $ postgres -V => postgres (PostgreSQL) 10.5 $ pg_ctl -D /usr/local/var/postgres start # Stop $ pg_ctl -D /usr/local/var/postgres stop $ gem install bundler $ gem install foreman foreman は複数プロセスをまとめて管理できるツール． ローカル実行時は
+Rails サーバ (puma) Webpacker (webpackのラッパー，webpack の実行と hot-reload が走る) Job (DelayedJob) が実行される．...</p>
+</section>
+<footer class=entry-footer>September 3, 2018
+</footer>
+<a class=entry-link aria-label="post link to dev.to をローカルで動かす" href=https://blog.tanaka.world/run-dev-to-in-local/></a>
+</article>
 <article class=post-entry>
 <header class=entry-header>
 <h2>
@@ -163,23 +181,6 @@ vue-at は使わなかった At.js の Vue 版 vue-at もあるが，At.js の�
 </footer>
 <a class=entry-link aria-label="post link to Vue.js と At.js を組み合わせる" href=https://blog.tanaka.world/vue-wysiwyg-editor-with-atjs/></a>
 </article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>
-Rails でユーザー毎に OGP 画像を自動生成するハンズオン
-</h2>
-</header>
-<section class=entry-content>
-<p>ユーザーの詳細ページがある Web アプリケーションで，ユーザー毎に OGP 画像を自動生成し表示させてみる．
-完成版のソースコードはこちら 👉 rails_ogp_generator_sample．
-前提条件 Ruby 2.4.2 Rails 5.1.6 RMagic 2.16.0 Gem 画像生成で rmagic，アップロードに carrierwave を使う．
-# Gemfile gem 'rmagick' gem 'carrierwave' $ bundle install User の Scaffold を作成 name と avatar を持つユーザーの Scaffold を作成する．
-$ bundle exec rails g scaffold User name:string avatar:text # db/migrate/20180720144053_create_users.rb class CreateUsers &lt; ActiveRecord::Migration[5.1] def change create_table :users do |t| t.string :name, null: false t.text :avatar t.timestamps end end end $ bundle exec rails db:migrate UserOgpImage モデルを作成 User の OGP 画像を保持するモデルを作成する．...</p>
-</section>
-<footer class=entry-footer>August 8, 2018
-</footer>
-<a class=entry-link aria-label="post link to Rails でユーザー毎に OGP 画像を自動生成するハンズオン" href=https://blog.tanaka.world/rails-generate-ogp/></a>
-</article>
 <footer class=page-footer>
 <nav class=pagination>
 <a class=prev href=https://blog.tanaka.world/page/7/>« 前のページ</a>
@@ -187,7 +188,7 @@ $ bundle exec rails g scaffold User name:string avatar:text # db/migrate/2018072
 </nav>
 </footer>
 </main><footer class=footer>
-<span>&copy; 2021 <a href=https://blog.tanaka.world>For X Developers</a></span>
+<span>&copy; 2022 <a href=https://blog.tanaka.world>For X Developers</a></span>
 <span>&#183;</span>
 <span>Powered by <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a></span>
 <span>&#183;</span>

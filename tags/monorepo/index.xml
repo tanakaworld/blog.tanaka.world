@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>monorepo on For X Developers</title>
+    <link>https://blog.tanaka.world/tags/monorepo/</link>
+    <description>Recent content in monorepo on For X Developers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 29 May 2022 12:00:00 +0900</lastBuildDate><atom:link href="https://blog.tanaka.world/tags/monorepo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fullstack Web App with Turborepo</title>
+      <link>https://blog.tanaka.world/fullstack-web-app-with-turborepo/</link>
+      <pubDate>Sun, 29 May 2022 12:00:00 +0900</pubDate>
+      
+      <guid>https://blog.tanaka.world/fullstack-web-app-with-turborepo/</guid>
+      <description>English version is only available now.</description>
+    </item>
+    
+  </channel>
+</rss>
