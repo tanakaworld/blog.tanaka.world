@@ -347,7 +347,8 @@ module.exports = {
   - https://www.youtube.com/watch?v=YX5yoApjI3M
 - Monorepo
   - https://circleci.com/blog/monorepo-dev-practices/
-  - https://semaphoreci.com/blog/what-is-monorepo ○ https://monorepo.tools
+  - https://semaphoreci.com/blog/what-is-monorepo
+  - https://monorepo.tools
 - GraphQL
   - https://www.apollographql.com/docs/react/get-started
   - https://www.apollographql.com/docs/apollo-server/getting-started
